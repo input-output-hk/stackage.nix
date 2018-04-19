@@ -1,0 +1,3 @@
+[submodule "lts-haskell"]
+	path = lts-haskell
+	url = https://github.com/fpco/lts-haskell.git
