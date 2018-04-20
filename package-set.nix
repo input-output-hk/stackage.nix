@@ -1,44 +1,19 @@
-{ lts-def ? import ./lts-11.5.nix
+{ lts-def 
+, pkgs    ? import <nixpkgs> {}
 , hackage ? import <hackage>
 , haskell ? import <haskell> }:
 
 let
   lts = lts-def hackage.exprs;
 
-  pkgs = import <nixpkgs> {};
   driver = haskell.compat.driver;
   host-map = haskell.compat.host-map;
 
   # packages shipped with ghc.
-  # TODO: extract those from the lts-xxx file as well.
-  # TODO: also ensure we use the specified ghc for the
-  #       lts!
-  ghcPackages = {
-    ghc = null;
-    hoopl = null;
-    bytestring = null;
-    unix = null;
-    base = null;
-    time = null;
-    hpc = null;
-    filepath = null;
-    process = null;
-    array = null;
-    integer-gmp = null;
-    containers = null;
-    ghc-boot = null;
-    binary = null;
-    ghc-prim = null;
-    ghci = null;
-    rts = null;
-    terminfo = null;
-    transformers = null;
-    deepseq = null;
-    ghc-boot-th = null;
-    pretty = null;
-    template-haskell = null;
-    directory = null;
-  };
+  ghcPackages = pkgs.lib.mapAttrs (name: value: null) lts.compiler.packages;
+
+  # compiler this lts set is built against.
+  compiler = pkgs.haskell.packages.${lts.compiler.nix-name};
 
   toGenericPackage = stackPkgs: args: name: path:
     let expr = driver { cabalexpr = import path;
@@ -47,8 +22,8 @@ let
      in pkgs.haskellPackages.callPackage expr args;
 
 in let stackPackages = ghcPackages //
-       (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) lts)
-              // { cassava = toGenericPackage stackPackages { flags = { bytestring--lt-0_10_4 = false; }; } "cassava" lts.cassava; }
+       (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) lts.packages)
+              // { cassava = toGenericPackage stackPackages { flags = { bytestring--lt-0_10_4 = false; }; } "cassava" lts.packages.cassava; }
               ;
          in p // (with pkgs.haskell.lib;
             { # skip checks to break recursion.
@@ -63,10 +38,14 @@ in let stackPackages = ghcPackages //
               text-short = dontCheck p.text-short;
               scientific = dontCheck p.scientific;
               integer-logarithms = dontCheck p.integer-logarithms;
+              hashable = dontCheck p.hashable;
               test-framework = dontCheck p.test-framework;
+              unordered-containers = dontCheck p.unordered-containers;
               # jailbreak
               old-locale = doJailbreak p.old-locale;
               pcre-light = doJailbreak p.pcre-light;
+              mtl        = doJailbreak p.mtl;
+              utf8-string = doJailbreak p.utf8-string;
               tagged     = appendConfigureFlag p.tagged "--allow-newer";
               HUnit      = appendConfigureFlag p.HUnit  "--allow-newer";
               test-framework-hunit = appendConfigureFlag p.test-framework-hunit "--allow-newer";
@@ -81,4 +60,8 @@ in let stackPackages = ghcPackages //
               bytestring-builder = dontHaddock p.bytestring-builder;
               nats = dontHaddock p.nats;
               }));
-   in  stackPackages
+   in compiler.override {
+      initialPackages = { pkgs, stdenv, callPackage }: self: stackPackages;
+      configurationCommon = { ... }: self: super: {};
+      compilerConfig = self: super: {};
+   }
