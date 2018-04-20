@@ -19,7 +19,9 @@ let
     let expr = driver { cabalexpr = import path;
              pkgs = pkgs // { haskellPackages = stackPkgs; };
              inherit (host-map pkgs.stdenv) os arch; };
-     in pkgs.haskellPackages.callPackage expr args;
+     # Use `callPackage` from the `compiler` here, to get the
+     # right compiler.
+     in compiler.callPackage expr args;
 
 in let stackPackages = ghcPackages //
        (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) lts.packages)
