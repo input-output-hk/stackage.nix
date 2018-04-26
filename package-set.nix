@@ -1,20 +1,34 @@
-{ lts-def 
+{ lts-def
 , pkgs    ? import <nixpkgs> {}
 , hackage ? import <hackage>
 , haskell ? import <haskell> }:
 
 { extraDeps ? hsPkgs: {} }:
 let
-  lts = lts-def hackage.exprs;
+
+  # packages that we must never try to reinstal.
+  nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base" ];
+
+  hackagePkgs = with pkgs.lib;
+                let shippedPkgs = filterAttrs (n: _: builtins.elem n nonReinstallablePkgs)
+                                   (mapAttrs (name: version: { ${version} = null; })
+                                     (lts-def {}).compiler.packages);
+                in recursiveUpdate hackage.exprs shippedPkgs;
+
+  # We may depend on packages shipped with ghc, or need to rebuild them.
+  ghcPackages = pkgs.lib.mapAttrs (name: version: hackagePkgs.${name}.${version}) (lts-def {}).compiler.packages;
+
+  # Thus the final package set in our augmented (extrDeps) lts set is the following:
+  ltsPkgs = ghcPackages
+         // (lts-def hackagePkgs).packages
+         // extraDeps hackagePkgs;
 
   driver = haskell.compat.driver;
   host-map = haskell.compat.host-map;
 
-  # packages shipped with ghc.
-  ghcPackages = pkgs.lib.mapAttrs (name: value: null) lts.compiler.packages;
 
   # compiler this lts set is built against.
-  compiler = pkgs.haskell.packages.${lts.compiler.nix-name};
+  compiler = pkgs.haskell.packages.${(lts-def {}).compiler.nix-name};
 
   # This is a tiny bit better than doJailbreak.
   #
@@ -50,27 +64,36 @@ let
   # ghc-pkg should be ${ghcCommand}-pkg; and --package-db
   # should better be --${packageDbFlag}; but we don't have
   # those variables in scope.
-  doExactConfig = pkg: pkgs.haskell.lib.overrideCabal pkg (drv:
-    let mkDep = drv:
-          if drv == null then ""
-          else "--dependency=${drv.pname}=${drv.pname}-${drv.version}";
-        deps = map mkDep (drv.libraryHaskellDepends or []);
-    in {
+  doExactConfig = pkg: pkgs.haskell.lib.overrideCabal pkg (drv: {
     # TODO: need to run `ghc-pkg field <pkg> id` over all `--dependency`
     #       values.  Should we encode the `id` in the nix-pkg as well?
-    configureFlags = drv.configureFlags ++ ["--exact-configuration"] ++ deps;
-    preConfigure = pkgs.lib.traceSeq deps (drv.preConfigure or "") + ''
-    #configureFlags+=" --exact-configuration"
+    preConfigure = (drv.preConfigure or "") + ''
+    configureFlags+=" --exact-configuration"
     globalPackages=$(ghc-pkg list --global --simple-output)
-    #localPackages=$(ghc-pkg --package-db="$packageConfDir" list --simple-output)
+    localPackages=$(ghc-pkg --package-db="$packageConfDir" list --simple-output)
     for pkg in $globalPackages; do
-      if [ "''${pkg%-*}" != "rts" ]; then
-        configureFlags+=" --dependency="''${pkg%-*}=$pkg
+      pkgName=''${pkg%-*}
+      if [ "$pkgName" != "rts" ]; then
+        if [[ " ${pkgs.lib.concatStringsSep " " nonReinstallablePkgs} " =~ " $pkgName " ]]; then
+            configureFlags+=" --dependency="''${pkg%-*}=$pkg
+        fi
       fi
     done
-    #for pkg in $localPackages; do
-    #  configureFlags+=" --dependency="''${pkg%-*}=$pkg
-    #done
+    for pkg in $localPackages; do
+      configureFlags+=" --dependency="''${pkg%-*}=$pkg
+    done
+    #echo "<<< <<< <<<"
+    #echo ''${configureFlags}
+    configureFlags=$(for flag in ''${configureFlags};do case "X''${flag}" in
+          X--dependency=*)
+            pkgId=$(ghc-pkg --package-db="$packageConfDir" field ''${flag##*=} id || ghc-pkg --global field ''${flag##*=} id)
+            echo ''${flag%=*}=$(echo $pkgId | awk -F' ' '{ print $2 }')
+            ;;
+          *) echo ''${flag};;
+          esac; done)
+    #echo "--- --- ---"
+    #echo ''${configureFlags}
+    #echo ">>> >>> >>>"
 '';
   });
   doAllowNewer = pkg: pkgs.haskell.lib.appendConfigureFlag pkg "--allow-newer";
@@ -83,14 +106,14 @@ let
   #  - The curated set has proper version bounds, so we can just
   #    jailbreak (--allow-newer) -- THIS SHOULD BE FIXED VIA --exact-config!
   fast = drv: with pkgs.haskell.lib;
-              #--doJailbreak
-              doAllowNewer
+              doExactConfig
                (disableLibraryProfiling
                 (disableExecutableProfiling
                  (dontHaddock
                   (dontCheck drv))));
 
   toGenericPackage = stackPkgs: args: name: path:
+    if path == null then null else
     let expr = driver { cabalexpr = import path;
              pkgs = pkgs // { haskellPackages = stackPkgs; }
                   # haskell lib -> nix lib mapping
@@ -105,17 +128,17 @@ let
      # right compiler.
      in compiler.callPackage expr args;
 
-in let stackPackages = ghcPackages //
-       (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) (lts.packages // extraDeps hackage.exprs))
+in let stackPackages =
+       (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) ltsPkgs)
               // { cassava = toGenericPackage stackPackages
                     { flags = { bytestring--lt-0_10_4 = false; }; }
-                    "cassava" lts.packages.cassava;
+                    "cassava" ltsPkgs.cassava;
                    time-locale-compat = toGenericPackage stackPackages
                      { flags = { old-locale = false; }; }
-                     "time-locale-compat" lts.packages.time-locale-compat;
+                     "time-locale-compat" ltsPkgs.time-locale-compat;
                  }
               ;
-         in (pkgs.lib.mapAttrs (_: fast) p) // (with pkgs.haskell.lib;
+         in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast v) p) // (with pkgs.haskell.lib;
             { # skip checks to break recursion.
               # nanospec = dontCheck p.nanospec;
               # hspec    = dontCheck p.hspec;
@@ -136,7 +159,7 @@ in let stackPackages = ghcPackages //
               # pcre-light = doJailbreak p.pcre-light;
               # mtl        = doJailbreak p.mtl;
               # utf8-string = doJailbreak p.utf8-string;
-              tagged     = appendConfigureFlag p.tagged "--allow-newer";
+              # tagged     = appendConfigureFlag p.tagged "--allow-newer";
               # HUnit      = appendConfigureFlag p.HUnit  "--allow-newer";
               # test-framework-hunit = appendConfigureFlag p.test-framework-hunit "--allow-newer";
               # build-vector = appendConfigureFlag p.build-vector "--allow-newer";
