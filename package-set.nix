@@ -104,7 +104,7 @@ let
   #    thus, let us assume we don't need no tests. (also time consuming)
   #  - haddocks are not used, and sometimes fail.  (also time consuming)
   #  - The curated set has proper version bounds, so we can just
-  #    jailbreak (--allow-newer) -- THIS SHOULD BE FIXED VIA --exact-config!
+  #    exactConfig globally
   fast = drv: with pkgs.haskell.lib;
               doExactConfig
                (disableLibraryProfiling
