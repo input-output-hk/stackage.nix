@@ -3,4 +3,5 @@
   lts-11_5 = import ./package-set.nix { lts-def = import ./lts-11.5.nix; };
   # nightlies
   lts-2018-04-21 = import ./package-set.nix { lts-def = import ./nightly-2018-04-21.nix; };
+  lts-2018-05-02 = import ./package-set.nix { lts-def = import ./nightly-2018-05-02.nix; };
 }
