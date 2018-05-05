@@ -106,11 +106,13 @@ let
   #  - The curated set has proper version bounds, so we can just
   #    exactConfig globally
   fast = drv: with pkgs.haskell.lib;
-              doExactConfig
-               (disableLibraryProfiling
-                (disableExecutableProfiling
-                 (dontHaddock
-                  (dontCheck drv))));
+               (doExactConfig
+                (disableSharedLibraries
+                 (disableSharedExecutables
+                  (disableLibraryProfiling
+                   (disableExecutableProfiling
+                    (dontHaddock
+                     (dontCheck drv)))))));
 
   toGenericPackage = stackPkgs: args: name: path:
     if path == null then null else
@@ -121,7 +123,22 @@ let
                        "c++" = null; # no libc++
                        ssl = pkgs.openssl;
                        z = pkgs.zlib;
-                       };
+
+                     }
+                  # -- windows
+                  // { advapi32 = null; gdi32 = null; imm32 = null; msimg32 = null; 
+                       shell32 = null; shfolder = null; shlwapi = null; user32 = null; 
+                       winmm = null;
+                       kernel32 = null; ws2_32 = null;
+
+                       ssl32 = pkgs.openssl; eay32 = pkgs.openssl;
+
+                       iphlpapi = null; # IP Help API
+
+                       msvcrt = null; # this is the libc
+
+                       Crypt32 = null;
+                     };
              inherit (host-map pkgs.stdenv) os arch;
              version = compiler.ghc.version; };
      # Use `callPackage` from the `compiler` here, to get the
