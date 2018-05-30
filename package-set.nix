@@ -64,13 +64,17 @@ let
   # ghc-pkg should be ${ghcCommand}-pkg; and --package-db
   # should better be --${packageDbFlag}; but we don't have
   # those variables in scope.
-  doExactConfig = pkg: pkgs.haskell.lib.overrideCabal pkg (drv: {
+  doExactConfig = let targetPrefix = with pkgs.stdenv; lib.optionalString
+    (targetPlatform != buildPlatform)
+    "${targetPlatform.config}-";
+
+  in pkg: pkgs.haskell.lib.overrideCabal pkg (drv: {
     # TODO: need to run `ghc-pkg field <pkg> id` over all `--dependency`
     #       values.  Should we encode the `id` in the nix-pkg as well?
     preConfigure = (drv.preConfigure or "") + ''
     configureFlags+=" --exact-configuration"
-    globalPackages=$(ghc-pkg list --global --simple-output)
-    localPackages=$(ghc-pkg --package-db="$packageConfDir" list --simple-output)
+    globalPackages=$(${targetPrefix}ghc-pkg list --global --simple-output)
+    localPackages=$(${targetPrefix}ghc-pkg --package-db="$packageConfDir" list --simple-output)
     for pkg in $globalPackages; do
       pkgName=''${pkg%-*}
       if [ "$pkgName" != "rts" ]; then
@@ -86,7 +90,7 @@ let
     #echo ''${configureFlags}
     configureFlags=$(for flag in ''${configureFlags};do case "X''${flag}" in
           X--dependency=*)
-            pkgId=$(ghc-pkg --package-db="$packageConfDir" field ''${flag##*=} id || ghc-pkg --global field ''${flag##*=} id)
+            pkgId=$(${targetPrefix}ghc-pkg --package-db="$packageConfDir" field ''${flag##*=} id || ${targetPrefix}ghc-pkg --global field ''${flag##*=} id)
             echo ''${flag%=*}=$(echo $pkgId | awk -F' ' '{ print $2 }')
             ;;
           *) echo ''${flag};;
@@ -118,6 +122,7 @@ let
     if path == null then null else
     let expr = driver { cabalexpr = import path;
              pkgs = pkgs // { haskellPackages = stackPkgs; }
+                  // { fetchgit = pkgs.buildPackages.fetchgit; }
                   # haskell lib -> nix lib mapping
                   // { crypto = pkgs.openssl;
                        "c++" = null; # no libc++
@@ -158,7 +163,7 @@ in let stackPackages =
          in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast v) p) // (with pkgs.haskell.lib;
             { doctest = null;
               hsc2hs = null; }));
-   in compiler.override {
+   in builtins.trace pkgs.stdenv.targetPlatform compiler.override {
       initialPackages = { pkgs, stdenv, callPackage }: self: stackPackages;
       configurationCommon = { ... }: self: super: {};
       compilerConfig = self: super: {};
