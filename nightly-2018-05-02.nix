@@ -879,7 +879,7 @@ hackage: {
       "ofx" = hackage.ofx."0.4.2.0";
       "data-accessor-transformers" = hackage.data-accessor-transformers."0.2.1.7";
       "Spintax" = hackage.Spintax."0.3.2";
-      "Win32" = hackage.Win32."2.5.4.1";
+      "Win32" = null; #hackage.Win32."2.5.4.1";
       "result" = hackage.result."0.2.6.0";
       "smallcheck" = hackage.smallcheck."1.1.3.1";
       "ekg" = hackage.ekg."0.4.0.15";

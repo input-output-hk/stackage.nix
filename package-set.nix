@@ -7,7 +7,9 @@
 let
 
   # packages that we must never try to reinstal.
-  nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base" ];
+  nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base"
+                           "Win32" "process" "deepseq" "array" "directory" "time" "unix"
+                           "filepath" "bytestring" "ghci" "binary" "containers"];
 
   hackagePkgs = with pkgs.lib;
                 let shippedPkgs = filterAttrs (n: _: builtins.elem n nonReinstallablePkgs)
@@ -16,7 +18,8 @@ let
                 in recursiveUpdate hackage.exprs shippedPkgs;
 
   # We may depend on packages shipped with ghc, or need to rebuild them.
-  ghcPackages = pkgs.lib.mapAttrs (name: version: hackagePkgs.${name}.${version}) (lts-def {}).compiler.packages;
+  ghcPackages = pkgs.lib.mapAttrs (name: version: hackagePkgs.${name}.${version}
+                                  ) (lts-def {}).compiler.packages;
 
   # Thus the final package set in our augmented (extrDeps) lts set is the following:
   ltsPkgs = ghcPackages
@@ -64,11 +67,11 @@ let
   # ghc-pkg should be ${ghcCommand}-pkg; and --package-db
   # should better be --${packageDbFlag}; but we don't have
   # those variables in scope.
-  doExactConfig = let targetPrefix = with pkgs.stdenv; lib.optionalString
-    (targetPlatform != buildPlatform)
-    "${targetPlatform.config}-";
+  doExactConfig = pkgs: pkg: let targetPrefix = with pkgs.stdenv; lib.optionalString
+    (hostPlatform != buildPlatform)
+    "${hostPlatform.config}-";
 
-  in pkg: pkgs.haskell.lib.overrideCabal pkg (drv: {
+  in pkgs.haskell.lib.overrideCabal pkg (drv: {
     # TODO: need to run `ghc-pkg field <pkg> id` over all `--dependency`
     #       values.  Should we encode the `id` in the nix-pkg as well?
     preConfigure = (drv.preConfigure or "") + ''
@@ -103,14 +106,30 @@ let
   doAllowNewer = pkg: pkgs.haskell.lib.appendConfigureFlag pkg "--allow-newer";
 
 
+
+          # # fetch a package candidate from hackage and return the cabal2nix expression.
+          # hackageCandidate = name: ver: args: self.callCabal2nix name (fetchTarball "https://hackage.haskell.org/package/${name}-${ver}/candidate/${name}-${ver}.tar.gz") args;
+
+          # # iserv logic
+          # libiserv = with haskell.lib; addExtraLibrary (enableCabalFlag (self.hackageCandidate "libiserv" "8.5" {}) "network") self.network;
+          # iserv-proxy = self.hackageCandidate "iserv-proxy" "8.5" { libiserv = self.libiserv; };
+          # # TODO: Why is `network` not properly propagated from `libiserv`?
+          # remote-iserv = with haskell.lib; let pkg = addExtraLibrary (self.hackageCandidate "remote-iserv" "8.5" { libiserv = self.libiserv; }) self.network; in
+          #   overrideCabal (addBuildDepends pkg [ windows.mingw_w64_pthreads ]) (drv: {
+          #   postInstall = ''
+          #     cp ${windows.mingw_w64_pthreads}/bin/libwinpthread-1.dll $out/bin/
+          #   '';
+          # });
+
+
   # fast -- the logic is as follows:
   #  - test are often broken and we have a curated set
   #    thus, let us assume we don't need no tests. (also time consuming)
   #  - haddocks are not used, and sometimes fail.  (also time consuming)
   #  - The curated set has proper version bounds, so we can just
   #    exactConfig globally
-  fast = drv: with pkgs.haskell.lib;
-               (doExactConfig
+  fast = pkgs: drv: with pkgs.haskell.lib;
+               (doExactConfig pkgs
                 (disableSharedLibraries
                  (disableSharedExecutables
                   (disableLibraryProfiling
@@ -122,10 +141,14 @@ let
     if path == null then null else
     let expr = driver { cabalexpr = import path;
              pkgs = pkgs // { haskellPackages = stackPkgs; }
+                  # fetchgit should always come from the buildPackages
+                  # if it comes from the targetPackages we won't even
+                  # be able to execute it.
                   // { fetchgit = pkgs.buildPackages.fetchgit; }
                   # haskell lib -> nix lib mapping
                   // { crypto = pkgs.openssl;
                        "c++" = null; # no libc++
+                       "stdc++"= pkgs.gcc7-ng-libstdcpp-v3;
                        ssl = pkgs.openssl;
                        z = pkgs.zlib;
 
@@ -136,7 +159,7 @@ let
                        winmm = null;
                        kernel32 = null; ws2_32 = null;
 
-                       ssl32 = pkgs.openssl; eay32 = pkgs.openssl;
+                       ssl32 = null; eay32 = pkgs.openssl;
 
                        iphlpapi = null; # IP Help API
 
@@ -150,21 +173,47 @@ let
      # right compiler.
      in compiler.callPackage expr args;
 
-in let stackPackages =
-       (let p = (pkgs.lib.mapAttrs (toGenericPackage stackPackages {}) ltsPkgs)
-              // { cassava = toGenericPackage stackPackages
+in let stackPackages = pkgs: self: 
+       (let p = (pkgs.lib.mapAttrs (toGenericPackage self {}) ltsPkgs)
+              // { cassava = toGenericPackage self
                     { flags = { bytestring--lt-0_10_4 = false; }; }
                     "cassava" ltsPkgs.cassava;
-                   time-locale-compat = toGenericPackage stackPackages
+                   time-locale-compat = toGenericPackage self
                      { flags = { old-locale = false; }; }
                      "time-locale-compat" ltsPkgs.time-locale-compat;
+                   libiserv = toGenericPackage self
+                     { flags = { network = true; }; }
+                     "libiserv" ltsPkgs.libiserv;
+                   cardano-sl-tools = toGenericPackage self
+                     { flags = { for-installer = true; }; }
+                     "cardano-sl-tools" ltsPkgs.cardano-sl-tools;
+                   # integer-logarithms = toGenericPackage self
+                   #   { flags = { integer-gmp = false; }; }
+                   #   "integer-logarithms" ltsPkgs.integer-logarithms;
+                   # bytestring = toGenericPackage self
+                   #   { flags = { integer-simple = true; }; }
+                   #   "bytestring" ltsPkgs.bytestring;
+                   # text = toGenericPackage self
+                   #   { flags = { integer-simple = true; }; }
+                   #   "text" ltsPkgs.text;
+                   # hashable = toGenericPackage self
+                   #   { flags = { integer-gmp = false; }; }
+                   #   "hashable" ltsPkgs.hashable;
+                   # cborg = toGenericPackage self
+                   #   { flags = { optimize-gmp = false; }; }
+                   #   "cborg" ltsPkgs.cborg;
+                   # scientific = toGenericPackage self
+                   #   { flags = { integer-simple = true; }; }
+                   #   "scientific" ltsPkgs.scientific;
                  }
               ;
-         in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast v) p) // (with pkgs.haskell.lib;
+         in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast pkgs v) p) // (with pkgs.haskell.lib;
             { doctest = null;
-              hsc2hs = null; }));
-   in builtins.trace pkgs.stdenv.targetPlatform compiler.override {
-      initialPackages = { pkgs, stdenv, callPackage }: self: stackPackages;
+              hsc2hs = null;
+              buildPackages = pkgs.buildPackages.haskellPackages;
+              integer-simple = null; }));
+   in compiler.override {
+      initialPackages = { pkgs, stdenv, callPackage }: self: (stackPackages pkgs self);
       configurationCommon = { ... }: self: super: {};
       compilerConfig = self: super: {};
    }
