@@ -9,7 +9,8 @@ let
   # packages that we must never try to reinstal.
   nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base"
                            "Win32" "process" "deepseq" "array" "directory" "time" "unix"
-                           "filepath" "bytestring" "ghci" "binary" "containers"];
+                           "filepath" "bytestring" "ghci" "binary" "containers"
+                           "template-haskell" "ghc-boot-th" "pretty" ];
 
   hackagePkgs = with pkgs.lib;
                 let shippedPkgs = filterAttrs (n: _: builtins.elem n nonReinstallablePkgs)
