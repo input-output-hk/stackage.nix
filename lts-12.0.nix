@@ -2354,6 +2354,7 @@ hackage: {
         "pretty" = "1.1.3.6";
         "template-haskell" = "2.13.0.0";
         "directory" = "1.3.1.5";
+        "Win32" = "2.5.4.1";
       };
     };
   }
