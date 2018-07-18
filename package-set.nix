@@ -133,7 +133,7 @@ let
                        "c++" = null; # no libc++
                        ssl = pkgs.openssl;
                        z = pkgs.zlib;
-
+                       pthread = null; # available by default
                      }
                   # -- windows
                   // { advapi32 = null; gdi32 = null; imm32 = null; msimg32 = null; 
