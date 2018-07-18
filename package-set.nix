@@ -104,24 +104,6 @@ let
     #echo ">>> >>> >>>"
 '';
   });
-  doAllowNewer = pkg: pkgs.haskell.lib.appendConfigureFlag pkg "--allow-newer";
-
-
-
-          # # fetch a package candidate from hackage and return the cabal2nix expression.
-          # hackageCandidate = name: ver: args: self.callCabal2nix name (fetchTarball "https://hackage.haskell.org/package/${name}-${ver}/candidate/${name}-${ver}.tar.gz") args;
-
-          # # iserv logic
-          # libiserv = with haskell.lib; addExtraLibrary (enableCabalFlag (self.hackageCandidate "libiserv" "8.5" {}) "network") self.network;
-          # iserv-proxy = self.hackageCandidate "iserv-proxy" "8.5" { libiserv = self.libiserv; };
-          # # TODO: Why is `network` not properly propagated from `libiserv`?
-          # remote-iserv = with haskell.lib; let pkg = addExtraLibrary (self.hackageCandidate "remote-iserv" "8.5" { libiserv = self.libiserv; }) self.network; in
-          #   overrideCabal (addBuildDepends pkg [ windows.mingw_w64_pthreads ]) (drv: {
-          #   postInstall = ''
-          #     cp ${windows.mingw_w64_pthreads}/bin/libwinpthread-1.dll $out/bin/
-          #   '';
-          # });
-
 
   # fast -- the logic is as follows:
   #  - test are often broken and we have a curated set
@@ -149,7 +131,6 @@ let
                   # haskell lib -> nix lib mapping
                   // { crypto = pkgs.openssl;
                        "c++" = null; # no libc++
-                       "stdc++"= pkgs.gcc7-ng-libstdcpp-v3;
                        ssl = pkgs.openssl;
                        z = pkgs.zlib;
 
@@ -175,44 +156,11 @@ let
      in compiler.callPackage expr args;
 
 in let stackPackages = pkgs: self: 
-       (let p = (pkgs.lib.mapAttrs (toGenericPackage self {}) ltsPkgs)
-              // { cassava = toGenericPackage self
-                    { flags = { bytestring--lt-0_10_4 = false; }; }
-                    "cassava" ltsPkgs.cassava;
-                   time-locale-compat = toGenericPackage self
-                     { flags = { old-locale = false; }; }
-                     "time-locale-compat" ltsPkgs.time-locale-compat;
-                   libiserv = toGenericPackage self
-                     { flags = { network = true; }; }
-                     "libiserv" ltsPkgs.libiserv;
-                   cardano-sl-tools = toGenericPackage self
-                     { flags = { for-installer = true; }; }
-                     "cardano-sl-tools" ltsPkgs.cardano-sl-tools;
-                   # integer-logarithms = toGenericPackage self
-                   #   { flags = { integer-gmp = false; }; }
-                   #   "integer-logarithms" ltsPkgs.integer-logarithms;
-                   # bytestring = toGenericPackage self
-                   #   { flags = { integer-simple = true; }; }
-                   #   "bytestring" ltsPkgs.bytestring;
-                   # text = toGenericPackage self
-                   #   { flags = { integer-simple = true; }; }
-                   #   "text" ltsPkgs.text;
-                   # hashable = toGenericPackage self
-                   #   { flags = { integer-gmp = false; }; }
-                   #   "hashable" ltsPkgs.hashable;
-                   # cborg = toGenericPackage self
-                   #   { flags = { optimize-gmp = false; }; }
-                   #   "cborg" ltsPkgs.cborg;
-                   # scientific = toGenericPackage self
-                   #   { flags = { integer-simple = true; }; }
-                   #   "scientific" ltsPkgs.scientific;
-                 }
-              ;
+       (let p = (pkgs.lib.mapAttrs (toGenericPackage self {}) ltsPkgs);
          in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast pkgs v) p) // (with pkgs.haskell.lib;
             { doctest = null;
               hsc2hs = null;
-              buildPackages = pkgs.buildPackages.haskellPackages;
-              integer-simple = null; }));
+              buildPackages = pkgs.buildPackages.haskellPackages; }));
    in compiler.override {
       initialPackages = { pkgs, stdenv, callPackage }: self: (stackPackages pkgs self);
       configurationCommon = { ... }: self: super: {};
