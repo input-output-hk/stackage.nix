@@ -5,7 +5,7 @@ hackage: {
       "rank2classes" = hackage.rank2classes."1.1.0.1";
       "shakespeare" = hackage.shakespeare."2.0.15";
       "digits" = hackage.digits."0.3.1";
-      "warp" = hackage.warp."3.2.22";
+      "warp" = hackage.warp."3.2.23";
       "fedora-haskell-tools" = hackage.fedora-haskell-tools."0.5.1";
       "genvalidity-property" = hackage.genvalidity-property."0.2.1.0";
       "atom-conduit" = hackage.atom-conduit."0.5.0.1";
@@ -66,7 +66,7 @@ hackage: {
       "ws" = hackage.ws."0.0.4";
       "http-reverse-proxy" = hackage.http-reverse-proxy."0.6.0";
       "sox" = hackage.sox."0.2.3";
-      "yesod-form-bootstrap4" = hackage.yesod-form-bootstrap4."1.0.0";
+      "yesod-form-bootstrap4" = hackage.yesod-form-bootstrap4."1.0.2";
       "diagrams-postscript" = hackage.diagrams-postscript."1.4.1";
       "time-parsers" = hackage.time-parsers."0.1.2.0";
       "conduit-combinators" = hackage.conduit-combinators."1.3.0";
@@ -95,7 +95,7 @@ hackage: {
       "stb-image-redux" = hackage.stb-image-redux."0.2.1.2";
       "tdigest" = hackage.tdigest."0.2.1";
       "binary-search" = hackage.binary-search."1.0.0.3";
-      "ratel-wai" = hackage.ratel-wai."1.0.2";
+      "ratel-wai" = hackage.ratel-wai."1.0.3";
       "thread-hierarchy" = hackage.thread-hierarchy."0.3.0.0";
       "postgresql-simple-migration" = hackage.postgresql-simple-migration."0.1.12.0";
       "yesod-bin" = hackage.yesod-bin."1.6.0.3";
@@ -127,7 +127,7 @@ hackage: {
       "genvalidity-hspec-binary" = hackage.genvalidity-hspec-binary."0.2.0.2";
       "rcu" = hackage.rcu."0.2.2";
       "equal-files" = hackage.equal-files."0.0.5.3";
-      "relational-query-HDBC" = hackage.relational-query-HDBC."0.7.0.0";
+      "relational-query-HDBC" = hackage.relational-query-HDBC."0.7.0.1";
       "hoopl" = hackage.hoopl."3.10.2.2";
       "state-codes" = hackage.state-codes."0.1.3";
       "irc-client" = hackage.irc-client."1.1.0.4";
@@ -278,7 +278,7 @@ hackage: {
       "netlib-carray" = hackage.netlib-carray."0.0.1.1";
       "include-file" = hackage.include-file."0.1.0.3";
       "auto" = hackage.auto."0.4.3.1";
-      "yesod-test" = hackage.yesod-test."1.6.4";
+      "yesod-test" = hackage.yesod-test."1.6.5";
       "tasty-stats" = hackage.tasty-stats."0.2.0.4";
       "range-set-list" = hackage.range-set-list."0.1.3";
       "wai-cors" = hackage.wai-cors."0.2.6";
@@ -296,10 +296,10 @@ hackage: {
       "mainland-pretty" = hackage.mainland-pretty."0.7";
       "dual-tree" = hackage.dual-tree."0.2.2";
       "brittany" = hackage.brittany."0.11.0.0";
-      "json-feed" = hackage.json-feed."1.0.2";
+      "json-feed" = hackage.json-feed."1.0.3";
       "butcher" = hackage.butcher."1.3.1.1";
       "ekg-core" = hackage.ekg-core."0.1.1.4";
-      "strive" = hackage.strive."5.0.5";
+      "strive" = hackage.strive."5.0.6";
       "tmp-postgres" = hackage.tmp-postgres."0.1.1.1";
       "fingertree" = hackage.fingertree."0.1.4.1";
       "bmp" = hackage.bmp."1.2.6.3";
@@ -308,7 +308,7 @@ hackage: {
       "wai" = hackage.wai."3.2.1.2";
       "bimap-server" = hackage.bimap-server."0.1.0.1";
       "online" = hackage.online."0.3.0.0";
-      "basement" = hackage.basement."0.0.7";
+      "basement" = hackage.basement."0.0.8";
       "tagshare" = hackage.tagshare."0.0";
       "connection-pool" = hackage.connection-pool."0.2.2";
       "HUnit-approx" = hackage.HUnit-approx."1.1.1.1";
@@ -384,7 +384,7 @@ hackage: {
       "fileplow" = hackage.fileplow."0.1.0.0";
       "aeson-casing" = hackage.aeson-casing."0.1.0.5";
       "haskell-gi-overloading" = hackage.haskell-gi-overloading."1.0";
-      "composition-prelude" = hackage.composition-prelude."1.5.0.6";
+      "composition-prelude" = hackage.composition-prelude."1.5.0.8";
       "colorful-monoids" = hackage.colorful-monoids."0.2.1.1";
       "cipher-des" = hackage.cipher-des."0.0.6";
       "streamproc" = hackage.streamproc."1.6.2";
@@ -409,7 +409,7 @@ hackage: {
       "MonadRandom" = hackage.MonadRandom."0.5.1.1";
       "GLUT" = hackage.GLUT."2.7.0.13";
       "keycode" = hackage.keycode."0.2.2";
-      "extra" = hackage.extra."1.6.8";
+      "extra" = hackage.extra."1.6.9";
       "hourglass" = hackage.hourglass."0.2.11";
       "mersenne-random-pure64" = hackage.mersenne-random-pure64."0.2.2.0";
       "sandman" = hackage.sandman."0.2.0.1";
@@ -436,7 +436,7 @@ hackage: {
       "wai-middleware-travisci" = hackage.wai-middleware-travisci."0.1.0";
       "goggles" = hackage.goggles."0.3.2";
       "pure-zlib" = hackage.pure-zlib."0.6.4";
-      "haskell-tools-backend-ghc" = hackage.haskell-tools-backend-ghc."1.1.0.1";
+      "haskell-tools-backend-ghc" = hackage.haskell-tools-backend-ghc."1.1.0.2";
       "amazonka-directconnect" = hackage.amazonka-directconnect."1.6.0";
       "hunit-dejafu" = hackage.hunit-dejafu."1.2.0.6";
       "declarative" = hackage.declarative."0.5.2";
@@ -470,14 +470,14 @@ hackage: {
       "appar" = hackage.appar."0.1.4";
       "base-compat-batteries" = hackage.base-compat-batteries."0.10.1";
       "histogram-fill" = hackage.histogram-fill."0.9.0.0";
-      "mega-sdist" = hackage.mega-sdist."0.3.3";
+      "mega-sdist" = hackage.mega-sdist."0.3.3.1";
       "skein" = hackage.skein."1.0.9.4";
       "EdisonAPI" = hackage.EdisonAPI."1.3.1";
       "uniq-deep" = hackage.uniq-deep."1.1.0.0";
       "fail" = hackage.fail."4.9.0.0";
-      "flow" = hackage.flow."1.0.13";
+      "flow" = hackage.flow."1.0.14";
       "pcre-heavy" = hackage.pcre-heavy."1.0.0.2";
-      "yesod-core" = hackage.yesod-core."1.6.5";
+      "yesod-core" = hackage.yesod-core."1.6.6";
       "timerep" = hackage.timerep."2.0.0.2";
       "hledger" = hackage.hledger."1.10";
       "htaglib" = hackage.htaglib."1.2.0";
@@ -489,7 +489,7 @@ hackage: {
       "hexml-lens" = hackage.hexml-lens."0.2.1";
       "multiarg" = hackage.multiarg."0.30.0.10";
       "filemanip" = hackage.filemanip."0.3.6.3";
-      "servius" = hackage.servius."1.2.0.3";
+      "servius" = hackage.servius."1.2.1.0";
       "disk-free-space" = hackage.disk-free-space."0.1.0.1";
       "aeson-picker" = hackage.aeson-picker."0.1.0.4";
       "data-default-class" = hackage.data-default-class."0.1.2.0";
@@ -522,7 +522,7 @@ hackage: {
       "HDBC" = hackage.HDBC."2.4.0.2";
       "one-liner" = hackage.one-liner."1.0";
       "clumpiness" = hackage.clumpiness."0.17.0.0";
-      "deriving-compat" = hackage.deriving-compat."0.5";
+      "deriving-compat" = hackage.deriving-compat."0.5.1";
       "find-clumpiness" = hackage.find-clumpiness."0.2.3.1";
       "sqlite-simple" = hackage.sqlite-simple."0.4.16.0";
       "xhtml" = hackage.xhtml."3000.2.2.1";
@@ -546,7 +546,7 @@ hackage: {
       "testing-feat" = hackage.testing-feat."1.1.0.0";
       "tagstream-conduit" = hackage.tagstream-conduit."0.5.5.3";
       "throwable-exceptions" = hackage.throwable-exceptions."0.1.0.9";
-      "hapistrano" = hackage.hapistrano."0.3.5.7";
+      "hapistrano" = hackage.hapistrano."0.3.5.8";
       "hw-mquery" = hackage.hw-mquery."0.1.0.1";
       "fast-math" = hackage.fast-math."1.0.2";
       "haskey-mtl" = hackage.haskey-mtl."0.3.1.0";
@@ -576,7 +576,7 @@ hackage: {
       "numhask-prelude" = hackage.numhask-prelude."0.1.0.1";
       "ParsecTools" = hackage.ParsecTools."0.0.2.0";
       "configurator" = hackage.configurator."0.3.0.0";
-      "vector-sized" = hackage.vector-sized."1.0.3.0";
+      "vector-sized" = hackage.vector-sized."1.0.4.0";
       "storable-complex" = hackage.storable-complex."0.2.2";
       "crypto-cipher-types" = hackage.crypto-cipher-types."0.0.9";
       "cheapskate-lucid" = hackage.cheapskate-lucid."0.1.0.0";
@@ -691,7 +691,7 @@ hackage: {
       "large-hashable" = hackage.large-hashable."0.1.0.4";
       "servant-auth-client" = hackage.servant-auth-client."0.3.3.0";
       "composition" = hackage.composition."1.0.2.1";
-      "invariant" = hackage.invariant."0.5";
+      "invariant" = hackage.invariant."0.5.1";
       "lift-generics" = hackage.lift-generics."0.1.2";
       "prelude-safeenum" = hackage.prelude-safeenum."0.1.1.2";
       "servant-elm" = hackage.servant-elm."0.5.0.0";
@@ -751,7 +751,7 @@ hackage: {
       "clr-host" = hackage.clr-host."0.2.0.1";
       "clock" = hackage.clock."0.7.2";
       "http-api-data" = hackage.http-api-data."0.3.8.1";
-      "enclosed-exceptions" = hackage.enclosed-exceptions."1.0.2";
+      "enclosed-exceptions" = hackage.enclosed-exceptions."1.0.3";
       "lens-datetime" = hackage.lens-datetime."0.3";
       "executable-path" = hackage.executable-path."0.0.3.1";
       "megaparsec" = hackage.megaparsec."6.5.0";
@@ -759,7 +759,7 @@ hackage: {
       "th-orphans" = hackage.th-orphans."0.13.6";
       "groom" = hackage.groom."0.1.2.1";
       "renderable" = hackage.renderable."0.2.0.1";
-      "haskell-tools-prettyprint" = hackage.haskell-tools-prettyprint."1.1.0.1";
+      "haskell-tools-prettyprint" = hackage.haskell-tools-prettyprint."1.1.0.2";
       "syb" = hackage.syb."0.7";
       "amazonka-cloudsearch-domains" = hackage.amazonka-cloudsearch-domains."1.6.0";
       "wikicfp-scraper" = hackage.wikicfp-scraper."0.1.0.9";
@@ -812,7 +812,7 @@ hackage: {
       "ersatz" = hackage.ersatz."0.4.3";
       "phantom-state" = hackage.phantom-state."0.2.1.2";
       "async-refresh-tokens" = hackage.async-refresh-tokens."0.4.0.0";
-      "language-docker" = hackage.language-docker."6.0.3";
+      "language-docker" = hackage.language-docker."6.0.4";
       "compactmap" = hackage.compactmap."0.1.4.2.1";
       "DAV" = hackage.DAV."1.3.2";
       "strict" = hackage.strict."0.3.2";
@@ -870,7 +870,7 @@ hackage: {
       "facts" = hackage.facts."0.0.1.0";
       "unconstrained" = hackage.unconstrained."0.1.0.2";
       "picosat" = hackage.picosat."0.1.4";
-      "foundation" = hackage.foundation."0.0.20";
+      "foundation" = hackage.foundation."0.0.21";
       "text-show" = hackage.text-show."3.7.4";
       "data-msgpack-types" = hackage.data-msgpack-types."0.0.1";
       "union" = hackage.union."0.1.1.2";
@@ -1059,7 +1059,7 @@ hackage: {
       "bitx-bitcoin" = hackage.bitx-bitcoin."0.12.0.0";
       "qnap-decrypt" = hackage.qnap-decrypt."0.3.2";
       "Hoed" = hackage.Hoed."0.5.1";
-      "ratel" = hackage.ratel."1.0.4";
+      "ratel" = hackage.ratel."1.0.5";
       "fixed-vector-hetero" = hackage.fixed-vector-hetero."0.5.0.0";
       "HUnit" = hackage.HUnit."1.6.0.0";
       "turtle" = hackage.turtle."1.5.10";
@@ -1077,7 +1077,7 @@ hackage: {
       "highlighting-kate" = hackage.highlighting-kate."0.6.4";
       "rethinkdb-client-driver" = hackage.rethinkdb-client-driver."0.0.25";
       "yesod-sitemap" = hackage.yesod-sitemap."1.6.0";
-      "ghc-typelits-knownnat" = hackage.ghc-typelits-knownnat."0.5";
+      "ghc-typelits-knownnat" = hackage.ghc-typelits-knownnat."0.5.1";
       "ip" = hackage.ip."1.3.0";
       "servant-server" = hackage.servant-server."0.14.1";
       "both" = hackage.both."0.1.1.0";
@@ -1096,7 +1096,7 @@ hackage: {
       "ndjson-conduit" = hackage.ndjson-conduit."0.1.0.5";
       "ofx" = hackage.ofx."0.4.2.0";
       "data-accessor-transformers" = hackage.data-accessor-transformers."0.2.1.7";
-      "Spintax" = hackage.Spintax."0.3.2";
+      "Spintax" = hackage.Spintax."0.3.3";
       "result" = hackage.result."0.2.6.0";
       "hasql-optparse-applicative" = hackage.hasql-optparse-applicative."0.3.0.3";
       "smallcheck" = hackage.smallcheck."1.1.5";
@@ -1109,7 +1109,7 @@ hackage: {
       "graphviz" = hackage.graphviz."2999.20.0.2";
       "hxt-expat" = hackage.hxt-expat."9.1.1";
       "leveldb-haskell" = hackage.leveldb-haskell."0.6.5";
-      "ghc-typelits-natnormalise" = hackage.ghc-typelits-natnormalise."0.6.1";
+      "ghc-typelits-natnormalise" = hackage.ghc-typelits-natnormalise."0.6.2";
       "async-extra" = hackage.async-extra."0.2.0.0";
       "lens-family-core" = hackage.lens-family-core."1.2.2";
       "ctrie" = hackage.ctrie."0.2";
@@ -1127,7 +1127,7 @@ hackage: {
       "jwt" = hackage.jwt."0.7.2";
       "code-builder" = hackage.code-builder."0.1.3";
       "dlist-nonempty" = hackage.dlist-nonempty."0.1.1";
-      "github-release" = hackage.github-release."1.2.1";
+      "github-release" = hackage.github-release."1.2.2";
       "hackage-security" = hackage.hackage-security."0.5.3.0";
       "cutter" = hackage.cutter."0.0";
       "type-of-html-static" = hackage.type-of-html-static."0.1.0.2";
@@ -1251,13 +1251,13 @@ hackage: {
       "maximal-cliques" = hackage.maximal-cliques."0.1.1";
       "vector-binary-instances" = hackage.vector-binary-instances."0.2.4";
       "active" = hackage.active."0.2.0.13";
-      "ghc-typelits-extra" = hackage.ghc-typelits-extra."0.2.5";
+      "ghc-typelits-extra" = hackage.ghc-typelits-extra."0.2.6";
       "datadog" = hackage.datadog."0.2.2.0";
       "OneTuple" = hackage.OneTuple."0.2.2";
       "transaction" = hackage.transaction."0.1.1.3";
       "nix-paths" = hackage.nix-paths."1.0.1";
       "intervals" = hackage.intervals."0.8.1";
-      "haskell-tools-demo" = hackage.haskell-tools-demo."1.1.0.1";
+      "haskell-tools-demo" = hackage.haskell-tools-demo."1.1.0.2";
       "stringbuilder" = hackage.stringbuilder."0.5.1";
       "yesod-persistent" = hackage.yesod-persistent."1.6.0";
       "hslua-module-text" = hackage.hslua-module-text."0.1.2.1";
@@ -1302,7 +1302,7 @@ hackage: {
       "ansi-terminal" = hackage.ansi-terminal."0.8.0.4";
       "parsers" = hackage.parsers."0.12.9";
       "util" = hackage.util."0.1.10.1";
-      "autoexporter" = hackage.autoexporter."1.1.9";
+      "autoexporter" = hackage.autoexporter."1.1.10";
       "protobuf-simple" = hackage.protobuf-simple."0.1.0.5";
       "cryptocompare" = hackage.cryptocompare."0.1.1";
       "boolsimplifier" = hackage.boolsimplifier."0.1.8";
@@ -1417,7 +1417,7 @@ hackage: {
       "genvalidity-hspec-cereal" = hackage.genvalidity-hspec-cereal."0.2.0.2";
       "cryptohash-cryptoapi" = hackage.cryptohash-cryptoapi."0.1.4";
       "universe-reverse-instances" = hackage.universe-reverse-instances."1.0";
-      "yesod-form" = hackage.yesod-form."1.6.1";
+      "yesod-form" = hackage.yesod-form."1.6.2";
       "amazonka-opsworks" = hackage.amazonka-opsworks."1.6.0";
       "microlens-ghc" = hackage.microlens-ghc."0.4.9";
       "hspec-wai" = hackage.hspec-wai."0.9.0";
@@ -1451,7 +1451,7 @@ hackage: {
       "kmeans" = hackage.kmeans."0.1.3";
       "string-combinators" = hackage.string-combinators."0.6.0.5";
       "network-multicast" = hackage.network-multicast."0.2.0";
-      "csg" = hackage.csg."0.1.0.3";
+      "csg" = hackage.csg."0.1.0.4";
       "GenericPretty" = hackage.GenericPretty."1.2.2";
       "assert-failure" = hackage.assert-failure."0.1.2.2";
       "cipher-aes" = hackage.cipher-aes."0.2.11";
@@ -1600,9 +1600,9 @@ hackage: {
       "logging-facade-syslog" = hackage.logging-facade-syslog."1";
       "since" = hackage.since."0.0.0";
       "invertible-grammar" = hackage.invertible-grammar."0.1.1";
-      "ghc-prof" = hackage.ghc-prof."1.4.1.2";
+      "ghc-prof" = hackage.ghc-prof."1.4.1.3";
       "zip-stream" = hackage.zip-stream."0.1.1";
-      "wuss" = hackage.wuss."1.1.9";
+      "wuss" = hackage.wuss."1.1.10";
       "GLURaw" = hackage.GLURaw."2.0.0.4";
       "graph-wrapper" = hackage.graph-wrapper."0.2.5.1";
       "persistent-mysql" = hackage.persistent-mysql."2.8.1";
@@ -1615,10 +1615,10 @@ hackage: {
       "mime-types" = hackage.mime-types."0.1.0.8";
       "ieee754" = hackage.ieee754."0.8.0";
       "sort" = hackage.sort."1.0.0.0";
-      "microformats2-parser" = hackage.microformats2-parser."1.0.1.8";
+      "microformats2-parser" = hackage.microformats2-parser."1.0.1.9";
       "raw-strings-qq" = hackage.raw-strings-qq."1.1";
       "wcwidth" = hackage.wcwidth."0.0.2";
-      "haskell-tools-builtin-refactorings" = hackage.haskell-tools-builtin-refactorings."1.1.0.1";
+      "haskell-tools-builtin-refactorings" = hackage.haskell-tools-builtin-refactorings."1.1.0.2";
       "validity" = hackage.validity."0.7.0.0";
       "lz4" = hackage.lz4."0.2.3.1";
       "exceptional" = hackage.exceptional."0.3.0.0";
@@ -1654,8 +1654,8 @@ hackage: {
       "pointless-fun" = hackage.pointless-fun."1.1.0.6";
       "concurrent-supply" = hackage.concurrent-supply."0.1.8";
       "pipes-binary" = hackage.pipes-binary."0.4.2";
-      "haskell-tools-refactor" = hackage.haskell-tools-refactor."1.1.0.1";
-      "serverless-haskell" = hackage.serverless-haskell."0.6.1";
+      "haskell-tools-refactor" = hackage.haskell-tools-refactor."1.1.0.2";
+      "serverless-haskell" = hackage.serverless-haskell."0.6.2";
       "cql-io" = hackage.cql-io."1.0.1";
       "base58string" = hackage.base58string."0.10.0";
       "opml-conduit" = hackage.opml-conduit."0.6.0.4";
@@ -1668,7 +1668,7 @@ hackage: {
       "fold-debounce" = hackage.fold-debounce."0.2.0.7";
       "uri-encode" = hackage.uri-encode."1.5.0.5";
       "xmlbf" = hackage.xmlbf."0.4.1";
-      "salve" = hackage.salve."1.0.3";
+      "salve" = hackage.salve."1.0.4";
       "regex-base" = hackage.regex-base."0.93.2";
       "authenticate" = hackage.authenticate."1.3.4";
       "postgresql-simple" = hackage.postgresql-simple."0.5.4.0";
@@ -1678,7 +1678,7 @@ hackage: {
       "MusicBrainz" = hackage.MusicBrainz."0.4";
       "th-expand-syns" = hackage.th-expand-syns."0.4.4.0";
       "regex-posix" = hackage.regex-posix."0.95.2";
-      "derulo" = hackage.derulo."1.0.2";
+      "derulo" = hackage.derulo."1.0.3";
       "calendar-recycling" = hackage.calendar-recycling."0.0";
       "fgl" = hackage.fgl."5.6.0.0";
       "cryptonite" = hackage.cryptonite."0.25";
@@ -1731,11 +1731,11 @@ hackage: {
       "cast" = hackage.cast."0.1.0.2";
       "sample-frame-np" = hackage.sample-frame-np."0.0.4.1";
       "geniplate-mirror" = hackage.geniplate-mirror."0.7.6";
-      "pretty-simple" = hackage.pretty-simple."2.1.0.0";
+      "pretty-simple" = hackage.pretty-simple."2.1.0.1";
       "debug-trace-var" = hackage.debug-trace-var."0.2.0";
       "greskell" = hackage.greskell."0.2.0.2";
       "random-fu" = hackage.random-fu."0.2.7.0";
-      "rattletrap" = hackage.rattletrap."4.1.1";
+      "rattletrap" = hackage.rattletrap."4.1.2";
       "html" = hackage.html."1.0.1.2";
       "glaze" = hackage.glaze."0.3.0.1";
       "network-info" = hackage.network-info."0.2.0.10";
@@ -1786,7 +1786,7 @@ hackage: {
       "threads" = hackage.threads."0.5.1.6";
       "optparse-simple" = hackage.optparse-simple."0.1.0";
       "pathtype" = hackage.pathtype."0.8.1";
-      "haskell-tools-rewrite" = hackage.haskell-tools-rewrite."1.1.0.1";
+      "haskell-tools-rewrite" = hackage.haskell-tools-rewrite."1.1.0.2";
       "libgit" = hackage.libgit."0.3.1";
       "statistics" = hackage.statistics."0.14.0.2";
       "filelock" = hackage.filelock."0.1.1.2";
@@ -1883,7 +1883,7 @@ hackage: {
       "parallel-io" = hackage.parallel-io."0.3.3";
       "universe-instances-extended" = hackage.universe-instances-extended."1.0.0.1";
       "genvalidity-scientific" = hackage.genvalidity-scientific."0.2.0.1";
-      "cabal2nix" = hackage.cabal2nix."2.9.2";
+      "cabal2nix" = hackage.cabal2nix."2.9.3";
       "quickcheck-io" = hackage.quickcheck-io."0.2.0";
       "bson" = hackage.bson."0.3.2.6";
       "fuzzyset" = hackage.fuzzyset."0.1.0.6";
@@ -1912,7 +1912,7 @@ hackage: {
       "monoid-transformer" = hackage.monoid-transformer."0.0.4";
       "type-fun" = hackage.type-fun."0.1.1";
       "attoparsec" = hackage.attoparsec."0.13.2.2";
-      "wai-extra" = hackage.wai-extra."3.0.22.1";
+      "wai-extra" = hackage.wai-extra."3.0.23.0";
       "yesod-auth-fb" = hackage.yesod-auth-fb."1.9.0";
       "generic-lens" = hackage.generic-lens."1.0.0.1";
       "lambdabot-core" = hackage.lambdabot-core."5.1.0.2";
@@ -1940,7 +1940,7 @@ hackage: {
       "api-field-json-th" = hackage.api-field-json-th."0.1.0.2";
       "handwriting" = hackage.handwriting."0.1.0.3";
       "ekg-wai" = hackage.ekg-wai."0.1.0.3";
-      "language-puppet" = hackage.language-puppet."1.3.19";
+      "language-puppet" = hackage.language-puppet."1.3.19.1";
       "temporary" = hackage.temporary."1.3";
       "optparse-applicative" = hackage.optparse-applicative."0.14.2.0";
       "servant-lucid" = hackage.servant-lucid."0.8.1";
@@ -1961,13 +1961,13 @@ hackage: {
       "haskell-src" = hackage.haskell-src."1.0.3.0";
       "amazonka-cloudwatch-events" = hackage.amazonka-cloudwatch-events."1.6.0";
       "ilist" = hackage.ilist."0.3.1.0";
-      "parallel" = hackage.parallel."3.2.1.1";
+      "parallel" = hackage.parallel."3.2.2.0";
       "errors" = hackage.errors."2.3.0";
       "amazonka-iot" = hackage.amazonka-iot."1.6.0";
       "amazonka-discovery" = hackage.amazonka-discovery."1.6.0";
       "semiring-simple" = hackage.semiring-simple."1.0.0.1";
       "present" = hackage.present."4.1.0";
-      "hOpenPGP" = hackage.hOpenPGP."2.7";
+      "hOpenPGP" = hackage.hOpenPGP."2.7.1";
       "openexr-write" = hackage.openexr-write."0.1.0.1";
       "named" = hackage.named."0.1.0.0";
       "astro" = hackage.astro."0.4.2.1";
@@ -2022,7 +2022,7 @@ hackage: {
       "amazonka-datapipeline" = hackage.amazonka-datapipeline."1.6.0";
       "record-dot-preprocessor" = hackage.record-dot-preprocessor."0.1.1";
       "vector-th-unbox" = hackage.vector-th-unbox."0.2.1.6";
-      "eventstore" = hackage.eventstore."1.1.4";
+      "eventstore" = hackage.eventstore."1.1.5";
       "prelude-extras" = hackage.prelude-extras."0.4.0.3";
       "asn1-encoding" = hackage.asn1-encoding."0.9.5";
       "attoparsec-uri" = hackage.attoparsec-uri."0.0.4";
@@ -2097,7 +2097,7 @@ hackage: {
       "lapack-ffi-tools" = hackage.lapack-ffi-tools."0.1.0.1";
       "sql-words" = hackage.sql-words."0.1.6.2";
       "webdriver" = hackage.webdriver."0.8.5";
-      "finite-typelits" = hackage.finite-typelits."0.1.3.0";
+      "finite-typelits" = hackage.finite-typelits."0.1.4.2";
       "genvalidity" = hackage.genvalidity."0.5.1.0";
       "validity-vector" = hackage.validity-vector."0.2.0.1";
       "bitcoin-script" = hackage.bitcoin-script."0.11.1";
@@ -2105,7 +2105,7 @@ hackage: {
       "format-numbers" = hackage.format-numbers."0.1.0.0";
       "monad-recorder" = hackage.monad-recorder."0.1.1";
       "lca" = hackage.lca."0.3.1";
-      "stratosphere" = hackage.stratosphere."0.24.1";
+      "stratosphere" = hackage.stratosphere."0.24.3";
       "wai-logger" = hackage.wai-logger."2.3.2";
       "chaselev-deque" = hackage.chaselev-deque."0.5.0.5";
       "bbdb" = hackage.bbdb."0.8";
@@ -2174,7 +2174,7 @@ hackage: {
       "microlens" = hackage.microlens."0.4.9.1";
       "type-level-numbers" = hackage.type-level-numbers."0.1.1.1";
       "persistent-sqlite" = hackage.persistent-sqlite."2.8.1.2";
-      "viewprof" = hackage.viewprof."0.0.0.18";
+      "viewprof" = hackage.viewprof."0.0.0.19";
       "cql" = hackage.cql."4.0.1";
       "Glob" = hackage.Glob."0.9.2";
       "envelope" = hackage.envelope."0.2.2.0";
@@ -2199,7 +2199,7 @@ hackage: {
       "messagepack-rpc" = hackage.messagepack-rpc."0.5.1";
       "LambdaHack" = hackage.LambdaHack."0.8.3.0";
       "signal" = hackage.signal."0.1.0.4";
-      "haskell-tools-debug" = hackage.haskell-tools-debug."1.1.0.1";
+      "haskell-tools-debug" = hackage.haskell-tools-debug."1.1.0.2";
       "amazonka-elastictranscoder" = hackage.amazonka-elastictranscoder."1.6.0";
       "ascii-progress" = hackage.ascii-progress."0.3.3.0";
       "zstd" = hackage.zstd."0.1.0.0";
@@ -2216,13 +2216,13 @@ hackage: {
       "discrimination" = hackage.discrimination."0.3";
       "mono-traversable" = hackage.mono-traversable."1.0.8.1";
       "lzma-conduit" = hackage.lzma-conduit."1.2.1";
-      "brick" = hackage.brick."0.37.1";
+      "brick" = hackage.brick."0.37.2";
       "primitive" = hackage.primitive."0.6.3.0";
       "ListLike" = hackage.ListLike."4.6";
       "morte" = hackage.morte."1.6.20";
       "hsyslog-udp" = hackage.hsyslog-udp."0.2.3";
       "bordacount" = hackage.bordacount."0.1.0.0";
-      "http-client-openssl" = hackage.http-client-openssl."0.2.1.1";
+      "http-client-openssl" = hackage.http-client-openssl."0.2.2.0";
       "drifter-postgresql" = hackage.drifter-postgresql."0.2.1";
       "curl-runnings" = hackage.curl-runnings."0.6.0";
       "eliminators" = hackage.eliminators."0.4.1";
@@ -2244,7 +2244,7 @@ hackage: {
       "resolv" = hackage.resolv."0.1.1.1";
       "safe" = hackage.safe."0.3.17";
       "amazonka-devicefarm" = hackage.amazonka-devicefarm."1.6.0";
-      "yaml" = hackage.yaml."0.8.31.1";
+      "yaml" = hackage.yaml."0.8.32";
       "inliterate" = hackage.inliterate."0.1.0";
       "http-media" = hackage.http-media."0.7.1.2";
       "countable" = hackage.countable."1.0";
@@ -2259,7 +2259,7 @@ hackage: {
       "profunctors" = hackage.profunctors."5.2.2";
       "vector" = hackage.vector."0.12.0.1";
       "time-locale-compat" = hackage.time-locale-compat."0.1.1.4";
-      "dejafu" = hackage.dejafu."1.11.0.1";
+      "dejafu" = hackage.dejafu."1.11.0.3";
       "fast-digits" = hackage.fast-digits."0.2.1.0";
       "hmpfr" = hackage.hmpfr."0.4.4";
       "amazonka-cloudwatch" = hackage.amazonka-cloudwatch."1.6.0";
@@ -2272,7 +2272,7 @@ hackage: {
       "identicon" = hackage.identicon."0.2.2";
       "hxt-regex-xmlschema" = hackage.hxt-regex-xmlschema."9.2.0.3";
       "minisat-solver" = hackage.minisat-solver."0.1";
-      "haskell-tools-ast" = hackage.haskell-tools-ast."1.1.0.1";
+      "haskell-tools-ast" = hackage.haskell-tools-ast."1.1.0.2";
       "rng-utils" = hackage.rng-utils."0.3.0";
       "sandi" = hackage.sandi."0.4.2";
       "amazonka-apigateway" = hackage.amazonka-apigateway."1.6.0";
@@ -2301,7 +2301,7 @@ hackage: {
       "data-serializer" = hackage.data-serializer."0.3.4";
       "non-negative" = hackage.non-negative."0.1.2";
       "iso3166-country-codes" = hackage.iso3166-country-codes."0.20140203.8";
-      "lackey" = hackage.lackey."1.0.4";
+      "lackey" = hackage.lackey."1.0.5";
       "text-builder" = hackage.text-builder."0.5.1.1";
       "yesod-csp" = hackage.yesod-csp."0.2.4.0";
       "prettyprinter-ansi-terminal" = hackage.prettyprinter-ansi-terminal."1.1.1.2";
@@ -2315,7 +2315,7 @@ hackage: {
       "hw-hspec-hedgehog" = hackage.hw-hspec-hedgehog."0.1.0.5";
       "tomland" = hackage.tomland."0.3";
       "componentm-devel" = hackage.componentm-devel."0.0.0.2";
-      "yesod-auth" = hackage.yesod-auth."1.6.3";
+      "yesod-auth" = hackage.yesod-auth."1.6.4.1";
       "tasty-ant-xml" = hackage.tasty-ant-xml."1.1.4";
       "ghcid" = hackage.ghcid."0.7";
       "git-vogue" = hackage.git-vogue."0.3.0.2";
@@ -2324,7 +2324,7 @@ hackage: {
       "cryptohash" = hackage.cryptohash."0.11.9";
       "sourcemap" = hackage.sourcemap."0.1.6";
       "riak" = hackage.riak."1.1.2.5";
-      "hw-excess" = hackage.hw-excess."0.2.0.0";
+      "hw-excess" = hackage.hw-excess."0.2.0.2";
       "servant-dhall" = hackage.servant-dhall."0.1.0.1";
     };
     compiler = {
