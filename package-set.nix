@@ -105,21 +105,6 @@ let
 '';
   });
 
-  # fast -- the logic is as follows:
-  #  - test are often broken and we have a curated set
-  #    thus, let us assume we don't need no tests. (also time consuming)
-  #  - haddocks are not used, and sometimes fail.  (also time consuming)
-  #  - The curated set has proper version bounds, so we can just
-  #    exactConfig globally
-  fast = pkgs: drv: with pkgs.haskell.lib;
-               (doExactConfig pkgs
-                (disableSharedLibraries
-                 (disableSharedExecutables
-                  (disableLibraryProfiling
-                   (disableExecutableProfiling
-                    (dontHaddock
-                     (dontCheck drv)))))));
-
   toGenericPackage = stackPkgs: args: name: path:
     if path == null then null else
     let expr = driver { cabalexpr = import path;
@@ -157,7 +142,13 @@ let
 
 in let stackPackages = pkgs: self: 
        (let p = (pkgs.lib.mapAttrs (toGenericPackage self {}) ltsPkgs);
-         in (pkgs.lib.mapAttrs (_: v: if v == null then null else fast pkgs v) p) // (with pkgs.haskell.lib;
+         # for all packages do the `exactConfig` logic. That is, we
+         # *know* that that our package-db contains only a single valid
+         # set of proper packages. So we can sidestep cabals solver.
+         in (pkgs.lib.mapAttrs (_: v: if v == null
+                                      then null
+                                      else doExactConfig pkgs v) p)
+            // (with pkgs.haskell.lib;
             { doctest = null;
               hsc2hs = null;
               buildPackages = pkgs.buildPackages.haskellPackages; }));
