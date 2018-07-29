@@ -108,32 +108,7 @@ let
   toGenericPackage = stackPkgs: args: name: path:
     if path == null then null else
     let expr = driver { cabalexpr = import path;
-             pkgs = pkgs // { haskellPackages = stackPkgs; }
-                  # fetchgit should always come from the buildPackages
-                  # if it comes from the targetPackages we won't even
-                  # be able to execute it.
-                  // { fetchgit = pkgs.buildPackages.fetchgit; }
-                  # haskell lib -> nix lib mapping
-                  // { crypto = pkgs.openssl;
-                       "c++" = null; # no libc++
-                       ssl = pkgs.openssl;
-                       z = pkgs.zlib;
-                       pthread = null; # available by default
-                     }
-                  # -- windows
-                  // { advapi32 = null; gdi32 = null; imm32 = null; msimg32 = null; 
-                       shell32 = null; shfolder = null; shlwapi = null; user32 = null; 
-                       winmm = null;
-                       kernel32 = null; ws2_32 = null;
-
-                       ssl32 = null; eay32 = pkgs.openssl;
-
-                       iphlpapi = null; # IP Help API
-
-                       msvcrt = null; # this is the libc
-
-                       Crypt32 = null;
-                     };
+             pkgs = pkgs // { haskellPackages = stackPkgs; };
              inherit (host-map pkgs.stdenv) os arch;
              version = compiler.ghc.version; };
      # Use `callPackage` from the `compiler` here, to get the
