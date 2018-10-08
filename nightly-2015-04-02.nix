@@ -1,4 +1,5 @@
-hackage: {
+hackage:
+  {
     packages = {
       "shakespeare" = hackage.shakespeare."2.0.4.1";
       "stackage-curator" = hackage.stackage-curator."0.7.1";

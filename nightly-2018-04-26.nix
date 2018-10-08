@@ -1,4 +1,5 @@
-hackage: {
+hackage:
+  {
     packages = {
       "drawille" = hackage.drawille."0.1.2.0";
       "rank2classes" = hackage.rank2classes."1.0.2";

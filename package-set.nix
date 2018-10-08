@@ -7,10 +7,12 @@
 let
 
   # packages that we must never try to reinstal.
+  # nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base"
+  #                          "Win32" "process" "deepseq" "array" "directory" "time" "unix"
+  #                          "filepath" "bytestring" "ghci" "binary" "containers"
+  #                          "template-haskell" "ghc-boot-th" "pretty" ];
   nonReinstallablePkgs = [ "rts" "ghc" "ghc-prim" "integer-gmp" "integer-simple" "base"
-                           "Win32" "process" "deepseq" "array" "directory" "time" "unix"
-                           "filepath" "bytestring" "ghci" "binary" "containers"
-                           "template-haskell" "ghc-boot-th" "pretty" ];
+                           "array" "deepseq" "pretty" "ghc-boot-th" "template-haskell"];
 
   hackagePkgs = with pkgs.lib;
                 let shippedPkgs = filterAttrs (n: _: builtins.elem n nonReinstallablePkgs)
@@ -29,7 +31,6 @@ let
 
   driver = haskell.compat.driver;
   host-map = haskell.compat.host-map;
-
 
   # compiler this lts set is built against.
   compiler = pkgs.haskell.packages.${(lts-def {}).compiler.nix-name};
@@ -115,7 +116,7 @@ let
      # right compiler.
      in compiler.callPackage expr args;
 
-in let stackPackages = pkgs: self: 
+in let stackPackages = pkgs: self:
        (let p = (pkgs.lib.mapAttrs (toGenericPackage self {}) ltsPkgs);
          # for all packages do the `exactConfig` logic. That is, we
          # *know* that that our package-db contains only a single valid

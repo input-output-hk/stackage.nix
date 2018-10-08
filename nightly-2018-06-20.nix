@@ -1,4 +1,5 @@
-hackage: {
+hackage:
+  {
     packages = {
       "drawille" = hackage.drawille."0.1.2.0";
       "validity-scientific" = hackage.validity-scientific."0.2.0.1";

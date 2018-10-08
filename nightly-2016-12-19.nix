@@ -1,4 +1,5 @@
-hackage: {
+hackage:
+  {
     packages = {
       "drawille" = hackage.drawille."0.1.2.0";
       "shakespeare" = hackage.shakespeare."2.0.11.2";

@@ -1,4 +1,5 @@
-hackage: {
+hackage:
+  {
     packages = {
       "shakespeare" = hackage.shakespeare."2.0.2.2";
       "Spock" = hackage.Spock."0.7.6.0";
