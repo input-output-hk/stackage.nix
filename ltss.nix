@@ -1,4 +1,4 @@
-mkPkgsSet: {
+mkPkgSet: {
   "lts-0.0" = mkPkgSet ./lts-0.0.nix;
   "lts-0.1" = mkPkgSet ./lts-0.1.nix;
   "lts-0.2" = mkPkgSet ./lts-0.2.nix;
