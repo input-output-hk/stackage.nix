@@ -60,6 +60,10 @@ mkPkgSet: {
   "lts-12.10" = mkPkgSet ./lts-12.10.nix;
   "lts-12.11" = mkPkgSet ./lts-12.11.nix;
   "lts-12.12" = mkPkgSet ./lts-12.12.nix;
+  "lts-12.13" = mkPkgSet ./lts-12.13.nix;
+  "lts-12.14" = mkPkgSet ./lts-12.14.nix;
+  "lts-12.15" = mkPkgSet ./lts-12.15.nix;
+  "lts-12.16" = mkPkgSet ./lts-12.16.nix;
   "lts-12.2" = mkPkgSet ./lts-12.2.nix;
   "lts-12.3" = mkPkgSet ./lts-12.3.nix;
   "lts-12.4" = mkPkgSet ./lts-12.4.nix;
