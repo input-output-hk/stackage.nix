@@ -16,10 +16,10 @@ do
 done
 wait
 # update nightlies
-echo "mkPkgSet: {" > nightlies.nix;
-for a in nightly-*.nix; do echo "  \"${a%%.nix}\" = mkPkgSet ./$a;" >> nightlies.nix; done;
+echo "{" > nightlies.nix;
+for a in nightly-*.nix; do echo "  \"${a%%.nix}\" = import ./$a;" >> nightlies.nix; done;
 echo "}" >> nightlies.nix
 # update lts
-echo "mkPkgSet: {" > ltss.nix;
-for a in lts-*.nix; do echo "  \"${a%%.nix}\" = mkPkgSet ./$a;" >> ltss.nix; done;
+echo "{" > ltss.nix;
+for a in lts-*.nix; do echo "  \"${a%%.nix}\" = import ./$a;" >> ltss.nix; done;
 echo "}" >> ltss.nix
