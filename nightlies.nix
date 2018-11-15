@@ -1074,4 +1074,14 @@
   "nightly-2018-11-01" = import ./nightly-2018-11-01.nix;
   "nightly-2018-11-02" = import ./nightly-2018-11-02.nix;
   "nightly-2018-11-05" = import ./nightly-2018-11-05.nix;
+  "nightly-2018-11-06" = import ./nightly-2018-11-06.nix;
+  "nightly-2018-11-07" = import ./nightly-2018-11-07.nix;
+  "nightly-2018-11-08" = import ./nightly-2018-11-08.nix;
+  "nightly-2018-11-09" = import ./nightly-2018-11-09.nix;
+  "nightly-2018-11-10" = import ./nightly-2018-11-10.nix;
+  "nightly-2018-11-11" = import ./nightly-2018-11-11.nix;
+  "nightly-2018-11-12" = import ./nightly-2018-11-12.nix;
+  "nightly-2018-11-13" = import ./nightly-2018-11-13.nix;
+  "nightly-2018-11-14" = import ./nightly-2018-11-14.nix;
+  "nightly-2018-11-15" = import ./nightly-2018-11-15.nix;
 }
