@@ -71,6 +71,10 @@
   "lts-12.20" = import ./lts-12.20.nix;
   "lts-12.21" = import ./lts-12.21.nix;
   "lts-12.22" = import ./lts-12.22.nix;
+  "lts-12.23" = import ./lts-12.23.nix;
+  "lts-12.24" = import ./lts-12.24.nix;
+  "lts-12.25" = import ./lts-12.25.nix;
+  "lts-12.26" = import ./lts-12.26.nix;
   "lts-12.3" = import ./lts-12.3.nix;
   "lts-12.4" = import ./lts-12.4.nix;
   "lts-12.5" = import ./lts-12.5.nix;
@@ -78,6 +82,9 @@
   "lts-12.7" = import ./lts-12.7.nix;
   "lts-12.8" = import ./lts-12.8.nix;
   "lts-12.9" = import ./lts-12.9.nix;
+  "lts-13.0" = import ./lts-13.0.nix;
+  "lts-13.1" = import ./lts-13.1.nix;
+  "lts-13.2" = import ./lts-13.2.nix;
   "lts-2.0" = import ./lts-2.0.nix;
   "lts-2.1" = import ./lts-2.1.nix;
   "lts-2.10" = import ./lts-2.10.nix;

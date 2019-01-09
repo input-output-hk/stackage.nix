@@ -1,7 +1,7 @@
 hackage:
   {
     packages = {
-      "groundhog-th".revision = hackage."groundhog-th"."0.7.0".revisions.default;
+      "groundhog-th".revision = (((hackage."groundhog-th")."0.7.0").revisions).default;
       "groundhog-th".flags.test-hlint = false;
       "groundhog-th".flags.splitbase = true;
       "groundhog-th".flags.small_base = true;
@@ -11,7 +11,7 @@ hackage:
       "groundhog-th".flags.old-locale = true;
       "groundhog-th".flags.bytestring-in-base = false;
       "groundhog-th".flags.network-uri = true;
-      "ghc-mtl".revision = hackage."ghc-mtl"."1.2.1.0".revisions.default;
+      "ghc-mtl".revision = (((hackage."ghc-mtl")."1.2.1.0").revisions).default;
       "ghc-mtl".flags.test-hlint = false;
       "ghc-mtl".flags.splitbase = true;
       "ghc-mtl".flags.small_base = true;
@@ -21,7 +21,7 @@ hackage:
       "ghc-mtl".flags.old-locale = true;
       "ghc-mtl".flags.bytestring-in-base = false;
       "ghc-mtl".flags.network-uri = true;
-      "scrobble".revision = hackage."scrobble"."0.2.1.1".revisions.default;
+      "scrobble".revision = (((hackage."scrobble")."0.2.1.1").revisions).default;
       "scrobble".flags.test-hlint = false;
       "scrobble".flags.splitbase = true;
       "scrobble".flags.small_base = true;
@@ -31,7 +31,7 @@ hackage:
       "scrobble".flags.old-locale = true;
       "scrobble".flags.bytestring-in-base = false;
       "scrobble".flags.network-uri = true;
-      "focus".revision = hackage."focus"."0.1.3".revisions.default;
+      "focus".revision = (((hackage."focus")."0.1.3").revisions).default;
       "focus".flags.test-hlint = false;
       "focus".flags.splitbase = true;
       "focus".flags.small_base = true;
@@ -41,7 +41,7 @@ hackage:
       "focus".flags.old-locale = true;
       "focus".flags.bytestring-in-base = false;
       "focus".flags.network-uri = true;
-      "http-reverse-proxy".revision = hackage."http-reverse-proxy"."0.4.1.2".revisions.default;
+      "http-reverse-proxy".revision = (((hackage."http-reverse-proxy")."0.4.1.2").revisions).default;
       "http-reverse-proxy".flags.test-hlint = false;
       "http-reverse-proxy".flags.splitbase = true;
       "http-reverse-proxy".flags.small_base = true;
@@ -51,7 +51,7 @@ hackage:
       "http-reverse-proxy".flags.old-locale = true;
       "http-reverse-proxy".flags.bytestring-in-base = false;
       "http-reverse-proxy".flags.network-uri = true;
-      "bzlib-conduit".revision = hackage."bzlib-conduit"."0.2.1.3".revisions.default;
+      "bzlib-conduit".revision = (((hackage."bzlib-conduit")."0.2.1.3").revisions).default;
       "bzlib-conduit".flags.test-hlint = false;
       "bzlib-conduit".flags.splitbase = true;
       "bzlib-conduit".flags.small_base = true;
@@ -61,7 +61,7 @@ hackage:
       "bzlib-conduit".flags.old-locale = true;
       "bzlib-conduit".flags.bytestring-in-base = false;
       "bzlib-conduit".flags.network-uri = true;
-      "rematch".revision = hackage."rematch"."0.2.0.0".revisions.default;
+      "rematch".revision = (((hackage."rematch")."0.2.0.0").revisions).default;
       "rematch".flags.test-hlint = false;
       "rematch".flags.splitbase = true;
       "rematch".flags.small_base = true;
@@ -71,7 +71,7 @@ hackage:
       "rematch".flags.old-locale = true;
       "rematch".flags.bytestring-in-base = false;
       "rematch".flags.network-uri = true;
-      "newtype".revision = hackage."newtype"."0.2".revisions.default;
+      "newtype".revision = (((hackage."newtype")."0.2").revisions).default;
       "newtype".flags.test-hlint = false;
       "newtype".flags.splitbase = true;
       "newtype".flags.small_base = true;
@@ -81,7 +81,7 @@ hackage:
       "newtype".flags.old-locale = true;
       "newtype".flags.bytestring-in-base = false;
       "newtype".flags.network-uri = true;
-      "warp".revision = hackage."warp"."3.0.5.1".revisions.default;
+      "warp".revision = (((hackage."warp")."3.0.5.1").revisions).default;
       "warp".flags.test-hlint = false;
       "warp".flags.splitbase = true;
       "warp".flags.small_base = true;
@@ -91,7 +91,7 @@ hackage:
       "warp".flags.old-locale = true;
       "warp".flags.bytestring-in-base = false;
       "warp".flags.network-uri = true;
-      "groups".revision = hackage."groups"."0.4.0.0".revisions.default;
+      "groups".revision = (((hackage."groups")."0.4.0.0").revisions).default;
       "groups".flags.test-hlint = false;
       "groups".flags.splitbase = true;
       "groups".flags.small_base = true;
@@ -101,7 +101,7 @@ hackage:
       "groups".flags.old-locale = true;
       "groups".flags.bytestring-in-base = false;
       "groups".flags.network-uri = true;
-      "data-reify".revision = hackage."data-reify"."0.6".revisions.default;
+      "data-reify".revision = (((hackage."data-reify")."0.6").revisions).default;
       "data-reify".flags.test-hlint = false;
       "data-reify".flags.splitbase = true;
       "data-reify".flags.small_base = true;
@@ -111,7 +111,7 @@ hackage:
       "data-reify".flags.old-locale = true;
       "data-reify".flags.bytestring-in-base = false;
       "data-reify".flags.network-uri = true;
-      "test-framework-hunit".revision = hackage."test-framework-hunit"."0.3.0.1".revisions.default;
+      "test-framework-hunit".revision = (((hackage."test-framework-hunit")."0.3.0.1").revisions).default;
       "test-framework-hunit".flags.test-hlint = false;
       "test-framework-hunit".flags.splitbase = true;
       "test-framework-hunit".flags.small_base = true;
@@ -121,7 +121,7 @@ hackage:
       "test-framework-hunit".flags.old-locale = true;
       "test-framework-hunit".flags.bytestring-in-base = false;
       "test-framework-hunit".flags.network-uri = true;
-      "http-client".revision = hackage."http-client"."0.4.6.2".revisions.default;
+      "http-client".revision = (((hackage."http-client")."0.4.6.2").revisions).default;
       "http-client".flags.test-hlint = false;
       "http-client".flags.splitbase = true;
       "http-client".flags.small_base = true;
@@ -131,7 +131,7 @@ hackage:
       "http-client".flags.old-locale = true;
       "http-client".flags.bytestring-in-base = false;
       "http-client".flags.network-uri = true;
-      "wai-conduit".revision = hackage."wai-conduit"."3.0.0.2".revisions.default;
+      "wai-conduit".revision = (((hackage."wai-conduit")."3.0.0.2").revisions).default;
       "wai-conduit".flags.test-hlint = false;
       "wai-conduit".flags.splitbase = true;
       "wai-conduit".flags.small_base = true;
@@ -141,7 +141,7 @@ hackage:
       "wai-conduit".flags.old-locale = true;
       "wai-conduit".flags.bytestring-in-base = false;
       "wai-conduit".flags.network-uri = true;
-      "diagrams-lib".revision = hackage."diagrams-lib"."1.2.0.7".revisions.default;
+      "diagrams-lib".revision = (((hackage."diagrams-lib")."1.2.0.7").revisions).default;
       "diagrams-lib".flags.test-hlint = false;
       "diagrams-lib".flags.splitbase = true;
       "diagrams-lib".flags.small_base = true;
@@ -151,7 +151,7 @@ hackage:
       "diagrams-lib".flags.old-locale = true;
       "diagrams-lib".flags.bytestring-in-base = false;
       "diagrams-lib".flags.network-uri = true;
-      "haddock-library".revision = hackage."haddock-library"."1.1.1".revisions.default;
+      "haddock-library".revision = (((hackage."haddock-library")."1.1.1").revisions).default;
       "haddock-library".flags.test-hlint = false;
       "haddock-library".flags.splitbase = true;
       "haddock-library".flags.small_base = true;
@@ -161,7 +161,7 @@ hackage:
       "haddock-library".flags.old-locale = true;
       "haddock-library".flags.bytestring-in-base = false;
       "haddock-library".flags.network-uri = true;
-      "libnotify".revision = hackage."libnotify"."0.1.1.0".revisions.default;
+      "libnotify".revision = (((hackage."libnotify")."0.1.1.0").revisions).default;
       "libnotify".flags.test-hlint = false;
       "libnotify".flags.splitbase = true;
       "libnotify".flags.small_base = true;
@@ -171,7 +171,7 @@ hackage:
       "libnotify".flags.old-locale = true;
       "libnotify".flags.bytestring-in-base = false;
       "libnotify".flags.network-uri = true;
-      "foreign-store".revision = hackage."foreign-store"."0.1".revisions.default;
+      "foreign-store".revision = (((hackage."foreign-store")."0.1").revisions).default;
       "foreign-store".flags.test-hlint = false;
       "foreign-store".flags.splitbase = true;
       "foreign-store".flags.small_base = true;
@@ -181,8 +181,8 @@ hackage:
       "foreign-store".flags.old-locale = true;
       "foreign-store".flags.bytestring-in-base = false;
       "foreign-store".flags.network-uri = true;
-      "hoopl".revision = hackage."hoopl"."3.10.0.1".revisions.default;
-      "wai-websockets".revision = hackage."wai-websockets"."3.0.0.3".revisions.default;
+      "hoopl".revision = (((hackage."hoopl")."3.10.0.1").revisions).default;
+      "wai-websockets".revision = (((hackage."wai-websockets")."3.0.0.3").revisions).default;
       "wai-websockets".flags.test-hlint = false;
       "wai-websockets".flags.splitbase = true;
       "wai-websockets".flags.small_base = true;
@@ -192,7 +192,7 @@ hackage:
       "wai-websockets".flags.old-locale = true;
       "wai-websockets".flags.bytestring-in-base = false;
       "wai-websockets".flags.network-uri = true;
-      "bits".revision = hackage."bits"."0.4".revisions.default;
+      "bits".revision = (((hackage."bits")."0.4").revisions).default;
       "bits".flags.test-hlint = false;
       "bits".flags.splitbase = true;
       "bits".flags.small_base = true;
@@ -202,7 +202,7 @@ hackage:
       "bits".flags.old-locale = true;
       "bits".flags.bytestring-in-base = false;
       "bits".flags.network-uri = true;
-      "cookie".revision = hackage."cookie"."0.4.1.4".revisions.default;
+      "cookie".revision = (((hackage."cookie")."0.4.1.4").revisions).default;
       "cookie".flags.test-hlint = false;
       "cookie".flags.splitbase = true;
       "cookie".flags.small_base = true;
@@ -212,7 +212,7 @@ hackage:
       "cookie".flags.old-locale = true;
       "cookie".flags.bytestring-in-base = false;
       "cookie".flags.network-uri = true;
-      "void".revision = hackage."void"."0.7".revisions.default;
+      "void".revision = (((hackage."void")."0.7").revisions).default;
       "void".flags.test-hlint = false;
       "void".flags.splitbase = true;
       "void".flags.small_base = true;
@@ -222,7 +222,7 @@ hackage:
       "void".flags.old-locale = true;
       "void".flags.bytestring-in-base = false;
       "void".flags.network-uri = true;
-      "time-lens".revision = hackage."time-lens"."0.4.0.1".revisions.default;
+      "time-lens".revision = (((hackage."time-lens")."0.4.0.1").revisions).default;
       "time-lens".flags.test-hlint = false;
       "time-lens".flags.splitbase = true;
       "time-lens".flags.small_base = true;
@@ -232,7 +232,7 @@ hackage:
       "time-lens".flags.old-locale = true;
       "time-lens".flags.bytestring-in-base = false;
       "time-lens".flags.network-uri = true;
-      "hdevtools".revision = hackage."hdevtools"."0.1.0.6".revisions.default;
+      "hdevtools".revision = (((hackage."hdevtools")."0.1.0.6").revisions).default;
       "hdevtools".flags.test-hlint = false;
       "hdevtools".flags.splitbase = true;
       "hdevtools".flags.small_base = true;
@@ -242,7 +242,7 @@ hackage:
       "hdevtools".flags.old-locale = true;
       "hdevtools".flags.bytestring-in-base = false;
       "hdevtools".flags.network-uri = true;
-      "rest-client".revision = hackage."rest-client"."0.4.0.3".revisions.default;
+      "rest-client".revision = (((hackage."rest-client")."0.4.0.3").revisions).default;
       "rest-client".flags.test-hlint = false;
       "rest-client".flags.splitbase = true;
       "rest-client".flags.small_base = true;
@@ -252,7 +252,7 @@ hackage:
       "rest-client".flags.old-locale = true;
       "rest-client".flags.bytestring-in-base = false;
       "rest-client".flags.network-uri = true;
-      "semigroupoids".revision = hackage."semigroupoids"."4.2".revisions.default;
+      "semigroupoids".revision = (((hackage."semigroupoids")."4.2").revisions).default;
       "semigroupoids".flags.test-hlint = false;
       "semigroupoids".flags.splitbase = true;
       "semigroupoids".flags.small_base = true;
@@ -262,7 +262,7 @@ hackage:
       "semigroupoids".flags.old-locale = true;
       "semigroupoids".flags.bytestring-in-base = false;
       "semigroupoids".flags.network-uri = true;
-      "byteorder".revision = hackage."byteorder"."1.0.4".revisions.default;
+      "byteorder".revision = (((hackage."byteorder")."1.0.4").revisions).default;
       "byteorder".flags.test-hlint = false;
       "byteorder".flags.splitbase = true;
       "byteorder".flags.small_base = true;
@@ -272,7 +272,7 @@ hackage:
       "byteorder".flags.old-locale = true;
       "byteorder".flags.bytestring-in-base = false;
       "byteorder".flags.network-uri = true;
-      "conduit-combinators".revision = hackage."conduit-combinators"."0.3.0.5".revisions.default;
+      "conduit-combinators".revision = (((hackage."conduit-combinators")."0.3.0.5").revisions).default;
       "conduit-combinators".flags.test-hlint = false;
       "conduit-combinators".flags.splitbase = true;
       "conduit-combinators".flags.small_base = true;
@@ -282,7 +282,7 @@ hackage:
       "conduit-combinators".flags.old-locale = true;
       "conduit-combinators".flags.bytestring-in-base = false;
       "conduit-combinators".flags.network-uri = true;
-      "free".revision = hackage."free"."4.10.0.1".revisions.default;
+      "free".revision = (((hackage."free")."4.10.0.1").revisions).default;
       "free".flags.test-hlint = false;
       "free".flags.splitbase = true;
       "free".flags.small_base = true;
@@ -292,7 +292,7 @@ hackage:
       "free".flags.old-locale = true;
       "free".flags.bytestring-in-base = false;
       "free".flags.network-uri = true;
-      "tf-random".revision = hackage."tf-random"."0.5".revisions.default;
+      "tf-random".revision = (((hackage."tf-random")."0.5").revisions).default;
       "tf-random".flags.test-hlint = false;
       "tf-random".flags.splitbase = true;
       "tf-random".flags.small_base = true;
@@ -302,7 +302,7 @@ hackage:
       "tf-random".flags.old-locale = true;
       "tf-random".flags.bytestring-in-base = false;
       "tf-random".flags.network-uri = true;
-      "zip-archive".revision = hackage."zip-archive"."0.2.3.5".revisions.default;
+      "zip-archive".revision = (((hackage."zip-archive")."0.2.3.5").revisions).default;
       "zip-archive".flags.test-hlint = false;
       "zip-archive".flags.splitbase = true;
       "zip-archive".flags.small_base = true;
@@ -312,7 +312,7 @@ hackage:
       "zip-archive".flags.old-locale = true;
       "zip-archive".flags.bytestring-in-base = false;
       "zip-archive".flags.network-uri = true;
-      "Chart".revision = hackage."Chart"."1.3.2".revisions.default;
+      "Chart".revision = (((hackage."Chart")."1.3.2").revisions).default;
       "Chart".flags.test-hlint = false;
       "Chart".flags.splitbase = true;
       "Chart".flags.small_base = true;
@@ -322,7 +322,7 @@ hackage:
       "Chart".flags.old-locale = true;
       "Chart".flags.bytestring-in-base = false;
       "Chart".flags.network-uri = true;
-      "traverse-with-class".revision = hackage."traverse-with-class"."0.2.0.3".revisions.default;
+      "traverse-with-class".revision = (((hackage."traverse-with-class")."0.2.0.3").revisions).default;
       "traverse-with-class".flags.test-hlint = false;
       "traverse-with-class".flags.splitbase = true;
       "traverse-with-class".flags.small_base = true;
@@ -332,8 +332,8 @@ hackage:
       "traverse-with-class".flags.old-locale = true;
       "traverse-with-class".flags.bytestring-in-base = false;
       "traverse-with-class".flags.network-uri = true;
-      "ghc".revision = hackage."ghc"."7.8.4".revisions.default;
-      "json-schema".revision = hackage."json-schema"."0.7.3.0".revisions.default;
+      "ghc".revision = (((hackage."ghc")."7.8.4").revisions).default;
+      "json-schema".revision = (((hackage."json-schema")."0.7.3.0").revisions).default;
       "json-schema".flags.test-hlint = false;
       "json-schema".flags.splitbase = true;
       "json-schema".flags.small_base = true;
@@ -343,7 +343,7 @@ hackage:
       "json-schema".flags.old-locale = true;
       "json-schema".flags.bytestring-in-base = false;
       "json-schema".flags.network-uri = true;
-      "openpgp-asciiarmor".revision = hackage."openpgp-asciiarmor"."0.1".revisions.default;
+      "openpgp-asciiarmor".revision = (((hackage."openpgp-asciiarmor")."0.1").revisions).default;
       "openpgp-asciiarmor".flags.test-hlint = false;
       "openpgp-asciiarmor".flags.splitbase = true;
       "openpgp-asciiarmor".flags.small_base = true;
@@ -353,7 +353,7 @@ hackage:
       "openpgp-asciiarmor".flags.old-locale = true;
       "openpgp-asciiarmor".flags.bytestring-in-base = false;
       "openpgp-asciiarmor".flags.network-uri = true;
-      "rest-stringmap".revision = hackage."rest-stringmap"."0.2.0.3".revisions.default;
+      "rest-stringmap".revision = (((hackage."rest-stringmap")."0.2.0.3").revisions).default;
       "rest-stringmap".flags.test-hlint = false;
       "rest-stringmap".flags.splitbase = true;
       "rest-stringmap".flags.small_base = true;
@@ -363,7 +363,7 @@ hackage:
       "rest-stringmap".flags.old-locale = true;
       "rest-stringmap".flags.bytestring-in-base = false;
       "rest-stringmap".flags.network-uri = true;
-      "shakespeare-text".revision = hackage."shakespeare-text"."1.1.0".revisions.default;
+      "shakespeare-text".revision = (((hackage."shakespeare-text")."1.1.0").revisions).default;
       "shakespeare-text".flags.test-hlint = false;
       "shakespeare-text".flags.splitbase = true;
       "shakespeare-text".flags.small_base = true;
@@ -373,7 +373,7 @@ hackage:
       "shakespeare-text".flags.old-locale = true;
       "shakespeare-text".flags.bytestring-in-base = false;
       "shakespeare-text".flags.network-uri = true;
-      "cereal".revision = hackage."cereal"."0.4.1.1".revisions.default;
+      "cereal".revision = (((hackage."cereal")."0.4.1.1").revisions).default;
       "cereal".flags.test-hlint = false;
       "cereal".flags.splitbase = true;
       "cereal".flags.small_base = true;
@@ -383,7 +383,7 @@ hackage:
       "cereal".flags.old-locale = true;
       "cereal".flags.bytestring-in-base = false;
       "cereal".flags.network-uri = true;
-      "xenstore".revision = hackage."xenstore"."0.1.1".revisions.default;
+      "xenstore".revision = (((hackage."xenstore")."0.1.1").revisions).default;
       "xenstore".flags.test-hlint = false;
       "xenstore".flags.splitbase = true;
       "xenstore".flags.small_base = true;
@@ -393,7 +393,7 @@ hackage:
       "xenstore".flags.old-locale = true;
       "xenstore".flags.bytestring-in-base = false;
       "xenstore".flags.network-uri = true;
-      "Spock".revision = hackage."Spock"."0.7.6.0".revisions.default;
+      "Spock".revision = (((hackage."Spock")."0.7.6.0").revisions).default;
       "Spock".flags.test-hlint = false;
       "Spock".flags.splitbase = true;
       "Spock".flags.small_base = true;
@@ -403,7 +403,7 @@ hackage:
       "Spock".flags.old-locale = true;
       "Spock".flags.bytestring-in-base = false;
       "Spock".flags.network-uri = true;
-      "diagrams-postscript".revision = hackage."diagrams-postscript"."1.1.0.3".revisions.default;
+      "diagrams-postscript".revision = (((hackage."diagrams-postscript")."1.1.0.3").revisions).default;
       "diagrams-postscript".flags.test-hlint = false;
       "diagrams-postscript".flags.splitbase = true;
       "diagrams-postscript".flags.small_base = true;
@@ -413,7 +413,7 @@ hackage:
       "diagrams-postscript".flags.old-locale = true;
       "diagrams-postscript".flags.bytestring-in-base = false;
       "diagrams-postscript".flags.network-uri = true;
-      "exceptions".revision = hackage."exceptions"."0.6.1".revisions.default;
+      "exceptions".revision = (((hackage."exceptions")."0.6.1").revisions).default;
       "exceptions".flags.test-hlint = false;
       "exceptions".flags.splitbase = true;
       "exceptions".flags.small_base = true;
@@ -423,7 +423,7 @@ hackage:
       "exceptions".flags.old-locale = true;
       "exceptions".flags.bytestring-in-base = false;
       "exceptions".flags.network-uri = true;
-      "shakespeare".revision = hackage."shakespeare"."2.0.2.2".revisions.default;
+      "shakespeare".revision = (((hackage."shakespeare")."2.0.2.2").revisions).default;
       "shakespeare".flags.test-hlint = false;
       "shakespeare".flags.splitbase = true;
       "shakespeare".flags.small_base = true;
@@ -433,7 +433,7 @@ hackage:
       "shakespeare".flags.old-locale = true;
       "shakespeare".flags.bytestring-in-base = false;
       "shakespeare".flags.network-uri = true;
-      "snap".revision = hackage."snap"."0.13.3.2".revisions.default;
+      "snap".revision = (((hackage."snap")."0.13.3.2").revisions).default;
       "snap".flags.test-hlint = false;
       "snap".flags.splitbase = true;
       "snap".flags.small_base = true;
@@ -443,7 +443,7 @@ hackage:
       "snap".flags.old-locale = true;
       "snap".flags.bytestring-in-base = false;
       "snap".flags.network-uri = true;
-      "sphinx".revision = hackage."sphinx"."0.6.0.1".revisions.default;
+      "sphinx".revision = (((hackage."sphinx")."0.6.0.1").revisions).default;
       "sphinx".flags.test-hlint = false;
       "sphinx".flags.splitbase = true;
       "sphinx".flags.small_base = true;
@@ -453,7 +453,7 @@ hackage:
       "sphinx".flags.old-locale = true;
       "sphinx".flags.bytestring-in-base = false;
       "sphinx".flags.network-uri = true;
-      "YampaSynth".revision = hackage."YampaSynth"."0.2".revisions.default;
+      "YampaSynth".revision = (((hackage."YampaSynth")."0.2").revisions).default;
       "YampaSynth".flags.test-hlint = false;
       "YampaSynth".flags.splitbase = true;
       "YampaSynth".flags.small_base = true;
@@ -463,7 +463,7 @@ hackage:
       "YampaSynth".flags.old-locale = true;
       "YampaSynth".flags.bytestring-in-base = false;
       "YampaSynth".flags.network-uri = true;
-      "NumInstances".revision = hackage."NumInstances"."1.4".revisions.default;
+      "NumInstances".revision = (((hackage."NumInstances")."1.4").revisions).default;
       "NumInstances".flags.test-hlint = false;
       "NumInstances".flags.splitbase = true;
       "NumInstances".flags.small_base = true;
@@ -473,7 +473,7 @@ hackage:
       "NumInstances".flags.old-locale = true;
       "NumInstances".flags.bytestring-in-base = false;
       "NumInstances".flags.network-uri = true;
-      "yesod-auth-deskcom".revision = hackage."yesod-auth-deskcom"."1.4.0".revisions.default;
+      "yesod-auth-deskcom".revision = (((hackage."yesod-auth-deskcom")."1.4.0").revisions).default;
       "yesod-auth-deskcom".flags.test-hlint = false;
       "yesod-auth-deskcom".flags.splitbase = true;
       "yesod-auth-deskcom".flags.small_base = true;
@@ -483,7 +483,7 @@ hackage:
       "yesod-auth-deskcom".flags.old-locale = true;
       "yesod-auth-deskcom".flags.bytestring-in-base = false;
       "yesod-auth-deskcom".flags.network-uri = true;
-      "Yampa".revision = hackage."Yampa"."0.9.6".revisions.default;
+      "Yampa".revision = (((hackage."Yampa")."0.9.6").revisions).default;
       "Yampa".flags.test-hlint = false;
       "Yampa".flags.splitbase = true;
       "Yampa".flags.small_base = true;
@@ -493,7 +493,7 @@ hackage:
       "Yampa".flags.old-locale = true;
       "Yampa".flags.bytestring-in-base = false;
       "Yampa".flags.network-uri = true;
-      "git-embed".revision = hackage."git-embed"."0.1.0".revisions.default;
+      "git-embed".revision = (((hackage."git-embed")."0.1.0").revisions).default;
       "git-embed".flags.test-hlint = false;
       "git-embed".flags.splitbase = true;
       "git-embed".flags.small_base = true;
@@ -503,7 +503,7 @@ hackage:
       "git-embed".flags.old-locale = true;
       "git-embed".flags.bytestring-in-base = false;
       "git-embed".flags.network-uri = true;
-      "hashable-extras".revision = hackage."hashable-extras"."0.2.0.1".revisions.default;
+      "hashable-extras".revision = (((hackage."hashable-extras")."0.2.0.1").revisions).default;
       "hashable-extras".flags.test-hlint = false;
       "hashable-extras".flags.splitbase = true;
       "hashable-extras".flags.small_base = true;
@@ -513,7 +513,7 @@ hackage:
       "hashable-extras".flags.old-locale = true;
       "hashable-extras".flags.bytestring-in-base = false;
       "hashable-extras".flags.network-uri = true;
-      "yesod-bin".revision = hackage."yesod-bin"."1.4.3.3".revisions.default;
+      "yesod-bin".revision = (((hackage."yesod-bin")."1.4.3.3").revisions).default;
       "yesod-bin".flags.test-hlint = false;
       "yesod-bin".flags.splitbase = true;
       "yesod-bin".flags.small_base = true;
@@ -523,7 +523,7 @@ hackage:
       "yesod-bin".flags.old-locale = true;
       "yesod-bin".flags.bytestring-in-base = false;
       "yesod-bin".flags.network-uri = true;
-      "eq".revision = hackage."eq"."4.0.3".revisions.default;
+      "eq".revision = (((hackage."eq")."4.0.3").revisions).default;
       "eq".flags.test-hlint = false;
       "eq".flags.splitbase = true;
       "eq".flags.small_base = true;
@@ -533,7 +533,7 @@ hackage:
       "eq".flags.old-locale = true;
       "eq".flags.bytestring-in-base = false;
       "eq".flags.network-uri = true;
-      "diagrams-contrib".revision = hackage."diagrams-contrib"."1.1.2.4".revisions.default;
+      "diagrams-contrib".revision = (((hackage."diagrams-contrib")."1.1.2.4").revisions).default;
       "diagrams-contrib".flags.test-hlint = false;
       "diagrams-contrib".flags.splitbase = true;
       "diagrams-contrib".flags.small_base = true;
@@ -543,7 +543,7 @@ hackage:
       "diagrams-contrib".flags.old-locale = true;
       "diagrams-contrib".flags.bytestring-in-base = false;
       "diagrams-contrib".flags.network-uri = true;
-      "shake".revision = hackage."shake"."0.14.3".revisions.default;
+      "shake".revision = (((hackage."shake")."0.14.3").revisions).default;
       "shake".flags.test-hlint = false;
       "shake".flags.splitbase = true;
       "shake".flags.small_base = true;
@@ -553,7 +553,7 @@ hackage:
       "shake".flags.old-locale = true;
       "shake".flags.bytestring-in-base = false;
       "shake".flags.network-uri = true;
-      "MissingH".revision = hackage."MissingH"."1.3.0.1".revisions.default;
+      "MissingH".revision = (((hackage."MissingH")."1.3.0.1").revisions).default;
       "MissingH".flags.test-hlint = false;
       "MissingH".flags.splitbase = true;
       "MissingH".flags.small_base = true;
@@ -563,7 +563,7 @@ hackage:
       "MissingH".flags.old-locale = true;
       "MissingH".flags.bytestring-in-base = false;
       "MissingH".flags.network-uri = true;
-      "storable-endian".revision = hackage."storable-endian"."0.2.5".revisions.default;
+      "storable-endian".revision = (((hackage."storable-endian")."0.2.5").revisions).default;
       "storable-endian".flags.test-hlint = false;
       "storable-endian".flags.splitbase = true;
       "storable-endian".flags.small_base = true;
@@ -573,7 +573,7 @@ hackage:
       "storable-endian".flags.old-locale = true;
       "storable-endian".flags.bytestring-in-base = false;
       "storable-endian".flags.network-uri = true;
-      "seqloc".revision = hackage."seqloc"."0.6.1".revisions.default;
+      "seqloc".revision = (((hackage."seqloc")."0.6.1").revisions).default;
       "seqloc".flags.test-hlint = false;
       "seqloc".flags.splitbase = true;
       "seqloc".flags.small_base = true;
@@ -583,7 +583,7 @@ hackage:
       "seqloc".flags.old-locale = true;
       "seqloc".flags.bytestring-in-base = false;
       "seqloc".flags.network-uri = true;
-      "hashtables".revision = hackage."hashtables"."1.2.0.2".revisions.default;
+      "hashtables".revision = (((hackage."hashtables")."1.2.0.2").revisions).default;
       "hashtables".flags.test-hlint = false;
       "hashtables".flags.splitbase = true;
       "hashtables".flags.small_base = true;
@@ -593,7 +593,7 @@ hackage:
       "hashtables".flags.old-locale = true;
       "hashtables".flags.bytestring-in-base = false;
       "hashtables".flags.network-uri = true;
-      "ghc-paths".revision = hackage."ghc-paths"."0.1.0.9".revisions.default;
+      "ghc-paths".revision = (((hackage."ghc-paths")."0.1.0.9").revisions).default;
       "ghc-paths".flags.test-hlint = false;
       "ghc-paths".flags.splitbase = true;
       "ghc-paths".flags.small_base = true;
@@ -603,7 +603,7 @@ hackage:
       "ghc-paths".flags.old-locale = true;
       "ghc-paths".flags.bytestring-in-base = false;
       "ghc-paths".flags.network-uri = true;
-      "graphs".revision = hackage."graphs"."0.5.0.1".revisions.default;
+      "graphs".revision = (((hackage."graphs")."0.5.0.1").revisions).default;
       "graphs".flags.test-hlint = false;
       "graphs".flags.splitbase = true;
       "graphs".flags.small_base = true;
@@ -613,8 +613,8 @@ hackage:
       "graphs".flags.old-locale = true;
       "graphs".flags.bytestring-in-base = false;
       "graphs".flags.network-uri = true;
-      "binary".revision = hackage."binary"."0.7.1.0".revisions.default;
-      "hweblib".revision = hackage."hweblib"."0.6.3".revisions.default;
+      "binary".revision = (((hackage."binary")."0.7.1.0").revisions).default;
+      "hweblib".revision = (((hackage."hweblib")."0.6.3").revisions).default;
       "hweblib".flags.test-hlint = false;
       "hweblib".flags.splitbase = true;
       "hweblib".flags.small_base = true;
@@ -624,7 +624,7 @@ hackage:
       "hweblib".flags.old-locale = true;
       "hweblib".flags.bytestring-in-base = false;
       "hweblib".flags.network-uri = true;
-      "monad-parallel".revision = hackage."monad-parallel"."0.7.1.3".revisions.default;
+      "monad-parallel".revision = (((hackage."monad-parallel")."0.7.1.3").revisions).default;
       "monad-parallel".flags.test-hlint = false;
       "monad-parallel".flags.splitbase = true;
       "monad-parallel".flags.small_base = true;
@@ -634,7 +634,7 @@ hackage:
       "monad-parallel".flags.old-locale = true;
       "monad-parallel".flags.bytestring-in-base = false;
       "monad-parallel".flags.network-uri = true;
-      "cipher-aes".revision = hackage."cipher-aes"."0.2.10".revisions.default;
+      "cipher-aes".revision = (((hackage."cipher-aes")."0.2.10").revisions).default;
       "cipher-aes".flags.test-hlint = false;
       "cipher-aes".flags.splitbase = true;
       "cipher-aes".flags.small_base = true;
@@ -644,7 +644,7 @@ hackage:
       "cipher-aes".flags.old-locale = true;
       "cipher-aes".flags.bytestring-in-base = false;
       "cipher-aes".flags.network-uri = true;
-      "fpco-api".revision = hackage."fpco-api"."1.2.0.4".revisions.default;
+      "fpco-api".revision = (((hackage."fpco-api")."1.2.0.4").revisions).default;
       "fpco-api".flags.test-hlint = false;
       "fpco-api".flags.splitbase = true;
       "fpco-api".flags.small_base = true;
@@ -654,7 +654,7 @@ hackage:
       "fpco-api".flags.old-locale = true;
       "fpco-api".flags.bytestring-in-base = false;
       "fpco-api".flags.network-uri = true;
-      "nsis".revision = hackage."nsis"."0.2.4".revisions.default;
+      "nsis".revision = (((hackage."nsis")."0.2.4").revisions).default;
       "nsis".flags.test-hlint = false;
       "nsis".flags.splitbase = true;
       "nsis".flags.small_base = true;
@@ -664,7 +664,7 @@ hackage:
       "nsis".flags.old-locale = true;
       "nsis".flags.bytestring-in-base = false;
       "nsis".flags.network-uri = true;
-      "chunked-data".revision = hackage."chunked-data"."0.1.0.1".revisions.default;
+      "chunked-data".revision = (((hackage."chunked-data")."0.1.0.1").revisions).default;
       "chunked-data".flags.test-hlint = false;
       "chunked-data".flags.splitbase = true;
       "chunked-data".flags.small_base = true;
@@ -674,7 +674,7 @@ hackage:
       "chunked-data".flags.old-locale = true;
       "chunked-data".flags.bytestring-in-base = false;
       "chunked-data".flags.network-uri = true;
-      "rvar".revision = hackage."rvar"."0.2.0.2".revisions.default;
+      "rvar".revision = (((hackage."rvar")."0.2.0.2").revisions).default;
       "rvar".flags.test-hlint = false;
       "rvar".flags.splitbase = true;
       "rvar".flags.small_base = true;
@@ -684,7 +684,7 @@ hackage:
       "rvar".flags.old-locale = true;
       "rvar".flags.bytestring-in-base = false;
       "rvar".flags.network-uri = true;
-      "wl-pprint-text".revision = hackage."wl-pprint-text"."1.1.0.3".revisions.default;
+      "wl-pprint-text".revision = (((hackage."wl-pprint-text")."1.1.0.3").revisions).default;
       "wl-pprint-text".flags.test-hlint = false;
       "wl-pprint-text".flags.splitbase = true;
       "wl-pprint-text".flags.small_base = true;
@@ -694,7 +694,7 @@ hackage:
       "wl-pprint-text".flags.old-locale = true;
       "wl-pprint-text".flags.bytestring-in-base = false;
       "wl-pprint-text".flags.network-uri = true;
-      "accelerate".revision = hackage."accelerate"."0.15.0.0".revisions.default;
+      "accelerate".revision = (((hackage."accelerate")."0.15.0.0").revisions).default;
       "accelerate".flags.test-hlint = false;
       "accelerate".flags.splitbase = true;
       "accelerate".flags.small_base = true;
@@ -704,7 +704,7 @@ hackage:
       "accelerate".flags.old-locale = true;
       "accelerate".flags.bytestring-in-base = false;
       "accelerate".flags.network-uri = true;
-      "pool-conduit".revision = hackage."pool-conduit"."0.1.2.3".revisions.default;
+      "pool-conduit".revision = (((hackage."pool-conduit")."0.1.2.3").revisions).default;
       "pool-conduit".flags.test-hlint = false;
       "pool-conduit".flags.splitbase = true;
       "pool-conduit".flags.small_base = true;
@@ -714,7 +714,7 @@ hackage:
       "pool-conduit".flags.old-locale = true;
       "pool-conduit".flags.bytestring-in-base = false;
       "pool-conduit".flags.network-uri = true;
-      "testpack".revision = hackage."testpack"."2.1.3.0".revisions.default;
+      "testpack".revision = (((hackage."testpack")."2.1.3.0").revisions).default;
       "testpack".flags.test-hlint = false;
       "testpack".flags.splitbase = true;
       "testpack".flags.small_base = true;
@@ -724,7 +724,7 @@ hackage:
       "testpack".flags.old-locale = true;
       "testpack".flags.bytestring-in-base = false;
       "testpack".flags.network-uri = true;
-      "regexpr".revision = hackage."regexpr"."0.5.4".revisions.default;
+      "regexpr".revision = (((hackage."regexpr")."0.5.4").revisions).default;
       "regexpr".flags.test-hlint = false;
       "regexpr".flags.splitbase = true;
       "regexpr".flags.small_base = true;
@@ -734,7 +734,7 @@ hackage:
       "regexpr".flags.old-locale = true;
       "regexpr".flags.bytestring-in-base = false;
       "regexpr".flags.network-uri = true;
-      "interpolate".revision = hackage."interpolate"."0.1.0".revisions.default;
+      "interpolate".revision = (((hackage."interpolate")."0.1.0").revisions).default;
       "interpolate".flags.test-hlint = false;
       "interpolate".flags.splitbase = true;
       "interpolate".flags.small_base = true;
@@ -744,7 +744,7 @@ hackage:
       "interpolate".flags.old-locale = true;
       "interpolate".flags.bytestring-in-base = false;
       "interpolate".flags.network-uri = true;
-      "text-icu".revision = hackage."text-icu"."0.7.0.1".revisions.default;
+      "text-icu".revision = (((hackage."text-icu")."0.7.0.1").revisions).default;
       "text-icu".flags.test-hlint = false;
       "text-icu".flags.splitbase = true;
       "text-icu".flags.small_base = true;
@@ -754,7 +754,7 @@ hackage:
       "text-icu".flags.old-locale = true;
       "text-icu".flags.bytestring-in-base = false;
       "text-icu".flags.network-uri = true;
-      "tar".revision = hackage."tar"."0.4.0.1".revisions.default;
+      "tar".revision = (((hackage."tar")."0.4.0.1").revisions).default;
       "tar".flags.test-hlint = false;
       "tar".flags.splitbase = true;
       "tar".flags.small_base = true;
@@ -764,7 +764,7 @@ hackage:
       "tar".flags.old-locale = true;
       "tar".flags.bytestring-in-base = false;
       "tar".flags.network-uri = true;
-      "bytestring-progress".revision = hackage."bytestring-progress"."1.0.3".revisions.default;
+      "bytestring-progress".revision = (((hackage."bytestring-progress")."1.0.3").revisions).default;
       "bytestring-progress".flags.test-hlint = false;
       "bytestring-progress".flags.splitbase = true;
       "bytestring-progress".flags.small_base = true;
@@ -774,7 +774,7 @@ hackage:
       "bytestring-progress".flags.old-locale = true;
       "bytestring-progress".flags.bytestring-in-base = false;
       "bytestring-progress".flags.network-uri = true;
-      "biosff".revision = hackage."biosff"."0.3.7.1".revisions.default;
+      "biosff".revision = (((hackage."biosff")."0.3.7.1").revisions).default;
       "biosff".flags.test-hlint = false;
       "biosff".flags.splitbase = true;
       "biosff".flags.small_base = true;
@@ -784,7 +784,7 @@ hackage:
       "biosff".flags.old-locale = true;
       "biosff".flags.bytestring-in-base = false;
       "biosff".flags.network-uri = true;
-      "timezone-olson".revision = hackage."timezone-olson"."0.1.6".revisions.default;
+      "timezone-olson".revision = (((hackage."timezone-olson")."0.1.6").revisions).default;
       "timezone-olson".flags.test-hlint = false;
       "timezone-olson".flags.splitbase = true;
       "timezone-olson".flags.small_base = true;
@@ -794,7 +794,7 @@ hackage:
       "timezone-olson".flags.old-locale = true;
       "timezone-olson".flags.bytestring-in-base = false;
       "timezone-olson".flags.network-uri = true;
-      "regex-tdfa".revision = hackage."regex-tdfa"."1.2.0".revisions.default;
+      "regex-tdfa".revision = (((hackage."regex-tdfa")."1.2.0").revisions).default;
       "regex-tdfa".flags.test-hlint = false;
       "regex-tdfa".flags.splitbase = true;
       "regex-tdfa".flags.small_base = true;
@@ -804,7 +804,7 @@ hackage:
       "regex-tdfa".flags.old-locale = true;
       "regex-tdfa".flags.bytestring-in-base = false;
       "regex-tdfa".flags.network-uri = true;
-      "pandoc".revision = hackage."pandoc"."1.13.2".revisions.default;
+      "pandoc".revision = (((hackage."pandoc")."1.13.2").revisions).default;
       "pandoc".flags.test-hlint = false;
       "pandoc".flags.splitbase = true;
       "pandoc".flags.small_base = true;
@@ -814,7 +814,7 @@ hackage:
       "pandoc".flags.old-locale = true;
       "pandoc".flags.bytestring-in-base = false;
       "pandoc".flags.network-uri = true;
-      "hflags".revision = hackage."hflags"."0.4".revisions.default;
+      "hflags".revision = (((hackage."hflags")."0.4").revisions).default;
       "hflags".flags.test-hlint = false;
       "hflags".flags.splitbase = true;
       "hflags".flags.small_base = true;
@@ -824,7 +824,7 @@ hackage:
       "hflags".flags.old-locale = true;
       "hflags".flags.bytestring-in-base = false;
       "hflags".flags.network-uri = true;
-      "formatting".revision = hackage."formatting"."6.0.0".revisions.default;
+      "formatting".revision = (((hackage."formatting")."6.0.0").revisions).default;
       "formatting".flags.test-hlint = false;
       "formatting".flags.splitbase = true;
       "formatting".flags.small_base = true;
@@ -834,7 +834,7 @@ hackage:
       "formatting".flags.old-locale = true;
       "formatting".flags.bytestring-in-base = false;
       "formatting".flags.network-uri = true;
-      "network-multicast".revision = hackage."network-multicast"."0.0.11".revisions.default;
+      "network-multicast".revision = (((hackage."network-multicast")."0.0.11").revisions).default;
       "network-multicast".flags.test-hlint = false;
       "network-multicast".flags.splitbase = true;
       "network-multicast".flags.small_base = true;
@@ -844,7 +844,7 @@ hackage:
       "network-multicast".flags.old-locale = true;
       "network-multicast".flags.bytestring-in-base = false;
       "network-multicast".flags.network-uri = true;
-      "stringable".revision = hackage."stringable"."0.1.3".revisions.default;
+      "stringable".revision = (((hackage."stringable")."0.1.3").revisions).default;
       "stringable".flags.test-hlint = false;
       "stringable".flags.splitbase = true;
       "stringable".flags.small_base = true;
@@ -854,7 +854,7 @@ hackage:
       "stringable".flags.old-locale = true;
       "stringable".flags.bytestring-in-base = false;
       "stringable".flags.network-uri = true;
-      "pipes-parse".revision = hackage."pipes-parse"."3.0.2".revisions.default;
+      "pipes-parse".revision = (((hackage."pipes-parse")."3.0.2").revisions).default;
       "pipes-parse".flags.test-hlint = false;
       "pipes-parse".flags.splitbase = true;
       "pipes-parse".flags.small_base = true;
@@ -864,7 +864,7 @@ hackage:
       "pipes-parse".flags.old-locale = true;
       "pipes-parse".flags.bytestring-in-base = false;
       "pipes-parse".flags.network-uri = true;
-      "GenericPretty".revision = hackage."GenericPretty"."1.2.1".revisions.default;
+      "GenericPretty".revision = (((hackage."GenericPretty")."1.2.1").revisions).default;
       "GenericPretty".flags.test-hlint = false;
       "GenericPretty".flags.splitbase = true;
       "GenericPretty".flags.small_base = true;
@@ -874,7 +874,7 @@ hackage:
       "GenericPretty".flags.old-locale = true;
       "GenericPretty".flags.bytestring-in-base = false;
       "GenericPretty".flags.network-uri = true;
-      "pipes".revision = hackage."pipes"."4.1.4".revisions.default;
+      "pipes".revision = (((hackage."pipes")."4.1.4").revisions).default;
       "pipes".flags.test-hlint = false;
       "pipes".flags.splitbase = true;
       "pipes".flags.small_base = true;
@@ -884,7 +884,7 @@ hackage:
       "pipes".flags.old-locale = true;
       "pipes".flags.bytestring-in-base = false;
       "pipes".flags.network-uri = true;
-      "type-list".revision = hackage."type-list"."0.0.0.0".revisions.default;
+      "type-list".revision = (((hackage."type-list")."0.0.0.0").revisions).default;
       "type-list".flags.test-hlint = false;
       "type-list".flags.splitbase = true;
       "type-list".flags.small_base = true;
@@ -894,7 +894,7 @@ hackage:
       "type-list".flags.old-locale = true;
       "type-list".flags.bytestring-in-base = false;
       "type-list".flags.network-uri = true;
-      "product-profunctors".revision = hackage."product-profunctors"."0.6".revisions.default;
+      "product-profunctors".revision = (((hackage."product-profunctors")."0.6").revisions).default;
       "product-profunctors".flags.test-hlint = false;
       "product-profunctors".flags.splitbase = true;
       "product-profunctors".flags.small_base = true;
@@ -904,8 +904,8 @@ hackage:
       "product-profunctors".flags.old-locale = true;
       "product-profunctors".flags.bytestring-in-base = false;
       "product-profunctors".flags.network-uri = true;
-      "haskell2010".revision = hackage."haskell2010"."1.1.2.0".revisions.default;
-      "ace".revision = hackage."ace"."0.6".revisions.default;
+      "haskell2010".revision = (((hackage."haskell2010")."1.1.2.0").revisions).default;
+      "ace".revision = (((hackage."ace")."0.6").revisions).default;
       "ace".flags.test-hlint = false;
       "ace".flags.splitbase = true;
       "ace".flags.small_base = true;
@@ -915,7 +915,7 @@ hackage:
       "ace".flags.old-locale = true;
       "ace".flags.bytestring-in-base = false;
       "ace".flags.network-uri = true;
-      "pipes-concurrency".revision = hackage."pipes-concurrency"."2.0.2".revisions.default;
+      "pipes-concurrency".revision = (((hackage."pipes-concurrency")."2.0.2").revisions).default;
       "pipes-concurrency".flags.test-hlint = false;
       "pipes-concurrency".flags.splitbase = true;
       "pipes-concurrency".flags.small_base = true;
@@ -925,7 +925,7 @@ hackage:
       "pipes-concurrency".flags.old-locale = true;
       "pipes-concurrency".flags.bytestring-in-base = false;
       "pipes-concurrency".flags.network-uri = true;
-      "hslogger".revision = hackage."hslogger"."1.2.6".revisions.default;
+      "hslogger".revision = (((hackage."hslogger")."1.2.6").revisions).default;
       "hslogger".flags.test-hlint = false;
       "hslogger".flags.splitbase = true;
       "hslogger".flags.small_base = true;
@@ -935,7 +935,7 @@ hackage:
       "hslogger".flags.old-locale = true;
       "hslogger".flags.bytestring-in-base = false;
       "hslogger".flags.network-uri = true;
-      "tls-debug".revision = hackage."tls-debug"."0.3.4".revisions.default;
+      "tls-debug".revision = (((hackage."tls-debug")."0.3.4").revisions).default;
       "tls-debug".flags.test-hlint = false;
       "tls-debug".flags.splitbase = true;
       "tls-debug".flags.small_base = true;
@@ -945,7 +945,7 @@ hackage:
       "tls-debug".flags.old-locale = true;
       "tls-debug".flags.bytestring-in-base = false;
       "tls-debug".flags.network-uri = true;
-      "mtl-prelude".revision = hackage."mtl-prelude"."1.0.2".revisions.default;
+      "mtl-prelude".revision = (((hackage."mtl-prelude")."1.0.2").revisions).default;
       "mtl-prelude".flags.test-hlint = false;
       "mtl-prelude".flags.splitbase = true;
       "mtl-prelude".flags.small_base = true;
@@ -955,8 +955,8 @@ hackage:
       "mtl-prelude".flags.old-locale = true;
       "mtl-prelude".flags.bytestring-in-base = false;
       "mtl-prelude".flags.network-uri = true;
-      "ghc-prim".revision = hackage."ghc-prim"."0.3.1.0".revisions.default;
-      "cryptohash-cryptoapi".revision = hackage."cryptohash-cryptoapi"."0.1.3".revisions.default;
+      "ghc-prim".revision = (((hackage."ghc-prim")."0.3.1.0").revisions).default;
+      "cryptohash-cryptoapi".revision = (((hackage."cryptohash-cryptoapi")."0.1.3").revisions).default;
       "cryptohash-cryptoapi".flags.test-hlint = false;
       "cryptohash-cryptoapi".flags.splitbase = true;
       "cryptohash-cryptoapi".flags.small_base = true;
@@ -966,7 +966,7 @@ hackage:
       "cryptohash-cryptoapi".flags.old-locale = true;
       "cryptohash-cryptoapi".flags.bytestring-in-base = false;
       "cryptohash-cryptoapi".flags.network-uri = true;
-      "linear-accelerate".revision = hackage."linear-accelerate"."0.2".revisions.default;
+      "linear-accelerate".revision = (((hackage."linear-accelerate")."0.2").revisions).default;
       "linear-accelerate".flags.test-hlint = false;
       "linear-accelerate".flags.splitbase = true;
       "linear-accelerate".flags.small_base = true;
@@ -976,7 +976,7 @@ hackage:
       "linear-accelerate".flags.old-locale = true;
       "linear-accelerate".flags.bytestring-in-base = false;
       "linear-accelerate".flags.network-uri = true;
-      "hyphenation".revision = hackage."hyphenation"."0.4".revisions.default;
+      "hyphenation".revision = (((hackage."hyphenation")."0.4").revisions).default;
       "hyphenation".flags.test-hlint = false;
       "hyphenation".flags.splitbase = true;
       "hyphenation".flags.small_base = true;
@@ -986,7 +986,7 @@ hackage:
       "hyphenation".flags.old-locale = true;
       "hyphenation".flags.bytestring-in-base = false;
       "hyphenation".flags.network-uri = true;
-      "FontyFruity".revision = hackage."FontyFruity"."0.4.1".revisions.default;
+      "FontyFruity".revision = (((hackage."FontyFruity")."0.4.1").revisions).default;
       "FontyFruity".flags.test-hlint = false;
       "FontyFruity".flags.splitbase = true;
       "FontyFruity".flags.small_base = true;
@@ -996,7 +996,7 @@ hackage:
       "FontyFruity".flags.old-locale = true;
       "FontyFruity".flags.bytestring-in-base = false;
       "FontyFruity".flags.network-uri = true;
-      "xml-types".revision = hackage."xml-types"."0.3.4".revisions.default;
+      "xml-types".revision = (((hackage."xml-types")."0.3.4").revisions).default;
       "xml-types".flags.test-hlint = false;
       "xml-types".flags.splitbase = true;
       "xml-types".flags.small_base = true;
@@ -1006,7 +1006,7 @@ hackage:
       "xml-types".flags.old-locale = true;
       "xml-types".flags.bytestring-in-base = false;
       "xml-types".flags.network-uri = true;
-      "utf8-string".revision = hackage."utf8-string"."0.3.8".revisions.default;
+      "utf8-string".revision = (((hackage."utf8-string")."0.3.8").revisions).default;
       "utf8-string".flags.test-hlint = false;
       "utf8-string".flags.splitbase = true;
       "utf8-string".flags.small_base = true;
@@ -1016,7 +1016,7 @@ hackage:
       "utf8-string".flags.old-locale = true;
       "utf8-string".flags.bytestring-in-base = false;
       "utf8-string".flags.network-uri = true;
-      "polyparse".revision = hackage."polyparse"."1.10".revisions.default;
+      "polyparse".revision = (((hackage."polyparse")."1.10").revisions).default;
       "polyparse".flags.test-hlint = false;
       "polyparse".flags.splitbase = true;
       "polyparse".flags.small_base = true;
@@ -1026,7 +1026,7 @@ hackage:
       "polyparse".flags.old-locale = true;
       "polyparse".flags.bytestring-in-base = false;
       "polyparse".flags.network-uri = true;
-      "streams".revision = hackage."streams"."3.2".revisions.default;
+      "streams".revision = (((hackage."streams")."3.2").revisions).default;
       "streams".flags.test-hlint = false;
       "streams".flags.splitbase = true;
       "streams".flags.small_base = true;
@@ -1036,7 +1036,7 @@ hackage:
       "streams".flags.old-locale = true;
       "streams".flags.bytestring-in-base = false;
       "streams".flags.network-uri = true;
-      "pandoc-citeproc".revision = hackage."pandoc-citeproc"."0.6".revisions.default;
+      "pandoc-citeproc".revision = (((hackage."pandoc-citeproc")."0.6").revisions).default;
       "pandoc-citeproc".flags.test-hlint = false;
       "pandoc-citeproc".flags.splitbase = true;
       "pandoc-citeproc".flags.small_base = true;
@@ -1046,7 +1046,7 @@ hackage:
       "pandoc-citeproc".flags.old-locale = true;
       "pandoc-citeproc".flags.bytestring-in-base = false;
       "pandoc-citeproc".flags.network-uri = true;
-      "wordpass".revision = hackage."wordpass"."1.0.0.2".revisions.default;
+      "wordpass".revision = (((hackage."wordpass")."1.0.0.2").revisions).default;
       "wordpass".flags.test-hlint = false;
       "wordpass".flags.splitbase = true;
       "wordpass".flags.small_base = true;
@@ -1056,7 +1056,7 @@ hackage:
       "wordpass".flags.old-locale = true;
       "wordpass".flags.bytestring-in-base = false;
       "wordpass".flags.network-uri = true;
-      "hspec-wai".revision = hackage."hspec-wai"."0.6.3".revisions.default;
+      "hspec-wai".revision = (((hackage."hspec-wai")."0.6.3").revisions).default;
       "hspec-wai".flags.test-hlint = false;
       "hspec-wai".flags.splitbase = true;
       "hspec-wai".flags.small_base = true;
@@ -1066,7 +1066,7 @@ hackage:
       "hspec-wai".flags.old-locale = true;
       "hspec-wai".flags.bytestring-in-base = false;
       "hspec-wai".flags.network-uri = true;
-      "yesod-form".revision = hackage."yesod-form"."1.4.3.1".revisions.default;
+      "yesod-form".revision = (((hackage."yesod-form")."1.4.3.1").revisions).default;
       "yesod-form".flags.test-hlint = false;
       "yesod-form".flags.splitbase = true;
       "yesod-form".flags.small_base = true;
@@ -1076,7 +1076,7 @@ hackage:
       "yesod-form".flags.old-locale = true;
       "yesod-form".flags.bytestring-in-base = false;
       "yesod-form".flags.network-uri = true;
-      "hebrew-time".revision = hackage."hebrew-time"."0.1.1".revisions.default;
+      "hebrew-time".revision = (((hackage."hebrew-time")."0.1.1").revisions).default;
       "hebrew-time".flags.test-hlint = false;
       "hebrew-time".flags.splitbase = true;
       "hebrew-time".flags.small_base = true;
@@ -1086,8 +1086,8 @@ hackage:
       "hebrew-time".flags.old-locale = true;
       "hebrew-time".flags.bytestring-in-base = false;
       "hebrew-time".flags.network-uri = true;
-      "old-time".revision = hackage."old-time"."1.1.0.2".revisions.default;
-      "system-canonicalpath".revision = hackage."system-canonicalpath"."0.2.3.0".revisions.default;
+      "old-time".revision = (((hackage."old-time")."1.1.0.2").revisions).default;
+      "system-canonicalpath".revision = (((hackage."system-canonicalpath")."0.2.3.0").revisions).default;
       "system-canonicalpath".flags.test-hlint = false;
       "system-canonicalpath".flags.splitbase = true;
       "system-canonicalpath".flags.small_base = true;
@@ -1097,7 +1097,7 @@ hackage:
       "system-canonicalpath".flags.old-locale = true;
       "system-canonicalpath".flags.bytestring-in-base = false;
       "system-canonicalpath".flags.network-uri = true;
-      "repa-algorithms".revision = hackage."repa-algorithms"."3.3.1.2".revisions.default;
+      "repa-algorithms".revision = (((hackage."repa-algorithms")."3.3.1.2").revisions).default;
       "repa-algorithms".flags.test-hlint = false;
       "repa-algorithms".flags.splitbase = true;
       "repa-algorithms".flags.small_base = true;
@@ -1107,7 +1107,7 @@ hackage:
       "repa-algorithms".flags.old-locale = true;
       "repa-algorithms".flags.bytestring-in-base = false;
       "repa-algorithms".flags.network-uri = true;
-      "biocore".revision = hackage."biocore"."0.3.1".revisions.default;
+      "biocore".revision = (((hackage."biocore")."0.3.1").revisions).default;
       "biocore".flags.test-hlint = false;
       "biocore".flags.splitbase = true;
       "biocore".flags.small_base = true;
@@ -1117,7 +1117,7 @@ hackage:
       "biocore".flags.old-locale = true;
       "biocore".flags.bytestring-in-base = false;
       "biocore".flags.network-uri = true;
-      "bifunctors".revision = hackage."bifunctors"."4.2".revisions.default;
+      "bifunctors".revision = (((hackage."bifunctors")."4.2").revisions).default;
       "bifunctors".flags.test-hlint = false;
       "bifunctors".flags.splitbase = true;
       "bifunctors".flags.small_base = true;
@@ -1127,7 +1127,7 @@ hackage:
       "bifunctors".flags.old-locale = true;
       "bifunctors".flags.bytestring-in-base = false;
       "bifunctors".flags.network-uri = true;
-      "numeric-extras".revision = hackage."numeric-extras"."0.0.3".revisions.default;
+      "numeric-extras".revision = (((hackage."numeric-extras")."0.0.3").revisions).default;
       "numeric-extras".flags.test-hlint = false;
       "numeric-extras".flags.splitbase = true;
       "numeric-extras".flags.small_base = true;
@@ -1137,7 +1137,7 @@ hackage:
       "numeric-extras".flags.old-locale = true;
       "numeric-extras".flags.bytestring-in-base = false;
       "numeric-extras".flags.network-uri = true;
-      "distributed-process-execution".revision = hackage."distributed-process-execution"."0.1.1".revisions.default;
+      "distributed-process-execution".revision = (((hackage."distributed-process-execution")."0.1.1").revisions).default;
       "distributed-process-execution".flags.test-hlint = false;
       "distributed-process-execution".flags.splitbase = true;
       "distributed-process-execution".flags.small_base = true;
@@ -1147,7 +1147,7 @@ hackage:
       "distributed-process-execution".flags.old-locale = true;
       "distributed-process-execution".flags.bytestring-in-base = false;
       "distributed-process-execution".flags.network-uri = true;
-      "Octree".revision = hackage."Octree"."0.5.4.2".revisions.default;
+      "Octree".revision = (((hackage."Octree")."0.5.4.2").revisions).default;
       "Octree".flags.test-hlint = false;
       "Octree".flags.splitbase = true;
       "Octree".flags.small_base = true;
@@ -1157,7 +1157,7 @@ hackage:
       "Octree".flags.old-locale = true;
       "Octree".flags.bytestring-in-base = false;
       "Octree".flags.network-uri = true;
-      "hspec-wai-json".revision = hackage."hspec-wai-json"."0.6.0".revisions.default;
+      "hspec-wai-json".revision = (((hackage."hspec-wai-json")."0.6.0").revisions).default;
       "hspec-wai-json".flags.test-hlint = false;
       "hspec-wai-json".flags.splitbase = true;
       "hspec-wai-json".flags.small_base = true;
@@ -1167,7 +1167,7 @@ hackage:
       "hspec-wai-json".flags.old-locale = true;
       "hspec-wai-json".flags.bytestring-in-base = false;
       "hspec-wai-json".flags.network-uri = true;
-      "exception-transformers".revision = hackage."exception-transformers"."0.3.0.4".revisions.default;
+      "exception-transformers".revision = (((hackage."exception-transformers")."0.3.0.4").revisions).default;
       "exception-transformers".flags.test-hlint = false;
       "exception-transformers".flags.splitbase = true;
       "exception-transformers".flags.small_base = true;
@@ -1177,7 +1177,7 @@ hackage:
       "exception-transformers".flags.old-locale = true;
       "exception-transformers".flags.bytestring-in-base = false;
       "exception-transformers".flags.network-uri = true;
-      "idna".revision = hackage."idna"."0.3.0".revisions.default;
+      "idna".revision = (((hackage."idna")."0.3.0").revisions).default;
       "idna".flags.test-hlint = false;
       "idna".flags.splitbase = true;
       "idna".flags.small_base = true;
@@ -1187,7 +1187,7 @@ hackage:
       "idna".flags.old-locale = true;
       "idna".flags.bytestring-in-base = false;
       "idna".flags.network-uri = true;
-      "holy-project".revision = hackage."holy-project"."0.1.1.1".revisions.default;
+      "holy-project".revision = (((hackage."holy-project")."0.1.1.1").revisions).default;
       "holy-project".flags.test-hlint = false;
       "holy-project".flags.splitbase = true;
       "holy-project".flags.small_base = true;
@@ -1197,7 +1197,7 @@ hackage:
       "holy-project".flags.old-locale = true;
       "holy-project".flags.bytestring-in-base = false;
       "holy-project".flags.network-uri = true;
-      "extra".revision = hackage."extra"."1.0.1".revisions.default;
+      "extra".revision = (((hackage."extra")."1.0.1").revisions).default;
       "extra".flags.test-hlint = false;
       "extra".flags.splitbase = true;
       "extra".flags.small_base = true;
@@ -1207,7 +1207,7 @@ hackage:
       "extra".flags.old-locale = true;
       "extra".flags.bytestring-in-base = false;
       "extra".flags.network-uri = true;
-      "mysql".revision = hackage."mysql"."0.1.1.7".revisions.default;
+      "mysql".revision = (((hackage."mysql")."0.1.1.7").revisions).default;
       "mysql".flags.test-hlint = false;
       "mysql".flags.splitbase = true;
       "mysql".flags.small_base = true;
@@ -1217,7 +1217,7 @@ hackage:
       "mysql".flags.old-locale = true;
       "mysql".flags.bytestring-in-base = false;
       "mysql".flags.network-uri = true;
-      "cabal-src".revision = hackage."cabal-src"."0.2.5".revisions.default;
+      "cabal-src".revision = (((hackage."cabal-src")."0.2.5").revisions).default;
       "cabal-src".flags.test-hlint = false;
       "cabal-src".flags.splitbase = true;
       "cabal-src".flags.small_base = true;
@@ -1227,8 +1227,8 @@ hackage:
       "cabal-src".flags.old-locale = true;
       "cabal-src".flags.bytestring-in-base = false;
       "cabal-src".flags.network-uri = true;
-      "haskeline".revision = hackage."haskeline"."0.7.1.2".revisions.default;
-      "GLUT".revision = hackage."GLUT"."2.5.1.1".revisions.default;
+      "haskeline".revision = (((hackage."haskeline")."0.7.1.2").revisions).default;
+      "GLUT".revision = (((hackage."GLUT")."2.5.1.1").revisions).default;
       "GLUT".flags.test-hlint = false;
       "GLUT".flags.splitbase = true;
       "GLUT".flags.small_base = true;
@@ -1238,7 +1238,7 @@ hackage:
       "GLUT".flags.old-locale = true;
       "GLUT".flags.bytestring-in-base = false;
       "GLUT".flags.network-uri = true;
-      "logict".revision = hackage."logict"."0.6.0.2".revisions.default;
+      "logict".revision = (((hackage."logict")."0.6.0.2").revisions).default;
       "logict".flags.test-hlint = false;
       "logict".flags.splitbase = true;
       "logict".flags.small_base = true;
@@ -1248,7 +1248,7 @@ hackage:
       "logict".flags.old-locale = true;
       "logict".flags.bytestring-in-base = false;
       "logict".flags.network-uri = true;
-      "x509-validation".revision = hackage."x509-validation"."1.5.1".revisions.default;
+      "x509-validation".revision = (((hackage."x509-validation")."1.5.1").revisions).default;
       "x509-validation".flags.test-hlint = false;
       "x509-validation".flags.splitbase = true;
       "x509-validation".flags.small_base = true;
@@ -1258,7 +1258,7 @@ hackage:
       "x509-validation".flags.old-locale = true;
       "x509-validation".flags.bytestring-in-base = false;
       "x509-validation".flags.network-uri = true;
-      "vector-space-points".revision = hackage."vector-space-points"."0.2".revisions.default;
+      "vector-space-points".revision = (((hackage."vector-space-points")."0.2").revisions).default;
       "vector-space-points".flags.test-hlint = false;
       "vector-space-points".flags.splitbase = true;
       "vector-space-points".flags.small_base = true;
@@ -1268,7 +1268,7 @@ hackage:
       "vector-space-points".flags.old-locale = true;
       "vector-space-points".flags.bytestring-in-base = false;
       "vector-space-points".flags.network-uri = true;
-      "histogram-fill".revision = hackage."histogram-fill"."0.8.4.1".revisions.default;
+      "histogram-fill".revision = (((hackage."histogram-fill")."0.8.4.1").revisions).default;
       "histogram-fill".flags.test-hlint = false;
       "histogram-fill".flags.splitbase = true;
       "histogram-fill".flags.small_base = true;
@@ -1278,7 +1278,7 @@ hackage:
       "histogram-fill".flags.old-locale = true;
       "histogram-fill".flags.bytestring-in-base = false;
       "histogram-fill".flags.network-uri = true;
-      "rest-wai".revision = hackage."rest-wai"."0.1.0.4".revisions.default;
+      "rest-wai".revision = (((hackage."rest-wai")."0.1.0.4").revisions).default;
       "rest-wai".flags.test-hlint = false;
       "rest-wai".flags.splitbase = true;
       "rest-wai".flags.small_base = true;
@@ -1288,7 +1288,7 @@ hackage:
       "rest-wai".flags.old-locale = true;
       "rest-wai".flags.bytestring-in-base = false;
       "rest-wai".flags.network-uri = true;
-      "yesod-core".revision = hackage."yesod-core"."1.4.7.2".revisions.default;
+      "yesod-core".revision = (((hackage."yesod-core")."1.4.7.2").revisions).default;
       "yesod-core".flags.test-hlint = false;
       "yesod-core".flags.splitbase = true;
       "yesod-core".flags.small_base = true;
@@ -1298,7 +1298,7 @@ hackage:
       "yesod-core".flags.old-locale = true;
       "yesod-core".flags.bytestring-in-base = false;
       "yesod-core".flags.network-uri = true;
-      "MonadRandom".revision = hackage."MonadRandom"."0.3.0.1".revisions.default;
+      "MonadRandom".revision = (((hackage."MonadRandom")."0.3.0.1").revisions).default;
       "MonadRandom".flags.test-hlint = false;
       "MonadRandom".flags.splitbase = true;
       "MonadRandom".flags.small_base = true;
@@ -1308,7 +1308,7 @@ hackage:
       "MonadRandom".flags.old-locale = true;
       "MonadRandom".flags.bytestring-in-base = false;
       "MonadRandom".flags.network-uri = true;
-      "mersenne-random-pure64".revision = hackage."mersenne-random-pure64"."0.2.0.4".revisions.default;
+      "mersenne-random-pure64".revision = (((hackage."mersenne-random-pure64")."0.2.0.4").revisions).default;
       "mersenne-random-pure64".flags.test-hlint = false;
       "mersenne-random-pure64".flags.splitbase = true;
       "mersenne-random-pure64".flags.small_base = false;
@@ -1318,7 +1318,7 @@ hackage:
       "mersenne-random-pure64".flags.old-locale = true;
       "mersenne-random-pure64".flags.bytestring-in-base = false;
       "mersenne-random-pure64".flags.network-uri = true;
-      "skein".revision = hackage."skein"."1.0.9.2".revisions.default;
+      "skein".revision = (((hackage."skein")."1.0.9.2").revisions).default;
       "skein".flags.test-hlint = false;
       "skein".flags.splitbase = true;
       "skein".flags.small_base = true;
@@ -1328,7 +1328,7 @@ hackage:
       "skein".flags.old-locale = true;
       "skein".flags.bytestring-in-base = false;
       "skein".flags.network-uri = true;
-      "cipher-camellia".revision = hackage."cipher-camellia"."0.0.2".revisions.default;
+      "cipher-camellia".revision = (((hackage."cipher-camellia")."0.0.2").revisions).default;
       "cipher-camellia".flags.test-hlint = false;
       "cipher-camellia".flags.splitbase = true;
       "cipher-camellia".flags.small_base = true;
@@ -1338,7 +1338,7 @@ hackage:
       "cipher-camellia".flags.old-locale = true;
       "cipher-camellia".flags.bytestring-in-base = false;
       "cipher-camellia".flags.network-uri = true;
-      "snaplet-fay".revision = hackage."snaplet-fay"."0.3.3.9".revisions.default;
+      "snaplet-fay".revision = (((hackage."snaplet-fay")."0.3.3.9").revisions).default;
       "snaplet-fay".flags.test-hlint = false;
       "snaplet-fay".flags.splitbase = true;
       "snaplet-fay".flags.small_base = true;
@@ -1348,7 +1348,7 @@ hackage:
       "snaplet-fay".flags.old-locale = true;
       "snaplet-fay".flags.bytestring-in-base = false;
       "snaplet-fay".flags.network-uri = true;
-      "elm-compiler".revision = hackage."elm-compiler"."0.14.1".revisions.default;
+      "elm-compiler".revision = (((hackage."elm-compiler")."0.14.1").revisions).default;
       "elm-compiler".flags.test-hlint = false;
       "elm-compiler".flags.splitbase = true;
       "elm-compiler".flags.small_base = true;
@@ -1358,7 +1358,7 @@ hackage:
       "elm-compiler".flags.old-locale = true;
       "elm-compiler".flags.bytestring-in-base = false;
       "elm-compiler".flags.network-uri = true;
-      "split".revision = hackage."split"."0.2.2".revisions.default;
+      "split".revision = (((hackage."split")."0.2.2").revisions).default;
       "split".flags.test-hlint = false;
       "split".flags.splitbase = true;
       "split".flags.small_base = true;
@@ -1368,7 +1368,7 @@ hackage:
       "split".flags.old-locale = true;
       "split".flags.bytestring-in-base = false;
       "split".flags.network-uri = true;
-      "groundhog-mysql".revision = hackage."groundhog-mysql"."0.7.0.1".revisions.default;
+      "groundhog-mysql".revision = (((hackage."groundhog-mysql")."0.7.0.1").revisions).default;
       "groundhog-mysql".flags.test-hlint = false;
       "groundhog-mysql".flags.splitbase = true;
       "groundhog-mysql".flags.small_base = true;
@@ -1378,7 +1378,7 @@ hackage:
       "groundhog-mysql".flags.old-locale = true;
       "groundhog-mysql".flags.bytestring-in-base = false;
       "groundhog-mysql".flags.network-uri = true;
-      "checkers".revision = hackage."checkers"."0.4.1".revisions.default;
+      "checkers".revision = (((hackage."checkers")."0.4.1").revisions).default;
       "checkers".flags.test-hlint = false;
       "checkers".flags.splitbase = true;
       "checkers".flags.small_base = true;
@@ -1388,7 +1388,7 @@ hackage:
       "checkers".flags.old-locale = true;
       "checkers".flags.bytestring-in-base = false;
       "checkers".flags.network-uri = true;
-      "stm".revision = hackage."stm"."2.4.4".revisions.default;
+      "stm".revision = (((hackage."stm")."2.4.4").revisions).default;
       "stm".flags.test-hlint = false;
       "stm".flags.splitbase = true;
       "stm".flags.small_base = true;
@@ -1398,7 +1398,7 @@ hackage:
       "stm".flags.old-locale = true;
       "stm".flags.bytestring-in-base = false;
       "stm".flags.network-uri = true;
-      "tasty-th".revision = hackage."tasty-th"."0.1.3".revisions.default;
+      "tasty-th".revision = (((hackage."tasty-th")."0.1.3").revisions).default;
       "tasty-th".flags.test-hlint = false;
       "tasty-th".flags.splitbase = true;
       "tasty-th".flags.small_base = true;
@@ -1408,7 +1408,7 @@ hackage:
       "tasty-th".flags.old-locale = true;
       "tasty-th".flags.bytestring-in-base = false;
       "tasty-th".flags.network-uri = true;
-      "bound".revision = hackage."bound"."1.0.4".revisions.default;
+      "bound".revision = (((hackage."bound")."1.0.4").revisions).default;
       "bound".flags.test-hlint = false;
       "bound".flags.splitbase = true;
       "bound".flags.small_base = true;
@@ -1418,7 +1418,7 @@ hackage:
       "bound".flags.old-locale = true;
       "bound".flags.bytestring-in-base = false;
       "bound".flags.network-uri = true;
-      "heredoc".revision = hackage."heredoc"."0.2.0.0".revisions.default;
+      "heredoc".revision = (((hackage."heredoc")."0.2.0.0").revisions).default;
       "heredoc".flags.test-hlint = false;
       "heredoc".flags.splitbase = true;
       "heredoc".flags.small_base = true;
@@ -1428,7 +1428,7 @@ hackage:
       "heredoc".flags.old-locale = true;
       "heredoc".flags.bytestring-in-base = false;
       "heredoc".flags.network-uri = true;
-      "SVGFonts".revision = hackage."SVGFonts"."1.4.0.3".revisions.default;
+      "SVGFonts".revision = (((hackage."SVGFonts")."1.4.0.3").revisions).default;
       "SVGFonts".flags.test-hlint = false;
       "SVGFonts".flags.splitbase = true;
       "SVGFonts".flags.small_base = true;
@@ -1438,7 +1438,7 @@ hackage:
       "SVGFonts".flags.old-locale = true;
       "SVGFonts".flags.bytestring-in-base = false;
       "SVGFonts".flags.network-uri = true;
-      "generic-aeson".revision = hackage."generic-aeson"."0.2.0.2".revisions.default;
+      "generic-aeson".revision = (((hackage."generic-aeson")."0.2.0.2").revisions).default;
       "generic-aeson".flags.test-hlint = false;
       "generic-aeson".flags.splitbase = true;
       "generic-aeson".flags.small_base = true;
@@ -1448,7 +1448,7 @@ hackage:
       "generic-aeson".flags.old-locale = true;
       "generic-aeson".flags.bytestring-in-base = false;
       "generic-aeson".flags.network-uri = true;
-      "HTF".revision = hackage."HTF"."0.12.2.3".revisions.default;
+      "HTF".revision = (((hackage."HTF")."0.12.2.3").revisions).default;
       "HTF".flags.test-hlint = false;
       "HTF".flags.splitbase = true;
       "HTF".flags.small_base = true;
@@ -1458,7 +1458,7 @@ hackage:
       "HTF".flags.old-locale = true;
       "HTF".flags.bytestring-in-base = false;
       "HTF".flags.network-uri = true;
-      "rest-happstack".revision = hackage."rest-happstack"."0.2.10.4".revisions.default;
+      "rest-happstack".revision = (((hackage."rest-happstack")."0.2.10.4").revisions).default;
       "rest-happstack".flags.test-hlint = false;
       "rest-happstack".flags.splitbase = true;
       "rest-happstack".flags.small_base = true;
@@ -1468,7 +1468,7 @@ hackage:
       "rest-happstack".flags.old-locale = true;
       "rest-happstack".flags.bytestring-in-base = false;
       "rest-happstack".flags.network-uri = true;
-      "hxt-relaxng".revision = hackage."hxt-relaxng"."9.1.5.1".revisions.default;
+      "hxt-relaxng".revision = (((hackage."hxt-relaxng")."9.1.5.1").revisions).default;
       "hxt-relaxng".flags.test-hlint = false;
       "hxt-relaxng".flags.splitbase = true;
       "hxt-relaxng".flags.small_base = true;
@@ -1478,7 +1478,7 @@ hackage:
       "hxt-relaxng".flags.old-locale = true;
       "hxt-relaxng".flags.bytestring-in-base = false;
       "hxt-relaxng".flags.network-uri = true;
-      "control-monad-loop".revision = hackage."control-monad-loop"."0.1".revisions.default;
+      "control-monad-loop".revision = (((hackage."control-monad-loop")."0.1").revisions).default;
       "control-monad-loop".flags.test-hlint = false;
       "control-monad-loop".flags.splitbase = true;
       "control-monad-loop".flags.small_base = true;
@@ -1488,7 +1488,7 @@ hackage:
       "control-monad-loop".flags.old-locale = true;
       "control-monad-loop".flags.bytestring-in-base = false;
       "control-monad-loop".flags.network-uri = true;
-      "unix-time".revision = hackage."unix-time"."0.3.4".revisions.default;
+      "unix-time".revision = (((hackage."unix-time")."0.3.4").revisions).default;
       "unix-time".flags.test-hlint = false;
       "unix-time".flags.splitbase = true;
       "unix-time".flags.small_base = true;
@@ -1498,7 +1498,7 @@ hackage:
       "unix-time".flags.old-locale = true;
       "unix-time".flags.bytestring-in-base = false;
       "unix-time".flags.network-uri = true;
-      "cipher-des".revision = hackage."cipher-des"."0.0.6".revisions.default;
+      "cipher-des".revision = (((hackage."cipher-des")."0.0.6").revisions).default;
       "cipher-des".flags.test-hlint = false;
       "cipher-des".flags.splitbase = true;
       "cipher-des".flags.small_base = true;
@@ -1508,7 +1508,7 @@ hackage:
       "cipher-des".flags.old-locale = true;
       "cipher-des".flags.bytestring-in-base = false;
       "cipher-des".flags.network-uri = true;
-      "monoid-extras".revision = hackage."monoid-extras"."0.3.3.5".revisions.default;
+      "monoid-extras".revision = (((hackage."monoid-extras")."0.3.3.5").revisions).default;
       "monoid-extras".flags.test-hlint = false;
       "monoid-extras".flags.splitbase = true;
       "monoid-extras".flags.small_base = true;
@@ -1518,7 +1518,7 @@ hackage:
       "monoid-extras".flags.old-locale = true;
       "monoid-extras".flags.bytestring-in-base = false;
       "monoid-extras".flags.network-uri = true;
-      "here".revision = hackage."here"."1.2.6".revisions.default;
+      "here".revision = (((hackage."here")."1.2.6").revisions).default;
       "here".flags.test-hlint = false;
       "here".flags.splitbase = true;
       "here".flags.small_base = true;
@@ -1528,7 +1528,7 @@ hackage:
       "here".flags.old-locale = true;
       "here".flags.bytestring-in-base = false;
       "here".flags.network-uri = true;
-      "appar".revision = hackage."appar"."0.1.4".revisions.default;
+      "appar".revision = (((hackage."appar")."0.1.4").revisions).default;
       "appar".flags.test-hlint = false;
       "appar".flags.splitbase = true;
       "appar".flags.small_base = true;
@@ -1538,7 +1538,7 @@ hackage:
       "appar".flags.old-locale = true;
       "appar".flags.bytestring-in-base = false;
       "appar".flags.network-uri = true;
-      "hourglass".revision = hackage."hourglass"."0.2.8".revisions.default;
+      "hourglass".revision = (((hackage."hourglass")."0.2.8").revisions).default;
       "hourglass".flags.test-hlint = false;
       "hourglass".flags.splitbase = true;
       "hourglass".flags.small_base = true;
@@ -1548,7 +1548,7 @@ hackage:
       "hourglass".flags.old-locale = true;
       "hourglass".flags.bytestring-in-base = false;
       "hourglass".flags.network-uri = true;
-      "case-insensitive".revision = hackage."case-insensitive"."1.2.0.3".revisions.default;
+      "case-insensitive".revision = (((hackage."case-insensitive")."1.2.0.3").revisions).default;
       "case-insensitive".flags.test-hlint = false;
       "case-insensitive".flags.splitbase = true;
       "case-insensitive".flags.small_base = true;
@@ -1558,7 +1558,7 @@ hackage:
       "case-insensitive".flags.old-locale = true;
       "case-insensitive".flags.bytestring-in-base = false;
       "case-insensitive".flags.network-uri = true;
-      "persistent-mongoDB".revision = hackage."persistent-mongoDB"."2.1.2.1".revisions.default;
+      "persistent-mongoDB".revision = (((hackage."persistent-mongoDB")."2.1.2.1").revisions).default;
       "persistent-mongoDB".flags.test-hlint = false;
       "persistent-mongoDB".flags.splitbase = true;
       "persistent-mongoDB".flags.small_base = true;
@@ -1568,7 +1568,7 @@ hackage:
       "persistent-mongoDB".flags.old-locale = true;
       "persistent-mongoDB".flags.bytestring-in-base = false;
       "persistent-mongoDB".flags.network-uri = true;
-      "data-lens-light".revision = hackage."data-lens-light"."0.1.2.1".revisions.default;
+      "data-lens-light".revision = (((hackage."data-lens-light")."0.1.2.1").revisions).default;
       "data-lens-light".flags.test-hlint = false;
       "data-lens-light".flags.splitbase = true;
       "data-lens-light".flags.small_base = true;
@@ -1578,7 +1578,7 @@ hackage:
       "data-lens-light".flags.old-locale = true;
       "data-lens-light".flags.bytestring-in-base = false;
       "data-lens-light".flags.network-uri = true;
-      "vhd".revision = hackage."vhd"."0.2.2".revisions.default;
+      "vhd".revision = (((hackage."vhd")."0.2.2").revisions).default;
       "vhd".flags.test-hlint = false;
       "vhd".flags.splitbase = true;
       "vhd".flags.small_base = true;
@@ -1588,7 +1588,7 @@ hackage:
       "vhd".flags.old-locale = true;
       "vhd".flags.bytestring-in-base = false;
       "vhd".flags.network-uri = true;
-      "barecheck".revision = hackage."barecheck"."0.2.0.6".revisions.default;
+      "barecheck".revision = (((hackage."barecheck")."0.2.0.6").revisions).default;
       "barecheck".flags.test-hlint = false;
       "barecheck".flags.splitbase = true;
       "barecheck".flags.small_base = true;
@@ -1598,7 +1598,7 @@ hackage:
       "barecheck".flags.old-locale = true;
       "barecheck".flags.bytestring-in-base = false;
       "barecheck".flags.network-uri = true;
-      "xml-conduit".revision = hackage."xml-conduit"."1.2.3.1".revisions.default;
+      "xml-conduit".revision = (((hackage."xml-conduit")."1.2.3.1").revisions).default;
       "xml-conduit".flags.test-hlint = false;
       "xml-conduit".flags.splitbase = true;
       "xml-conduit".flags.small_base = true;
@@ -1608,7 +1608,7 @@ hackage:
       "xml-conduit".flags.old-locale = true;
       "xml-conduit".flags.bytestring-in-base = false;
       "xml-conduit".flags.network-uri = true;
-      "extensible-exceptions".revision = hackage."extensible-exceptions"."0.1.1.4".revisions.default;
+      "extensible-exceptions".revision = (((hackage."extensible-exceptions")."0.1.1.4").revisions).default;
       "extensible-exceptions".flags.test-hlint = false;
       "extensible-exceptions".flags.splitbase = true;
       "extensible-exceptions".flags.small_base = true;
@@ -1618,8 +1618,8 @@ hackage:
       "extensible-exceptions".flags.old-locale = true;
       "extensible-exceptions".flags.bytestring-in-base = false;
       "extensible-exceptions".flags.network-uri = true;
-      "unix".revision = hackage."unix"."2.7.0.1".revisions.default;
-      "SHA".revision = hackage."SHA"."1.6.4.1".revisions.default;
+      "unix".revision = (((hackage."unix")."2.7.0.1").revisions).default;
+      "SHA".revision = (((hackage."SHA")."1.6.4.1").revisions).default;
       "SHA".flags.test-hlint = false;
       "SHA".flags.splitbase = true;
       "SHA".flags.small_base = true;
@@ -1629,7 +1629,7 @@ hackage:
       "SHA".flags.old-locale = true;
       "SHA".flags.bytestring-in-base = false;
       "SHA".flags.network-uri = true;
-      "wl-pprint-terminfo".revision = hackage."wl-pprint-terminfo"."3.7.1.3".revisions.default;
+      "wl-pprint-terminfo".revision = (((hackage."wl-pprint-terminfo")."3.7.1.3").revisions).default;
       "wl-pprint-terminfo".flags.test-hlint = false;
       "wl-pprint-terminfo".flags.splitbase = true;
       "wl-pprint-terminfo".flags.small_base = true;
@@ -1639,7 +1639,7 @@ hackage:
       "wl-pprint-terminfo".flags.old-locale = true;
       "wl-pprint-terminfo".flags.bytestring-in-base = false;
       "wl-pprint-terminfo".flags.network-uri = true;
-      "csv-conduit".revision = hackage."csv-conduit"."0.6.3".revisions.default;
+      "csv-conduit".revision = (((hackage."csv-conduit")."0.6.3").revisions).default;
       "csv-conduit".flags.test-hlint = false;
       "csv-conduit".flags.splitbase = true;
       "csv-conduit".flags.small_base = true;
@@ -1649,7 +1649,7 @@ hackage:
       "csv-conduit".flags.old-locale = true;
       "csv-conduit".flags.bytestring-in-base = false;
       "csv-conduit".flags.network-uri = true;
-      "fgl".revision = hackage."fgl"."5.5.0.1".revisions.default;
+      "fgl".revision = (((hackage."fgl")."5.5.0.1").revisions).default;
       "fgl".flags.test-hlint = false;
       "fgl".flags.splitbase = true;
       "fgl".flags.small_base = true;
@@ -1659,7 +1659,7 @@ hackage:
       "fgl".flags.old-locale = true;
       "fgl".flags.bytestring-in-base = false;
       "fgl".flags.network-uri = true;
-      "mandrill".revision = hackage."mandrill"."0.1.1.0".revisions.default;
+      "mandrill".revision = (((hackage."mandrill")."0.1.1.0").revisions).default;
       "mandrill".flags.test-hlint = false;
       "mandrill".flags.splitbase = true;
       "mandrill".flags.small_base = true;
@@ -1669,7 +1669,7 @@ hackage:
       "mandrill".flags.old-locale = true;
       "mandrill".flags.bytestring-in-base = false;
       "mandrill".flags.network-uri = true;
-      "tasty-quickcheck".revision = hackage."tasty-quickcheck"."0.8.3.2".revisions.default;
+      "tasty-quickcheck".revision = (((hackage."tasty-quickcheck")."0.8.3.2").revisions).default;
       "tasty-quickcheck".flags.test-hlint = false;
       "tasty-quickcheck".flags.splitbase = true;
       "tasty-quickcheck".flags.small_base = true;
@@ -1679,7 +1679,7 @@ hackage:
       "tasty-quickcheck".flags.old-locale = true;
       "tasty-quickcheck".flags.bytestring-in-base = false;
       "tasty-quickcheck".flags.network-uri = true;
-      "mtl".revision = hackage."mtl"."2.1.3.1".revisions.default;
+      "mtl".revision = (((hackage."mtl")."2.1.3.1").revisions).default;
       "mtl".flags.test-hlint = false;
       "mtl".flags.splitbase = true;
       "mtl".flags.small_base = true;
@@ -1689,7 +1689,7 @@ hackage:
       "mtl".flags.old-locale = true;
       "mtl".flags.bytestring-in-base = false;
       "mtl".flags.network-uri = true;
-      "lifted-async".revision = hackage."lifted-async"."0.2.0.2".revisions.default;
+      "lifted-async".revision = (((hackage."lifted-async")."0.2.0.2").revisions).default;
       "lifted-async".flags.test-hlint = false;
       "lifted-async".flags.splitbase = true;
       "lifted-async".flags.small_base = true;
@@ -1699,7 +1699,7 @@ hackage:
       "lifted-async".flags.old-locale = true;
       "lifted-async".flags.bytestring-in-base = false;
       "lifted-async".flags.network-uri = true;
-      "network-uri".revision = hackage."network-uri"."2.6.0.1".revisions.default;
+      "network-uri".revision = (((hackage."network-uri")."2.6.0.1").revisions).default;
       "network-uri".flags.test-hlint = false;
       "network-uri".flags.splitbase = true;
       "network-uri".flags.small_base = true;
@@ -1709,7 +1709,7 @@ hackage:
       "network-uri".flags.old-locale = true;
       "network-uri".flags.bytestring-in-base = false;
       "network-uri".flags.network-uri = true;
-      "thyme".revision = hackage."thyme"."0.3.5.5".revisions.default;
+      "thyme".revision = (((hackage."thyme")."0.3.5.5").revisions).default;
       "thyme".flags.test-hlint = false;
       "thyme".flags.splitbase = true;
       "thyme".flags.small_base = true;
@@ -1719,7 +1719,7 @@ hackage:
       "thyme".flags.old-locale = true;
       "thyme".flags.bytestring-in-base = false;
       "thyme".flags.network-uri = true;
-      "linear".revision = hackage."linear"."1.15.5".revisions.default;
+      "linear".revision = (((hackage."linear")."1.15.5").revisions).default;
       "linear".flags.test-hlint = false;
       "linear".flags.splitbase = true;
       "linear".flags.small_base = true;
@@ -1729,7 +1729,7 @@ hackage:
       "linear".flags.old-locale = true;
       "linear".flags.bytestring-in-base = false;
       "linear".flags.network-uri = true;
-      "fuzzcheck".revision = hackage."fuzzcheck"."0.1.1".revisions.default;
+      "fuzzcheck".revision = (((hackage."fuzzcheck")."0.1.1").revisions).default;
       "fuzzcheck".flags.test-hlint = false;
       "fuzzcheck".flags.splitbase = true;
       "fuzzcheck".flags.small_base = true;
@@ -1739,7 +1739,7 @@ hackage:
       "fuzzcheck".flags.old-locale = true;
       "fuzzcheck".flags.bytestring-in-base = false;
       "fuzzcheck".flags.network-uri = true;
-      "uri-encode".revision = hackage."uri-encode"."1.5.0.3".revisions.default;
+      "uri-encode".revision = (((hackage."uri-encode")."1.5.0.3").revisions).default;
       "uri-encode".flags.test-hlint = false;
       "uri-encode".flags.splitbase = true;
       "uri-encode".flags.small_base = true;
@@ -1749,7 +1749,7 @@ hackage:
       "uri-encode".flags.old-locale = true;
       "uri-encode".flags.bytestring-in-base = false;
       "uri-encode".flags.network-uri = true;
-      "ChasingBottoms".revision = hackage."ChasingBottoms"."1.3.0.9".revisions.default;
+      "ChasingBottoms".revision = (((hackage."ChasingBottoms")."1.3.0.9").revisions).default;
       "ChasingBottoms".flags.test-hlint = false;
       "ChasingBottoms".flags.splitbase = true;
       "ChasingBottoms".flags.small_base = true;
@@ -1759,7 +1759,7 @@ hackage:
       "ChasingBottoms".flags.old-locale = true;
       "ChasingBottoms".flags.bytestring-in-base = false;
       "ChasingBottoms".flags.network-uri = true;
-      "elm-build-lib".revision = hackage."elm-build-lib"."0.14.0.0".revisions.default;
+      "elm-build-lib".revision = (((hackage."elm-build-lib")."0.14.0.0").revisions).default;
       "elm-build-lib".flags.test-hlint = false;
       "elm-build-lib".flags.splitbase = true;
       "elm-build-lib".flags.small_base = true;
@@ -1769,7 +1769,7 @@ hackage:
       "elm-build-lib".flags.old-locale = true;
       "elm-build-lib".flags.bytestring-in-base = false;
       "elm-build-lib".flags.network-uri = true;
-      "crypto-random".revision = hackage."crypto-random"."0.0.8".revisions.default;
+      "crypto-random".revision = (((hackage."crypto-random")."0.0.8").revisions).default;
       "crypto-random".flags.test-hlint = false;
       "crypto-random".flags.splitbase = true;
       "crypto-random".flags.small_base = true;
@@ -1779,7 +1779,7 @@ hackage:
       "crypto-random".flags.old-locale = true;
       "crypto-random".flags.bytestring-in-base = false;
       "crypto-random".flags.network-uri = true;
-      "random-fu".revision = hackage."random-fu"."0.2.6.1".revisions.default;
+      "random-fu".revision = (((hackage."random-fu")."0.2.6.1").revisions).default;
       "random-fu".flags.test-hlint = false;
       "random-fu".flags.splitbase = true;
       "random-fu".flags.small_base = true;
@@ -1789,7 +1789,7 @@ hackage:
       "random-fu".flags.old-locale = true;
       "random-fu".flags.bytestring-in-base = false;
       "random-fu".flags.network-uri = true;
-      "shake-language-c".revision = hackage."shake-language-c"."0.6.3".revisions.default;
+      "shake-language-c".revision = (((hackage."shake-language-c")."0.6.3").revisions).default;
       "shake-language-c".flags.test-hlint = false;
       "shake-language-c".flags.splitbase = true;
       "shake-language-c".flags.small_base = true;
@@ -1799,7 +1799,7 @@ hackage:
       "shake-language-c".flags.old-locale = true;
       "shake-language-c".flags.bytestring-in-base = false;
       "shake-language-c".flags.network-uri = true;
-      "network-info".revision = hackage."network-info"."0.2.0.5".revisions.default;
+      "network-info".revision = (((hackage."network-info")."0.2.0.5").revisions).default;
       "network-info".flags.test-hlint = false;
       "network-info".flags.splitbase = true;
       "network-info".flags.small_base = true;
@@ -1809,7 +1809,7 @@ hackage:
       "network-info".flags.old-locale = true;
       "network-info".flags.bytestring-in-base = false;
       "network-info".flags.network-uri = true;
-      "authenticate".revision = hackage."authenticate"."1.3.2.11".revisions.default;
+      "authenticate".revision = (((hackage."authenticate")."1.3.2.11").revisions).default;
       "authenticate".flags.test-hlint = false;
       "authenticate".flags.splitbase = true;
       "authenticate".flags.small_base = true;
@@ -1819,7 +1819,7 @@ hackage:
       "authenticate".flags.old-locale = true;
       "authenticate".flags.bytestring-in-base = false;
       "authenticate".flags.network-uri = true;
-      "asn1-parse".revision = hackage."asn1-parse"."0.9.0".revisions.default;
+      "asn1-parse".revision = (((hackage."asn1-parse")."0.9.0").revisions).default;
       "asn1-parse".flags.test-hlint = false;
       "asn1-parse".flags.splitbase = true;
       "asn1-parse".flags.small_base = true;
@@ -1829,7 +1829,7 @@ hackage:
       "asn1-parse".flags.old-locale = true;
       "asn1-parse".flags.bytestring-in-base = false;
       "asn1-parse".flags.network-uri = true;
-      "arithmoi".revision = hackage."arithmoi"."0.4.1.1".revisions.default;
+      "arithmoi".revision = (((hackage."arithmoi")."0.4.1.1").revisions).default;
       "arithmoi".flags.test-hlint = false;
       "arithmoi".flags.splitbase = true;
       "arithmoi".flags.small_base = true;
@@ -1839,7 +1839,7 @@ hackage:
       "arithmoi".flags.old-locale = true;
       "arithmoi".flags.bytestring-in-base = false;
       "arithmoi".flags.network-uri = true;
-      "pwstore-fast".revision = hackage."pwstore-fast"."2.4.4".revisions.default;
+      "pwstore-fast".revision = (((hackage."pwstore-fast")."2.4.4").revisions).default;
       "pwstore-fast".flags.test-hlint = false;
       "pwstore-fast".flags.splitbase = true;
       "pwstore-fast".flags.small_base = true;
@@ -1849,7 +1849,7 @@ hackage:
       "pwstore-fast".flags.old-locale = true;
       "pwstore-fast".flags.bytestring-in-base = false;
       "pwstore-fast".flags.network-uri = true;
-      "regex-base".revision = hackage."regex-base"."0.93.2".revisions.default;
+      "regex-base".revision = (((hackage."regex-base")."0.93.2").revisions).default;
       "regex-base".flags.test-hlint = false;
       "regex-base".flags.splitbase = true;
       "regex-base".flags.small_base = true;
@@ -1859,7 +1859,7 @@ hackage:
       "regex-base".flags.old-locale = true;
       "regex-base".flags.bytestring-in-base = false;
       "regex-base".flags.network-uri = true;
-      "biofastq".revision = hackage."biofastq"."0.1".revisions.default;
+      "biofastq".revision = (((hackage."biofastq")."0.1").revisions).default;
       "biofastq".flags.test-hlint = false;
       "biofastq".flags.splitbase = true;
       "biofastq".flags.small_base = true;
@@ -1869,7 +1869,7 @@ hackage:
       "biofastq".flags.old-locale = true;
       "biofastq".flags.bytestring-in-base = false;
       "biofastq".flags.network-uri = true;
-      "convertible".revision = hackage."convertible"."1.1.0.0".revisions.default;
+      "convertible".revision = (((hackage."convertible")."1.1.0.0").revisions).default;
       "convertible".flags.test-hlint = false;
       "convertible".flags.splitbase = true;
       "convertible".flags.small_base = true;
@@ -1879,7 +1879,7 @@ hackage:
       "convertible".flags.old-locale = true;
       "convertible".flags.bytestring-in-base = false;
       "convertible".flags.network-uri = true;
-      "foldl".revision = hackage."foldl"."1.0.7".revisions.default;
+      "foldl".revision = (((hackage."foldl")."1.0.7").revisions).default;
       "foldl".flags.test-hlint = false;
       "foldl".flags.splitbase = true;
       "foldl".flags.small_base = true;
@@ -1889,7 +1889,7 @@ hackage:
       "foldl".flags.old-locale = true;
       "foldl".flags.bytestring-in-base = false;
       "foldl".flags.network-uri = true;
-      "libgit".revision = hackage."libgit"."0.3.0".revisions.default;
+      "libgit".revision = (((hackage."libgit")."0.3.0").revisions).default;
       "libgit".flags.test-hlint = false;
       "libgit".flags.splitbase = true;
       "libgit".flags.small_base = true;
@@ -1899,7 +1899,7 @@ hackage:
       "libgit".flags.old-locale = true;
       "libgit".flags.bytestring-in-base = false;
       "libgit".flags.network-uri = true;
-      "HCodecs".revision = hackage."HCodecs"."0.5".revisions.default;
+      "HCodecs".revision = (((hackage."HCodecs")."0.5").revisions).default;
       "HCodecs".flags.test-hlint = false;
       "HCodecs".flags.splitbase = true;
       "HCodecs".flags.small_base = true;
@@ -1909,7 +1909,7 @@ hackage:
       "HCodecs".flags.old-locale = true;
       "HCodecs".flags.bytestring-in-base = false;
       "HCodecs".flags.network-uri = true;
-      "html".revision = hackage."html"."1.0.1.2".revisions.default;
+      "html".revision = (((hackage."html")."1.0.1.2").revisions).default;
       "html".flags.test-hlint = false;
       "html".flags.splitbase = true;
       "html".flags.small_base = true;
@@ -1919,7 +1919,7 @@ hackage:
       "html".flags.old-locale = true;
       "html".flags.bytestring-in-base = false;
       "html".flags.network-uri = true;
-      "zlib".revision = hackage."zlib"."0.5.4.2".revisions.default;
+      "zlib".revision = (((hackage."zlib")."0.5.4.2").revisions).default;
       "zlib".flags.test-hlint = false;
       "zlib".flags.splitbase = true;
       "zlib".flags.small_base = true;
@@ -1929,8 +1929,8 @@ hackage:
       "zlib".flags.old-locale = true;
       "zlib".flags.bytestring-in-base = false;
       "zlib".flags.network-uri = true;
-      "rts".revision = hackage."rts"."1.0".revisions.default;
-      "spoon".revision = hackage."spoon"."0.3.1".revisions.default;
+      "rts".revision = (((hackage."rts")."1.0").revisions).default;
+      "spoon".revision = (((hackage."spoon")."0.3.1").revisions).default;
       "spoon".flags.test-hlint = false;
       "spoon".flags.splitbase = true;
       "spoon".flags.small_base = true;
@@ -1940,7 +1940,7 @@ hackage:
       "spoon".flags.old-locale = true;
       "spoon".flags.bytestring-in-base = false;
       "spoon".flags.network-uri = true;
-      "mmorph".revision = hackage."mmorph"."1.0.4".revisions.default;
+      "mmorph".revision = (((hackage."mmorph")."1.0.4").revisions).default;
       "mmorph".flags.test-hlint = false;
       "mmorph".flags.splitbase = true;
       "mmorph".flags.small_base = true;
@@ -1950,7 +1950,7 @@ hackage:
       "mmorph".flags.old-locale = true;
       "mmorph".flags.bytestring-in-base = false;
       "mmorph".flags.network-uri = true;
-      "concurrent-supply".revision = hackage."concurrent-supply"."0.1.7".revisions.default;
+      "concurrent-supply".revision = (((hackage."concurrent-supply")."0.1.7").revisions).default;
       "concurrent-supply".flags.test-hlint = false;
       "concurrent-supply".flags.splitbase = true;
       "concurrent-supply".flags.small_base = true;
@@ -1960,7 +1960,7 @@ hackage:
       "concurrent-supply".flags.old-locale = true;
       "concurrent-supply".flags.bytestring-in-base = false;
       "concurrent-supply".flags.network-uri = true;
-      "cmdargs".revision = hackage."cmdargs"."0.10.12".revisions.default;
+      "cmdargs".revision = (((hackage."cmdargs")."0.10.12").revisions).default;
       "cmdargs".flags.test-hlint = false;
       "cmdargs".flags.splitbase = true;
       "cmdargs".flags.small_base = true;
@@ -1970,7 +1970,7 @@ hackage:
       "cmdargs".flags.old-locale = true;
       "cmdargs".flags.bytestring-in-base = false;
       "cmdargs".flags.network-uri = true;
-      "threads".revision = hackage."threads"."0.5.1.3".revisions.default;
+      "threads".revision = (((hackage."threads")."0.5.1.3").revisions).default;
       "threads".flags.test-hlint = false;
       "threads".flags.splitbase = true;
       "threads".flags.small_base = true;
@@ -1980,7 +1980,7 @@ hackage:
       "threads".flags.old-locale = true;
       "threads".flags.bytestring-in-base = false;
       "threads".flags.network-uri = true;
-      "easy-file".revision = hackage."easy-file"."0.2.0".revisions.default;
+      "easy-file".revision = (((hackage."easy-file")."0.2.0").revisions).default;
       "easy-file".flags.test-hlint = false;
       "easy-file".flags.splitbase = true;
       "easy-file".flags.small_base = true;
@@ -1990,7 +1990,7 @@ hackage:
       "easy-file".flags.old-locale = true;
       "easy-file".flags.bytestring-in-base = false;
       "easy-file".flags.network-uri = true;
-      "certificate".revision = hackage."certificate"."1.3.9".revisions.default;
+      "certificate".revision = (((hackage."certificate")."1.3.9").revisions).default;
       "certificate".flags.test-hlint = false;
       "certificate".flags.splitbase = true;
       "certificate".flags.small_base = true;
@@ -2000,7 +2000,7 @@ hackage:
       "certificate".flags.old-locale = true;
       "certificate".flags.bytestring-in-base = false;
       "certificate".flags.network-uri = true;
-      "tabular".revision = hackage."tabular"."0.2.2.5".revisions.default;
+      "tabular".revision = (((hackage."tabular")."0.2.2.5").revisions).default;
       "tabular".flags.test-hlint = false;
       "tabular".flags.splitbase = true;
       "tabular".flags.small_base = true;
@@ -2010,7 +2010,7 @@ hackage:
       "tabular".flags.old-locale = true;
       "tabular".flags.bytestring-in-base = false;
       "tabular".flags.network-uri = true;
-      "dimensional".revision = hackage."dimensional"."0.13.0.1".revisions.default;
+      "dimensional".revision = (((hackage."dimensional")."0.13.0.1").revisions).default;
       "dimensional".flags.test-hlint = false;
       "dimensional".flags.splitbase = true;
       "dimensional".flags.small_base = true;
@@ -2020,7 +2020,7 @@ hackage:
       "dimensional".flags.old-locale = true;
       "dimensional".flags.bytestring-in-base = false;
       "dimensional".flags.network-uri = true;
-      "esqueleto".revision = hackage."esqueleto"."2.1.2.1".revisions.default;
+      "esqueleto".revision = (((hackage."esqueleto")."2.1.2.1").revisions).default;
       "esqueleto".flags.test-hlint = false;
       "esqueleto".flags.splitbase = true;
       "esqueleto".flags.small_base = true;
@@ -2030,7 +2030,7 @@ hackage:
       "esqueleto".flags.old-locale = true;
       "esqueleto".flags.bytestring-in-base = false;
       "esqueleto".flags.network-uri = true;
-      "biofasta".revision = hackage."biofasta"."0.0.3".revisions.default;
+      "biofasta".revision = (((hackage."biofasta")."0.0.3").revisions).default;
       "biofasta".flags.test-hlint = false;
       "biofasta".flags.splitbase = true;
       "biofasta".flags.small_base = true;
@@ -2042,7 +2042,7 @@ hackage:
       "biofasta".flags.network-uri = true;
       "runghc".revision = null;
       "ghci".revision = null;
-      "js-flot".revision = hackage."js-flot"."0.8.3".revisions.default;
+      "js-flot".revision = (((hackage."js-flot")."0.8.3").revisions).default;
       "js-flot".flags.test-hlint = false;
       "js-flot".flags.splitbase = true;
       "js-flot".flags.small_base = true;
@@ -2052,7 +2052,7 @@ hackage:
       "js-flot".flags.old-locale = true;
       "js-flot".flags.bytestring-in-base = false;
       "js-flot".flags.network-uri = true;
-      "statistics".revision = hackage."statistics"."0.13.2.1".revisions.default;
+      "statistics".revision = (((hackage."statistics")."0.13.2.1").revisions).default;
       "statistics".flags.test-hlint = false;
       "statistics".flags.splitbase = true;
       "statistics".flags.small_base = true;
@@ -2062,7 +2062,7 @@ hackage:
       "statistics".flags.old-locale = true;
       "statistics".flags.bytestring-in-base = false;
       "statistics".flags.network-uri = true;
-      "bake".revision = hackage."bake"."0.2".revisions.default;
+      "bake".revision = (((hackage."bake")."0.2").revisions).default;
       "bake".flags.test-hlint = false;
       "bake".flags.splitbase = true;
       "bake".flags.small_base = true;
@@ -2072,7 +2072,7 @@ hackage:
       "bake".flags.old-locale = true;
       "bake".flags.bytestring-in-base = false;
       "bake".flags.network-uri = true;
-      "data-binary-ieee754".revision = hackage."data-binary-ieee754"."0.4.4".revisions.default;
+      "data-binary-ieee754".revision = (((hackage."data-binary-ieee754")."0.4.4").revisions).default;
       "data-binary-ieee754".flags.test-hlint = false;
       "data-binary-ieee754".flags.splitbase = true;
       "data-binary-ieee754".flags.small_base = true;
@@ -2082,7 +2082,7 @@ hackage:
       "data-binary-ieee754".flags.old-locale = true;
       "data-binary-ieee754".flags.bytestring-in-base = false;
       "data-binary-ieee754".flags.network-uri = true;
-      "repa-io".revision = hackage."repa-io"."3.3.1.2".revisions.default;
+      "repa-io".revision = (((hackage."repa-io")."3.3.1.2").revisions).default;
       "repa-io".flags.test-hlint = false;
       "repa-io".flags.splitbase = true;
       "repa-io".flags.small_base = true;
@@ -2092,7 +2092,7 @@ hackage:
       "repa-io".flags.old-locale = true;
       "repa-io".flags.bytestring-in-base = false;
       "repa-io".flags.network-uri = true;
-      "MonadPrompt".revision = hackage."MonadPrompt"."1.0.0.5".revisions.default;
+      "MonadPrompt".revision = (((hackage."MonadPrompt")."1.0.0.5").revisions).default;
       "MonadPrompt".flags.test-hlint = false;
       "MonadPrompt".flags.splitbase = true;
       "MonadPrompt".flags.small_base = true;
@@ -2102,7 +2102,7 @@ hackage:
       "MonadPrompt".flags.old-locale = true;
       "MonadPrompt".flags.bytestring-in-base = false;
       "MonadPrompt".flags.network-uri = true;
-      "ghc-heap-view".revision = hackage."ghc-heap-view"."0.5.3".revisions.default;
+      "ghc-heap-view".revision = (((hackage."ghc-heap-view")."0.5.3").revisions).default;
       "ghc-heap-view".flags.test-hlint = false;
       "ghc-heap-view".flags.splitbase = true;
       "ghc-heap-view".flags.small_base = true;
@@ -2112,7 +2112,7 @@ hackage:
       "ghc-heap-view".flags.old-locale = true;
       "ghc-heap-view".flags.bytestring-in-base = false;
       "ghc-heap-view".flags.network-uri = true;
-      "MusicBrainz".revision = hackage."MusicBrainz"."0.2.2".revisions.default;
+      "MusicBrainz".revision = (((hackage."MusicBrainz")."0.2.2").revisions).default;
       "MusicBrainz".flags.test-hlint = false;
       "MusicBrainz".flags.splitbase = true;
       "MusicBrainz".flags.small_base = true;
@@ -2122,7 +2122,7 @@ hackage:
       "MusicBrainz".flags.old-locale = true;
       "MusicBrainz".flags.bytestring-in-base = false;
       "MusicBrainz".flags.network-uri = true;
-      "th-expand-syns".revision = hackage."th-expand-syns"."0.3.0.4".revisions.default;
+      "th-expand-syns".revision = (((hackage."th-expand-syns")."0.3.0.4").revisions).default;
       "th-expand-syns".flags.test-hlint = false;
       "th-expand-syns".flags.splitbase = true;
       "th-expand-syns".flags.small_base = true;
@@ -2132,7 +2132,7 @@ hackage:
       "th-expand-syns".flags.old-locale = true;
       "th-expand-syns".flags.bytestring-in-base = false;
       "th-expand-syns".flags.network-uri = true;
-      "classy-prelude".revision = hackage."classy-prelude"."0.10.2".revisions.default;
+      "classy-prelude".revision = (((hackage."classy-prelude")."0.10.2").revisions).default;
       "classy-prelude".flags.test-hlint = false;
       "classy-prelude".flags.splitbase = true;
       "classy-prelude".flags.small_base = true;
@@ -2142,7 +2142,7 @@ hackage:
       "classy-prelude".flags.old-locale = true;
       "classy-prelude".flags.bytestring-in-base = false;
       "classy-prelude".flags.network-uri = true;
-      "immortal".revision = hackage."immortal"."0.2".revisions.default;
+      "immortal".revision = (((hackage."immortal")."0.2").revisions).default;
       "immortal".flags.test-hlint = false;
       "immortal".flags.splitbase = true;
       "immortal".flags.small_base = true;
@@ -2152,7 +2152,7 @@ hackage:
       "immortal".flags.old-locale = true;
       "immortal".flags.bytestring-in-base = false;
       "immortal".flags.network-uri = true;
-      "compensated".revision = hackage."compensated"."0.6.1".revisions.default;
+      "compensated".revision = (((hackage."compensated")."0.6.1").revisions).default;
       "compensated".flags.test-hlint = false;
       "compensated".flags.splitbase = true;
       "compensated".flags.small_base = true;
@@ -2162,7 +2162,7 @@ hackage:
       "compensated".flags.old-locale = true;
       "compensated".flags.bytestring-in-base = false;
       "compensated".flags.network-uri = true;
-      "haskell-names".revision = hackage."haskell-names"."0.4.1".revisions.default;
+      "haskell-names".revision = (((hackage."haskell-names")."0.4.1").revisions).default;
       "haskell-names".flags.test-hlint = false;
       "haskell-names".flags.splitbase = true;
       "haskell-names".flags.small_base = true;
@@ -2172,7 +2172,7 @@ hackage:
       "haskell-names".flags.old-locale = true;
       "haskell-names".flags.bytestring-in-base = false;
       "haskell-names".flags.network-uri = true;
-      "regex-posix".revision = hackage."regex-posix"."0.95.2".revisions.default;
+      "regex-posix".revision = (((hackage."regex-posix")."0.95.2").revisions).default;
       "regex-posix".flags.test-hlint = false;
       "regex-posix".flags.splitbase = true;
       "regex-posix".flags.small_base = true;
@@ -2182,7 +2182,7 @@ hackage:
       "regex-posix".flags.old-locale = true;
       "regex-posix".flags.bytestring-in-base = false;
       "regex-posix".flags.network-uri = true;
-      "atto-lisp".revision = hackage."atto-lisp"."0.2.2".revisions.default;
+      "atto-lisp".revision = (((hackage."atto-lisp")."0.2.2").revisions).default;
       "atto-lisp".flags.test-hlint = false;
       "atto-lisp".flags.splitbase = true;
       "atto-lisp".flags.small_base = true;
@@ -2192,7 +2192,7 @@ hackage:
       "atto-lisp".flags.old-locale = true;
       "atto-lisp".flags.bytestring-in-base = false;
       "atto-lisp".flags.network-uri = true;
-      "monad-primitive".revision = hackage."monad-primitive"."0.1".revisions.default;
+      "monad-primitive".revision = (((hackage."monad-primitive")."0.1").revisions).default;
       "monad-primitive".flags.test-hlint = false;
       "monad-primitive".flags.splitbase = true;
       "monad-primitive".flags.small_base = true;
@@ -2202,7 +2202,7 @@ hackage:
       "monad-primitive".flags.old-locale = true;
       "monad-primitive".flags.bytestring-in-base = false;
       "monad-primitive".flags.network-uri = true;
-      "postgresql-simple".revision = hackage."postgresql-simple"."0.4.9.0".revisions.default;
+      "postgresql-simple".revision = (((hackage."postgresql-simple")."0.4.9.0").revisions).default;
       "postgresql-simple".flags.test-hlint = false;
       "postgresql-simple".flags.splitbase = true;
       "postgresql-simple".flags.small_base = true;
@@ -2212,7 +2212,7 @@ hackage:
       "postgresql-simple".flags.old-locale = true;
       "postgresql-simple".flags.bytestring-in-base = false;
       "postgresql-simple".flags.network-uri = true;
-      "lazy-csv".revision = hackage."lazy-csv"."0.5".revisions.default;
+      "lazy-csv".revision = (((hackage."lazy-csv")."0.5").revisions).default;
       "lazy-csv".flags.test-hlint = false;
       "lazy-csv".flags.splitbase = true;
       "lazy-csv".flags.small_base = true;
@@ -2222,7 +2222,7 @@ hackage:
       "lazy-csv".flags.old-locale = true;
       "lazy-csv".flags.bytestring-in-base = false;
       "lazy-csv".flags.network-uri = true;
-      "monad-extras".revision = hackage."monad-extras"."0.5.9".revisions.default;
+      "monad-extras".revision = (((hackage."monad-extras")."0.5.9").revisions).default;
       "monad-extras".flags.test-hlint = false;
       "monad-extras".flags.splitbase = true;
       "monad-extras".flags.small_base = true;
@@ -2232,7 +2232,7 @@ hackage:
       "monad-extras".flags.old-locale = true;
       "monad-extras".flags.bytestring-in-base = false;
       "monad-extras".flags.network-uri = true;
-      "pretty-class".revision = hackage."pretty-class"."1.0.1.1".revisions.default;
+      "pretty-class".revision = (((hackage."pretty-class")."1.0.1.1").revisions).default;
       "pretty-class".flags.test-hlint = false;
       "pretty-class".flags.splitbase = true;
       "pretty-class".flags.small_base = true;
@@ -2242,7 +2242,7 @@ hackage:
       "pretty-class".flags.old-locale = true;
       "pretty-class".flags.bytestring-in-base = false;
       "pretty-class".flags.network-uri = true;
-      "groundhog".revision = hackage."groundhog"."0.7.0.1".revisions.default;
+      "groundhog".revision = (((hackage."groundhog")."0.7.0.1").revisions).default;
       "groundhog".flags.test-hlint = false;
       "groundhog".flags.splitbase = true;
       "groundhog".flags.small_base = true;
@@ -2252,7 +2252,7 @@ hackage:
       "groundhog".flags.old-locale = true;
       "groundhog".flags.bytestring-in-base = false;
       "groundhog".flags.network-uri = true;
-      "shell-conduit".revision = hackage."shell-conduit"."4.5".revisions.default;
+      "shell-conduit".revision = (((hackage."shell-conduit")."4.5").revisions).default;
       "shell-conduit".flags.test-hlint = false;
       "shell-conduit".flags.splitbase = true;
       "shell-conduit".flags.small_base = true;
@@ -2262,7 +2262,7 @@ hackage:
       "shell-conduit".flags.old-locale = true;
       "shell-conduit".flags.bytestring-in-base = false;
       "shell-conduit".flags.network-uri = true;
-      "courier".revision = hackage."courier"."0.1.0.15".revisions.default;
+      "courier".revision = (((hackage."courier")."0.1.0.15").revisions).default;
       "courier".flags.test-hlint = false;
       "courier".flags.splitbase = true;
       "courier".flags.small_base = true;
@@ -2272,7 +2272,7 @@ hackage:
       "courier".flags.old-locale = true;
       "courier".flags.bytestring-in-base = false;
       "courier".flags.network-uri = true;
-      "alex".revision = hackage."alex"."3.1.4".revisions.default;
+      "alex".revision = (((hackage."alex")."3.1.4").revisions).default;
       "alex".flags.test-hlint = false;
       "alex".flags.splitbase = true;
       "alex".flags.small_base = true;
@@ -2282,7 +2282,7 @@ hackage:
       "alex".flags.old-locale = true;
       "alex".flags.bytestring-in-base = false;
       "alex".flags.network-uri = true;
-      "fclabels".revision = hackage."fclabels"."2.0.2.2".revisions.default;
+      "fclabels".revision = (((hackage."fclabels")."2.0.2.2").revisions).default;
       "fclabels".flags.test-hlint = false;
       "fclabels".flags.splitbase = true;
       "fclabels".flags.small_base = true;
@@ -2292,7 +2292,7 @@ hackage:
       "fclabels".flags.old-locale = true;
       "fclabels".flags.bytestring-in-base = false;
       "fclabels".flags.network-uri = true;
-      "clock".revision = hackage."clock"."0.4.1.3".revisions.default;
+      "clock".revision = (((hackage."clock")."0.4.1.3").revisions).default;
       "clock".flags.test-hlint = false;
       "clock".flags.splitbase = true;
       "clock".flags.small_base = true;
@@ -2302,7 +2302,7 @@ hackage:
       "clock".flags.old-locale = true;
       "clock".flags.bytestring-in-base = false;
       "clock".flags.network-uri = true;
-      "double-conversion".revision = hackage."double-conversion"."2.0.1.0".revisions.default;
+      "double-conversion".revision = (((hackage."double-conversion")."2.0.1.0").revisions).default;
       "double-conversion".flags.test-hlint = false;
       "double-conversion".flags.splitbase = true;
       "double-conversion".flags.small_base = true;
@@ -2312,7 +2312,7 @@ hackage:
       "double-conversion".flags.old-locale = true;
       "double-conversion".flags.bytestring-in-base = false;
       "double-conversion".flags.network-uri = true;
-      "io-manager".revision = hackage."io-manager"."0.1.0.2".revisions.default;
+      "io-manager".revision = (((hackage."io-manager")."0.1.0.2").revisions).default;
       "io-manager".flags.test-hlint = false;
       "io-manager".flags.splitbase = true;
       "io-manager".flags.small_base = true;
@@ -2322,7 +2322,7 @@ hackage:
       "io-manager".flags.old-locale = true;
       "io-manager".flags.bytestring-in-base = false;
       "io-manager".flags.network-uri = true;
-      "prettyclass".revision = hackage."prettyclass"."1.0.0.0".revisions.default;
+      "prettyclass".revision = (((hackage."prettyclass")."1.0.0.0").revisions).default;
       "prettyclass".flags.test-hlint = false;
       "prettyclass".flags.splitbase = true;
       "prettyclass".flags.small_base = true;
@@ -2332,7 +2332,7 @@ hackage:
       "prettyclass".flags.old-locale = true;
       "prettyclass".flags.bytestring-in-base = false;
       "prettyclass".flags.network-uri = true;
-      "system-fileio".revision = hackage."system-fileio"."0.3.16".revisions.default;
+      "system-fileio".revision = (((hackage."system-fileio")."0.3.16").revisions).default;
       "system-fileio".flags.test-hlint = false;
       "system-fileio".flags.splitbase = true;
       "system-fileio".flags.small_base = true;
@@ -2342,7 +2342,7 @@ hackage:
       "system-fileio".flags.old-locale = true;
       "system-fileio".flags.bytestring-in-base = false;
       "system-fileio".flags.network-uri = true;
-      "project-template".revision = hackage."project-template"."0.1.4.2".revisions.default;
+      "project-template".revision = (((hackage."project-template")."0.1.4.2").revisions).default;
       "project-template".flags.test-hlint = false;
       "project-template".flags.splitbase = true;
       "project-template".flags.small_base = true;
@@ -2352,7 +2352,7 @@ hackage:
       "project-template".flags.old-locale = true;
       "project-template".flags.bytestring-in-base = false;
       "project-template".flags.network-uri = true;
-      "prefix-units".revision = hackage."prefix-units"."0.1.0.2".revisions.default;
+      "prefix-units".revision = (((hackage."prefix-units")."0.1.0.2").revisions).default;
       "prefix-units".flags.test-hlint = false;
       "prefix-units".flags.splitbase = true;
       "prefix-units".flags.small_base = true;
@@ -2362,7 +2362,7 @@ hackage:
       "prefix-units".flags.old-locale = true;
       "prefix-units".flags.bytestring-in-base = false;
       "prefix-units".flags.network-uri = true;
-      "cautious-file".revision = hackage."cautious-file"."1.0.2".revisions.default;
+      "cautious-file".revision = (((hackage."cautious-file")."1.0.2").revisions).default;
       "cautious-file".flags.test-hlint = false;
       "cautious-file".flags.splitbase = true;
       "cautious-file".flags.small_base = true;
@@ -2372,7 +2372,7 @@ hackage:
       "cautious-file".flags.old-locale = true;
       "cautious-file".flags.bytestring-in-base = false;
       "cautious-file".flags.network-uri = true;
-      "process-conduit".revision = hackage."process-conduit"."1.2.0.1".revisions.default;
+      "process-conduit".revision = (((hackage."process-conduit")."1.2.0.1").revisions).default;
       "process-conduit".flags.test-hlint = false;
       "process-conduit".flags.splitbase = true;
       "process-conduit".flags.small_base = true;
@@ -2382,7 +2382,7 @@ hackage:
       "process-conduit".flags.old-locale = true;
       "process-conduit".flags.bytestring-in-base = false;
       "process-conduit".flags.network-uri = true;
-      "hse-cpp".revision = hackage."hse-cpp"."0.1".revisions.default;
+      "hse-cpp".revision = (((hackage."hse-cpp")."0.1").revisions).default;
       "hse-cpp".flags.test-hlint = false;
       "hse-cpp".flags.splitbase = true;
       "hse-cpp".flags.small_base = true;
@@ -2392,7 +2392,7 @@ hackage:
       "hse-cpp".flags.old-locale = true;
       "hse-cpp".flags.bytestring-in-base = false;
       "hse-cpp".flags.network-uri = true;
-      "biophd".revision = hackage."biophd"."0.0.5".revisions.default;
+      "biophd".revision = (((hackage."biophd")."0.0.5").revisions).default;
       "biophd".flags.test-hlint = false;
       "biophd".flags.splitbase = true;
       "biophd".flags.small_base = true;
@@ -2402,7 +2402,7 @@ hackage:
       "biophd".flags.old-locale = true;
       "biophd".flags.bytestring-in-base = false;
       "biophd".flags.network-uri = true;
-      "hs-bibutils".revision = hackage."hs-bibutils"."5.5".revisions.default;
+      "hs-bibutils".revision = (((hackage."hs-bibutils")."5.5").revisions).default;
       "hs-bibutils".flags.test-hlint = false;
       "hs-bibutils".flags.splitbase = true;
       "hs-bibutils".flags.small_base = true;
@@ -2412,7 +2412,7 @@ hackage:
       "hs-bibutils".flags.old-locale = true;
       "hs-bibutils".flags.bytestring-in-base = false;
       "hs-bibutils".flags.network-uri = true;
-      "adjunctions".revision = hackage."adjunctions"."4.2".revisions.default;
+      "adjunctions".revision = (((hackage."adjunctions")."4.2").revisions).default;
       "adjunctions".flags.test-hlint = false;
       "adjunctions".flags.splitbase = true;
       "adjunctions".flags.small_base = true;
@@ -2422,7 +2422,7 @@ hackage:
       "adjunctions".flags.old-locale = true;
       "adjunctions".flags.bytestring-in-base = false;
       "adjunctions".flags.network-uri = true;
-      "hPDB-examples".revision = hackage."hPDB-examples"."1.2.0.1".revisions.default;
+      "hPDB-examples".revision = (((hackage."hPDB-examples")."1.2.0.1").revisions).default;
       "hPDB-examples".flags.test-hlint = false;
       "hPDB-examples".flags.splitbase = true;
       "hPDB-examples".flags.small_base = true;
@@ -2432,7 +2432,7 @@ hackage:
       "hPDB-examples".flags.old-locale = true;
       "hPDB-examples".flags.bytestring-in-base = false;
       "hPDB-examples".flags.network-uri = true;
-      "map-syntax".revision = hackage."map-syntax"."0.2".revisions.default;
+      "map-syntax".revision = (((hackage."map-syntax")."0.2").revisions).default;
       "map-syntax".flags.test-hlint = false;
       "map-syntax".flags.splitbase = true;
       "map-syntax".flags.small_base = true;
@@ -2442,7 +2442,7 @@ hackage:
       "map-syntax".flags.old-locale = true;
       "map-syntax".flags.bytestring-in-base = false;
       "map-syntax".flags.network-uri = true;
-      "mime-mail-ses".revision = hackage."mime-mail-ses"."0.3.2.2".revisions.default;
+      "mime-mail-ses".revision = (((hackage."mime-mail-ses")."0.3.2.2").revisions).default;
       "mime-mail-ses".flags.test-hlint = false;
       "mime-mail-ses".flags.splitbase = true;
       "mime-mail-ses".flags.small_base = true;
@@ -2452,7 +2452,7 @@ hackage:
       "mime-mail-ses".flags.old-locale = true;
       "mime-mail-ses".flags.bytestring-in-base = false;
       "mime-mail-ses".flags.network-uri = true;
-      "flexible-defaults".revision = hackage."flexible-defaults"."0.0.1.1".revisions.default;
+      "flexible-defaults".revision = (((hackage."flexible-defaults")."0.0.1.1").revisions).default;
       "flexible-defaults".flags.test-hlint = false;
       "flexible-defaults".flags.splitbase = true;
       "flexible-defaults".flags.small_base = true;
@@ -2462,7 +2462,7 @@ hackage:
       "flexible-defaults".flags.old-locale = true;
       "flexible-defaults".flags.bytestring-in-base = false;
       "flexible-defaults".flags.network-uri = true;
-      "enclosed-exceptions".revision = hackage."enclosed-exceptions"."1.0.1".revisions.default;
+      "enclosed-exceptions".revision = (((hackage."enclosed-exceptions")."1.0.1").revisions).default;
       "enclosed-exceptions".flags.test-hlint = false;
       "enclosed-exceptions".flags.splitbase = true;
       "enclosed-exceptions".flags.small_base = true;
@@ -2472,7 +2472,7 @@ hackage:
       "enclosed-exceptions".flags.old-locale = true;
       "enclosed-exceptions".flags.bytestring-in-base = false;
       "enclosed-exceptions".flags.network-uri = true;
-      "th-orphans".revision = hackage."th-orphans"."0.8.3".revisions.default;
+      "th-orphans".revision = (((hackage."th-orphans")."0.8.3").revisions).default;
       "th-orphans".flags.test-hlint = false;
       "th-orphans".flags.splitbase = true;
       "th-orphans".flags.small_base = true;
@@ -2482,7 +2482,7 @@ hackage:
       "th-orphans".flags.old-locale = true;
       "th-orphans".flags.bytestring-in-base = false;
       "th-orphans".flags.network-uri = true;
-      "pem".revision = hackage."pem"."0.2.2".revisions.default;
+      "pem".revision = (((hackage."pem")."0.2.2").revisions).default;
       "pem".flags.test-hlint = false;
       "pem".flags.splitbase = true;
       "pem".flags.small_base = true;
@@ -2492,7 +2492,7 @@ hackage:
       "pem".flags.old-locale = true;
       "pem".flags.bytestring-in-base = false;
       "pem".flags.network-uri = true;
-      "HaXml".revision = hackage."HaXml"."1.25.2".revisions.default;
+      "HaXml".revision = (((hackage."HaXml")."1.25.2").revisions).default;
       "HaXml".flags.test-hlint = false;
       "HaXml".flags.splitbase = true;
       "HaXml".flags.small_base = true;
@@ -2502,7 +2502,7 @@ hackage:
       "HaXml".flags.old-locale = true;
       "HaXml".flags.bytestring-in-base = false;
       "HaXml".flags.network-uri = true;
-      "composition".revision = hackage."composition"."1.0.1.0".revisions.default;
+      "composition".revision = (((hackage."composition")."1.0.1.0").revisions).default;
       "composition".flags.test-hlint = false;
       "composition".flags.splitbase = true;
       "composition".flags.small_base = true;
@@ -2512,7 +2512,7 @@ hackage:
       "composition".flags.old-locale = true;
       "composition".flags.bytestring-in-base = false;
       "composition".flags.network-uri = true;
-      "concatenative".revision = hackage."concatenative"."1.0.1".revisions.default;
+      "concatenative".revision = (((hackage."concatenative")."1.0.1").revisions).default;
       "concatenative".flags.test-hlint = false;
       "concatenative".flags.splitbase = true;
       "concatenative".flags.small_base = true;
@@ -2522,7 +2522,7 @@ hackage:
       "concatenative".flags.old-locale = true;
       "concatenative".flags.bytestring-in-base = false;
       "concatenative".flags.network-uri = true;
-      "vector-space".revision = hackage."vector-space"."0.8.7".revisions.default;
+      "vector-space".revision = (((hackage."vector-space")."0.8.7").revisions).default;
       "vector-space".flags.test-hlint = false;
       "vector-space".flags.splitbase = true;
       "vector-space".flags.small_base = true;
@@ -2532,7 +2532,7 @@ hackage:
       "vector-space".flags.old-locale = true;
       "vector-space".flags.bytestring-in-base = false;
       "vector-space".flags.network-uri = true;
-      "distributed-process-supervisor".revision = hackage."distributed-process-supervisor"."0.1.2".revisions.default;
+      "distributed-process-supervisor".revision = (((hackage."distributed-process-supervisor")."0.1.2").revisions).default;
       "distributed-process-supervisor".flags.test-hlint = false;
       "distributed-process-supervisor".flags.splitbase = true;
       "distributed-process-supervisor".flags.small_base = true;
@@ -2542,7 +2542,7 @@ hackage:
       "distributed-process-supervisor".flags.old-locale = true;
       "distributed-process-supervisor".flags.bytestring-in-base = false;
       "distributed-process-supervisor".flags.network-uri = true;
-      "asn1-data".revision = hackage."asn1-data"."0.7.1".revisions.default;
+      "asn1-data".revision = (((hackage."asn1-data")."0.7.1").revisions).default;
       "asn1-data".flags.test-hlint = false;
       "asn1-data".flags.splitbase = true;
       "asn1-data".flags.small_base = true;
@@ -2552,7 +2552,7 @@ hackage:
       "asn1-data".flags.old-locale = true;
       "asn1-data".flags.bytestring-in-base = false;
       "asn1-data".flags.network-uri = true;
-      "yesod-auth-hashdb".revision = hackage."yesod-auth-hashdb"."1.4.1.2".revisions.default;
+      "yesod-auth-hashdb".revision = (((hackage."yesod-auth-hashdb")."1.4.1.2").revisions).default;
       "yesod-auth-hashdb".flags.test-hlint = false;
       "yesod-auth-hashdb".flags.splitbase = true;
       "yesod-auth-hashdb".flags.small_base = true;
@@ -2562,7 +2562,7 @@ hackage:
       "yesod-auth-hashdb".flags.old-locale = true;
       "yesod-auth-hashdb".flags.bytestring-in-base = false;
       "yesod-auth-hashdb".flags.network-uri = true;
-      "bank-holidays-england".revision = hackage."bank-holidays-england"."0.1.0.2".revisions.default;
+      "bank-holidays-england".revision = (((hackage."bank-holidays-england")."0.1.0.2").revisions).default;
       "bank-holidays-england".flags.test-hlint = false;
       "bank-holidays-england".flags.splitbase = true;
       "bank-holidays-england".flags.small_base = true;
@@ -2572,7 +2572,7 @@ hackage:
       "bank-holidays-england".flags.old-locale = true;
       "bank-holidays-england".flags.bytestring-in-base = false;
       "bank-holidays-england".flags.network-uri = true;
-      "chell-quickcheck".revision = hackage."chell-quickcheck"."0.2.4".revisions.default;
+      "chell-quickcheck".revision = (((hackage."chell-quickcheck")."0.2.4").revisions).default;
       "chell-quickcheck".flags.test-hlint = false;
       "chell-quickcheck".flags.splitbase = true;
       "chell-quickcheck".flags.small_base = true;
@@ -2582,7 +2582,7 @@ hackage:
       "chell-quickcheck".flags.old-locale = true;
       "chell-quickcheck".flags.bytestring-in-base = false;
       "chell-quickcheck".flags.network-uri = true;
-      "curl".revision = hackage."curl"."1.3.8".revisions.default;
+      "curl".revision = (((hackage."curl")."1.3.8").revisions).default;
       "curl".flags.test-hlint = false;
       "curl".flags.splitbase = true;
       "curl".flags.small_base = true;
@@ -2592,7 +2592,7 @@ hackage:
       "curl".flags.old-locale = true;
       "curl".flags.bytestring-in-base = false;
       "curl".flags.network-uri = true;
-      "bytestring-trie".revision = hackage."bytestring-trie"."0.2.4".revisions.default;
+      "bytestring-trie".revision = (((hackage."bytestring-trie")."0.2.4").revisions).default;
       "bytestring-trie".flags.test-hlint = false;
       "bytestring-trie".flags.splitbase = true;
       "bytestring-trie".flags.small_base = true;
@@ -2602,7 +2602,7 @@ hackage:
       "bytestring-trie".flags.old-locale = true;
       "bytestring-trie".flags.bytestring-in-base = false;
       "bytestring-trie".flags.network-uri = true;
-      "X11".revision = hackage."X11"."1.6.1.2".revisions.default;
+      "X11".revision = (((hackage."X11")."1.6.1.2").revisions).default;
       "X11".flags.test-hlint = false;
       "X11".flags.splitbase = true;
       "X11".flags.small_base = true;
@@ -2612,7 +2612,7 @@ hackage:
       "X11".flags.old-locale = true;
       "X11".flags.bytestring-in-base = false;
       "X11".flags.network-uri = true;
-      "network-transport-tests".revision = hackage."network-transport-tests"."0.2.2.0".revisions.default;
+      "network-transport-tests".revision = (((hackage."network-transport-tests")."0.2.2.0").revisions).default;
       "network-transport-tests".flags.test-hlint = false;
       "network-transport-tests".flags.splitbase = true;
       "network-transport-tests".flags.small_base = true;
@@ -2622,7 +2622,7 @@ hackage:
       "network-transport-tests".flags.old-locale = true;
       "network-transport-tests".flags.bytestring-in-base = false;
       "network-transport-tests".flags.network-uri = true;
-      "HaTeX".revision = hackage."HaTeX"."3.16.0.0".revisions.default;
+      "HaTeX".revision = (((hackage."HaTeX")."3.16.0.0").revisions).default;
       "HaTeX".flags.test-hlint = false;
       "HaTeX".flags.splitbase = true;
       "HaTeX".flags.small_base = true;
@@ -2632,7 +2632,7 @@ hackage:
       "HaTeX".flags.old-locale = true;
       "HaTeX".flags.bytestring-in-base = false;
       "HaTeX".flags.network-uri = true;
-      "markdown-unlit".revision = hackage."markdown-unlit"."0.2.0.1".revisions.default;
+      "markdown-unlit".revision = (((hackage."markdown-unlit")."0.2.0.1").revisions).default;
       "markdown-unlit".flags.test-hlint = false;
       "markdown-unlit".flags.splitbase = true;
       "markdown-unlit".flags.small_base = true;
@@ -2642,7 +2642,7 @@ hackage:
       "markdown-unlit".flags.old-locale = true;
       "markdown-unlit".flags.bytestring-in-base = false;
       "markdown-unlit".flags.network-uri = true;
-      "generic-deriving".revision = hackage."generic-deriving"."1.6.3".revisions.default;
+      "generic-deriving".revision = (((hackage."generic-deriving")."1.6.3").revisions).default;
       "generic-deriving".flags.test-hlint = false;
       "generic-deriving".flags.splitbase = true;
       "generic-deriving".flags.small_base = true;
@@ -2652,7 +2652,7 @@ hackage:
       "generic-deriving".flags.old-locale = true;
       "generic-deriving".flags.bytestring-in-base = false;
       "generic-deriving".flags.network-uri = true;
-      "io-choice".revision = hackage."io-choice"."0.0.5".revisions.default;
+      "io-choice".revision = (((hackage."io-choice")."0.0.5").revisions).default;
       "io-choice".flags.test-hlint = false;
       "io-choice".flags.splitbase = true;
       "io-choice".flags.small_base = true;
@@ -2662,7 +2662,7 @@ hackage:
       "io-choice".flags.old-locale = true;
       "io-choice".flags.bytestring-in-base = false;
       "io-choice".flags.network-uri = true;
-      "executable-path".revision = hackage."executable-path"."0.0.3".revisions.default;
+      "executable-path".revision = (((hackage."executable-path")."0.0.3").revisions).default;
       "executable-path".flags.test-hlint = false;
       "executable-path".flags.splitbase = true;
       "executable-path".flags.small_base = true;
@@ -2672,7 +2672,7 @@ hackage:
       "executable-path".flags.old-locale = true;
       "executable-path".flags.bytestring-in-base = false;
       "executable-path".flags.network-uri = true;
-      "syb".revision = hackage."syb"."0.4.4".revisions.default;
+      "syb".revision = (((hackage."syb")."0.4.4").revisions).default;
       "syb".flags.test-hlint = false;
       "syb".flags.splitbase = true;
       "syb".flags.small_base = true;
@@ -2682,7 +2682,7 @@ hackage:
       "syb".flags.old-locale = true;
       "syb".flags.bytestring-in-base = false;
       "syb".flags.network-uri = true;
-      "quickpull".revision = hackage."quickpull"."0.4.0.0".revisions.default;
+      "quickpull".revision = (((hackage."quickpull")."0.4.0.0").revisions).default;
       "quickpull".flags.test-hlint = false;
       "quickpull".flags.splitbase = true;
       "quickpull".flags.small_base = true;
@@ -2692,7 +2692,7 @@ hackage:
       "quickpull".flags.old-locale = true;
       "quickpull".flags.bytestring-in-base = false;
       "quickpull".flags.network-uri = true;
-      "comonad-transformers".revision = hackage."comonad-transformers"."4.0".revisions.default;
+      "comonad-transformers".revision = (((hackage."comonad-transformers")."4.0").revisions).default;
       "comonad-transformers".flags.test-hlint = false;
       "comonad-transformers".flags.splitbase = true;
       "comonad-transformers".flags.small_base = true;
@@ -2702,7 +2702,7 @@ hackage:
       "comonad-transformers".flags.old-locale = true;
       "comonad-transformers".flags.bytestring-in-base = false;
       "comonad-transformers".flags.network-uri = true;
-      "basic-prelude".revision = hackage."basic-prelude"."0.3.10".revisions.default;
+      "basic-prelude".revision = (((hackage."basic-prelude")."0.3.10").revisions).default;
       "basic-prelude".flags.test-hlint = false;
       "basic-prelude".flags.splitbase = true;
       "basic-prelude".flags.small_base = true;
@@ -2712,7 +2712,7 @@ hackage:
       "basic-prelude".flags.old-locale = true;
       "basic-prelude".flags.bytestring-in-base = false;
       "basic-prelude".flags.network-uri = true;
-      "blaze-textual".revision = hackage."blaze-textual"."0.2.0.9".revisions.default;
+      "blaze-textual".revision = (((hackage."blaze-textual")."0.2.0.9").revisions).default;
       "blaze-textual".flags.test-hlint = false;
       "blaze-textual".flags.splitbase = true;
       "blaze-textual".flags.small_base = true;
@@ -2722,7 +2722,7 @@ hackage:
       "blaze-textual".flags.old-locale = true;
       "blaze-textual".flags.bytestring-in-base = false;
       "blaze-textual".flags.network-uri = true;
-      "glib".revision = hackage."glib"."0.13.0.7".revisions.default;
+      "glib".revision = (((hackage."glib")."0.13.0.7").revisions).default;
       "glib".flags.test-hlint = false;
       "glib".flags.splitbase = true;
       "glib".flags.small_base = true;
@@ -2732,7 +2732,7 @@ hackage:
       "glib".flags.old-locale = true;
       "glib".flags.bytestring-in-base = false;
       "glib".flags.network-uri = true;
-      "distributive".revision = hackage."distributive"."0.4.4".revisions.default;
+      "distributive".revision = (((hackage."distributive")."0.4.4").revisions).default;
       "distributive".flags.test-hlint = false;
       "distributive".flags.splitbase = true;
       "distributive".flags.small_base = true;
@@ -2742,7 +2742,7 @@ hackage:
       "distributive".flags.old-locale = true;
       "distributive".flags.bytestring-in-base = false;
       "distributive".flags.network-uri = true;
-      "binary-list".revision = hackage."binary-list"."1.0.1.0".revisions.default;
+      "binary-list".revision = (((hackage."binary-list")."1.0.1.0").revisions).default;
       "binary-list".flags.test-hlint = false;
       "binary-list".flags.splitbase = true;
       "binary-list".flags.small_base = true;
@@ -2752,7 +2752,7 @@ hackage:
       "binary-list".flags.old-locale = true;
       "binary-list".flags.bytestring-in-base = false;
       "binary-list".flags.network-uri = true;
-      "tuple".revision = hackage."tuple"."0.3.0.2".revisions.default;
+      "tuple".revision = (((hackage."tuple")."0.3.0.2").revisions).default;
       "tuple".flags.test-hlint = false;
       "tuple".flags.splitbase = true;
       "tuple".flags.small_base = true;
@@ -2762,7 +2762,7 @@ hackage:
       "tuple".flags.old-locale = true;
       "tuple".flags.bytestring-in-base = false;
       "tuple".flags.network-uri = true;
-      "wizards".revision = hackage."wizards"."1.0.1".revisions.default;
+      "wizards".revision = (((hackage."wizards")."1.0.1").revisions).default;
       "wizards".flags.test-hlint = false;
       "wizards".flags.splitbase = true;
       "wizards".flags.small_base = true;
@@ -2772,7 +2772,7 @@ hackage:
       "wizards".flags.old-locale = true;
       "wizards".flags.bytestring-in-base = false;
       "wizards".flags.network-uri = true;
-      "primes".revision = hackage."primes"."0.2.1.0".revisions.default;
+      "primes".revision = (((hackage."primes")."0.2.1.0").revisions).default;
       "primes".flags.test-hlint = false;
       "primes".flags.splitbase = true;
       "primes".flags.small_base = true;
@@ -2782,7 +2782,7 @@ hackage:
       "primes".flags.old-locale = true;
       "primes".flags.bytestring-in-base = false;
       "primes".flags.network-uri = true;
-      "crypto-pubkey-types".revision = hackage."crypto-pubkey-types"."0.4.3".revisions.default;
+      "crypto-pubkey-types".revision = (((hackage."crypto-pubkey-types")."0.4.3").revisions).default;
       "crypto-pubkey-types".flags.test-hlint = false;
       "crypto-pubkey-types".flags.splitbase = true;
       "crypto-pubkey-types".flags.small_base = true;
@@ -2792,7 +2792,7 @@ hackage:
       "crypto-pubkey-types".flags.old-locale = true;
       "crypto-pubkey-types".flags.bytestring-in-base = false;
       "crypto-pubkey-types".flags.network-uri = true;
-      "persistent-template".revision = hackage."persistent-template"."2.1.0.1".revisions.default;
+      "persistent-template".revision = (((hackage."persistent-template")."2.1.0.1").revisions).default;
       "persistent-template".flags.test-hlint = false;
       "persistent-template".flags.splitbase = true;
       "persistent-template".flags.small_base = true;
@@ -2802,7 +2802,7 @@ hackage:
       "persistent-template".flags.old-locale = true;
       "persistent-template".flags.bytestring-in-base = false;
       "persistent-template".flags.network-uri = true;
-      "asn1-encoding".revision = hackage."asn1-encoding"."0.9.0".revisions.default;
+      "asn1-encoding".revision = (((hackage."asn1-encoding")."0.9.0").revisions).default;
       "asn1-encoding".flags.test-hlint = false;
       "asn1-encoding".flags.splitbase = true;
       "asn1-encoding".flags.small_base = true;
@@ -2812,7 +2812,7 @@ hackage:
       "asn1-encoding".flags.old-locale = true;
       "asn1-encoding".flags.bytestring-in-base = false;
       "asn1-encoding".flags.network-uri = true;
-      "vector-th-unbox".revision = hackage."vector-th-unbox"."0.2.1.0".revisions.default;
+      "vector-th-unbox".revision = (((hackage."vector-th-unbox")."0.2.1.0").revisions).default;
       "vector-th-unbox".flags.test-hlint = false;
       "vector-th-unbox".flags.splitbase = true;
       "vector-th-unbox".flags.small_base = true;
@@ -2822,7 +2822,7 @@ hackage:
       "vector-th-unbox".flags.old-locale = true;
       "vector-th-unbox".flags.bytestring-in-base = false;
       "vector-th-unbox".flags.network-uri = true;
-      "zlib-enum".revision = hackage."zlib-enum"."0.2.3.1".revisions.default;
+      "zlib-enum".revision = (((hackage."zlib-enum")."0.2.3.1").revisions).default;
       "zlib-enum".flags.test-hlint = false;
       "zlib-enum".flags.splitbase = true;
       "zlib-enum".flags.small_base = true;
@@ -2832,7 +2832,7 @@ hackage:
       "zlib-enum".flags.old-locale = true;
       "zlib-enum".flags.bytestring-in-base = false;
       "zlib-enum".flags.network-uri = true;
-      "hscolour".revision = hackage."hscolour"."1.20.3".revisions.default;
+      "hscolour".revision = (((hackage."hscolour")."1.20.3").revisions).default;
       "hscolour".flags.test-hlint = false;
       "hscolour".flags.splitbase = true;
       "hscolour".flags.small_base = true;
@@ -2842,7 +2842,7 @@ hackage:
       "hscolour".flags.old-locale = true;
       "hscolour".flags.bytestring-in-base = false;
       "hscolour".flags.network-uri = true;
-      "OpenGLRaw".revision = hackage."OpenGLRaw"."1.5.0.1".revisions.default;
+      "OpenGLRaw".revision = (((hackage."OpenGLRaw")."1.5.0.1").revisions).default;
       "OpenGLRaw".flags.test-hlint = false;
       "OpenGLRaw".flags.splitbase = true;
       "OpenGLRaw".flags.small_base = true;
@@ -2852,7 +2852,7 @@ hackage:
       "OpenGLRaw".flags.old-locale = true;
       "OpenGLRaw".flags.bytestring-in-base = false;
       "OpenGLRaw".flags.network-uri = true;
-      "hslua".revision = hackage."hslua"."0.3.13".revisions.default;
+      "hslua".revision = (((hackage."hslua")."0.3.13").revisions).default;
       "hslua".flags.test-hlint = false;
       "hslua".flags.splitbase = true;
       "hslua".flags.small_base = true;
@@ -2862,7 +2862,7 @@ hackage:
       "hslua".flags.old-locale = true;
       "hslua".flags.bytestring-in-base = false;
       "hslua".flags.network-uri = true;
-      "Decimal".revision = hackage."Decimal"."0.4.2".revisions.default;
+      "Decimal".revision = (((hackage."Decimal")."0.4.2").revisions).default;
       "Decimal".flags.test-hlint = false;
       "Decimal".flags.splitbase = true;
       "Decimal".flags.small_base = true;
@@ -2872,7 +2872,7 @@ hackage:
       "Decimal".flags.old-locale = true;
       "Decimal".flags.bytestring-in-base = false;
       "Decimal".flags.network-uri = true;
-      "present".revision = hackage."present"."2.2".revisions.default;
+      "present".revision = (((hackage."present")."2.2").revisions).default;
       "present".flags.test-hlint = false;
       "present".flags.splitbase = true;
       "present".flags.small_base = true;
@@ -2882,7 +2882,7 @@ hackage:
       "present".flags.old-locale = true;
       "present".flags.bytestring-in-base = false;
       "present".flags.network-uri = true;
-      "generics-sop".revision = hackage."generics-sop"."0.1.1".revisions.default;
+      "generics-sop".revision = (((hackage."generics-sop")."0.1.1").revisions).default;
       "generics-sop".flags.test-hlint = false;
       "generics-sop".flags.splitbase = true;
       "generics-sop".flags.small_base = true;
@@ -2892,7 +2892,7 @@ hackage:
       "generics-sop".flags.old-locale = true;
       "generics-sop".flags.bytestring-in-base = false;
       "generics-sop".flags.network-uri = true;
-      "system-filepath".revision = hackage."system-filepath"."0.4.13.1".revisions.default;
+      "system-filepath".revision = (((hackage."system-filepath")."0.4.13.1").revisions).default;
       "system-filepath".flags.test-hlint = false;
       "system-filepath".flags.splitbase = true;
       "system-filepath".flags.small_base = true;
@@ -2902,7 +2902,7 @@ hackage:
       "system-filepath".flags.old-locale = true;
       "system-filepath".flags.bytestring-in-base = false;
       "system-filepath".flags.network-uri = true;
-      "bytestring-builder".revision = hackage."bytestring-builder"."0.10.4.0.1".revisions.default;
+      "bytestring-builder".revision = (((hackage."bytestring-builder")."0.10.4.0.1").revisions).default;
       "bytestring-builder".flags.test-hlint = false;
       "bytestring-builder".flags.splitbase = true;
       "bytestring-builder".flags.small_base = true;
@@ -2912,7 +2912,7 @@ hackage:
       "bytestring-builder".flags.old-locale = true;
       "bytestring-builder".flags.bytestring-in-base = false;
       "bytestring-builder".flags.network-uri = true;
-      "random-source".revision = hackage."random-source"."0.3.0.6".revisions.default;
+      "random-source".revision = (((hackage."random-source")."0.3.0.6").revisions).default;
       "random-source".flags.test-hlint = false;
       "random-source".flags.splitbase = true;
       "random-source".flags.small_base = true;
@@ -2922,7 +2922,7 @@ hackage:
       "random-source".flags.old-locale = true;
       "random-source".flags.bytestring-in-base = false;
       "random-source".flags.network-uri = true;
-      "QuickCheck".revision = hackage."QuickCheck"."2.7.6".revisions.default;
+      "QuickCheck".revision = (((hackage."QuickCheck")."2.7.6").revisions).default;
       "QuickCheck".flags.test-hlint = false;
       "QuickCheck".flags.splitbase = true;
       "QuickCheck".flags.small_base = true;
@@ -2932,7 +2932,7 @@ hackage:
       "QuickCheck".flags.old-locale = true;
       "QuickCheck".flags.bytestring-in-base = false;
       "QuickCheck".flags.network-uri = true;
-      "scientific".revision = hackage."scientific"."0.3.3.5".revisions.default;
+      "scientific".revision = (((hackage."scientific")."0.3.3.5").revisions).default;
       "scientific".flags.test-hlint = false;
       "scientific".flags.splitbase = true;
       "scientific".flags.small_base = true;
@@ -2942,7 +2942,7 @@ hackage:
       "scientific".flags.old-locale = true;
       "scientific".flags.bytestring-in-base = false;
       "scientific".flags.network-uri = true;
-      "elm-package".revision = hackage."elm-package"."0.2.2".revisions.default;
+      "elm-package".revision = (((hackage."elm-package")."0.2.2").revisions).default;
       "elm-package".flags.test-hlint = false;
       "elm-package".flags.splitbase = true;
       "elm-package".flags.small_base = true;
@@ -2952,7 +2952,7 @@ hackage:
       "elm-package".flags.old-locale = true;
       "elm-package".flags.bytestring-in-base = false;
       "elm-package".flags.network-uri = true;
-      "attoparsec-conduit".revision = hackage."attoparsec-conduit"."1.1.0".revisions.default;
+      "attoparsec-conduit".revision = (((hackage."attoparsec-conduit")."1.1.0").revisions).default;
       "attoparsec-conduit".flags.test-hlint = false;
       "attoparsec-conduit".flags.splitbase = true;
       "attoparsec-conduit".flags.small_base = true;
@@ -2962,7 +2962,7 @@ hackage:
       "attoparsec-conduit".flags.old-locale = true;
       "attoparsec-conduit".flags.bytestring-in-base = false;
       "attoparsec-conduit".flags.network-uri = true;
-      "hmatrix".revision = hackage."hmatrix"."0.16.1.3".revisions.default;
+      "hmatrix".revision = (((hackage."hmatrix")."0.16.1.3").revisions).default;
       "hmatrix".flags.test-hlint = false;
       "hmatrix".flags.splitbase = true;
       "hmatrix".flags.small_base = true;
@@ -2972,7 +2972,7 @@ hackage:
       "hmatrix".flags.old-locale = true;
       "hmatrix".flags.bytestring-in-base = false;
       "hmatrix".flags.network-uri = true;
-      "hOpenPGP".revision = hackage."hOpenPGP"."1.11".revisions.default;
+      "hOpenPGP".revision = (((hackage."hOpenPGP")."1.11").revisions).default;
       "hOpenPGP".flags.test-hlint = false;
       "hOpenPGP".flags.splitbase = true;
       "hOpenPGP".flags.small_base = true;
@@ -2982,7 +2982,7 @@ hackage:
       "hOpenPGP".flags.old-locale = true;
       "hOpenPGP".flags.bytestring-in-base = false;
       "hOpenPGP".flags.network-uri = true;
-      "stm-containers".revision = hackage."stm-containers"."0.2.7".revisions.default;
+      "stm-containers".revision = (((hackage."stm-containers")."0.2.7").revisions).default;
       "stm-containers".flags.test-hlint = false;
       "stm-containers".flags.splitbase = true;
       "stm-containers".flags.small_base = true;
@@ -2992,7 +2992,7 @@ hackage:
       "stm-containers".flags.old-locale = true;
       "stm-containers".flags.bytestring-in-base = false;
       "stm-containers".flags.network-uri = true;
-      "language-haskell-extract".revision = hackage."language-haskell-extract"."0.2.4".revisions.default;
+      "language-haskell-extract".revision = (((hackage."language-haskell-extract")."0.2.4").revisions).default;
       "language-haskell-extract".flags.test-hlint = false;
       "language-haskell-extract".flags.splitbase = true;
       "language-haskell-extract".flags.small_base = true;
@@ -3002,7 +3002,7 @@ hackage:
       "language-haskell-extract".flags.old-locale = true;
       "language-haskell-extract".flags.bytestring-in-base = false;
       "language-haskell-extract".flags.network-uri = true;
-      "tasty".revision = hackage."tasty"."0.10.1".revisions.default;
+      "tasty".revision = (((hackage."tasty")."0.10.1").revisions).default;
       "tasty".flags.test-hlint = false;
       "tasty".flags.splitbase = true;
       "tasty".flags.small_base = true;
@@ -3012,7 +3012,7 @@ hackage:
       "tasty".flags.old-locale = true;
       "tasty".flags.bytestring-in-base = false;
       "tasty".flags.network-uri = true;
-      "hspec-discover".revision = hackage."hspec-discover"."2.1.2".revisions.default;
+      "hspec-discover".revision = (((hackage."hspec-discover")."2.1.2").revisions).default;
       "hspec-discover".flags.test-hlint = false;
       "hspec-discover".flags.splitbase = true;
       "hspec-discover".flags.small_base = true;
@@ -3022,7 +3022,7 @@ hackage:
       "hspec-discover".flags.old-locale = true;
       "hspec-discover".flags.bytestring-in-base = false;
       "hspec-discover".flags.network-uri = true;
-      "aeson-qq".revision = hackage."aeson-qq"."0.7.4".revisions.default;
+      "aeson-qq".revision = (((hackage."aeson-qq")."0.7.4").revisions).default;
       "aeson-qq".flags.test-hlint = false;
       "aeson-qq".flags.splitbase = true;
       "aeson-qq".flags.small_base = true;
@@ -3032,7 +3032,7 @@ hackage:
       "aeson-qq".flags.old-locale = true;
       "aeson-qq".flags.bytestring-in-base = false;
       "aeson-qq".flags.network-uri = true;
-      "half".revision = hackage."half"."0.2.0.1".revisions.default;
+      "half".revision = (((hackage."half")."0.2.0.1").revisions).default;
       "half".flags.test-hlint = false;
       "half".flags.splitbase = true;
       "half".flags.small_base = true;
@@ -3042,7 +3042,7 @@ hackage:
       "half".flags.old-locale = true;
       "half".flags.bytestring-in-base = false;
       "half".flags.network-uri = true;
-      "haxr".revision = hackage."haxr"."3000.10.3.1".revisions.default;
+      "haxr".revision = (((hackage."haxr")."3000.10.3.1").revisions).default;
       "haxr".flags.test-hlint = false;
       "haxr".flags.splitbase = true;
       "haxr".flags.small_base = true;
@@ -3052,7 +3052,7 @@ hackage:
       "haxr".flags.old-locale = true;
       "haxr".flags.bytestring-in-base = false;
       "haxr".flags.network-uri = true;
-      "zeromq4-haskell".revision = hackage."zeromq4-haskell"."0.6.2".revisions.default;
+      "zeromq4-haskell".revision = (((hackage."zeromq4-haskell")."0.6.2").revisions).default;
       "zeromq4-haskell".flags.test-hlint = false;
       "zeromq4-haskell".flags.splitbase = true;
       "zeromq4-haskell".flags.small_base = true;
@@ -3062,7 +3062,7 @@ hackage:
       "zeromq4-haskell".flags.old-locale = true;
       "zeromq4-haskell".flags.bytestring-in-base = false;
       "zeromq4-haskell".flags.network-uri = true;
-      "parallel".revision = hackage."parallel"."3.2.0.6".revisions.default;
+      "parallel".revision = (((hackage."parallel")."3.2.0.6").revisions).default;
       "parallel".flags.test-hlint = false;
       "parallel".flags.splitbase = true;
       "parallel".flags.small_base = true;
@@ -3073,7 +3073,7 @@ hackage:
       "parallel".flags.bytestring-in-base = false;
       "parallel".flags.network-uri = true;
       "ghc-pkg-7.8.4".revision = null;
-      "language-java".revision = hackage."language-java"."0.2.7".revisions.default;
+      "language-java".revision = (((hackage."language-java")."0.2.7").revisions).default;
       "language-java".flags.test-hlint = false;
       "language-java".flags.splitbase = true;
       "language-java".flags.small_base = true;
@@ -3083,7 +3083,7 @@ hackage:
       "language-java".flags.old-locale = true;
       "language-java".flags.bytestring-in-base = false;
       "language-java".flags.network-uri = true;
-      "bytestring-mmap".revision = hackage."bytestring-mmap"."0.2.2".revisions.default;
+      "bytestring-mmap".revision = (((hackage."bytestring-mmap")."0.2.2").revisions).default;
       "bytestring-mmap".flags.test-hlint = false;
       "bytestring-mmap".flags.splitbase = true;
       "bytestring-mmap".flags.small_base = true;
@@ -3093,8 +3093,8 @@ hackage:
       "bytestring-mmap".flags.old-locale = true;
       "bytestring-mmap".flags.bytestring-in-base = false;
       "bytestring-mmap".flags.network-uri = true;
-      "deepseq".revision = hackage."deepseq"."1.3.0.2".revisions.default;
-      "bioace".revision = hackage."bioace"."0.0.1".revisions.default;
+      "deepseq".revision = (((hackage."deepseq")."1.3.0.2").revisions).default;
+      "bioace".revision = (((hackage."bioace")."0.0.1").revisions).default;
       "bioace".flags.test-hlint = false;
       "bioace".flags.splitbase = true;
       "bioace".flags.small_base = true;
@@ -3104,7 +3104,7 @@ hackage:
       "bioace".flags.old-locale = true;
       "bioace".flags.bytestring-in-base = false;
       "bioace".flags.network-uri = true;
-      "monad-st".revision = hackage."monad-st"."0.2.4".revisions.default;
+      "monad-st".revision = (((hackage."monad-st")."0.2.4").revisions).default;
       "monad-st".flags.test-hlint = false;
       "monad-st".flags.splitbase = true;
       "monad-st".flags.small_base = true;
@@ -3114,7 +3114,7 @@ hackage:
       "monad-st".flags.old-locale = true;
       "monad-st".flags.bytestring-in-base = false;
       "monad-st".flags.network-uri = true;
-      "errors".revision = hackage."errors"."1.4.7".revisions.default;
+      "errors".revision = (((hackage."errors")."1.4.7").revisions).default;
       "errors".flags.test-hlint = false;
       "errors".flags.splitbase = true;
       "errors".flags.small_base = true;
@@ -3124,7 +3124,7 @@ hackage:
       "errors".flags.old-locale = true;
       "errors".flags.bytestring-in-base = false;
       "errors".flags.network-uri = true;
-      "haddock-api".revision = hackage."haddock-api"."2.15.0.2".revisions.default;
+      "haddock-api".revision = (((hackage."haddock-api")."2.15.0.2").revisions).default;
       "haddock-api".flags.test-hlint = false;
       "haddock-api".flags.splitbase = true;
       "haddock-api".flags.small_base = true;
@@ -3134,7 +3134,7 @@ hackage:
       "haddock-api".flags.old-locale = true;
       "haddock-api".flags.bytestring-in-base = false;
       "haddock-api".flags.network-uri = true;
-      "text-format".revision = hackage."text-format"."0.3.1.1".revisions.default;
+      "text-format".revision = (((hackage."text-format")."0.3.1.1").revisions).default;
       "text-format".flags.test-hlint = false;
       "text-format".flags.splitbase = true;
       "text-format".flags.small_base = true;
@@ -3144,7 +3144,7 @@ hackage:
       "text-format".flags.old-locale = true;
       "text-format".flags.bytestring-in-base = false;
       "text-format".flags.network-uri = true;
-      "gl".revision = hackage."gl"."0.6.3".revisions.default;
+      "gl".revision = (((hackage."gl")."0.6.3").revisions).default;
       "gl".flags.test-hlint = false;
       "gl".flags.splitbase = true;
       "gl".flags.small_base = true;
@@ -3154,7 +3154,7 @@ hackage:
       "gl".flags.old-locale = true;
       "gl".flags.bytestring-in-base = false;
       "gl".flags.network-uri = true;
-      "haskell-src-meta".revision = hackage."haskell-src-meta"."0.6.0.8".revisions.default;
+      "haskell-src-meta".revision = (((hackage."haskell-src-meta")."0.6.0.8").revisions).default;
       "haskell-src-meta".flags.test-hlint = false;
       "haskell-src-meta".flags.splitbase = true;
       "haskell-src-meta".flags.small_base = true;
@@ -3164,7 +3164,7 @@ hackage:
       "haskell-src-meta".flags.old-locale = true;
       "haskell-src-meta".flags.bytestring-in-base = false;
       "haskell-src-meta".flags.network-uri = true;
-      "fay-jquery".revision = hackage."fay-jquery"."0.6.0.3".revisions.default;
+      "fay-jquery".revision = (((hackage."fay-jquery")."0.6.0.3").revisions).default;
       "fay-jquery".flags.test-hlint = false;
       "fay-jquery".flags.splitbase = true;
       "fay-jquery".flags.small_base = true;
@@ -3174,7 +3174,7 @@ hackage:
       "fay-jquery".flags.old-locale = true;
       "fay-jquery".flags.bytestring-in-base = false;
       "fay-jquery".flags.network-uri = true;
-      "css-text".revision = hackage."css-text"."0.1.2.1".revisions.default;
+      "css-text".revision = (((hackage."css-text")."0.1.2.1").revisions).default;
       "css-text".flags.test-hlint = false;
       "css-text".flags.splitbase = true;
       "css-text".flags.small_base = true;
@@ -3184,7 +3184,7 @@ hackage:
       "css-text".flags.old-locale = true;
       "css-text".flags.bytestring-in-base = false;
       "css-text".flags.network-uri = true;
-      "random".revision = hackage."random"."1.0.1.1".revisions.default;
+      "random".revision = (((hackage."random")."1.0.1.1").revisions).default;
       "random".flags.test-hlint = false;
       "random".flags.splitbase = true;
       "random".flags.small_base = true;
@@ -3194,7 +3194,7 @@ hackage:
       "random".flags.old-locale = true;
       "random".flags.bytestring-in-base = false;
       "random".flags.network-uri = true;
-      "temporary".revision = hackage."temporary"."1.2.0.3".revisions.default;
+      "temporary".revision = (((hackage."temporary")."1.2.0.3").revisions).default;
       "temporary".flags.test-hlint = false;
       "temporary".flags.splitbase = true;
       "temporary".flags.small_base = true;
@@ -3204,7 +3204,7 @@ hackage:
       "temporary".flags.old-locale = true;
       "temporary".flags.bytestring-in-base = false;
       "temporary".flags.network-uri = true;
-      "bytestring-lexing".revision = hackage."bytestring-lexing"."0.4.3.2".revisions.default;
+      "bytestring-lexing".revision = (((hackage."bytestring-lexing")."0.4.3.2").revisions).default;
       "bytestring-lexing".flags.test-hlint = false;
       "bytestring-lexing".flags.splitbase = true;
       "bytestring-lexing".flags.small_base = true;
@@ -3214,7 +3214,7 @@ hackage:
       "bytestring-lexing".flags.old-locale = true;
       "bytestring-lexing".flags.bytestring-in-base = false;
       "bytestring-lexing".flags.network-uri = true;
-      "hybrid-vectors".revision = hackage."hybrid-vectors"."0.1.2.1".revisions.default;
+      "hybrid-vectors".revision = (((hackage."hybrid-vectors")."0.1.2.1").revisions).default;
       "hybrid-vectors".flags.test-hlint = false;
       "hybrid-vectors".flags.splitbase = true;
       "hybrid-vectors".flags.small_base = true;
@@ -3224,7 +3224,7 @@ hackage:
       "hybrid-vectors".flags.old-locale = true;
       "hybrid-vectors".flags.bytestring-in-base = false;
       "hybrid-vectors".flags.network-uri = true;
-      "http-conduit".revision = hackage."http-conduit"."2.1.5".revisions.default;
+      "http-conduit".revision = (((hackage."http-conduit")."2.1.5").revisions).default;
       "http-conduit".flags.test-hlint = false;
       "http-conduit".flags.splitbase = true;
       "http-conduit".flags.small_base = true;
@@ -3234,7 +3234,7 @@ hackage:
       "http-conduit".flags.old-locale = true;
       "http-conduit".flags.bytestring-in-base = false;
       "http-conduit".flags.network-uri = true;
-      "opaleye".revision = hackage."opaleye"."0.3".revisions.default;
+      "opaleye".revision = (((hackage."opaleye")."0.3").revisions).default;
       "opaleye".flags.test-hlint = false;
       "opaleye".flags.splitbase = true;
       "opaleye".flags.small_base = true;
@@ -3244,7 +3244,7 @@ hackage:
       "opaleye".flags.old-locale = true;
       "opaleye".flags.bytestring-in-base = false;
       "opaleye".flags.network-uri = true;
-      "optparse-applicative".revision = hackage."optparse-applicative"."0.11.0.1".revisions.default;
+      "optparse-applicative".revision = (((hackage."optparse-applicative")."0.11.0.1").revisions).default;
       "optparse-applicative".flags.test-hlint = false;
       "optparse-applicative".flags.splitbase = true;
       "optparse-applicative".flags.small_base = true;
@@ -3254,7 +3254,7 @@ hackage:
       "optparse-applicative".flags.old-locale = true;
       "optparse-applicative".flags.bytestring-in-base = false;
       "optparse-applicative".flags.network-uri = true;
-      "tagsoup".revision = hackage."tagsoup"."0.13.3".revisions.default;
+      "tagsoup".revision = (((hackage."tagsoup")."0.13.3").revisions).default;
       "tagsoup".flags.test-hlint = false;
       "tagsoup".flags.splitbase = true;
       "tagsoup".flags.small_base = true;
@@ -3264,7 +3264,7 @@ hackage:
       "tagsoup".flags.old-locale = true;
       "tagsoup".flags.bytestring-in-base = false;
       "tagsoup".flags.network-uri = true;
-      "statistics-linreg".revision = hackage."statistics-linreg"."0.3".revisions.default;
+      "statistics-linreg".revision = (((hackage."statistics-linreg")."0.3").revisions).default;
       "statistics-linreg".flags.test-hlint = false;
       "statistics-linreg".flags.splitbase = true;
       "statistics-linreg".flags.small_base = true;
@@ -3274,7 +3274,7 @@ hackage:
       "statistics-linreg".flags.old-locale = true;
       "statistics-linreg".flags.bytestring-in-base = false;
       "statistics-linreg".flags.network-uri = true;
-      "haskell-src".revision = hackage."haskell-src"."1.0.1.6".revisions.default;
+      "haskell-src".revision = (((hackage."haskell-src")."1.0.1.6").revisions).default;
       "haskell-src".flags.test-hlint = false;
       "haskell-src".flags.splitbase = true;
       "haskell-src".flags.small_base = true;
@@ -3284,7 +3284,7 @@ hackage:
       "haskell-src".flags.old-locale = true;
       "haskell-src".flags.bytestring-in-base = false;
       "haskell-src".flags.network-uri = true;
-      "wai-middleware-static".revision = hackage."wai-middleware-static"."0.6.0.1".revisions.default;
+      "wai-middleware-static".revision = (((hackage."wai-middleware-static")."0.6.0.1").revisions).default;
       "wai-middleware-static".flags.test-hlint = false;
       "wai-middleware-static".flags.splitbase = true;
       "wai-middleware-static".flags.small_base = true;
@@ -3294,7 +3294,7 @@ hackage:
       "wai-middleware-static".flags.old-locale = true;
       "wai-middleware-static".flags.bytestring-in-base = false;
       "wai-middleware-static".flags.network-uri = true;
-      "heist".revision = hackage."heist"."0.14.0.1".revisions.default;
+      "heist".revision = (((hackage."heist")."0.14.0.1").revisions).default;
       "heist".flags.test-hlint = false;
       "heist".flags.splitbase = true;
       "heist".flags.small_base = true;
@@ -3304,7 +3304,7 @@ hackage:
       "heist".flags.old-locale = true;
       "heist".flags.bytestring-in-base = false;
       "heist".flags.network-uri = true;
-      "prelude-extras".revision = hackage."prelude-extras"."0.4".revisions.default;
+      "prelude-extras".revision = (((hackage."prelude-extras")."0.4").revisions).default;
       "prelude-extras".flags.test-hlint = false;
       "prelude-extras".flags.splitbase = true;
       "prelude-extras".flags.small_base = true;
@@ -3314,7 +3314,7 @@ hackage:
       "prelude-extras".flags.old-locale = true;
       "prelude-extras".flags.bytestring-in-base = false;
       "prelude-extras".flags.network-uri = true;
-      "profunctor-extras".revision = hackage."profunctor-extras"."4.0".revisions.default;
+      "profunctor-extras".revision = (((hackage."profunctor-extras")."4.0").revisions).default;
       "profunctor-extras".flags.test-hlint = false;
       "profunctor-extras".flags.splitbase = true;
       "profunctor-extras".flags.small_base = true;
@@ -3324,7 +3324,7 @@ hackage:
       "profunctor-extras".flags.old-locale = true;
       "profunctor-extras".flags.bytestring-in-base = false;
       "profunctor-extras".flags.network-uri = true;
-      "network".revision = hackage."network"."2.6.0.2".revisions.default;
+      "network".revision = (((hackage."network")."2.6.0.2").revisions).default;
       "network".flags.test-hlint = false;
       "network".flags.splitbase = true;
       "network".flags.small_base = true;
@@ -3334,7 +3334,7 @@ hackage:
       "network".flags.old-locale = true;
       "network".flags.bytestring-in-base = false;
       "network".flags.network-uri = true;
-      "reroute".revision = hackage."reroute"."0.2.2.1".revisions.default;
+      "reroute".revision = (((hackage."reroute")."0.2.2.1").revisions).default;
       "reroute".flags.test-hlint = false;
       "reroute".flags.splitbase = true;
       "reroute".flags.small_base = true;
@@ -3344,7 +3344,7 @@ hackage:
       "reroute".flags.old-locale = true;
       "reroute".flags.bytestring-in-base = false;
       "reroute".flags.network-uri = true;
-      "word8".revision = hackage."word8"."0.1.1".revisions.default;
+      "word8".revision = (((hackage."word8")."0.1.1").revisions).default;
       "word8".flags.test-hlint = false;
       "word8".flags.splitbase = true;
       "word8".flags.small_base = true;
@@ -3354,7 +3354,7 @@ hackage:
       "word8".flags.old-locale = true;
       "word8".flags.bytestring-in-base = false;
       "word8".flags.network-uri = true;
-      "crypto-api".revision = hackage."crypto-api"."0.13.2".revisions.default;
+      "crypto-api".revision = (((hackage."crypto-api")."0.13.2").revisions).default;
       "crypto-api".flags.test-hlint = false;
       "crypto-api".flags.splitbase = true;
       "crypto-api".flags.small_base = true;
@@ -3364,7 +3364,7 @@ hackage:
       "crypto-api".flags.old-locale = true;
       "crypto-api".flags.bytestring-in-base = false;
       "crypto-api".flags.network-uri = true;
-      "connection".revision = hackage."connection"."0.2.3".revisions.default;
+      "connection".revision = (((hackage."connection")."0.2.3").revisions).default;
       "connection".flags.test-hlint = false;
       "connection".flags.splitbase = true;
       "connection".flags.small_base = true;
@@ -3374,7 +3374,7 @@ hackage:
       "connection".flags.old-locale = true;
       "connection".flags.bytestring-in-base = false;
       "connection".flags.network-uri = true;
-      "async".revision = hackage."async"."2.0.2".revisions.default;
+      "async".revision = (((hackage."async")."2.0.2").revisions).default;
       "async".flags.test-hlint = false;
       "async".flags.splitbase = true;
       "async".flags.small_base = true;
@@ -3384,7 +3384,7 @@ hackage:
       "async".flags.old-locale = true;
       "async".flags.bytestring-in-base = false;
       "async".flags.network-uri = true;
-      "stm-stats".revision = hackage."stm-stats"."0.2.0.0".revisions.default;
+      "stm-stats".revision = (((hackage."stm-stats")."0.2.0.0").revisions).default;
       "stm-stats".flags.test-hlint = false;
       "stm-stats".flags.splitbase = true;
       "stm-stats".flags.small_base = true;
@@ -3394,7 +3394,7 @@ hackage:
       "stm-stats".flags.old-locale = true;
       "stm-stats".flags.bytestring-in-base = false;
       "stm-stats".flags.network-uri = true;
-      "yesod-text-markdown".revision = hackage."yesod-text-markdown"."0.1.7".revisions.default;
+      "yesod-text-markdown".revision = (((hackage."yesod-text-markdown")."0.1.7").revisions).default;
       "yesod-text-markdown".flags.test-hlint = false;
       "yesod-text-markdown".flags.splitbase = true;
       "yesod-text-markdown".flags.small_base = true;
@@ -3404,7 +3404,7 @@ hackage:
       "yesod-text-markdown".flags.old-locale = true;
       "yesod-text-markdown".flags.bytestring-in-base = false;
       "yesod-text-markdown".flags.network-uri = true;
-      "groupoids".revision = hackage."groupoids"."4.0".revisions.default;
+      "groupoids".revision = (((hackage."groupoids")."4.0").revisions).default;
       "groupoids".flags.test-hlint = false;
       "groupoids".flags.splitbase = true;
       "groupoids".flags.small_base = true;
@@ -3414,7 +3414,7 @@ hackage:
       "groupoids".flags.old-locale = true;
       "groupoids".flags.bytestring-in-base = false;
       "groupoids".flags.network-uri = true;
-      "interpolatedstring-perl6".revision = hackage."interpolatedstring-perl6"."0.9.0".revisions.default;
+      "interpolatedstring-perl6".revision = (((hackage."interpolatedstring-perl6")."0.9.0").revisions).default;
       "interpolatedstring-perl6".flags.test-hlint = false;
       "interpolatedstring-perl6".flags.splitbase = true;
       "interpolatedstring-perl6".flags.small_base = true;
@@ -3424,7 +3424,7 @@ hackage:
       "interpolatedstring-perl6".flags.old-locale = true;
       "interpolatedstring-perl6".flags.bytestring-in-base = false;
       "interpolatedstring-perl6".flags.network-uri = true;
-      "BlogLiterately-diagrams".revision = hackage."BlogLiterately-diagrams"."0.1.4.3".revisions.default;
+      "BlogLiterately-diagrams".revision = (((hackage."BlogLiterately-diagrams")."0.1.4.3").revisions).default;
       "BlogLiterately-diagrams".flags.test-hlint = false;
       "BlogLiterately-diagrams".flags.splitbase = true;
       "BlogLiterately-diagrams".flags.small_base = true;
@@ -3434,7 +3434,7 @@ hackage:
       "BlogLiterately-diagrams".flags.old-locale = true;
       "BlogLiterately-diagrams".flags.bytestring-in-base = false;
       "BlogLiterately-diagrams".flags.network-uri = true;
-      "dlist".revision = hackage."dlist"."0.7.1".revisions.default;
+      "dlist".revision = (((hackage."dlist")."0.7.1").revisions).default;
       "dlist".flags.test-hlint = false;
       "dlist".flags.splitbase = true;
       "dlist".flags.small_base = true;
@@ -3444,7 +3444,7 @@ hackage:
       "dlist".flags.old-locale = true;
       "dlist".flags.bytestring-in-base = false;
       "dlist".flags.network-uri = true;
-      "doctest".revision = hackage."doctest"."0.9.12".revisions.default;
+      "doctest".revision = (((hackage."doctest")."0.9.12").revisions).default;
       "doctest".flags.test-hlint = false;
       "doctest".flags.splitbase = true;
       "doctest".flags.small_base = true;
@@ -3454,7 +3454,7 @@ hackage:
       "doctest".flags.old-locale = true;
       "doctest".flags.bytestring-in-base = false;
       "doctest".flags.network-uri = true;
-      "containers-unicode-symbols".revision = hackage."containers-unicode-symbols"."0.3.1.1".revisions.default;
+      "containers-unicode-symbols".revision = (((hackage."containers-unicode-symbols")."0.3.1.1").revisions).default;
       "containers-unicode-symbols".flags.test-hlint = false;
       "containers-unicode-symbols".flags.splitbase = true;
       "containers-unicode-symbols".flags.small_base = true;
@@ -3464,7 +3464,7 @@ hackage:
       "containers-unicode-symbols".flags.old-locale = true;
       "containers-unicode-symbols".flags.bytestring-in-base = false;
       "containers-unicode-symbols".flags.network-uri = true;
-      "arrow-list".revision = hackage."arrow-list"."0.6.1.5".revisions.default;
+      "arrow-list".revision = (((hackage."arrow-list")."0.6.1.5").revisions).default;
       "arrow-list".flags.test-hlint = false;
       "arrow-list".flags.splitbase = true;
       "arrow-list".flags.small_base = true;
@@ -3474,7 +3474,7 @@ hackage:
       "arrow-list".flags.old-locale = true;
       "arrow-list".flags.bytestring-in-base = false;
       "arrow-list".flags.network-uri = true;
-      "action-permutations".revision = hackage."action-permutations"."0.0.0.1".revisions.default;
+      "action-permutations".revision = (((hackage."action-permutations")."0.0.0.1").revisions).default;
       "action-permutations".flags.test-hlint = false;
       "action-permutations".flags.splitbase = true;
       "action-permutations".flags.small_base = true;
@@ -3484,7 +3484,7 @@ hackage:
       "action-permutations".flags.old-locale = true;
       "action-permutations".flags.bytestring-in-base = false;
       "action-permutations".flags.network-uri = true;
-      "yesod-sitemap".revision = hackage."yesod-sitemap"."1.4.0.1".revisions.default;
+      "yesod-sitemap".revision = (((hackage."yesod-sitemap")."1.4.0.1").revisions).default;
       "yesod-sitemap".flags.test-hlint = false;
       "yesod-sitemap".flags.splitbase = true;
       "yesod-sitemap".flags.small_base = true;
@@ -3494,7 +3494,7 @@ hackage:
       "yesod-sitemap".flags.old-locale = true;
       "yesod-sitemap".flags.bytestring-in-base = false;
       "yesod-sitemap".flags.network-uri = true;
-      "websockets".revision = hackage."websockets"."0.9.2.2".revisions.default;
+      "websockets".revision = (((hackage."websockets")."0.9.2.2").revisions).default;
       "websockets".flags.test-hlint = false;
       "websockets".flags.splitbase = true;
       "websockets".flags.small_base = true;
@@ -3504,7 +3504,7 @@ hackage:
       "websockets".flags.old-locale = true;
       "websockets".flags.bytestring-in-base = false;
       "websockets".flags.network-uri = true;
-      "AC-Vector".revision = hackage."AC-Vector"."2.3.2".revisions.default;
+      "AC-Vector".revision = (((hackage."AC-Vector")."2.3.2").revisions).default;
       "AC-Vector".flags.test-hlint = false;
       "AC-Vector".flags.splitbase = true;
       "AC-Vector".flags.small_base = true;
@@ -3514,7 +3514,7 @@ hackage:
       "AC-Vector".flags.old-locale = true;
       "AC-Vector".flags.bytestring-in-base = false;
       "AC-Vector".flags.network-uri = true;
-      "conduit".revision = hackage."conduit"."1.2.3.1".revisions.default;
+      "conduit".revision = (((hackage."conduit")."1.2.3.1").revisions).default;
       "conduit".flags.test-hlint = false;
       "conduit".flags.splitbase = true;
       "conduit".flags.small_base = true;
@@ -3524,7 +3524,7 @@ hackage:
       "conduit".flags.old-locale = true;
       "conduit".flags.bytestring-in-base = false;
       "conduit".flags.network-uri = true;
-      "partial-handler".revision = hackage."partial-handler"."0.1.0".revisions.default;
+      "partial-handler".revision = (((hackage."partial-handler")."0.1.0").revisions).default;
       "partial-handler".flags.test-hlint = false;
       "partial-handler".flags.splitbase = true;
       "partial-handler".flags.small_base = true;
@@ -3534,7 +3534,7 @@ hackage:
       "partial-handler".flags.old-locale = true;
       "partial-handler".flags.bytestring-in-base = false;
       "partial-handler".flags.network-uri = true;
-      "csv".revision = hackage."csv"."0.1.2".revisions.default;
+      "csv".revision = (((hackage."csv")."0.1.2").revisions).default;
       "csv".flags.test-hlint = false;
       "csv".flags.splitbase = true;
       "csv".flags.small_base = true;
@@ -3544,7 +3544,7 @@ hackage:
       "csv".flags.old-locale = true;
       "csv".flags.bytestring-in-base = false;
       "csv".flags.network-uri = true;
-      "quandl-api".revision = hackage."quandl-api"."0.2.0.0".revisions.default;
+      "quandl-api".revision = (((hackage."quandl-api")."0.2.0.0").revisions).default;
       "quandl-api".flags.test-hlint = false;
       "quandl-api".flags.splitbase = true;
       "quandl-api".flags.small_base = true;
@@ -3554,7 +3554,7 @@ hackage:
       "quandl-api".flags.old-locale = true;
       "quandl-api".flags.bytestring-in-base = false;
       "quandl-api".flags.network-uri = true;
-      "cond".revision = hackage."cond"."0.4.1.1".revisions.default;
+      "cond".revision = (((hackage."cond")."0.4.1.1").revisions).default;
       "cond".flags.test-hlint = false;
       "cond".flags.splitbase = true;
       "cond".flags.small_base = true;
@@ -3564,7 +3564,7 @@ hackage:
       "cond".flags.old-locale = true;
       "cond".flags.bytestring-in-base = false;
       "cond".flags.network-uri = true;
-      "x509-store".revision = hackage."x509-store"."1.5.0".revisions.default;
+      "x509-store".revision = (((hackage."x509-store")."1.5.0").revisions).default;
       "x509-store".flags.test-hlint = false;
       "x509-store".flags.splitbase = true;
       "x509-store".flags.small_base = true;
@@ -3574,7 +3574,7 @@ hackage:
       "x509-store".flags.old-locale = true;
       "x509-store".flags.bytestring-in-base = false;
       "x509-store".flags.network-uri = true;
-      "persistent-postgresql".revision = hackage."persistent-postgresql"."2.1.2.1".revisions.default;
+      "persistent-postgresql".revision = (((hackage."persistent-postgresql")."2.1.2.1").revisions).default;
       "persistent-postgresql".flags.test-hlint = false;
       "persistent-postgresql".flags.splitbase = true;
       "persistent-postgresql".flags.small_base = true;
@@ -3584,7 +3584,7 @@ hackage:
       "persistent-postgresql".flags.old-locale = true;
       "persistent-postgresql".flags.bytestring-in-base = false;
       "persistent-postgresql".flags.network-uri = true;
-      "constraints".revision = hackage."constraints"."0.4.1.3".revisions.default;
+      "constraints".revision = (((hackage."constraints")."0.4.1.3").revisions).default;
       "constraints".flags.test-hlint = false;
       "constraints".flags.splitbase = true;
       "constraints".flags.small_base = true;
@@ -3594,7 +3594,7 @@ hackage:
       "constraints".flags.old-locale = true;
       "constraints".flags.bytestring-in-base = false;
       "constraints".flags.network-uri = true;
-      "direct-sqlite".revision = hackage."direct-sqlite"."2.3.14".revisions.default;
+      "direct-sqlite".revision = (((hackage."direct-sqlite")."2.3.14").revisions).default;
       "direct-sqlite".flags.test-hlint = false;
       "direct-sqlite".flags.splitbase = true;
       "direct-sqlite".flags.small_base = true;
@@ -3604,7 +3604,7 @@ hackage:
       "direct-sqlite".flags.old-locale = true;
       "direct-sqlite".flags.bytestring-in-base = false;
       "direct-sqlite".flags.network-uri = true;
-      "hPDB".revision = hackage."hPDB"."1.2.0.2".revisions.default;
+      "hPDB".revision = (((hackage."hPDB")."1.2.0.2").revisions).default;
       "hPDB".flags.test-hlint = false;
       "hPDB".flags.splitbase = true;
       "hPDB".flags.small_base = true;
@@ -3614,7 +3614,7 @@ hackage:
       "hPDB".flags.old-locale = true;
       "hPDB".flags.bytestring-in-base = false;
       "hPDB".flags.network-uri = true;
-      "lens-family-th".revision = hackage."lens-family-th"."0.4.0.0".revisions.default;
+      "lens-family-th".revision = (((hackage."lens-family-th")."0.4.0.0").revisions).default;
       "lens-family-th".flags.test-hlint = false;
       "lens-family-th".flags.splitbase = true;
       "lens-family-th".flags.small_base = true;
@@ -3624,7 +3624,7 @@ hackage:
       "lens-family-th".flags.old-locale = true;
       "lens-family-th".flags.bytestring-in-base = false;
       "lens-family-th".flags.network-uri = true;
-      "HandsomeSoup".revision = hackage."HandsomeSoup"."0.3.5".revisions.default;
+      "HandsomeSoup".revision = (((hackage."HandsomeSoup")."0.3.5").revisions).default;
       "HandsomeSoup".flags.test-hlint = false;
       "HandsomeSoup".flags.splitbase = true;
       "HandsomeSoup".flags.small_base = true;
@@ -3634,7 +3634,7 @@ hackage:
       "HandsomeSoup".flags.old-locale = true;
       "HandsomeSoup".flags.bytestring-in-base = false;
       "HandsomeSoup".flags.network-uri = true;
-      "monad-coroutine".revision = hackage."monad-coroutine"."0.8.0.1".revisions.default;
+      "monad-coroutine".revision = (((hackage."monad-coroutine")."0.8.0.1").revisions).default;
       "monad-coroutine".flags.test-hlint = false;
       "monad-coroutine".flags.splitbase = true;
       "monad-coroutine".flags.small_base = true;
@@ -3644,7 +3644,7 @@ hackage:
       "monad-coroutine".flags.old-locale = true;
       "monad-coroutine".flags.bytestring-in-base = false;
       "monad-coroutine".flags.network-uri = true;
-      "crypto-pubkey".revision = hackage."crypto-pubkey"."0.2.7".revisions.default;
+      "crypto-pubkey".revision = (((hackage."crypto-pubkey")."0.2.7").revisions).default;
       "crypto-pubkey".flags.test-hlint = false;
       "crypto-pubkey".flags.splitbase = true;
       "crypto-pubkey".flags.small_base = true;
@@ -3654,7 +3654,7 @@ hackage:
       "crypto-pubkey".flags.old-locale = true;
       "crypto-pubkey".flags.bytestring-in-base = false;
       "crypto-pubkey".flags.network-uri = true;
-      "djinn-ghc".revision = hackage."djinn-ghc"."0.0.2.3".revisions.default;
+      "djinn-ghc".revision = (((hackage."djinn-ghc")."0.0.2.3").revisions).default;
       "djinn-ghc".flags.test-hlint = false;
       "djinn-ghc".flags.splitbase = true;
       "djinn-ghc".flags.small_base = true;
@@ -3664,7 +3664,7 @@ hackage:
       "djinn-ghc".flags.old-locale = true;
       "djinn-ghc".flags.bytestring-in-base = false;
       "djinn-ghc".flags.network-uri = true;
-      "semigroups".revision = hackage."semigroups"."0.16.0.1".revisions.default;
+      "semigroups".revision = (((hackage."semigroups")."0.16.0.1").revisions).default;
       "semigroups".flags.test-hlint = false;
       "semigroups".flags.splitbase = true;
       "semigroups".flags.small_base = true;
@@ -3674,7 +3674,7 @@ hackage:
       "semigroups".flags.old-locale = true;
       "semigroups".flags.bytestring-in-base = false;
       "semigroups".flags.network-uri = true;
-      "MaybeT".revision = hackage."MaybeT"."0.1.2".revisions.default;
+      "MaybeT".revision = (((hackage."MaybeT")."0.1.2").revisions).default;
       "MaybeT".flags.test-hlint = false;
       "MaybeT".flags.splitbase = true;
       "MaybeT".flags.small_base = true;
@@ -3684,7 +3684,7 @@ hackage:
       "MaybeT".flags.old-locale = true;
       "MaybeT".flags.bytestring-in-base = false;
       "MaybeT".flags.network-uri = true;
-      "data-default".revision = hackage."data-default"."0.5.3".revisions.default;
+      "data-default".revision = (((hackage."data-default")."0.5.3").revisions).default;
       "data-default".flags.test-hlint = false;
       "data-default".flags.splitbase = true;
       "data-default".flags.small_base = true;
@@ -3694,7 +3694,7 @@ hackage:
       "data-default".flags.old-locale = true;
       "data-default".flags.bytestring-in-base = false;
       "data-default".flags.network-uri = true;
-      "incremental-parser".revision = hackage."incremental-parser"."0.2.3.4".revisions.default;
+      "incremental-parser".revision = (((hackage."incremental-parser")."0.2.3.4").revisions).default;
       "incremental-parser".flags.test-hlint = false;
       "incremental-parser".flags.splitbase = true;
       "incremental-parser".flags.small_base = true;
@@ -3704,7 +3704,7 @@ hackage:
       "incremental-parser".flags.old-locale = true;
       "incremental-parser".flags.bytestring-in-base = false;
       "incremental-parser".flags.network-uri = true;
-      "HUnit".revision = hackage."HUnit"."1.2.5.2".revisions.default;
+      "HUnit".revision = (((hackage."HUnit")."1.2.5.2").revisions).default;
       "HUnit".flags.test-hlint = false;
       "HUnit".flags.splitbase = true;
       "HUnit".flags.small_base = true;
@@ -3714,7 +3714,7 @@ hackage:
       "HUnit".flags.old-locale = true;
       "HUnit".flags.bytestring-in-base = false;
       "HUnit".flags.network-uri = true;
-      "crypto-numbers".revision = hackage."crypto-numbers"."0.2.7".revisions.default;
+      "crypto-numbers".revision = (((hackage."crypto-numbers")."0.2.7").revisions).default;
       "crypto-numbers".flags.test-hlint = false;
       "crypto-numbers".flags.splitbase = true;
       "crypto-numbers".flags.small_base = true;
@@ -3724,7 +3724,7 @@ hackage:
       "crypto-numbers".flags.old-locale = true;
       "crypto-numbers".flags.bytestring-in-base = false;
       "crypto-numbers".flags.network-uri = true;
-      "html-conduit".revision = hackage."html-conduit"."1.1.1.1".revisions.default;
+      "html-conduit".revision = (((hackage."html-conduit")."1.1.1.1").revisions).default;
       "html-conduit".flags.test-hlint = false;
       "html-conduit".flags.splitbase = true;
       "html-conduit".flags.small_base = true;
@@ -3734,7 +3734,7 @@ hackage:
       "html-conduit".flags.old-locale = true;
       "html-conduit".flags.bytestring-in-base = false;
       "html-conduit".flags.network-uri = true;
-      "pureMD5".revision = hackage."pureMD5"."2.1.2.1".revisions.default;
+      "pureMD5".revision = (((hackage."pureMD5")."2.1.2.1").revisions).default;
       "pureMD5".flags.test-hlint = false;
       "pureMD5".flags.splitbase = true;
       "pureMD5".flags.small_base = true;
@@ -3744,7 +3744,7 @@ hackage:
       "pureMD5".flags.old-locale = true;
       "pureMD5".flags.bytestring-in-base = false;
       "pureMD5".flags.network-uri = true;
-      "highlighting-kate".revision = hackage."highlighting-kate"."0.5.11.1".revisions.default;
+      "highlighting-kate".revision = (((hackage."highlighting-kate")."0.5.11.1").revisions).default;
       "highlighting-kate".flags.test-hlint = false;
       "highlighting-kate".flags.splitbase = true;
       "highlighting-kate".flags.small_base = true;
@@ -3754,7 +3754,7 @@ hackage:
       "highlighting-kate".flags.old-locale = true;
       "highlighting-kate".flags.bytestring-in-base = false;
       "highlighting-kate".flags.network-uri = true;
-      "bytedump".revision = hackage."bytedump"."1.0".revisions.default;
+      "bytedump".revision = (((hackage."bytedump")."1.0").revisions).default;
       "bytedump".flags.test-hlint = false;
       "bytedump".flags.splitbase = true;
       "bytedump".flags.small_base = true;
@@ -3764,7 +3764,7 @@ hackage:
       "bytedump".flags.old-locale = true;
       "bytedump".flags.bytestring-in-base = false;
       "bytedump".flags.network-uri = true;
-      "integration".revision = hackage."integration"."0.2.0.1".revisions.default;
+      "integration".revision = (((hackage."integration")."0.2.0.1").revisions).default;
       "integration".flags.test-hlint = false;
       "integration".flags.splitbase = true;
       "integration".flags.small_base = true;
@@ -3774,7 +3774,7 @@ hackage:
       "integration".flags.old-locale = true;
       "integration".flags.bytestring-in-base = false;
       "integration".flags.network-uri = true;
-      "vector-instances".revision = hackage."vector-instances"."3.3.0.1".revisions.default;
+      "vector-instances".revision = (((hackage."vector-instances")."3.3.0.1").revisions).default;
       "vector-instances".flags.test-hlint = false;
       "vector-instances".flags.splitbase = true;
       "vector-instances".flags.small_base = true;
@@ -3784,7 +3784,7 @@ hackage:
       "vector-instances".flags.old-locale = true;
       "vector-instances".flags.bytestring-in-base = false;
       "vector-instances".flags.network-uri = true;
-      "lifted-base".revision = hackage."lifted-base"."0.2.3.3".revisions.default;
+      "lifted-base".revision = (((hackage."lifted-base")."0.2.3.3").revisions).default;
       "lifted-base".flags.test-hlint = false;
       "lifted-base".flags.splitbase = true;
       "lifted-base".flags.small_base = true;
@@ -3795,7 +3795,7 @@ hackage:
       "lifted-base".flags.bytestring-in-base = false;
       "lifted-base".flags.network-uri = true;
       "haddock".revision = null;
-      "cairo".revision = hackage."cairo"."0.13.0.6".revisions.default;
+      "cairo".revision = (((hackage."cairo")."0.13.0.6").revisions).default;
       "cairo".flags.test-hlint = false;
       "cairo".flags.splitbase = true;
       "cairo".flags.small_base = true;
@@ -3805,7 +3805,7 @@ hackage:
       "cairo".flags.old-locale = true;
       "cairo".flags.bytestring-in-base = false;
       "cairo".flags.network-uri = true;
-      "chell".revision = hackage."chell"."0.4".revisions.default;
+      "chell".revision = (((hackage."chell")."0.4").revisions).default;
       "chell".flags.test-hlint = false;
       "chell".flags.splitbase = true;
       "chell".flags.small_base = true;
@@ -3815,7 +3815,7 @@ hackage:
       "chell".flags.old-locale = true;
       "chell".flags.bytestring-in-base = false;
       "chell".flags.network-uri = true;
-      "ini".revision = hackage."ini"."0.3.0".revisions.default;
+      "ini".revision = (((hackage."ini")."0.3.0").revisions).default;
       "ini".flags.test-hlint = false;
       "ini".flags.splitbase = true;
       "ini".flags.small_base = true;
@@ -3825,7 +3825,7 @@ hackage:
       "ini".flags.old-locale = true;
       "ini".flags.bytestring-in-base = false;
       "ini".flags.network-uri = true;
-      "hoogle".revision = hackage."hoogle"."4.2.36".revisions.default;
+      "hoogle".revision = (((hackage."hoogle")."4.2.36").revisions).default;
       "hoogle".flags.test-hlint = false;
       "hoogle".flags.splitbase = true;
       "hoogle".flags.small_base = true;
@@ -3835,7 +3835,7 @@ hackage:
       "hoogle".flags.old-locale = true;
       "hoogle".flags.bytestring-in-base = false;
       "hoogle".flags.network-uri = true;
-      "data-default-instances-old-locale".revision = hackage."data-default-instances-old-locale"."0.0.1".revisions.default;
+      "data-default-instances-old-locale".revision = (((hackage."data-default-instances-old-locale")."0.0.1").revisions).default;
       "data-default-instances-old-locale".flags.test-hlint = false;
       "data-default-instances-old-locale".flags.splitbase = true;
       "data-default-instances-old-locale".flags.small_base = true;
@@ -3845,7 +3845,7 @@ hackage:
       "data-default-instances-old-locale".flags.old-locale = true;
       "data-default-instances-old-locale".flags.bytestring-in-base = false;
       "data-default-instances-old-locale".flags.network-uri = true;
-      "test-framework-th".revision = hackage."test-framework-th"."0.2.4".revisions.default;
+      "test-framework-th".revision = (((hackage."test-framework-th")."0.2.4").revisions).default;
       "test-framework-th".flags.test-hlint = false;
       "test-framework-th".flags.splitbase = true;
       "test-framework-th".flags.small_base = true;
@@ -3855,7 +3855,7 @@ hackage:
       "test-framework-th".flags.old-locale = true;
       "test-framework-th".flags.bytestring-in-base = false;
       "test-framework-th".flags.network-uri = true;
-      "classy-prelude-conduit".revision = hackage."classy-prelude-conduit"."0.10.2".revisions.default;
+      "classy-prelude-conduit".revision = (((hackage."classy-prelude-conduit")."0.10.2").revisions).default;
       "classy-prelude-conduit".flags.test-hlint = false;
       "classy-prelude-conduit".flags.splitbase = true;
       "classy-prelude-conduit".flags.small_base = true;
@@ -3865,7 +3865,7 @@ hackage:
       "classy-prelude-conduit".flags.old-locale = true;
       "classy-prelude-conduit".flags.bytestring-in-base = false;
       "classy-prelude-conduit".flags.network-uri = true;
-      "hashmap".revision = hackage."hashmap"."1.3.0.1".revisions.default;
+      "hashmap".revision = (((hackage."hashmap")."1.3.0.1").revisions).default;
       "hashmap".flags.test-hlint = false;
       "hashmap".flags.splitbase = true;
       "hashmap".flags.small_base = true;
@@ -3875,7 +3875,7 @@ hackage:
       "hashmap".flags.old-locale = true;
       "hashmap".flags.bytestring-in-base = false;
       "hashmap".flags.network-uri = true;
-      "uniplate".revision = hackage."uniplate"."1.6.12".revisions.default;
+      "uniplate".revision = (((hackage."uniplate")."1.6.12").revisions).default;
       "uniplate".flags.test-hlint = false;
       "uniplate".flags.splitbase = true;
       "uniplate".flags.small_base = true;
@@ -3885,7 +3885,7 @@ hackage:
       "uniplate".flags.old-locale = true;
       "uniplate".flags.bytestring-in-base = false;
       "uniplate".flags.network-uri = true;
-      "groundhog-sqlite".revision = hackage."groundhog-sqlite"."0.7.0.1".revisions.default;
+      "groundhog-sqlite".revision = (((hackage."groundhog-sqlite")."0.7.0.1").revisions).default;
       "groundhog-sqlite".flags.test-hlint = false;
       "groundhog-sqlite".flags.splitbase = true;
       "groundhog-sqlite".flags.small_base = true;
@@ -3895,7 +3895,7 @@ hackage:
       "groundhog-sqlite".flags.old-locale = true;
       "groundhog-sqlite".flags.bytestring-in-base = false;
       "groundhog-sqlite".flags.network-uri = true;
-      "parsec".revision = hackage."parsec"."3.1.8".revisions.default;
+      "parsec".revision = (((hackage."parsec")."3.1.8").revisions).default;
       "parsec".flags.test-hlint = false;
       "parsec".flags.splitbase = true;
       "parsec".flags.small_base = true;
@@ -3905,7 +3905,7 @@ hackage:
       "parsec".flags.old-locale = true;
       "parsec".flags.bytestring-in-base = false;
       "parsec".flags.network-uri = true;
-      "slave-thread".revision = hackage."slave-thread"."0.1.5".revisions.default;
+      "slave-thread".revision = (((hackage."slave-thread")."0.1.5").revisions).default;
       "slave-thread".flags.test-hlint = false;
       "slave-thread".flags.splitbase = true;
       "slave-thread".flags.small_base = true;
@@ -3915,7 +3915,7 @@ hackage:
       "slave-thread".flags.old-locale = true;
       "slave-thread".flags.bytestring-in-base = false;
       "slave-thread".flags.network-uri = true;
-      "rainbow".revision = hackage."rainbow"."0.20.0.4".revisions.default;
+      "rainbow".revision = (((hackage."rainbow")."0.20.0.4").revisions).default;
       "rainbow".flags.test-hlint = false;
       "rainbow".flags.splitbase = true;
       "rainbow".flags.small_base = true;
@@ -3925,7 +3925,7 @@ hackage:
       "rainbow".flags.old-locale = true;
       "rainbow".flags.bytestring-in-base = false;
       "rainbow".flags.network-uri = true;
-      "th-reify-many".revision = hackage."th-reify-many"."0.1.2".revisions.default;
+      "th-reify-many".revision = (((hackage."th-reify-many")."0.1.2").revisions).default;
       "th-reify-many".flags.test-hlint = false;
       "th-reify-many".flags.splitbase = true;
       "th-reify-many".flags.small_base = true;
@@ -3936,7 +3936,7 @@ hackage:
       "th-reify-many".flags.bytestring-in-base = false;
       "th-reify-many".flags.network-uri = true;
       "haddock-ghc-7.8.4".revision = null;
-      "ghcid".revision = hackage."ghcid"."0.3.4".revisions.default;
+      "ghcid".revision = (((hackage."ghcid")."0.3.4").revisions).default;
       "ghcid".flags.test-hlint = false;
       "ghcid".flags.splitbase = true;
       "ghcid".flags.small_base = true;
@@ -3946,7 +3946,7 @@ hackage:
       "ghcid".flags.old-locale = true;
       "ghcid".flags.bytestring-in-base = false;
       "ghcid".flags.network-uri = true;
-      "mysql-simple".revision = hackage."mysql-simple"."0.2.2.4".revisions.default;
+      "mysql-simple".revision = (((hackage."mysql-simple")."0.2.2.4").revisions).default;
       "mysql-simple".flags.test-hlint = false;
       "mysql-simple".flags.splitbase = true;
       "mysql-simple".flags.small_base = true;
@@ -3956,7 +3956,7 @@ hackage:
       "mysql-simple".flags.old-locale = true;
       "mysql-simple".flags.bytestring-in-base = false;
       "mysql-simple".flags.network-uri = true;
-      "reducers".revision = hackage."reducers"."3.10.3".revisions.default;
+      "reducers".revision = (((hackage."reducers")."3.10.3").revisions).default;
       "reducers".flags.test-hlint = false;
       "reducers".flags.splitbase = true;
       "reducers".flags.small_base = true;
@@ -3966,7 +3966,7 @@ hackage:
       "reducers".flags.old-locale = true;
       "reducers".flags.bytestring-in-base = false;
       "reducers".flags.network-uri = true;
-      "statestack".revision = hackage."statestack"."0.2.0.3".revisions.default;
+      "statestack".revision = (((hackage."statestack")."0.2.0.3").revisions).default;
       "statestack".flags.test-hlint = false;
       "statestack".flags.splitbase = true;
       "statestack".flags.small_base = true;
@@ -3977,8 +3977,8 @@ hackage:
       "statestack".flags.bytestring-in-base = false;
       "statestack".flags.network-uri = true;
       "hsc2hs".revision = null;
-      "directory".revision = hackage."directory"."1.2.1.0".revisions.default;
-      "derive".revision = hackage."derive"."2.5.19".revisions.default;
+      "directory".revision = (((hackage."directory")."1.2.1.0").revisions).default;
+      "derive".revision = (((hackage."derive")."2.5.19").revisions).default;
       "derive".flags.test-hlint = false;
       "derive".flags.splitbase = true;
       "derive".flags.small_base = true;
@@ -3989,7 +3989,7 @@ hackage:
       "derive".flags.bytestring-in-base = false;
       "derive".flags.network-uri = true;
       "hp2ps".revision = null;
-      "hxt-regex-xmlschema".revision = hackage."hxt-regex-xmlschema"."9.2.0".revisions.default;
+      "hxt-regex-xmlschema".revision = (((hackage."hxt-regex-xmlschema")."9.2.0").revisions).default;
       "hxt-regex-xmlschema".flags.test-hlint = false;
       "hxt-regex-xmlschema".flags.splitbase = true;
       "hxt-regex-xmlschema".flags.small_base = true;
@@ -3999,7 +3999,7 @@ hackage:
       "hxt-regex-xmlschema".flags.old-locale = true;
       "hxt-regex-xmlschema".flags.bytestring-in-base = false;
       "hxt-regex-xmlschema".flags.network-uri = true;
-      "yaml".revision = hackage."yaml"."0.8.10.1".revisions.default;
+      "yaml".revision = (((hackage."yaml")."0.8.10.1").revisions).default;
       "yaml".flags.test-hlint = false;
       "yaml".flags.splitbase = true;
       "yaml".flags.small_base = true;
@@ -4010,7 +4010,7 @@ hackage:
       "yaml".flags.old-locale = true;
       "yaml".flags.bytestring-in-base = false;
       "yaml".flags.network-uri = true;
-      "stylish-haskell".revision = hackage."stylish-haskell"."0.5.11.0".revisions.default;
+      "stylish-haskell".revision = (((hackage."stylish-haskell")."0.5.11.0").revisions).default;
       "stylish-haskell".flags.test-hlint = false;
       "stylish-haskell".flags.splitbase = true;
       "stylish-haskell".flags.small_base = true;
@@ -4020,7 +4020,7 @@ hackage:
       "stylish-haskell".flags.old-locale = true;
       "stylish-haskell".flags.bytestring-in-base = false;
       "stylish-haskell".flags.network-uri = true;
-      "tasty-ant-xml".revision = hackage."tasty-ant-xml"."1.0.1".revisions.default;
+      "tasty-ant-xml".revision = (((hackage."tasty-ant-xml")."1.0.1").revisions).default;
       "tasty-ant-xml".flags.test-hlint = false;
       "tasty-ant-xml".flags.splitbase = true;
       "tasty-ant-xml".flags.small_base = true;
@@ -4030,7 +4030,7 @@ hackage:
       "tasty-ant-xml".flags.old-locale = true;
       "tasty-ant-xml".flags.bytestring-in-base = false;
       "tasty-ant-xml".flags.network-uri = true;
-      "transformers-compat".revision = hackage."transformers-compat"."0.3.3.3".revisions.default;
+      "transformers-compat".revision = (((hackage."transformers-compat")."0.3.3.3").revisions).default;
       "transformers-compat".flags.test-hlint = false;
       "transformers-compat".flags.splitbase = true;
       "transformers-compat".flags.small_base = true;
@@ -4040,7 +4040,7 @@ hackage:
       "transformers-compat".flags.old-locale = true;
       "transformers-compat".flags.bytestring-in-base = false;
       "transformers-compat".flags.network-uri = true;
-      "neat-interpolation".revision = hackage."neat-interpolation"."0.2.2".revisions.default;
+      "neat-interpolation".revision = (((hackage."neat-interpolation")."0.2.2").revisions).default;
       "neat-interpolation".flags.test-hlint = false;
       "neat-interpolation".flags.splitbase = true;
       "neat-interpolation".flags.small_base = true;
@@ -4050,8 +4050,8 @@ hackage:
       "neat-interpolation".flags.old-locale = true;
       "neat-interpolation".flags.bytestring-in-base = false;
       "neat-interpolation".flags.network-uri = true;
-      "template-haskell".revision = hackage."template-haskell"."2.9.0.0".revisions.default;
-      "hspec-expectations".revision = hackage."hspec-expectations"."0.6.1.1".revisions.default;
+      "template-haskell".revision = (((hackage."template-haskell")."2.9.0.0").revisions).default;
+      "hspec-expectations".revision = (((hackage."hspec-expectations")."0.6.1.1").revisions).default;
       "hspec-expectations".flags.test-hlint = false;
       "hspec-expectations".flags.splitbase = true;
       "hspec-expectations".flags.small_base = true;
@@ -4061,7 +4061,7 @@ hackage:
       "hspec-expectations".flags.old-locale = true;
       "hspec-expectations".flags.bytestring-in-base = false;
       "hspec-expectations".flags.network-uri = true;
-      "mono-traversable".revision = hackage."mono-traversable"."0.7.0".revisions.default;
+      "mono-traversable".revision = (((hackage."mono-traversable")."0.7.0").revisions).default;
       "mono-traversable".flags.test-hlint = false;
       "mono-traversable".flags.splitbase = true;
       "mono-traversable".flags.small_base = true;
@@ -4071,7 +4071,7 @@ hackage:
       "mono-traversable".flags.old-locale = true;
       "mono-traversable".flags.bytestring-in-base = false;
       "mono-traversable".flags.network-uri = true;
-      "lzma-conduit".revision = hackage."lzma-conduit"."1.1.2".revisions.default;
+      "lzma-conduit".revision = (((hackage."lzma-conduit")."1.1.2").revisions).default;
       "lzma-conduit".flags.test-hlint = false;
       "lzma-conduit".flags.splitbase = true;
       "lzma-conduit".flags.small_base = true;
@@ -4081,7 +4081,7 @@ hackage:
       "lzma-conduit".flags.old-locale = true;
       "lzma-conduit".flags.bytestring-in-base = false;
       "lzma-conduit".flags.network-uri = true;
-      "yesod-auth".revision = hackage."yesod-auth"."1.4.1.3".revisions.default;
+      "yesod-auth".revision = (((hackage."yesod-auth")."1.4.1.3").revisions).default;
       "yesod-auth".flags.test-hlint = false;
       "yesod-auth".flags.splitbase = true;
       "yesod-auth".flags.small_base = true;
@@ -4091,7 +4091,7 @@ hackage:
       "yesod-auth".flags.old-locale = true;
       "yesod-auth".flags.bytestring-in-base = false;
       "yesod-auth".flags.network-uri = true;
-      "dlist-instances".revision = hackage."dlist-instances"."0.1".revisions.default;
+      "dlist-instances".revision = (((hackage."dlist-instances")."0.1").revisions).default;
       "dlist-instances".flags.test-hlint = false;
       "dlist-instances".flags.splitbase = true;
       "dlist-instances".flags.small_base = true;
@@ -4101,7 +4101,7 @@ hackage:
       "dlist-instances".flags.old-locale = true;
       "dlist-instances".flags.bytestring-in-base = false;
       "dlist-instances".flags.network-uri = true;
-      "yesod-static".revision = hackage."yesod-static"."1.4.0.4".revisions.default;
+      "yesod-static".revision = (((hackage."yesod-static")."1.4.0.4").revisions).default;
       "yesod-static".flags.test-hlint = false;
       "yesod-static".flags.splitbase = true;
       "yesod-static".flags.small_base = true;
@@ -4111,7 +4111,7 @@ hackage:
       "yesod-static".flags.old-locale = true;
       "yesod-static".flags.bytestring-in-base = false;
       "yesod-static".flags.network-uri = true;
-      "bytes".revision = hackage."bytes"."0.14.1.3".revisions.default;
+      "bytes".revision = (((hackage."bytes")."0.14.1.3").revisions).default;
       "bytes".flags.test-hlint = false;
       "bytes".flags.splitbase = true;
       "bytes".flags.small_base = true;
@@ -4121,7 +4121,7 @@ hackage:
       "bytes".flags.old-locale = true;
       "bytes".flags.bytestring-in-base = false;
       "bytes".flags.network-uri = true;
-      "comonads-fd".revision = hackage."comonads-fd"."4.0".revisions.default;
+      "comonads-fd".revision = (((hackage."comonads-fd")."4.0").revisions).default;
       "comonads-fd".flags.test-hlint = false;
       "comonads-fd".flags.splitbase = true;
       "comonads-fd".flags.small_base = true;
@@ -4131,7 +4131,7 @@ hackage:
       "comonads-fd".flags.old-locale = true;
       "comonads-fd".flags.bytestring-in-base = false;
       "comonads-fd".flags.network-uri = true;
-      "sourcemap".revision = hackage."sourcemap"."0.1.3.0".revisions.default;
+      "sourcemap".revision = (((hackage."sourcemap")."0.1.3.0").revisions).default;
       "sourcemap".flags.test-hlint = false;
       "sourcemap".flags.splitbase = true;
       "sourcemap".flags.small_base = true;
@@ -4141,7 +4141,7 @@ hackage:
       "sourcemap".flags.old-locale = true;
       "sourcemap".flags.bytestring-in-base = false;
       "sourcemap".flags.network-uri = true;
-      "gio".revision = hackage."gio"."0.13.0.4".revisions.default;
+      "gio".revision = (((hackage."gio")."0.13.0.4").revisions).default;
       "gio".flags.test-hlint = false;
       "gio".flags.splitbase = true;
       "gio".flags.small_base = true;
@@ -4151,7 +4151,7 @@ hackage:
       "gio".flags.old-locale = true;
       "gio".flags.bytestring-in-base = false;
       "gio".flags.network-uri = true;
-      "vector".revision = hackage."vector"."0.10.12.2".revisions.default;
+      "vector".revision = (((hackage."vector")."0.10.12.2").revisions).default;
       "vector".flags.test-hlint = false;
       "vector".flags.splitbase = true;
       "vector".flags.small_base = true;
@@ -4161,7 +4161,7 @@ hackage:
       "vector".flags.old-locale = true;
       "vector".flags.bytestring-in-base = false;
       "vector".flags.network-uri = true;
-      "primitive".revision = hackage."primitive"."0.5.4.0".revisions.default;
+      "primitive".revision = (((hackage."primitive")."0.5.4.0").revisions).default;
       "primitive".flags.test-hlint = false;
       "primitive".flags.splitbase = true;
       "primitive".flags.small_base = true;
@@ -4171,7 +4171,7 @@ hackage:
       "primitive".flags.old-locale = true;
       "primitive".flags.bytestring-in-base = false;
       "primitive".flags.network-uri = true;
-      "cryptohash".revision = hackage."cryptohash"."0.11.6".revisions.default;
+      "cryptohash".revision = (((hackage."cryptohash")."0.11.6").revisions).default;
       "cryptohash".flags.test-hlint = false;
       "cryptohash".flags.splitbase = true;
       "cryptohash".flags.small_base = true;
@@ -4181,7 +4181,7 @@ hackage:
       "cryptohash".flags.old-locale = true;
       "cryptohash".flags.bytestring-in-base = false;
       "cryptohash".flags.network-uri = true;
-      "cabal-install".revision = hackage."cabal-install"."1.18.0.8".revisions.default;
+      "cabal-install".revision = (((hackage."cabal-install")."1.18.0.8").revisions).default;
       "cabal-install".flags.test-hlint = false;
       "cabal-install".flags.splitbase = true;
       "cabal-install".flags.small_base = true;
@@ -4191,7 +4191,7 @@ hackage:
       "cabal-install".flags.old-locale = true;
       "cabal-install".flags.bytestring-in-base = false;
       "cabal-install".flags.network-uri = true;
-      "type-eq".revision = hackage."type-eq"."0.4.2".revisions.default;
+      "type-eq".revision = (((hackage."type-eq")."0.4.2").revisions).default;
       "type-eq".flags.test-hlint = false;
       "type-eq".flags.splitbase = true;
       "type-eq".flags.small_base = true;
@@ -4201,7 +4201,7 @@ hackage:
       "type-eq".flags.old-locale = true;
       "type-eq".flags.bytestring-in-base = false;
       "type-eq".flags.network-uri = true;
-      "texmath".revision = hackage."texmath"."0.8.0.1".revisions.default;
+      "texmath".revision = (((hackage."texmath")."0.8.0.1").revisions).default;
       "texmath".flags.test-hlint = false;
       "texmath".flags.splitbase = true;
       "texmath".flags.small_base = true;
@@ -4211,7 +4211,7 @@ hackage:
       "texmath".flags.old-locale = true;
       "texmath".flags.bytestring-in-base = false;
       "texmath".flags.network-uri = true;
-      "rest-gen".revision = hackage."rest-gen"."0.16.1.7".revisions.default;
+      "rest-gen".revision = (((hackage."rest-gen")."0.16.1.7").revisions).default;
       "rest-gen".flags.test-hlint = false;
       "rest-gen".flags.splitbase = true;
       "rest-gen".flags.small_base = true;
@@ -4221,7 +4221,7 @@ hackage:
       "rest-gen".flags.old-locale = true;
       "rest-gen".flags.bytestring-in-base = false;
       "rest-gen".flags.network-uri = true;
-      "gtk2hs-buildtools".revision = hackage."gtk2hs-buildtools"."0.13.0.3".revisions.default;
+      "gtk2hs-buildtools".revision = (((hackage."gtk2hs-buildtools")."0.13.0.3").revisions).default;
       "gtk2hs-buildtools".flags.test-hlint = false;
       "gtk2hs-buildtools".flags.splitbase = true;
       "gtk2hs-buildtools".flags.small_base = true;
@@ -4231,7 +4231,7 @@ hackage:
       "gtk2hs-buildtools".flags.old-locale = true;
       "gtk2hs-buildtools".flags.bytestring-in-base = false;
       "gtk2hs-buildtools".flags.network-uri = true;
-      "profunctors".revision = hackage."profunctors"."4.3.2".revisions.default;
+      "profunctors".revision = (((hackage."profunctors")."4.3.2").revisions).default;
       "profunctors".flags.test-hlint = false;
       "profunctors".flags.splitbase = true;
       "profunctors".flags.small_base = true;
@@ -4241,7 +4241,7 @@ hackage:
       "profunctors".flags.old-locale = true;
       "profunctors".flags.bytestring-in-base = false;
       "profunctors".flags.network-uri = true;
-      "bioalign".revision = hackage."bioalign"."0.0.5".revisions.default;
+      "bioalign".revision = (((hackage."bioalign")."0.0.5").revisions).default;
       "bioalign".flags.test-hlint = false;
       "bioalign".flags.splitbase = true;
       "bioalign".flags.small_base = true;
@@ -4251,7 +4251,7 @@ hackage:
       "bioalign".flags.old-locale = true;
       "bioalign".flags.bytestring-in-base = false;
       "bioalign".flags.network-uri = true;
-      "rest-snap".revision = hackage."rest-snap"."0.1.17.14".revisions.default;
+      "rest-snap".revision = (((hackage."rest-snap")."0.1.17.14").revisions).default;
       "rest-snap".flags.test-hlint = false;
       "rest-snap".flags.splitbase = true;
       "rest-snap".flags.small_base = true;
@@ -4261,7 +4261,7 @@ hackage:
       "rest-snap".flags.old-locale = true;
       "rest-snap".flags.bytestring-in-base = false;
       "rest-snap".flags.network-uri = true;
-      "monadcryptorandom".revision = hackage."monadcryptorandom"."0.6.1".revisions.default;
+      "monadcryptorandom".revision = (((hackage."monadcryptorandom")."0.6.1").revisions).default;
       "monadcryptorandom".flags.test-hlint = false;
       "monadcryptorandom".flags.splitbase = true;
       "monadcryptorandom".flags.small_base = true;
@@ -4271,7 +4271,7 @@ hackage:
       "monadcryptorandom".flags.old-locale = true;
       "monadcryptorandom".flags.bytestring-in-base = false;
       "monadcryptorandom".flags.network-uri = true;
-      "safe".revision = hackage."safe"."0.3.8".revisions.default;
+      "safe".revision = (((hackage."safe")."0.3.8").revisions).default;
       "safe".flags.test-hlint = false;
       "safe".flags.splitbase = true;
       "safe".flags.small_base = true;
@@ -4281,7 +4281,7 @@ hackage:
       "safe".flags.old-locale = true;
       "safe".flags.bytestring-in-base = false;
       "safe".flags.network-uri = true;
-      "sodium".revision = hackage."sodium"."0.11.0.3".revisions.default;
+      "sodium".revision = (((hackage."sodium")."0.11.0.3").revisions).default;
       "sodium".flags.test-hlint = false;
       "sodium".flags.splitbase = true;
       "sodium".flags.small_base = true;
@@ -4291,7 +4291,7 @@ hackage:
       "sodium".flags.old-locale = true;
       "sodium".flags.bytestring-in-base = false;
       "sodium".flags.network-uri = true;
-      "yesod-auth-oauth2".revision = hackage."yesod-auth-oauth2"."0.0.12".revisions.default;
+      "yesod-auth-oauth2".revision = (((hackage."yesod-auth-oauth2")."0.0.12").revisions).default;
       "yesod-auth-oauth2".flags.test-hlint = false;
       "yesod-auth-oauth2".flags.splitbase = true;
       "yesod-auth-oauth2".flags.small_base = true;
@@ -4301,7 +4301,7 @@ hackage:
       "yesod-auth-oauth2".flags.old-locale = true;
       "yesod-auth-oauth2".flags.bytestring-in-base = false;
       "yesod-auth-oauth2".flags.network-uri = true;
-      "blaze-builder".revision = hackage."blaze-builder"."0.3.3.4".revisions.default;
+      "blaze-builder".revision = (((hackage."blaze-builder")."0.3.3.4").revisions).default;
       "blaze-builder".flags.test-hlint = false;
       "blaze-builder".flags.splitbase = true;
       "blaze-builder".flags.small_base = true;
@@ -4311,7 +4311,7 @@ hackage:
       "blaze-builder".flags.old-locale = true;
       "blaze-builder".flags.bytestring-in-base = false;
       "blaze-builder".flags.network-uri = true;
-      "pdfinfo".revision = hackage."pdfinfo"."1.5.1".revisions.default;
+      "pdfinfo".revision = (((hackage."pdfinfo")."1.5.1").revisions).default;
       "pdfinfo".flags.test-hlint = false;
       "pdfinfo".flags.splitbase = true;
       "pdfinfo".flags.small_base = true;
@@ -4321,7 +4321,7 @@ hackage:
       "pdfinfo".flags.old-locale = true;
       "pdfinfo".flags.bytestring-in-base = false;
       "pdfinfo".flags.network-uri = true;
-      "publicsuffixlist".revision = hackage."publicsuffixlist"."0.1".revisions.default;
+      "publicsuffixlist".revision = (((hackage."publicsuffixlist")."0.1").revisions).default;
       "publicsuffixlist".flags.test-hlint = false;
       "publicsuffixlist".flags.splitbase = true;
       "publicsuffixlist".flags.small_base = true;
@@ -4331,7 +4331,7 @@ hackage:
       "publicsuffixlist".flags.old-locale = true;
       "publicsuffixlist".flags.bytestring-in-base = false;
       "publicsuffixlist".flags.network-uri = true;
-      "fb-persistent".revision = hackage."fb-persistent"."0.3.4".revisions.default;
+      "fb-persistent".revision = (((hackage."fb-persistent")."0.3.4").revisions).default;
       "fb-persistent".flags.test-hlint = false;
       "fb-persistent".flags.splitbase = true;
       "fb-persistent".flags.small_base = true;
@@ -4341,7 +4341,7 @@ hackage:
       "fb-persistent".flags.old-locale = true;
       "fb-persistent".flags.bytestring-in-base = false;
       "fb-persistent".flags.network-uri = true;
-      "classy-prelude-yesod".revision = hackage."classy-prelude-yesod"."0.10.2".revisions.default;
+      "classy-prelude-yesod".revision = (((hackage."classy-prelude-yesod")."0.10.2").revisions).default;
       "classy-prelude-yesod".flags.test-hlint = false;
       "classy-prelude-yesod".flags.splitbase = true;
       "classy-prelude-yesod".flags.small_base = true;
@@ -4351,7 +4351,7 @@ hackage:
       "classy-prelude-yesod".flags.old-locale = true;
       "classy-prelude-yesod".flags.bytestring-in-base = false;
       "classy-prelude-yesod".flags.network-uri = true;
-      "enumerator".revision = hackage."enumerator"."0.4.20".revisions.default;
+      "enumerator".revision = (((hackage."enumerator")."0.4.20").revisions).default;
       "enumerator".flags.test-hlint = false;
       "enumerator".flags.splitbase = true;
       "enumerator".flags.small_base = true;
@@ -4361,7 +4361,7 @@ hackage:
       "enumerator".flags.old-locale = true;
       "enumerator".flags.bytestring-in-base = false;
       "enumerator".flags.network-uri = true;
-      "logfloat".revision = hackage."logfloat"."0.12.1".revisions.default;
+      "logfloat".revision = (((hackage."logfloat")."0.12.1").revisions).default;
       "logfloat".flags.test-hlint = false;
       "logfloat".flags.splitbase = true;
       "logfloat".flags.small_base = true;
@@ -4371,7 +4371,7 @@ hackage:
       "logfloat".flags.old-locale = true;
       "logfloat".flags.bytestring-in-base = false;
       "logfloat".flags.network-uri = true;
-      "data-accessor".revision = hackage."data-accessor"."0.2.2.6".revisions.default;
+      "data-accessor".revision = (((hackage."data-accessor")."0.2.2.6").revisions).default;
       "data-accessor".flags.test-hlint = false;
       "data-accessor".flags.splitbase = true;
       "data-accessor".flags.small_base = true;
@@ -4381,7 +4381,7 @@ hackage:
       "data-accessor".flags.old-locale = true;
       "data-accessor".flags.bytestring-in-base = false;
       "data-accessor".flags.network-uri = true;
-      "Boolean".revision = hackage."Boolean"."0.2.3".revisions.default;
+      "Boolean".revision = (((hackage."Boolean")."0.2.3").revisions).default;
       "Boolean".flags.test-hlint = false;
       "Boolean".flags.splitbase = true;
       "Boolean".flags.small_base = true;
@@ -4391,7 +4391,7 @@ hackage:
       "Boolean".flags.old-locale = true;
       "Boolean".flags.bytestring-in-base = false;
       "Boolean".flags.network-uri = true;
-      "base-compat".revision = hackage."base-compat"."0.5.0".revisions.default;
+      "base-compat".revision = (((hackage."base-compat")."0.5.0").revisions).default;
       "base-compat".flags.test-hlint = false;
       "base-compat".flags.splitbase = true;
       "base-compat".flags.small_base = true;
@@ -4401,7 +4401,7 @@ hackage:
       "base-compat".flags.old-locale = true;
       "base-compat".flags.bytestring-in-base = false;
       "base-compat".flags.network-uri = true;
-      "utf8-light".revision = hackage."utf8-light"."0.4.2".revisions.default;
+      "utf8-light".revision = (((hackage."utf8-light")."0.4.2").revisions).default;
       "utf8-light".flags.test-hlint = false;
       "utf8-light".flags.splitbase = true;
       "utf8-light".flags.small_base = true;
@@ -4411,7 +4411,7 @@ hackage:
       "utf8-light".flags.old-locale = true;
       "utf8-light".flags.bytestring-in-base = false;
       "utf8-light".flags.network-uri = true;
-      "active".revision = hackage."active"."0.1.0.17".revisions.default;
+      "active".revision = (((hackage."active")."0.1.0.17").revisions).default;
       "active".flags.test-hlint = false;
       "active".flags.splitbase = true;
       "active".flags.small_base = true;
@@ -4421,7 +4421,7 @@ hackage:
       "active".flags.old-locale = true;
       "active".flags.bytestring-in-base = false;
       "active".flags.network-uri = true;
-      "language-javascript".revision = hackage."language-javascript"."0.5.13".revisions.default;
+      "language-javascript".revision = (((hackage."language-javascript")."0.5.13").revisions).default;
       "language-javascript".flags.test-hlint = false;
       "language-javascript".flags.splitbase = true;
       "language-javascript".flags.small_base = true;
@@ -4431,7 +4431,7 @@ hackage:
       "language-javascript".flags.old-locale = true;
       "language-javascript".flags.bytestring-in-base = false;
       "language-javascript".flags.network-uri = true;
-      "js-jquery".revision = hackage."js-jquery"."1.11.2".revisions.default;
+      "js-jquery".revision = (((hackage."js-jquery")."1.11.2").revisions).default;
       "js-jquery".flags.test-hlint = false;
       "js-jquery".flags.splitbase = true;
       "js-jquery".flags.small_base = true;
@@ -4441,7 +4441,7 @@ hackage:
       "js-jquery".flags.old-locale = true;
       "js-jquery".flags.bytestring-in-base = false;
       "js-jquery".flags.network-uri = true;
-      "simple-reflect".revision = hackage."simple-reflect"."0.3.2".revisions.default;
+      "simple-reflect".revision = (((hackage."simple-reflect")."0.3.2").revisions).default;
       "simple-reflect".flags.test-hlint = false;
       "simple-reflect".flags.splitbase = true;
       "simple-reflect".flags.small_base = true;
@@ -4451,7 +4451,7 @@ hackage:
       "simple-reflect".flags.old-locale = true;
       "simple-reflect".flags.bytestring-in-base = false;
       "simple-reflect".flags.network-uri = true;
-      "singletons".revision = hackage."singletons"."1.0".revisions.default;
+      "singletons".revision = (((hackage."singletons")."1.0").revisions).default;
       "singletons".flags.test-hlint = false;
       "singletons".flags.splitbase = true;
       "singletons".flags.small_base = true;
@@ -4461,7 +4461,7 @@ hackage:
       "singletons".flags.old-locale = true;
       "singletons".flags.bytestring-in-base = false;
       "singletons".flags.network-uri = true;
-      "terminal-size".revision = hackage."terminal-size"."0.3.0".revisions.default;
+      "terminal-size".revision = (((hackage."terminal-size")."0.3.0").revisions).default;
       "terminal-size".flags.test-hlint = false;
       "terminal-size".flags.splitbase = true;
       "terminal-size".flags.small_base = true;
@@ -4471,7 +4471,7 @@ hackage:
       "terminal-size".flags.old-locale = true;
       "terminal-size".flags.bytestring-in-base = false;
       "terminal-size".flags.network-uri = true;
-      "stringbuilder".revision = hackage."stringbuilder"."0.5.0".revisions.default;
+      "stringbuilder".revision = (((hackage."stringbuilder")."0.5.0").revisions).default;
       "stringbuilder".flags.test-hlint = false;
       "stringbuilder".flags.splitbase = true;
       "stringbuilder".flags.small_base = true;
@@ -4481,7 +4481,7 @@ hackage:
       "stringbuilder".flags.old-locale = true;
       "stringbuilder".flags.bytestring-in-base = false;
       "stringbuilder".flags.network-uri = true;
-      "silently".revision = hackage."silently"."1.2.4.1".revisions.default;
+      "silently".revision = (((hackage."silently")."1.2.4.1").revisions).default;
       "silently".flags.test-hlint = false;
       "silently".flags.splitbase = true;
       "silently".flags.small_base = true;
@@ -4491,7 +4491,7 @@ hackage:
       "silently".flags.old-locale = true;
       "silently".flags.bytestring-in-base = false;
       "silently".flags.network-uri = true;
-      "math-functions".revision = hackage."math-functions"."0.1.5.2".revisions.default;
+      "math-functions".revision = (((hackage."math-functions")."0.1.5.2").revisions).default;
       "math-functions".flags.test-hlint = false;
       "math-functions".flags.splitbase = true;
       "math-functions".flags.small_base = true;
@@ -4501,7 +4501,7 @@ hackage:
       "math-functions".flags.old-locale = true;
       "math-functions".flags.bytestring-in-base = false;
       "math-functions".flags.network-uri = true;
-      "distributed-process-simplelocalnet".revision = hackage."distributed-process-simplelocalnet"."0.2.2.0".revisions.default;
+      "distributed-process-simplelocalnet".revision = (((hackage."distributed-process-simplelocalnet")."0.2.2.0").revisions).default;
       "distributed-process-simplelocalnet".flags.test-hlint = false;
       "distributed-process-simplelocalnet".flags.splitbase = true;
       "distributed-process-simplelocalnet".flags.small_base = true;
@@ -4511,7 +4511,7 @@ hackage:
       "distributed-process-simplelocalnet".flags.old-locale = true;
       "distributed-process-simplelocalnet".flags.bytestring-in-base = false;
       "distributed-process-simplelocalnet".flags.network-uri = true;
-      "regular-xmlpickler".revision = hackage."regular-xmlpickler"."0.2".revisions.default;
+      "regular-xmlpickler".revision = (((hackage."regular-xmlpickler")."0.2").revisions).default;
       "regular-xmlpickler".flags.test-hlint = false;
       "regular-xmlpickler".flags.splitbase = true;
       "regular-xmlpickler".flags.small_base = true;
@@ -4521,7 +4521,7 @@ hackage:
       "regular-xmlpickler".flags.old-locale = true;
       "regular-xmlpickler".flags.bytestring-in-base = false;
       "regular-xmlpickler".flags.network-uri = true;
-      "postgresql-binary".revision = hackage."postgresql-binary"."0.5.0".revisions.default;
+      "postgresql-binary".revision = (((hackage."postgresql-binary")."0.5.0").revisions).default;
       "postgresql-binary".flags.test-hlint = false;
       "postgresql-binary".flags.splitbase = true;
       "postgresql-binary".flags.small_base = true;
@@ -4531,7 +4531,7 @@ hackage:
       "postgresql-binary".flags.old-locale = true;
       "postgresql-binary".flags.bytestring-in-base = false;
       "postgresql-binary".flags.network-uri = true;
-      "regex-compat".revision = hackage."regex-compat"."0.95.1".revisions.default;
+      "regex-compat".revision = (((hackage."regex-compat")."0.95.1").revisions).default;
       "regex-compat".flags.test-hlint = false;
       "regex-compat".flags.splitbase = true;
       "regex-compat".flags.small_base = true;
@@ -4541,7 +4541,7 @@ hackage:
       "regex-compat".flags.old-locale = true;
       "regex-compat".flags.bytestring-in-base = false;
       "regex-compat".flags.network-uri = true;
-      "language-c".revision = hackage."language-c"."0.4.7".revisions.default;
+      "language-c".revision = (((hackage."language-c")."0.4.7").revisions).default;
       "language-c".flags.test-hlint = false;
       "language-c".flags.splitbase = true;
       "language-c".flags.small_base = true;
@@ -4551,7 +4551,7 @@ hackage:
       "language-c".flags.old-locale = true;
       "language-c".flags.bytestring-in-base = false;
       "language-c".flags.network-uri = true;
-      "time-compat".revision = hackage."time-compat"."0.1.0.3".revisions.default;
+      "time-compat".revision = (((hackage."time-compat")."0.1.0.3").revisions).default;
       "time-compat".flags.test-hlint = false;
       "time-compat".flags.splitbase = true;
       "time-compat".flags.small_base = true;
@@ -4561,7 +4561,7 @@ hackage:
       "time-compat".flags.old-locale = true;
       "time-compat".flags.bytestring-in-base = false;
       "time-compat".flags.network-uri = true;
-      "concurrent-extra".revision = hackage."concurrent-extra"."0.7.0.9".revisions.default;
+      "concurrent-extra".revision = (((hackage."concurrent-extra")."0.7.0.9").revisions).default;
       "concurrent-extra".flags.test-hlint = false;
       "concurrent-extra".flags.splitbase = true;
       "concurrent-extra".flags.small_base = true;
@@ -4571,7 +4571,7 @@ hackage:
       "concurrent-extra".flags.old-locale = true;
       "concurrent-extra".flags.bytestring-in-base = false;
       "concurrent-extra".flags.network-uri = true;
-      "lhs2tex".revision = hackage."lhs2tex"."1.18.1".revisions.default;
+      "lhs2tex".revision = (((hackage."lhs2tex")."1.18.1").revisions).default;
       "lhs2tex".flags.test-hlint = false;
       "lhs2tex".flags.splitbase = true;
       "lhs2tex".flags.small_base = true;
@@ -4581,7 +4581,7 @@ hackage:
       "lhs2tex".flags.old-locale = true;
       "lhs2tex".flags.bytestring-in-base = false;
       "lhs2tex".flags.network-uri = true;
-      "monad-products".revision = hackage."monad-products"."4.0.0.1".revisions.default;
+      "monad-products".revision = (((hackage."monad-products")."4.0.0.1").revisions).default;
       "monad-products".flags.test-hlint = false;
       "monad-products".flags.splitbase = true;
       "monad-products".flags.small_base = true;
@@ -4591,7 +4591,7 @@ hackage:
       "monad-products".flags.old-locale = true;
       "monad-products".flags.bytestring-in-base = false;
       "monad-products".flags.network-uri = true;
-      "monadic-arrays".revision = hackage."monadic-arrays"."0.2.1.3".revisions.default;
+      "monadic-arrays".revision = (((hackage."monadic-arrays")."0.2.1.3").revisions).default;
       "monadic-arrays".flags.test-hlint = false;
       "monadic-arrays".flags.splitbase = true;
       "monadic-arrays".flags.small_base = true;
@@ -4601,7 +4601,7 @@ hackage:
       "monadic-arrays".flags.old-locale = true;
       "monadic-arrays".flags.bytestring-in-base = false;
       "monadic-arrays".flags.network-uri = true;
-      "aeson-utils".revision = hackage."aeson-utils"."0.2.2.1".revisions.default;
+      "aeson-utils".revision = (((hackage."aeson-utils")."0.2.2.1").revisions).default;
       "aeson-utils".flags.test-hlint = false;
       "aeson-utils".flags.splitbase = true;
       "aeson-utils".flags.small_base = true;
@@ -4611,7 +4611,7 @@ hackage:
       "aeson-utils".flags.old-locale = true;
       "aeson-utils".flags.bytestring-in-base = false;
       "aeson-utils".flags.network-uri = true;
-      "fb".revision = hackage."fb"."1.0.7".revisions.default;
+      "fb".revision = (((hackage."fb")."1.0.7").revisions).default;
       "fb".flags.test-hlint = false;
       "fb".flags.splitbase = true;
       "fb".flags.small_base = true;
@@ -4621,7 +4621,7 @@ hackage:
       "fb".flags.old-locale = true;
       "fb".flags.bytestring-in-base = false;
       "fb".flags.network-uri = true;
-      "loop".revision = hackage."loop"."0.2.0".revisions.default;
+      "loop".revision = (((hackage."loop")."0.2.0").revisions).default;
       "loop".flags.test-hlint = false;
       "loop".flags.splitbase = true;
       "loop".flags.small_base = true;
@@ -4631,7 +4631,7 @@ hackage:
       "loop".flags.old-locale = true;
       "loop".flags.bytestring-in-base = false;
       "loop".flags.network-uri = true;
-      "gravatar".revision = hackage."gravatar"."0.6".revisions.default;
+      "gravatar".revision = (((hackage."gravatar")."0.6").revisions).default;
       "gravatar".flags.test-hlint = false;
       "gravatar".flags.splitbase = true;
       "gravatar".flags.small_base = true;
@@ -4641,7 +4641,7 @@ hackage:
       "gravatar".flags.old-locale = true;
       "gravatar".flags.bytestring-in-base = false;
       "gravatar".flags.network-uri = true;
-      "JuicyPixels-repa".revision = hackage."JuicyPixels-repa"."0.7".revisions.default;
+      "JuicyPixels-repa".revision = (((hackage."JuicyPixels-repa")."0.7").revisions).default;
       "JuicyPixels-repa".flags.test-hlint = false;
       "JuicyPixels-repa".flags.splitbase = true;
       "JuicyPixels-repa".flags.small_base = true;
@@ -4651,7 +4651,7 @@ hackage:
       "JuicyPixels-repa".flags.old-locale = true;
       "JuicyPixels-repa".flags.bytestring-in-base = false;
       "JuicyPixels-repa".flags.network-uri = true;
-      "zlib-lens".revision = hackage."zlib-lens"."0.1.1.1".revisions.default;
+      "zlib-lens".revision = (((hackage."zlib-lens")."0.1.1.1").revisions).default;
       "zlib-lens".flags.test-hlint = false;
       "zlib-lens".flags.splitbase = true;
       "zlib-lens".flags.small_base = true;
@@ -4661,7 +4661,7 @@ hackage:
       "zlib-lens".flags.old-locale = true;
       "zlib-lens".flags.bytestring-in-base = false;
       "zlib-lens".flags.network-uri = true;
-      "snap-server".revision = hackage."snap-server"."0.9.4.6".revisions.default;
+      "snap-server".revision = (((hackage."snap-server")."0.9.4.6").revisions).default;
       "snap-server".flags.test-hlint = false;
       "snap-server".flags.splitbase = true;
       "snap-server".flags.small_base = true;
@@ -4671,7 +4671,7 @@ hackage:
       "snap-server".flags.old-locale = true;
       "snap-server".flags.bytestring-in-base = false;
       "snap-server".flags.network-uri = true;
-      "deepseq-generics".revision = hackage."deepseq-generics"."0.1.1.2".revisions.default;
+      "deepseq-generics".revision = (((hackage."deepseq-generics")."0.1.1.2").revisions).default;
       "deepseq-generics".flags.test-hlint = false;
       "deepseq-generics".flags.splitbase = true;
       "deepseq-generics".flags.small_base = true;
@@ -4681,7 +4681,7 @@ hackage:
       "deepseq-generics".flags.old-locale = true;
       "deepseq-generics".flags.bytestring-in-base = false;
       "deepseq-generics".flags.network-uri = true;
-      "yesod".revision = hackage."yesod"."1.4.1.3".revisions.default;
+      "yesod".revision = (((hackage."yesod")."1.4.1.3").revisions).default;
       "yesod".flags.test-hlint = false;
       "yesod".flags.splitbase = true;
       "yesod".flags.small_base = true;
@@ -4691,7 +4691,7 @@ hackage:
       "yesod".flags.old-locale = true;
       "yesod".flags.bytestring-in-base = false;
       "yesod".flags.network-uri = true;
-      "hxt".revision = hackage."hxt"."9.3.1.10".revisions.default;
+      "hxt".revision = (((hackage."hxt")."9.3.1.10").revisions).default;
       "hxt".flags.test-hlint = false;
       "hxt".flags.splitbase = true;
       "hxt".flags.small_base = true;
@@ -4701,7 +4701,7 @@ hackage:
       "hxt".flags.old-locale = true;
       "hxt".flags.bytestring-in-base = false;
       "hxt".flags.network-uri = true;
-      "x509-system".revision = hackage."x509-system"."1.5.0".revisions.default;
+      "x509-system".revision = (((hackage."x509-system")."1.5.0").revisions).default;
       "x509-system".flags.test-hlint = false;
       "x509-system".flags.splitbase = true;
       "x509-system".flags.small_base = true;
@@ -4711,7 +4711,7 @@ hackage:
       "x509-system".flags.old-locale = true;
       "x509-system".flags.bytestring-in-base = false;
       "x509-system".flags.network-uri = true;
-      "keys".revision = hackage."keys"."3.10.1".revisions.default;
+      "keys".revision = (((hackage."keys")."3.10.1").revisions).default;
       "keys".flags.test-hlint = false;
       "keys".flags.splitbase = true;
       "keys".flags.small_base = true;
@@ -4721,7 +4721,7 @@ hackage:
       "keys".flags.old-locale = true;
       "keys".flags.bytestring-in-base = false;
       "keys".flags.network-uri = true;
-      "binary-conduit".revision = hackage."binary-conduit"."1.2.3".revisions.default;
+      "binary-conduit".revision = (((hackage."binary-conduit")."1.2.3").revisions).default;
       "binary-conduit".flags.test-hlint = false;
       "binary-conduit".flags.splitbase = true;
       "binary-conduit".flags.small_base = true;
@@ -4731,7 +4731,7 @@ hackage:
       "binary-conduit".flags.old-locale = true;
       "binary-conduit".flags.bytestring-in-base = false;
       "binary-conduit".flags.network-uri = true;
-      "intervals".revision = hackage."intervals"."0.7.0.1".revisions.default;
+      "intervals".revision = (((hackage."intervals")."0.7.0.1").revisions).default;
       "intervals".flags.test-hlint = false;
       "intervals".flags.splitbase = true;
       "intervals".flags.small_base = true;
@@ -4741,7 +4741,7 @@ hackage:
       "intervals".flags.old-locale = true;
       "intervals".flags.bytestring-in-base = false;
       "intervals".flags.network-uri = true;
-      "ansi-terminal".revision = hackage."ansi-terminal"."0.6.2.1".revisions.default;
+      "ansi-terminal".revision = (((hackage."ansi-terminal")."0.6.2.1").revisions).default;
       "ansi-terminal".flags.test-hlint = false;
       "ansi-terminal".flags.splitbase = true;
       "ansi-terminal".flags.small_base = true;
@@ -4751,7 +4751,7 @@ hackage:
       "ansi-terminal".flags.old-locale = true;
       "ansi-terminal".flags.bytestring-in-base = false;
       "ansi-terminal".flags.network-uri = true;
-      "vector-binary-instances".revision = hackage."vector-binary-instances"."0.2.1.0".revisions.default;
+      "vector-binary-instances".revision = (((hackage."vector-binary-instances")."0.2.1.0").revisions).default;
       "vector-binary-instances".flags.test-hlint = false;
       "vector-binary-instances".flags.splitbase = true;
       "vector-binary-instances".flags.small_base = true;
@@ -4761,7 +4761,7 @@ hackage:
       "vector-binary-instances".flags.old-locale = true;
       "vector-binary-instances".flags.bytestring-in-base = false;
       "vector-binary-instances".flags.network-uri = true;
-      "quickcheck-instances".revision = hackage."quickcheck-instances"."0.3.10".revisions.default;
+      "quickcheck-instances".revision = (((hackage."quickcheck-instances")."0.3.10").revisions).default;
       "quickcheck-instances".flags.test-hlint = false;
       "quickcheck-instances".flags.splitbase = true;
       "quickcheck-instances".flags.small_base = true;
@@ -4771,7 +4771,7 @@ hackage:
       "quickcheck-instances".flags.old-locale = true;
       "quickcheck-instances".flags.bytestring-in-base = false;
       "quickcheck-instances".flags.network-uri = true;
-      "data-accessor-mtl".revision = hackage."data-accessor-mtl"."0.2.0.4".revisions.default;
+      "data-accessor-mtl".revision = (((hackage."data-accessor-mtl")."0.2.0.4").revisions).default;
       "data-accessor-mtl".flags.test-hlint = false;
       "data-accessor-mtl".flags.splitbase = true;
       "data-accessor-mtl".flags.small_base = true;
@@ -4781,7 +4781,7 @@ hackage:
       "data-accessor-mtl".flags.old-locale = true;
       "data-accessor-mtl".flags.bytestring-in-base = false;
       "data-accessor-mtl".flags.network-uri = true;
-      "tagged".revision = hackage."tagged"."0.7.3".revisions.default;
+      "tagged".revision = (((hackage."tagged")."0.7.3").revisions).default;
       "tagged".flags.test-hlint = false;
       "tagged".flags.splitbase = true;
       "tagged".flags.small_base = true;
@@ -4791,7 +4791,7 @@ hackage:
       "tagged".flags.old-locale = true;
       "tagged".flags.bytestring-in-base = false;
       "tagged".flags.network-uri = true;
-      "x509".revision = hackage."x509"."1.5.0.1".revisions.default;
+      "x509".revision = (((hackage."x509")."1.5.0.1").revisions).default;
       "x509".flags.test-hlint = false;
       "x509".flags.splitbase = true;
       "x509".flags.small_base = true;
@@ -4801,7 +4801,7 @@ hackage:
       "x509".flags.old-locale = true;
       "x509".flags.bytestring-in-base = false;
       "x509".flags.network-uri = true;
-      "bindings-DSL".revision = hackage."bindings-DSL"."1.0.22".revisions.default;
+      "bindings-DSL".revision = (((hackage."bindings-DSL")."1.0.22").revisions).default;
       "bindings-DSL".flags.test-hlint = false;
       "bindings-DSL".flags.splitbase = true;
       "bindings-DSL".flags.small_base = true;
@@ -4811,7 +4811,7 @@ hackage:
       "bindings-DSL".flags.old-locale = true;
       "bindings-DSL".flags.bytestring-in-base = false;
       "bindings-DSL".flags.network-uri = true;
-      "parsers".revision = hackage."parsers"."0.12.1.1".revisions.default;
+      "parsers".revision = (((hackage."parsers")."0.12.1.1").revisions).default;
       "parsers".flags.test-hlint = false;
       "parsers".flags.splitbase = true;
       "parsers".flags.small_base = true;
@@ -4821,7 +4821,7 @@ hackage:
       "parsers".flags.old-locale = true;
       "parsers".flags.bytestring-in-base = false;
       "parsers".flags.network-uri = true;
-      "yesod-newsfeed".revision = hackage."yesod-newsfeed"."1.4.0.1".revisions.default;
+      "yesod-newsfeed".revision = (((hackage."yesod-newsfeed")."1.4.0.1").revisions).default;
       "yesod-newsfeed".flags.test-hlint = false;
       "yesod-newsfeed".flags.splitbase = true;
       "yesod-newsfeed".flags.small_base = true;
@@ -4831,7 +4831,7 @@ hackage:
       "yesod-newsfeed".flags.old-locale = true;
       "yesod-newsfeed".flags.bytestring-in-base = false;
       "yesod-newsfeed".flags.network-uri = true;
-      "cassava".revision = hackage."cassava"."0.4.2.1".revisions.default;
+      "cassava".revision = (((hackage."cassava")."0.4.2.1").revisions).default;
       "cassava".flags.test-hlint = false;
       "cassava".flags.splitbase = true;
       "cassava".flags.small_base = true;
@@ -4841,7 +4841,7 @@ hackage:
       "cassava".flags.old-locale = true;
       "cassava".flags.bytestring-in-base = false;
       "cassava".flags.network-uri = true;
-      "haskell-src-exts".revision = hackage."haskell-src-exts"."1.16.0.1".revisions.default;
+      "haskell-src-exts".revision = (((hackage."haskell-src-exts")."1.16.0.1").revisions).default;
       "haskell-src-exts".flags.test-hlint = false;
       "haskell-src-exts".flags.splitbase = true;
       "haskell-src-exts".flags.small_base = true;
@@ -4851,7 +4851,7 @@ hackage:
       "haskell-src-exts".flags.old-locale = true;
       "haskell-src-exts".flags.bytestring-in-base = false;
       "haskell-src-exts".flags.network-uri = true;
-      "lens".revision = hackage."lens"."4.6.0.1".revisions.default;
+      "lens".revision = (((hackage."lens")."4.6.0.1").revisions).default;
       "lens".flags.test-hlint = false;
       "lens".flags.splitbase = true;
       "lens".flags.small_base = true;
@@ -4861,7 +4861,7 @@ hackage:
       "lens".flags.old-locale = true;
       "lens".flags.bytestring-in-base = false;
       "lens".flags.network-uri = true;
-      "hostname-validate".revision = hackage."hostname-validate"."1.0.0".revisions.default;
+      "hostname-validate".revision = (((hackage."hostname-validate")."1.0.0").revisions).default;
       "hostname-validate".flags.test-hlint = false;
       "hostname-validate".flags.splitbase = true;
       "hostname-validate".flags.small_base = true;
@@ -4871,7 +4871,7 @@ hackage:
       "hostname-validate".flags.old-locale = true;
       "hostname-validate".flags.bytestring-in-base = false;
       "hostname-validate".flags.network-uri = true;
-      "syb-with-class".revision = hackage."syb-with-class"."0.6.1.5".revisions.default;
+      "syb-with-class".revision = (((hackage."syb-with-class")."0.6.1.5").revisions).default;
       "syb-with-class".flags.test-hlint = false;
       "syb-with-class".flags.splitbase = true;
       "syb-with-class".flags.small_base = true;
@@ -4881,8 +4881,8 @@ hackage:
       "syb-with-class".flags.old-locale = true;
       "syb-with-class".flags.bytestring-in-base = false;
       "syb-with-class".flags.network-uri = true;
-      "containers".revision = hackage."containers"."0.5.5.1".revisions.default;
-      "OneTuple".revision = hackage."OneTuple"."0.2.1".revisions.default;
+      "containers".revision = (((hackage."containers")."0.5.5.1").revisions).default;
+      "OneTuple".revision = (((hackage."OneTuple")."0.2.1").revisions).default;
       "OneTuple".flags.test-hlint = false;
       "OneTuple".flags.splitbase = true;
       "OneTuple".flags.small_base = true;
@@ -4892,7 +4892,7 @@ hackage:
       "OneTuple".flags.old-locale = true;
       "OneTuple".flags.bytestring-in-base = false;
       "OneTuple".flags.network-uri = true;
-      "yesod-persistent".revision = hackage."yesod-persistent"."1.4.0.2".revisions.default;
+      "yesod-persistent".revision = (((hackage."yesod-persistent")."1.4.0.2").revisions).default;
       "yesod-persistent".flags.test-hlint = false;
       "yesod-persistent".flags.splitbase = true;
       "yesod-persistent".flags.small_base = true;
@@ -4902,7 +4902,7 @@ hackage:
       "yesod-persistent".flags.old-locale = true;
       "yesod-persistent".flags.bytestring-in-base = false;
       "yesod-persistent".flags.network-uri = true;
-      "data-inttrie".revision = hackage."data-inttrie"."0.1.0".revisions.default;
+      "data-inttrie".revision = (((hackage."data-inttrie")."0.1.0").revisions).default;
       "data-inttrie".flags.test-hlint = false;
       "data-inttrie".flags.splitbase = true;
       "data-inttrie".flags.small_base = true;
@@ -4912,7 +4912,7 @@ hackage:
       "data-inttrie".flags.old-locale = true;
       "data-inttrie".flags.bytestring-in-base = false;
       "data-inttrie".flags.network-uri = true;
-      "osdkeys".revision = hackage."osdkeys"."0.0".revisions.default;
+      "osdkeys".revision = (((hackage."osdkeys")."0.0").revisions).default;
       "osdkeys".flags.test-hlint = false;
       "osdkeys".flags.splitbase = true;
       "osdkeys".flags.small_base = true;
@@ -4922,7 +4922,7 @@ hackage:
       "osdkeys".flags.old-locale = true;
       "osdkeys".flags.bytestring-in-base = false;
       "osdkeys".flags.network-uri = true;
-      "safecopy".revision = hackage."safecopy"."0.8.3".revisions.default;
+      "safecopy".revision = (((hackage."safecopy")."0.8.3").revisions).default;
       "safecopy".flags.test-hlint = false;
       "safecopy".flags.splitbase = true;
       "safecopy".flags.small_base = true;
@@ -4932,7 +4932,7 @@ hackage:
       "safecopy".flags.old-locale = true;
       "safecopy".flags.bytestring-in-base = false;
       "safecopy".flags.network-uri = true;
-      "xmlhtml".revision = hackage."xmlhtml"."0.2.3.4".revisions.default;
+      "xmlhtml".revision = (((hackage."xmlhtml")."0.2.3.4").revisions).default;
       "xmlhtml".flags.test-hlint = false;
       "xmlhtml".flags.splitbase = true;
       "xmlhtml".flags.small_base = true;
@@ -4942,7 +4942,7 @@ hackage:
       "xmlhtml".flags.old-locale = true;
       "xmlhtml".flags.bytestring-in-base = false;
       "xmlhtml".flags.network-uri = true;
-      "quickcheck-assertions".revision = hackage."quickcheck-assertions"."0.1.1".revisions.default;
+      "quickcheck-assertions".revision = (((hackage."quickcheck-assertions")."0.1.1").revisions).default;
       "quickcheck-assertions".flags.test-hlint = false;
       "quickcheck-assertions".flags.splitbase = true;
       "quickcheck-assertions".flags.small_base = true;
@@ -4952,7 +4952,7 @@ hackage:
       "quickcheck-assertions".flags.old-locale = true;
       "quickcheck-assertions".flags.bytestring-in-base = false;
       "quickcheck-assertions".flags.network-uri = true;
-      "base-prelude".revision = hackage."base-prelude"."0.1.11".revisions.default;
+      "base-prelude".revision = (((hackage."base-prelude")."0.1.11").revisions).default;
       "base-prelude".flags.test-hlint = false;
       "base-prelude".flags.splitbase = true;
       "base-prelude".flags.small_base = true;
@@ -4962,7 +4962,7 @@ hackage:
       "base-prelude".flags.old-locale = true;
       "base-prelude".flags.bytestring-in-base = false;
       "base-prelude".flags.network-uri = true;
-      "lucid".revision = hackage."lucid"."2.5".revisions.default;
+      "lucid".revision = (((hackage."lucid")."2.5").revisions).default;
       "lucid".flags.test-hlint = false;
       "lucid".flags.splitbase = true;
       "lucid".flags.small_base = true;
@@ -4972,7 +4972,7 @@ hackage:
       "lucid".flags.old-locale = true;
       "lucid".flags.bytestring-in-base = false;
       "lucid".flags.network-uri = true;
-      "reflection".revision = hackage."reflection"."1.5.1".revisions.default;
+      "reflection".revision = (((hackage."reflection")."1.5.1").revisions).default;
       "reflection".flags.test-hlint = false;
       "reflection".flags.splitbase = true;
       "reflection".flags.small_base = true;
@@ -4982,7 +4982,7 @@ hackage:
       "reflection".flags.old-locale = true;
       "reflection".flags.bytestring-in-base = false;
       "reflection".flags.network-uri = true;
-      "tagshare".revision = hackage."tagshare"."0.0".revisions.default;
+      "tagshare".revision = (((hackage."tagshare")."0.0").revisions).default;
       "tagshare".flags.test-hlint = false;
       "tagshare".flags.splitbase = true;
       "tagshare".flags.small_base = true;
@@ -4992,7 +4992,7 @@ hackage:
       "tagshare".flags.old-locale = true;
       "tagshare".flags.bytestring-in-base = false;
       "tagshare".flags.network-uri = true;
-      "missing-foreign".revision = hackage."missing-foreign"."0.1.1".revisions.default;
+      "missing-foreign".revision = (((hackage."missing-foreign")."0.1.1").revisions).default;
       "missing-foreign".flags.test-hlint = false;
       "missing-foreign".flags.splitbase = true;
       "missing-foreign".flags.small_base = true;
@@ -5002,7 +5002,7 @@ hackage:
       "missing-foreign".flags.old-locale = true;
       "missing-foreign".flags.bytestring-in-base = false;
       "missing-foreign".flags.network-uri = true;
-      "io-memoize".revision = hackage."io-memoize"."1.1.1.0".revisions.default;
+      "io-memoize".revision = (((hackage."io-memoize")."1.1.1.0").revisions).default;
       "io-memoize".flags.test-hlint = false;
       "io-memoize".flags.splitbase = true;
       "io-memoize".flags.small_base = true;
@@ -5012,7 +5012,7 @@ hackage:
       "io-memoize".flags.old-locale = true;
       "io-memoize".flags.bytestring-in-base = false;
       "io-memoize".flags.network-uri = true;
-      "yesod-websockets".revision = hackage."yesod-websockets"."0.2.1.1".revisions.default;
+      "yesod-websockets".revision = (((hackage."yesod-websockets")."0.2.1.1").revisions).default;
       "yesod-websockets".flags.test-hlint = false;
       "yesod-websockets".flags.splitbase = true;
       "yesod-websockets".flags.small_base = true;
@@ -5022,7 +5022,7 @@ hackage:
       "yesod-websockets".flags.old-locale = true;
       "yesod-websockets".flags.bytestring-in-base = false;
       "yesod-websockets".flags.network-uri = true;
-      "bmp".revision = hackage."bmp"."1.2.5.2".revisions.default;
+      "bmp".revision = (((hackage."bmp")."1.2.5.2").revisions).default;
       "bmp".flags.test-hlint = false;
       "bmp".flags.splitbase = true;
       "bmp".flags.small_base = true;
@@ -5032,7 +5032,7 @@ hackage:
       "bmp".flags.old-locale = true;
       "bmp".flags.bytestring-in-base = false;
       "bmp".flags.network-uri = true;
-      "compressed".revision = hackage."compressed"."3.10".revisions.default;
+      "compressed".revision = (((hackage."compressed")."3.10").revisions).default;
       "compressed".flags.test-hlint = false;
       "compressed".flags.splitbase = true;
       "compressed".flags.small_base = true;
@@ -5042,7 +5042,7 @@ hackage:
       "compressed".flags.old-locale = true;
       "compressed".flags.bytestring-in-base = false;
       "compressed".flags.network-uri = true;
-      "socks".revision = hackage."socks"."0.5.4".revisions.default;
+      "socks".revision = (((hackage."socks")."0.5.4").revisions).default;
       "socks".flags.test-hlint = false;
       "socks".flags.splitbase = true;
       "socks".flags.small_base = true;
@@ -5052,7 +5052,7 @@ hackage:
       "socks".flags.old-locale = true;
       "socks".flags.bytestring-in-base = false;
       "socks".flags.network-uri = true;
-      "BoundedChan".revision = hackage."BoundedChan"."1.0.3.0".revisions.default;
+      "BoundedChan".revision = (((hackage."BoundedChan")."1.0.3.0").revisions).default;
       "BoundedChan".flags.test-hlint = false;
       "BoundedChan".flags.splitbase = true;
       "BoundedChan".flags.small_base = true;
@@ -5062,7 +5062,7 @@ hackage:
       "BoundedChan".flags.old-locale = true;
       "BoundedChan".flags.bytestring-in-base = false;
       "BoundedChan".flags.network-uri = true;
-      "web-fpco".revision = hackage."web-fpco"."0.1.1.0".revisions.default;
+      "web-fpco".revision = (((hackage."web-fpco")."0.1.1.0").revisions).default;
       "web-fpco".flags.test-hlint = false;
       "web-fpco".flags.splitbase = true;
       "web-fpco".flags.small_base = true;
@@ -5072,7 +5072,7 @@ hackage:
       "web-fpco".flags.old-locale = true;
       "web-fpco".flags.bytestring-in-base = false;
       "web-fpco".flags.network-uri = true;
-      "cases".revision = hackage."cases"."0.1.2".revisions.default;
+      "cases".revision = (((hackage."cases")."0.1.2").revisions).default;
       "cases".flags.test-hlint = false;
       "cases".flags.splitbase = true;
       "cases".flags.small_base = true;
@@ -5082,7 +5082,7 @@ hackage:
       "cases".flags.old-locale = true;
       "cases".flags.bytestring-in-base = false;
       "cases".flags.network-uri = true;
-      "dual-tree".revision = hackage."dual-tree"."0.2.0.5".revisions.default;
+      "dual-tree".revision = (((hackage."dual-tree")."0.2.0.5").revisions).default;
       "dual-tree".flags.test-hlint = false;
       "dual-tree".flags.splitbase = true;
       "dual-tree".flags.small_base = true;
@@ -5092,7 +5092,7 @@ hackage:
       "dual-tree".flags.old-locale = true;
       "dual-tree".flags.bytestring-in-base = false;
       "dual-tree".flags.network-uri = true;
-      "monoid-subclasses".revision = hackage."monoid-subclasses"."0.3.6.2".revisions.default;
+      "monoid-subclasses".revision = (((hackage."monoid-subclasses")."0.3.6.2").revisions).default;
       "monoid-subclasses".flags.test-hlint = false;
       "monoid-subclasses".flags.splitbase = true;
       "monoid-subclasses".flags.small_base = true;
@@ -5102,7 +5102,7 @@ hackage:
       "monoid-subclasses".flags.old-locale = true;
       "monoid-subclasses".flags.bytestring-in-base = false;
       "monoid-subclasses".flags.network-uri = true;
-      "streaming-commons".revision = hackage."streaming-commons"."0.1.8.1".revisions.default;
+      "streaming-commons".revision = (((hackage."streaming-commons")."0.1.8.1").revisions).default;
       "streaming-commons".flags.test-hlint = false;
       "streaming-commons".flags.splitbase = true;
       "streaming-commons".flags.small_base = true;
@@ -5112,7 +5112,7 @@ hackage:
       "streaming-commons".flags.old-locale = true;
       "streaming-commons".flags.bytestring-in-base = false;
       "streaming-commons".flags.network-uri = true;
-      "punycode".revision = hackage."punycode"."2.0".revisions.default;
+      "punycode".revision = (((hackage."punycode")."2.0").revisions).default;
       "punycode".flags.test-hlint = false;
       "punycode".flags.splitbase = true;
       "punycode".flags.small_base = true;
@@ -5122,7 +5122,7 @@ hackage:
       "punycode".flags.old-locale = true;
       "punycode".flags.bytestring-in-base = false;
       "punycode".flags.network-uri = true;
-      "OpenGL".revision = hackage."OpenGL"."2.9.2.0".revisions.default;
+      "OpenGL".revision = (((hackage."OpenGL")."2.9.2.0").revisions).default;
       "OpenGL".flags.test-hlint = false;
       "OpenGL".flags.splitbase = true;
       "OpenGL".flags.small_base = true;
@@ -5132,7 +5132,7 @@ hackage:
       "OpenGL".flags.old-locale = true;
       "OpenGL".flags.bytestring-in-base = false;
       "OpenGL".flags.network-uri = true;
-      "clientsession".revision = hackage."clientsession"."0.9.1.1".revisions.default;
+      "clientsession".revision = (((hackage."clientsession")."0.9.1.1").revisions).default;
       "clientsession".flags.test-hlint = false;
       "clientsession".flags.splitbase = true;
       "clientsession".flags.small_base = true;
@@ -5142,7 +5142,7 @@ hackage:
       "clientsession".flags.old-locale = true;
       "clientsession".flags.bytestring-in-base = false;
       "clientsession".flags.network-uri = true;
-      "email-validate".revision = hackage."email-validate"."2.0.1".revisions.default;
+      "email-validate".revision = (((hackage."email-validate")."2.0.1").revisions).default;
       "email-validate".flags.test-hlint = false;
       "email-validate".flags.splitbase = true;
       "email-validate".flags.small_base = true;
@@ -5152,7 +5152,7 @@ hackage:
       "email-validate".flags.old-locale = true;
       "email-validate".flags.bytestring-in-base = false;
       "email-validate".flags.network-uri = true;
-      "hlint".revision = hackage."hlint"."1.9.16".revisions.default;
+      "hlint".revision = (((hackage."hlint")."1.9.16").revisions).default;
       "hlint".flags.test-hlint = false;
       "hlint".flags.splitbase = true;
       "hlint".flags.small_base = true;
@@ -5162,7 +5162,7 @@ hackage:
       "hlint".flags.old-locale = true;
       "hlint".flags.bytestring-in-base = false;
       "hlint".flags.network-uri = true;
-      "hasql".revision = hackage."hasql"."0.7.1".revisions.default;
+      "hasql".revision = (((hackage."hasql")."0.7.1").revisions).default;
       "hasql".flags.test-hlint = false;
       "hasql".flags.splitbase = true;
       "hasql".flags.small_base = true;
@@ -5172,7 +5172,7 @@ hackage:
       "hasql".flags.old-locale = true;
       "hasql".flags.bytestring-in-base = false;
       "hasql".flags.network-uri = true;
-      "base-unicode-symbols".revision = hackage."base-unicode-symbols"."0.2.2.4".revisions.default;
+      "base-unicode-symbols".revision = (((hackage."base-unicode-symbols")."0.2.2.4").revisions).default;
       "base-unicode-symbols".flags.test-hlint = false;
       "base-unicode-symbols".flags.splitbase = true;
       "base-unicode-symbols".flags.small_base = true;
@@ -5182,7 +5182,7 @@ hackage:
       "base-unicode-symbols".flags.old-locale = true;
       "base-unicode-symbols".flags.bytestring-in-base = false;
       "base-unicode-symbols".flags.network-uri = true;
-      "text-binary".revision = hackage."text-binary"."0.1.0".revisions.default;
+      "text-binary".revision = (((hackage."text-binary")."0.1.0").revisions).default;
       "text-binary".flags.test-hlint = false;
       "text-binary".flags.splitbase = true;
       "text-binary".flags.small_base = true;
@@ -5192,7 +5192,7 @@ hackage:
       "text-binary".flags.old-locale = true;
       "text-binary".flags.bytestring-in-base = false;
       "text-binary".flags.network-uri = true;
-      "shelly".revision = hackage."shelly"."1.5.7".revisions.default;
+      "shelly".revision = (((hackage."shelly")."1.5.7").revisions).default;
       "shelly".flags.test-hlint = false;
       "shelly".flags.splitbase = true;
       "shelly".flags.small_base = true;
@@ -5202,7 +5202,7 @@ hackage:
       "shelly".flags.old-locale = true;
       "shelly".flags.bytestring-in-base = false;
       "shelly".flags.network-uri = true;
-      "indents".revision = hackage."indents"."0.3.3".revisions.default;
+      "indents".revision = (((hackage."indents")."0.3.3").revisions).default;
       "indents".flags.test-hlint = false;
       "indents".flags.splitbase = true;
       "indents".flags.small_base = true;
@@ -5212,7 +5212,7 @@ hackage:
       "indents".flags.old-locale = true;
       "indents".flags.bytestring-in-base = false;
       "indents".flags.network-uri = true;
-      "pcre-light".revision = hackage."pcre-light"."0.4.0.3".revisions.default;
+      "pcre-light".revision = (((hackage."pcre-light")."0.4.0.3").revisions).default;
       "pcre-light".flags.test-hlint = false;
       "pcre-light".flags.splitbase = true;
       "pcre-light".flags.small_base = true;
@@ -5222,7 +5222,7 @@ hackage:
       "pcre-light".flags.old-locale = true;
       "pcre-light".flags.bytestring-in-base = false;
       "pcre-light".flags.network-uri = true;
-      "Spock-worker".revision = hackage."Spock-worker"."0.2.1.3".revisions.default;
+      "Spock-worker".revision = (((hackage."Spock-worker")."0.2.1.3").revisions).default;
       "Spock-worker".flags.test-hlint = false;
       "Spock-worker".flags.splitbase = true;
       "Spock-worker".flags.small_base = true;
@@ -5232,7 +5232,7 @@ hackage:
       "Spock-worker".flags.old-locale = true;
       "Spock-worker".flags.bytestring-in-base = false;
       "Spock-worker".flags.network-uri = true;
-      "fingertree".revision = hackage."fingertree"."0.1.0.0".revisions.default;
+      "fingertree".revision = (((hackage."fingertree")."0.1.0.0").revisions).default;
       "fingertree".flags.test-hlint = false;
       "fingertree".flags.splitbase = true;
       "fingertree".flags.small_base = true;
@@ -5242,7 +5242,7 @@ hackage:
       "fingertree".flags.old-locale = true;
       "fingertree".flags.bytestring-in-base = false;
       "fingertree".flags.network-uri = true;
-      "MonadCatchIO-transformers".revision = hackage."MonadCatchIO-transformers"."0.3.1.3".revisions.default;
+      "MonadCatchIO-transformers".revision = (((hackage."MonadCatchIO-transformers")."0.3.1.3").revisions).default;
       "MonadCatchIO-transformers".flags.test-hlint = false;
       "MonadCatchIO-transformers".flags.splitbase = true;
       "MonadCatchIO-transformers".flags.small_base = true;
@@ -5252,7 +5252,7 @@ hackage:
       "MonadCatchIO-transformers".flags.old-locale = true;
       "MonadCatchIO-transformers".flags.bytestring-in-base = false;
       "MonadCatchIO-transformers".flags.network-uri = true;
-      "check-email".revision = hackage."check-email"."1.0".revisions.default;
+      "check-email".revision = (((hackage."check-email")."1.0").revisions).default;
       "check-email".flags.test-hlint = false;
       "check-email".flags.splitbase = true;
       "check-email".flags.small_base = true;
@@ -5262,7 +5262,7 @@ hackage:
       "check-email".flags.old-locale = true;
       "check-email".flags.bytestring-in-base = false;
       "check-email".flags.network-uri = true;
-      "bzlib".revision = hackage."bzlib"."0.5.0.4".revisions.default;
+      "bzlib".revision = (((hackage."bzlib")."0.5.0.4").revisions).default;
       "bzlib".flags.test-hlint = false;
       "bzlib".flags.splitbase = true;
       "bzlib".flags.small_base = true;
@@ -5272,7 +5272,7 @@ hackage:
       "bzlib".flags.old-locale = true;
       "bzlib".flags.bytestring-in-base = false;
       "bzlib".flags.network-uri = true;
-      "haskell-lexer".revision = hackage."haskell-lexer"."1.0".revisions.default;
+      "haskell-lexer".revision = (((hackage."haskell-lexer")."1.0").revisions).default;
       "haskell-lexer".flags.test-hlint = false;
       "haskell-lexer".flags.splitbase = true;
       "haskell-lexer".flags.small_base = true;
@@ -5282,7 +5282,7 @@ hackage:
       "haskell-lexer".flags.old-locale = true;
       "haskell-lexer".flags.bytestring-in-base = false;
       "haskell-lexer".flags.network-uri = true;
-      "monad-par".revision = hackage."monad-par"."0.3.4.7".revisions.default;
+      "monad-par".revision = (((hackage."monad-par")."0.3.4.7").revisions).default;
       "monad-par".flags.test-hlint = false;
       "monad-par".flags.splitbase = true;
       "monad-par".flags.small_base = true;
@@ -5292,7 +5292,7 @@ hackage:
       "monad-par".flags.old-locale = true;
       "monad-par".flags.bytestring-in-base = false;
       "monad-par".flags.network-uri = true;
-      "shakespeare-i18n".revision = hackage."shakespeare-i18n"."1.1.0".revisions.default;
+      "shakespeare-i18n".revision = (((hackage."shakespeare-i18n")."1.1.0").revisions).default;
       "shakespeare-i18n".flags.test-hlint = false;
       "shakespeare-i18n".flags.splitbase = true;
       "shakespeare-i18n".flags.small_base = true;
@@ -5302,7 +5302,7 @@ hackage:
       "shakespeare-i18n".flags.old-locale = true;
       "shakespeare-i18n".flags.bytestring-in-base = false;
       "shakespeare-i18n".flags.network-uri = true;
-      "temporary-rc".revision = hackage."temporary-rc"."1.2.0.3".revisions.default;
+      "temporary-rc".revision = (((hackage."temporary-rc")."1.2.0.3").revisions).default;
       "temporary-rc".flags.test-hlint = false;
       "temporary-rc".flags.splitbase = true;
       "temporary-rc".flags.small_base = true;
@@ -5312,8 +5312,8 @@ hackage:
       "temporary-rc".flags.old-locale = true;
       "temporary-rc".flags.bytestring-in-base = false;
       "temporary-rc".flags.network-uri = true;
-      "bytestring".revision = hackage."bytestring"."0.10.4.0".revisions.default;
-      "ansi-wl-pprint".revision = hackage."ansi-wl-pprint"."0.6.7.1".revisions.default;
+      "bytestring".revision = (((hackage."bytestring")."0.10.4.0").revisions).default;
+      "ansi-wl-pprint".revision = (((hackage."ansi-wl-pprint")."0.6.7.1").revisions).default;
       "ansi-wl-pprint".flags.test-hlint = false;
       "ansi-wl-pprint".flags.splitbase = true;
       "ansi-wl-pprint".flags.small_base = true;
@@ -5323,7 +5323,7 @@ hackage:
       "ansi-wl-pprint".flags.old-locale = true;
       "ansi-wl-pprint".flags.bytestring-in-base = false;
       "ansi-wl-pprint".flags.network-uri = true;
-      "happstack-server".revision = hackage."happstack-server"."7.3.9".revisions.default;
+      "happstack-server".revision = (((hackage."happstack-server")."7.3.9").revisions).default;
       "happstack-server".flags.test-hlint = false;
       "happstack-server".flags.splitbase = true;
       "happstack-server".flags.small_base = true;
@@ -5333,7 +5333,7 @@ hackage:
       "happstack-server".flags.old-locale = true;
       "happstack-server".flags.bytestring-in-base = false;
       "happstack-server".flags.network-uri = true;
-      "errorcall-eq-instance".revision = hackage."errorcall-eq-instance"."0.1.0".revisions.default;
+      "errorcall-eq-instance".revision = (((hackage."errorcall-eq-instance")."0.1.0").revisions).default;
       "errorcall-eq-instance".flags.test-hlint = false;
       "errorcall-eq-instance".flags.splitbase = true;
       "errorcall-eq-instance".flags.small_base = true;
@@ -5343,7 +5343,7 @@ hackage:
       "errorcall-eq-instance".flags.old-locale = true;
       "errorcall-eq-instance".flags.bytestring-in-base = false;
       "errorcall-eq-instance".flags.network-uri = true;
-      "blaze-svg".revision = hackage."blaze-svg"."0.3.4".revisions.default;
+      "blaze-svg".revision = (((hackage."blaze-svg")."0.3.4").revisions).default;
       "blaze-svg".flags.test-hlint = false;
       "blaze-svg".flags.splitbase = true;
       "blaze-svg".flags.small_base = true;
@@ -5353,7 +5353,7 @@ hackage:
       "blaze-svg".flags.old-locale = true;
       "blaze-svg".flags.bytestring-in-base = false;
       "blaze-svg".flags.network-uri = true;
-      "cereal-conduit".revision = hackage."cereal-conduit"."0.7.2.3".revisions.default;
+      "cereal-conduit".revision = (((hackage."cereal-conduit")."0.7.2.3").revisions).default;
       "cereal-conduit".flags.test-hlint = false;
       "cereal-conduit".flags.splitbase = true;
       "cereal-conduit".flags.small_base = true;
@@ -5363,7 +5363,7 @@ hackage:
       "cereal-conduit".flags.old-locale = true;
       "cereal-conduit".flags.bytestring-in-base = false;
       "cereal-conduit".flags.network-uri = true;
-      "Chart-diagrams".revision = hackage."Chart-diagrams"."1.3.2".revisions.default;
+      "Chart-diagrams".revision = (((hackage."Chart-diagrams")."1.3.2").revisions).default;
       "Chart-diagrams".flags.test-hlint = false;
       "Chart-diagrams".flags.splitbase = true;
       "Chart-diagrams".flags.small_base = true;
@@ -5373,7 +5373,7 @@ hackage:
       "Chart-diagrams".flags.old-locale = true;
       "Chart-diagrams".flags.bytestring-in-base = false;
       "Chart-diagrams".flags.network-uri = true;
-      "markdown".revision = hackage."markdown"."0.1.13.1".revisions.default;
+      "markdown".revision = (((hackage."markdown")."0.1.13.1").revisions).default;
       "markdown".flags.test-hlint = false;
       "markdown".flags.splitbase = true;
       "markdown".flags.small_base = true;
@@ -5383,7 +5383,7 @@ hackage:
       "markdown".flags.old-locale = true;
       "markdown".flags.bytestring-in-base = false;
       "markdown".flags.network-uri = true;
-      "JuicyPixels".revision = hackage."JuicyPixels"."3.2.2".revisions.default;
+      "JuicyPixels".revision = (((hackage."JuicyPixels")."3.2.2").revisions).default;
       "JuicyPixels".flags.test-hlint = false;
       "JuicyPixels".flags.splitbase = true;
       "JuicyPixels".flags.small_base = true;
@@ -5393,7 +5393,7 @@ hackage:
       "JuicyPixels".flags.old-locale = true;
       "JuicyPixels".flags.bytestring-in-base = false;
       "JuicyPixels".flags.network-uri = true;
-      "mwc-random".revision = hackage."mwc-random"."0.13.3.0".revisions.default;
+      "mwc-random".revision = (((hackage."mwc-random")."0.13.3.0").revisions).default;
       "mwc-random".flags.test-hlint = false;
       "mwc-random".flags.splitbase = true;
       "mwc-random".flags.small_base = true;
@@ -5403,7 +5403,7 @@ hackage:
       "mwc-random".flags.old-locale = true;
       "mwc-random".flags.bytestring-in-base = false;
       "mwc-random".flags.network-uri = true;
-      "hspec2".revision = hackage."hspec2"."0.6.1".revisions.default;
+      "hspec2".revision = (((hackage."hspec2")."0.6.1").revisions).default;
       "hspec2".flags.test-hlint = false;
       "hspec2".flags.splitbase = true;
       "hspec2".flags.small_base = true;
@@ -5413,7 +5413,7 @@ hackage:
       "hspec2".flags.old-locale = true;
       "hspec2".flags.bytestring-in-base = false;
       "hspec2".flags.network-uri = true;
-      "wai".revision = hackage."wai"."3.0.2.1".revisions.default;
+      "wai".revision = (((hackage."wai")."3.0.2.1").revisions).default;
       "wai".flags.test-hlint = false;
       "wai".flags.splitbase = true;
       "wai".flags.small_base = true;
@@ -5423,7 +5423,7 @@ hackage:
       "wai".flags.old-locale = true;
       "wai".flags.bytestring-in-base = false;
       "wai".flags.network-uri = true;
-      "yesod-fay".revision = hackage."yesod-fay"."0.7.0".revisions.default;
+      "yesod-fay".revision = (((hackage."yesod-fay")."0.7.0").revisions).default;
       "yesod-fay".flags.test-hlint = false;
       "yesod-fay".flags.splitbase = true;
       "yesod-fay".flags.small_base = true;
@@ -5433,7 +5433,7 @@ hackage:
       "yesod-fay".flags.old-locale = true;
       "yesod-fay".flags.bytestring-in-base = false;
       "yesod-fay".flags.network-uri = true;
-      "ghc-mod".revision = hackage."ghc-mod"."5.2.1.2".revisions.default;
+      "ghc-mod".revision = (((hackage."ghc-mod")."5.2.1.2").revisions).default;
       "ghc-mod".flags.test-hlint = false;
       "ghc-mod".flags.splitbase = true;
       "ghc-mod".flags.small_base = true;
@@ -5443,7 +5443,7 @@ hackage:
       "ghc-mod".flags.old-locale = true;
       "ghc-mod".flags.bytestring-in-base = false;
       "ghc-mod".flags.network-uri = true;
-      "process-extras".revision = hackage."process-extras"."0.2.0".revisions.default;
+      "process-extras".revision = (((hackage."process-extras")."0.2.0").revisions).default;
       "process-extras".flags.test-hlint = false;
       "process-extras".flags.splitbase = true;
       "process-extras".flags.small_base = true;
@@ -5453,7 +5453,7 @@ hackage:
       "process-extras".flags.old-locale = true;
       "process-extras".flags.bytestring-in-base = false;
       "process-extras".flags.network-uri = true;
-      "setenv".revision = hackage."setenv"."0.1.1.3".revisions.default;
+      "setenv".revision = (((hackage."setenv")."0.1.1.3").revisions).default;
       "setenv".flags.test-hlint = false;
       "setenv".flags.splitbase = true;
       "setenv".flags.small_base = true;
@@ -5463,7 +5463,7 @@ hackage:
       "setenv".flags.old-locale = true;
       "setenv".flags.bytestring-in-base = false;
       "setenv".flags.network-uri = true;
-      "test-framework".revision = hackage."test-framework"."0.8.1.1".revisions.default;
+      "test-framework".revision = (((hackage."test-framework")."0.8.1.1").revisions).default;
       "test-framework".flags.test-hlint = false;
       "test-framework".flags.splitbase = true;
       "test-framework".flags.small_base = true;
@@ -5473,7 +5473,7 @@ hackage:
       "test-framework".flags.old-locale = true;
       "test-framework".flags.bytestring-in-base = false;
       "test-framework".flags.network-uri = true;
-      "lens-aeson".revision = hackage."lens-aeson"."1.0.0.3".revisions.default;
+      "lens-aeson".revision = (((hackage."lens-aeson")."1.0.0.3").revisions).default;
       "lens-aeson".flags.test-hlint = false;
       "lens-aeson".flags.splitbase = true;
       "lens-aeson".flags.small_base = true;
@@ -5483,7 +5483,7 @@ hackage:
       "lens-aeson".flags.old-locale = true;
       "lens-aeson".flags.bytestring-in-base = false;
       "lens-aeson".flags.network-uri = true;
-      "wl-pprint".revision = hackage."wl-pprint"."1.1".revisions.default;
+      "wl-pprint".revision = (((hackage."wl-pprint")."1.1").revisions).default;
       "wl-pprint".flags.test-hlint = false;
       "wl-pprint".flags.splitbase = true;
       "wl-pprint".flags.small_base = true;
@@ -5493,7 +5493,7 @@ hackage:
       "wl-pprint".flags.old-locale = true;
       "wl-pprint".flags.bytestring-in-base = false;
       "wl-pprint".flags.network-uri = true;
-      "hledger-lib".revision = hackage."hledger-lib"."0.24".revisions.default;
+      "hledger-lib".revision = (((hackage."hledger-lib")."0.24").revisions).default;
       "hledger-lib".flags.test-hlint = false;
       "hledger-lib".flags.splitbase = true;
       "hledger-lib".flags.small_base = true;
@@ -5503,7 +5503,7 @@ hackage:
       "hledger-lib".flags.old-locale = true;
       "hledger-lib".flags.bytestring-in-base = false;
       "hledger-lib".flags.network-uri = true;
-      "hostname".revision = hackage."hostname"."1.0".revisions.default;
+      "hostname".revision = (((hackage."hostname")."1.0").revisions).default;
       "hostname".flags.test-hlint = false;
       "hostname".flags.splitbase = true;
       "hostname".flags.small_base = true;
@@ -5513,7 +5513,7 @@ hackage:
       "hostname".flags.old-locale = true;
       "hostname".flags.bytestring-in-base = false;
       "hostname".flags.network-uri = true;
-      "tasty-smallcheck".revision = hackage."tasty-smallcheck"."0.8.0.1".revisions.default;
+      "tasty-smallcheck".revision = (((hackage."tasty-smallcheck")."0.8.0.1").revisions).default;
       "tasty-smallcheck".flags.test-hlint = false;
       "tasty-smallcheck".flags.splitbase = true;
       "tasty-smallcheck".flags.small_base = true;
@@ -5523,7 +5523,7 @@ hackage:
       "tasty-smallcheck".flags.old-locale = true;
       "tasty-smallcheck".flags.bytestring-in-base = false;
       "tasty-smallcheck".flags.network-uri = true;
-      "heaps".revision = hackage."heaps"."0.3.1".revisions.default;
+      "heaps".revision = (((hackage."heaps")."0.3.1").revisions).default;
       "heaps".flags.test-hlint = false;
       "heaps".flags.splitbase = true;
       "heaps".flags.small_base = true;
@@ -5533,7 +5533,7 @@ hackage:
       "heaps".flags.old-locale = true;
       "heaps".flags.bytestring-in-base = false;
       "heaps".flags.network-uri = true;
-      "pango".revision = hackage."pango"."0.13.0.5".revisions.default;
+      "pango".revision = (((hackage."pango")."0.13.0.5").revisions).default;
       "pango".flags.test-hlint = false;
       "pango".flags.splitbase = true;
       "pango".flags.small_base = true;
@@ -5543,7 +5543,7 @@ hackage:
       "pango".flags.old-locale = true;
       "pango".flags.bytestring-in-base = false;
       "pango".flags.network-uri = true;
-      "hlibgit2".revision = hackage."hlibgit2"."0.18.0.13".revisions.default;
+      "hlibgit2".revision = (((hackage."hlibgit2")."0.18.0.13").revisions).default;
       "hlibgit2".flags.test-hlint = false;
       "hlibgit2".flags.splitbase = true;
       "hlibgit2".flags.small_base = true;
@@ -5553,7 +5553,7 @@ hackage:
       "hlibgit2".flags.old-locale = true;
       "hlibgit2".flags.bytestring-in-base = false;
       "hlibgit2".flags.network-uri = true;
-      "yesod-test".revision = hackage."yesod-test"."1.4.2.2".revisions.default;
+      "yesod-test".revision = (((hackage."yesod-test")."1.4.2.2").revisions).default;
       "yesod-test".flags.test-hlint = false;
       "yesod-test".flags.splitbase = true;
       "yesod-test".flags.small_base = true;
@@ -5563,7 +5563,7 @@ hackage:
       "yesod-test".flags.old-locale = true;
       "yesod-test".flags.bytestring-in-base = false;
       "yesod-test".flags.network-uri = true;
-      "either".revision = hackage."either"."4.3.2.1".revisions.default;
+      "either".revision = (((hackage."either")."4.3.2.1").revisions).default;
       "either".flags.test-hlint = false;
       "either".flags.splitbase = true;
       "either".flags.small_base = true;
@@ -5573,8 +5573,8 @@ hackage:
       "either".flags.old-locale = true;
       "either".flags.bytestring-in-base = false;
       "either".flags.network-uri = true;
-      "old-locale".revision = hackage."old-locale"."1.0.0.6".revisions.default;
-      "cryptohash-conduit".revision = hackage."cryptohash-conduit"."0.1.1".revisions.default;
+      "old-locale".revision = (((hackage."old-locale")."1.0.0.6").revisions).default;
+      "cryptohash-conduit".revision = (((hackage."cryptohash-conduit")."0.1.1").revisions).default;
       "cryptohash-conduit".flags.test-hlint = false;
       "cryptohash-conduit".flags.splitbase = true;
       "cryptohash-conduit".flags.small_base = true;
@@ -5584,7 +5584,7 @@ hackage:
       "cryptohash-conduit".flags.old-locale = true;
       "cryptohash-conduit".flags.bytestring-in-base = false;
       "cryptohash-conduit".flags.network-uri = true;
-      "diagrams-builder".revision = hackage."diagrams-builder"."0.6.0.2".revisions.default;
+      "diagrams-builder".revision = (((hackage."diagrams-builder")."0.6.0.2").revisions).default;
       "diagrams-builder".flags.test-hlint = false;
       "diagrams-builder".flags.splitbase = true;
       "diagrams-builder".flags.small_base = true;
@@ -5594,7 +5594,7 @@ hackage:
       "diagrams-builder".flags.old-locale = true;
       "diagrams-builder".flags.bytestring-in-base = false;
       "diagrams-builder".flags.network-uri = true;
-      "directory-tree".revision = hackage."directory-tree"."0.12.0".revisions.default;
+      "directory-tree".revision = (((hackage."directory-tree")."0.12.0").revisions).default;
       "directory-tree".flags.test-hlint = false;
       "directory-tree".flags.splitbase = true;
       "directory-tree".flags.small_base = true;
@@ -5605,7 +5605,7 @@ hackage:
       "directory-tree".flags.bytestring-in-base = false;
       "directory-tree".flags.network-uri = true;
       "ghc-7.8.4".revision = null;
-      "bool-extras".revision = hackage."bool-extras"."0.4.0".revisions.default;
+      "bool-extras".revision = (((hackage."bool-extras")."0.4.0").revisions).default;
       "bool-extras".flags.test-hlint = false;
       "bool-extras".flags.splitbase = true;
       "bool-extras".flags.small_base = true;
@@ -5615,7 +5615,7 @@ hackage:
       "bool-extras".flags.old-locale = true;
       "bool-extras".flags.bytestring-in-base = false;
       "bool-extras".flags.network-uri = true;
-      "system-posix-redirect".revision = hackage."system-posix-redirect"."1.1.0.1".revisions.default;
+      "system-posix-redirect".revision = (((hackage."system-posix-redirect")."1.1.0.1").revisions).default;
       "system-posix-redirect".flags.test-hlint = false;
       "system-posix-redirect".flags.splitbase = true;
       "system-posix-redirect".flags.small_base = true;
@@ -5625,7 +5625,7 @@ hackage:
       "system-posix-redirect".flags.old-locale = true;
       "system-posix-redirect".flags.bytestring-in-base = false;
       "system-posix-redirect".flags.network-uri = true;
-      "vault".revision = hackage."vault"."0.3.0.4".revisions.default;
+      "vault".revision = (((hackage."vault")."0.3.0.4").revisions).default;
       "vault".flags.test-hlint = false;
       "vault".flags.splitbase = true;
       "vault".flags.small_base = true;
@@ -5635,7 +5635,7 @@ hackage:
       "vault".flags.old-locale = true;
       "vault".flags.bytestring-in-base = false;
       "vault".flags.network-uri = true;
-      "regular".revision = hackage."regular"."0.3.4.4".revisions.default;
+      "regular".revision = (((hackage."regular")."0.3.4.4").revisions).default;
       "regular".flags.test-hlint = false;
       "regular".flags.splitbase = true;
       "regular".flags.small_base = true;
@@ -5645,7 +5645,7 @@ hackage:
       "regular".flags.old-locale = true;
       "regular".flags.bytestring-in-base = false;
       "regular".flags.network-uri = true;
-      "cprng-aes".revision = hackage."cprng-aes"."0.6.1".revisions.default;
+      "cprng-aes".revision = (((hackage."cprng-aes")."0.6.1").revisions).default;
       "cprng-aes".flags.test-hlint = false;
       "cprng-aes".flags.splitbase = true;
       "cprng-aes".flags.small_base = true;
@@ -5655,7 +5655,7 @@ hackage:
       "cprng-aes".flags.old-locale = true;
       "cprng-aes".flags.bytestring-in-base = false;
       "cprng-aes".flags.network-uri = true;
-      "control-monad-free".revision = hackage."control-monad-free"."0.5.3".revisions.default;
+      "control-monad-free".revision = (((hackage."control-monad-free")."0.5.3").revisions).default;
       "control-monad-free".flags.test-hlint = false;
       "control-monad-free".flags.splitbase = true;
       "control-monad-free".flags.small_base = true;
@@ -5665,7 +5665,7 @@ hackage:
       "control-monad-free".flags.old-locale = true;
       "control-monad-free".flags.bytestring-in-base = false;
       "control-monad-free".flags.network-uri = true;
-      "mime-types".revision = hackage."mime-types"."0.1.0.5".revisions.default;
+      "mime-types".revision = (((hackage."mime-types")."0.1.0.5").revisions).default;
       "mime-types".flags.test-hlint = false;
       "mime-types".flags.splitbase = true;
       "mime-types".flags.small_base = true;
@@ -5675,7 +5675,7 @@ hackage:
       "mime-types".flags.old-locale = true;
       "mime-types".flags.bytestring-in-base = false;
       "mime-types".flags.network-uri = true;
-      "ieee754".revision = hackage."ieee754"."0.7.4".revisions.default;
+      "ieee754".revision = (((hackage."ieee754")."0.7.4").revisions).default;
       "ieee754".flags.test-hlint = false;
       "ieee754".flags.splitbase = true;
       "ieee754".flags.small_base = true;
@@ -5685,7 +5685,7 @@ hackage:
       "ieee754".flags.old-locale = true;
       "ieee754".flags.bytestring-in-base = false;
       "ieee754".flags.network-uri = true;
-      "zlib-bindings".revision = hackage."zlib-bindings"."0.1.1.5".revisions.default;
+      "zlib-bindings".revision = (((hackage."zlib-bindings")."0.1.1.5").revisions).default;
       "zlib-bindings".flags.test-hlint = false;
       "zlib-bindings".flags.splitbase = true;
       "zlib-bindings".flags.small_base = true;
@@ -5695,7 +5695,7 @@ hackage:
       "zlib-bindings".flags.old-locale = true;
       "zlib-bindings".flags.bytestring-in-base = false;
       "zlib-bindings".flags.network-uri = true;
-      "language-ecmascript".revision = hackage."language-ecmascript"."0.16.2".revisions.default;
+      "language-ecmascript".revision = (((hackage."language-ecmascript")."0.16.2").revisions).default;
       "language-ecmascript".flags.test-hlint = false;
       "language-ecmascript".flags.splitbase = true;
       "language-ecmascript".flags.small_base = true;
@@ -5705,7 +5705,7 @@ hackage:
       "language-ecmascript".flags.old-locale = true;
       "language-ecmascript".flags.bytestring-in-base = false;
       "language-ecmascript".flags.network-uri = true;
-      "sendfile".revision = hackage."sendfile"."0.7.9".revisions.default;
+      "sendfile".revision = (((hackage."sendfile")."0.7.9").revisions).default;
       "sendfile".flags.test-hlint = false;
       "sendfile".flags.splitbase = true;
       "sendfile".flags.small_base = true;
@@ -5715,7 +5715,7 @@ hackage:
       "sendfile".flags.old-locale = true;
       "sendfile".flags.bytestring-in-base = false;
       "sendfile".flags.network-uri = true;
-      "warp-tls".revision = hackage."warp-tls"."3.0.1.2".revisions.default;
+      "warp-tls".revision = (((hackage."warp-tls")."3.0.1.2").revisions).default;
       "warp-tls".flags.test-hlint = false;
       "warp-tls".flags.splitbase = true;
       "warp-tls".flags.small_base = true;
@@ -5725,7 +5725,7 @@ hackage:
       "warp-tls".flags.old-locale = true;
       "warp-tls".flags.bytestring-in-base = false;
       "warp-tls".flags.network-uri = true;
-      "charset".revision = hackage."charset"."0.3.7".revisions.default;
+      "charset".revision = (((hackage."charset")."0.3.7").revisions).default;
       "charset".flags.test-hlint = false;
       "charset".flags.splitbase = true;
       "charset".flags.small_base = true;
@@ -5735,7 +5735,7 @@ hackage:
       "charset".flags.old-locale = true;
       "charset".flags.bytestring-in-base = false;
       "charset".flags.network-uri = true;
-      "fay-builder".revision = hackage."fay-builder"."0.2.0.2".revisions.default;
+      "fay-builder".revision = (((hackage."fay-builder")."0.2.0.2").revisions).default;
       "fay-builder".flags.test-hlint = false;
       "fay-builder".flags.splitbase = true;
       "fay-builder".flags.small_base = true;
@@ -5745,7 +5745,7 @@ hackage:
       "fay-builder".flags.old-locale = true;
       "fay-builder".flags.bytestring-in-base = false;
       "fay-builder".flags.network-uri = true;
-      "raw-strings-qq".revision = hackage."raw-strings-qq"."1.0.2".revisions.default;
+      "raw-strings-qq".revision = (((hackage."raw-strings-qq")."1.0.2").revisions).default;
       "raw-strings-qq".flags.test-hlint = false;
       "raw-strings-qq".flags.splitbase = true;
       "raw-strings-qq".flags.small_base = true;
@@ -5755,7 +5755,7 @@ hackage:
       "raw-strings-qq".flags.old-locale = true;
       "raw-strings-qq".flags.bytestring-in-base = false;
       "raw-strings-qq".flags.network-uri = true;
-      "th-desugar".revision = hackage."th-desugar"."1.4.2".revisions.default;
+      "th-desugar".revision = (((hackage."th-desugar")."1.4.2").revisions).default;
       "th-desugar".flags.test-hlint = false;
       "th-desugar".flags.splitbase = true;
       "th-desugar".flags.small_base = true;
@@ -5765,7 +5765,7 @@ hackage:
       "th-desugar".flags.old-locale = true;
       "th-desugar".flags.bytestring-in-base = false;
       "th-desugar".flags.network-uri = true;
-      "c2hs".revision = hackage."c2hs"."0.20.1".revisions.default;
+      "c2hs".revision = (((hackage."c2hs")."0.20.1").revisions).default;
       "c2hs".flags.test-hlint = false;
       "c2hs".flags.splitbase = true;
       "c2hs".flags.small_base = true;
@@ -5775,7 +5775,7 @@ hackage:
       "c2hs".flags.old-locale = true;
       "c2hs".flags.bytestring-in-base = false;
       "c2hs".flags.network-uri = true;
-      "QuasiText".revision = hackage."QuasiText"."0.1.2.5".revisions.default;
+      "QuasiText".revision = (((hackage."QuasiText")."0.1.2.5").revisions).default;
       "QuasiText".flags.test-hlint = false;
       "QuasiText".flags.splitbase = true;
       "QuasiText".flags.small_base = true;
@@ -5785,7 +5785,7 @@ hackage:
       "QuasiText".flags.old-locale = true;
       "QuasiText".flags.bytestring-in-base = false;
       "QuasiText".flags.network-uri = true;
-      "force-layout".revision = hackage."force-layout"."0.3.0.8".revisions.default;
+      "force-layout".revision = (((hackage."force-layout")."0.3.0.8").revisions).default;
       "force-layout".flags.test-hlint = false;
       "force-layout".flags.splitbase = true;
       "force-layout".flags.small_base = true;
@@ -5795,7 +5795,7 @@ hackage:
       "force-layout".flags.old-locale = true;
       "force-layout".flags.bytestring-in-base = false;
       "force-layout".flags.network-uri = true;
-      "http-client-tls".revision = hackage."http-client-tls"."0.2.2".revisions.default;
+      "http-client-tls".revision = (((hackage."http-client-tls")."0.2.2").revisions).default;
       "http-client-tls".flags.test-hlint = false;
       "http-client-tls".flags.splitbase = true;
       "http-client-tls".flags.small_base = true;
@@ -5805,7 +5805,7 @@ hackage:
       "http-client-tls".flags.old-locale = true;
       "http-client-tls".flags.bytestring-in-base = false;
       "http-client-tls".flags.network-uri = true;
-      "mongoDB".revision = hackage."mongoDB"."2.0.3".revisions.default;
+      "mongoDB".revision = (((hackage."mongoDB")."2.0.3").revisions).default;
       "mongoDB".flags.test-hlint = false;
       "mongoDB".flags.splitbase = true;
       "mongoDB".flags.small_base = true;
@@ -5815,7 +5815,7 @@ hackage:
       "mongoDB".flags.old-locale = true;
       "mongoDB".flags.bytestring-in-base = false;
       "mongoDB".flags.network-uri = true;
-      "json-autotype".revision = hackage."json-autotype"."0.2.5.4".revisions.default;
+      "json-autotype".revision = (((hackage."json-autotype")."0.2.5.4").revisions).default;
       "json-autotype".flags.test-hlint = false;
       "json-autotype".flags.splitbase = true;
       "json-autotype".flags.small_base = true;
@@ -5825,7 +5825,7 @@ hackage:
       "json-autotype".flags.old-locale = true;
       "json-autotype".flags.bytestring-in-base = false;
       "json-autotype".flags.network-uri = true;
-      "contravariant".revision = hackage."contravariant"."1.2.0.1".revisions.default;
+      "contravariant".revision = (((hackage."contravariant")."1.2.0.1").revisions).default;
       "contravariant".flags.test-hlint = false;
       "contravariant".flags.splitbase = true;
       "contravariant".flags.small_base = true;
@@ -5835,7 +5835,7 @@ hackage:
       "contravariant".flags.old-locale = true;
       "contravariant".flags.bytestring-in-base = false;
       "contravariant".flags.network-uri = true;
-      "graph-core".revision = hackage."graph-core"."0.2.1.0".revisions.default;
+      "graph-core".revision = (((hackage."graph-core")."0.2.1.0").revisions).default;
       "graph-core".flags.test-hlint = false;
       "graph-core".flags.splitbase = true;
       "graph-core".flags.small_base = true;
@@ -5845,7 +5845,7 @@ hackage:
       "graph-core".flags.old-locale = true;
       "graph-core".flags.bytestring-in-base = false;
       "graph-core".flags.network-uri = true;
-      "stringprep".revision = hackage."stringprep"."1.0.0".revisions.default;
+      "stringprep".revision = (((hackage."stringprep")."1.0.0").revisions).default;
       "stringprep".flags.test-hlint = false;
       "stringprep".flags.splitbase = true;
       "stringprep".flags.small_base = true;
@@ -5855,7 +5855,7 @@ hackage:
       "stringprep".flags.old-locale = true;
       "stringprep".flags.bytestring-in-base = false;
       "stringprep".flags.network-uri = true;
-      "GLURaw".revision = hackage."GLURaw"."1.4.0.2".revisions.default;
+      "GLURaw".revision = (((hackage."GLURaw")."1.4.0.2").revisions).default;
       "GLURaw".flags.test-hlint = false;
       "GLURaw".flags.splitbase = true;
       "GLURaw".flags.small_base = true;
@@ -5865,7 +5865,7 @@ hackage:
       "GLURaw".flags.old-locale = true;
       "GLURaw".flags.bytestring-in-base = false;
       "GLURaw".flags.network-uri = true;
-      "messagepack".revision = hackage."messagepack"."0.3.0".revisions.default;
+      "messagepack".revision = (((hackage."messagepack")."0.3.0").revisions).default;
       "messagepack".flags.test-hlint = false;
       "messagepack".flags.splitbase = true;
       "messagepack".flags.small_base = true;
@@ -5875,7 +5875,7 @@ hackage:
       "messagepack".flags.old-locale = true;
       "messagepack".flags.bytestring-in-base = false;
       "messagepack".flags.network-uri = true;
-      "persistent-mysql".revision = hackage."persistent-mysql"."2.1.2.1".revisions.default;
+      "persistent-mysql".revision = (((hackage."persistent-mysql")."2.1.2.1").revisions).default;
       "persistent-mysql".flags.test-hlint = false;
       "persistent-mysql".flags.splitbase = true;
       "persistent-mysql".flags.small_base = true;
@@ -5885,7 +5885,7 @@ hackage:
       "persistent-mysql".flags.old-locale = true;
       "persistent-mysql".flags.bytestring-in-base = false;
       "persistent-mysql".flags.network-uri = true;
-      "cipher-blowfish".revision = hackage."cipher-blowfish"."0.0.3".revisions.default;
+      "cipher-blowfish".revision = (((hackage."cipher-blowfish")."0.0.3").revisions).default;
       "cipher-blowfish".flags.test-hlint = false;
       "cipher-blowfish".flags.splitbase = true;
       "cipher-blowfish".flags.small_base = true;
@@ -5895,7 +5895,7 @@ hackage:
       "cipher-blowfish".flags.old-locale = true;
       "cipher-blowfish".flags.bytestring-in-base = false;
       "cipher-blowfish".flags.network-uri = true;
-      "rank1dynamic".revision = hackage."rank1dynamic"."0.2.0.1".revisions.default;
+      "rank1dynamic".revision = (((hackage."rank1dynamic")."0.2.0.1").revisions).default;
       "rank1dynamic".flags.test-hlint = false;
       "rank1dynamic".flags.splitbase = true;
       "rank1dynamic".flags.small_base = true;
@@ -5905,7 +5905,7 @@ hackage:
       "rank1dynamic".flags.old-locale = true;
       "rank1dynamic".flags.bytestring-in-base = false;
       "rank1dynamic".flags.network-uri = true;
-      "bloodhound".revision = hackage."bloodhound"."0.5.0.1".revisions.default;
+      "bloodhound".revision = (((hackage."bloodhound")."0.5.0.1").revisions).default;
       "bloodhound".flags.test-hlint = false;
       "bloodhound".flags.splitbase = true;
       "bloodhound".flags.small_base = true;
@@ -5915,7 +5915,7 @@ hackage:
       "bloodhound".flags.old-locale = true;
       "bloodhound".flags.bytestring-in-base = false;
       "bloodhound".flags.network-uri = true;
-      "network-transport-tcp".revision = hackage."network-transport-tcp"."0.4.1".revisions.default;
+      "network-transport-tcp".revision = (((hackage."network-transport-tcp")."0.4.1").revisions).default;
       "network-transport-tcp".flags.test-hlint = false;
       "network-transport-tcp".flags.splitbase = true;
       "network-transport-tcp".flags.small_base = true;
@@ -5925,7 +5925,7 @@ hackage:
       "network-transport-tcp".flags.old-locale = true;
       "network-transport-tcp".flags.bytestring-in-base = false;
       "network-transport-tcp".flags.network-uri = true;
-      "xss-sanitize".revision = hackage."xss-sanitize"."0.3.5.4".revisions.default;
+      "xss-sanitize".revision = (((hackage."xss-sanitize")."0.3.5.4").revisions).default;
       "xss-sanitize".flags.test-hlint = false;
       "xss-sanitize".flags.splitbase = true;
       "xss-sanitize".flags.small_base = true;
@@ -5935,7 +5935,7 @@ hackage:
       "xss-sanitize".flags.old-locale = true;
       "xss-sanitize".flags.bytestring-in-base = false;
       "xss-sanitize".flags.network-uri = true;
-      "data-default-instances-dlist".revision = hackage."data-default-instances-dlist"."0.0.1".revisions.default;
+      "data-default-instances-dlist".revision = (((hackage."data-default-instances-dlist")."0.0.1").revisions).default;
       "data-default-instances-dlist".flags.test-hlint = false;
       "data-default-instances-dlist".flags.splitbase = true;
       "data-default-instances-dlist".flags.small_base = true;
@@ -5945,7 +5945,7 @@ hackage:
       "data-default-instances-dlist".flags.old-locale = true;
       "data-default-instances-dlist".flags.bytestring-in-base = false;
       "data-default-instances-dlist".flags.network-uri = true;
-      "parseargs".revision = hackage."parseargs"."0.1.5.2".revisions.default;
+      "parseargs".revision = (((hackage."parseargs")."0.1.5.2").revisions).default;
       "parseargs".flags.test-hlint = false;
       "parseargs".flags.splitbase = true;
       "parseargs".flags.small_base = true;
@@ -5955,7 +5955,7 @@ hackage:
       "parseargs".flags.old-locale = true;
       "parseargs".flags.bytestring-in-base = false;
       "parseargs".flags.network-uri = true;
-      "attoparsec-expr".revision = hackage."attoparsec-expr"."0.1.1.1".revisions.default;
+      "attoparsec-expr".revision = (((hackage."attoparsec-expr")."0.1.1.1").revisions).default;
       "attoparsec-expr".flags.test-hlint = false;
       "attoparsec-expr".flags.splitbase = true;
       "attoparsec-expr".flags.small_base = true;
@@ -5965,7 +5965,7 @@ hackage:
       "attoparsec-expr".flags.old-locale = true;
       "attoparsec-expr".flags.bytestring-in-base = false;
       "attoparsec-expr".flags.network-uri = true;
-      "snap-core".revision = hackage."snap-core"."0.9.6.4".revisions.default;
+      "snap-core".revision = (((hackage."snap-core")."0.9.6.4").revisions).default;
       "snap-core".flags.test-hlint = false;
       "snap-core".flags.splitbase = true;
       "snap-core".flags.small_base = true;
@@ -5975,7 +5975,7 @@ hackage:
       "snap-core".flags.old-locale = true;
       "snap-core".flags.bytestring-in-base = false;
       "snap-core".flags.network-uri = true;
-      "securemem".revision = hackage."securemem"."0.1.4".revisions.default;
+      "securemem".revision = (((hackage."securemem")."0.1.4").revisions).default;
       "securemem".flags.test-hlint = false;
       "securemem".flags.splitbase = true;
       "securemem".flags.small_base = true;
@@ -5985,7 +5985,7 @@ hackage:
       "securemem".flags.old-locale = true;
       "securemem".flags.bytestring-in-base = false;
       "securemem".flags.network-uri = true;
-      "nettle".revision = hackage."nettle"."0.1.0".revisions.default;
+      "nettle".revision = (((hackage."nettle")."0.1.0").revisions).default;
       "nettle".flags.test-hlint = false;
       "nettle".flags.splitbase = true;
       "nettle".flags.small_base = true;
@@ -5995,7 +5995,7 @@ hackage:
       "nettle".flags.old-locale = true;
       "nettle".flags.bytestring-in-base = false;
       "nettle".flags.network-uri = true;
-      "hinotify".revision = hackage."hinotify"."0.3.7".revisions.default;
+      "hinotify".revision = (((hackage."hinotify")."0.3.7").revisions).default;
       "hinotify".flags.test-hlint = false;
       "hinotify".flags.splitbase = true;
       "hinotify".flags.small_base = true;
@@ -6005,7 +6005,7 @@ hackage:
       "hinotify".flags.old-locale = true;
       "hinotify".flags.bytestring-in-base = false;
       "hinotify".flags.network-uri = true;
-      "hdaemonize".revision = hackage."hdaemonize"."0.5.0.0".revisions.default;
+      "hdaemonize".revision = (((hackage."hdaemonize")."0.5.0.0").revisions).default;
       "hdaemonize".flags.test-hlint = false;
       "hdaemonize".flags.splitbase = true;
       "hdaemonize".flags.small_base = true;
@@ -6015,7 +6015,7 @@ hackage:
       "hdaemonize".flags.old-locale = true;
       "hdaemonize".flags.bytestring-in-base = false;
       "hdaemonize".flags.network-uri = true;
-      "storable-complex".revision = hackage."storable-complex"."0.2.2".revisions.default;
+      "storable-complex".revision = (((hackage."storable-complex")."0.2.2").revisions).default;
       "storable-complex".flags.test-hlint = false;
       "storable-complex".flags.splitbase = true;
       "storable-complex".flags.small_base = true;
@@ -6026,7 +6026,7 @@ hackage:
       "storable-complex".flags.old-locale = true;
       "storable-complex".flags.bytestring-in-base = false;
       "storable-complex".flags.network-uri = true;
-      "network-simple".revision = hackage."network-simple"."0.4.0.2".revisions.default;
+      "network-simple".revision = (((hackage."network-simple")."0.4.0.2").revisions).default;
       "network-simple".flags.test-hlint = false;
       "network-simple".flags.splitbase = true;
       "network-simple".flags.small_base = true;
@@ -6036,7 +6036,7 @@ hackage:
       "network-simple".flags.old-locale = true;
       "network-simple".flags.bytestring-in-base = false;
       "network-simple".flags.network-uri = true;
-      "smtLib".revision = hackage."smtLib"."1.0.7".revisions.default;
+      "smtLib".revision = (((hackage."smtLib")."1.0.7").revisions).default;
       "smtLib".flags.test-hlint = false;
       "smtLib".flags.splitbase = true;
       "smtLib".flags.small_base = true;
@@ -6046,9 +6046,9 @@ hackage:
       "smtLib".flags.old-locale = true;
       "smtLib".flags.bytestring-in-base = false;
       "smtLib".flags.network-uri = true;
-      "haskell98".revision = hackage."haskell98"."2.0.0.3".revisions.default;
-      "xhtml".revision = hackage."xhtml"."3000.2.1".revisions.default;
-      "monad-journal".revision = hackage."monad-journal"."0.6.0.2".revisions.default;
+      "haskell98".revision = (((hackage."haskell98")."2.0.0.3").revisions).default;
+      "xhtml".revision = (((hackage."xhtml")."3000.2.1").revisions).default;
+      "monad-journal".revision = (((hackage."monad-journal")."0.6.0.2").revisions).default;
       "monad-journal".flags.test-hlint = false;
       "monad-journal".flags.splitbase = true;
       "monad-journal".flags.small_base = true;
@@ -6058,7 +6058,7 @@ hackage:
       "monad-journal".flags.old-locale = true;
       "monad-journal".flags.bytestring-in-base = false;
       "monad-journal".flags.network-uri = true;
-      "pointed".revision = hackage."pointed"."4.2".revisions.default;
+      "pointed".revision = (((hackage."pointed")."4.2").revisions).default;
       "pointed".flags.test-hlint = false;
       "pointed".flags.splitbase = true;
       "pointed".flags.small_base = true;
@@ -6068,7 +6068,7 @@ hackage:
       "pointed".flags.old-locale = true;
       "pointed".flags.bytestring-in-base = false;
       "pointed".flags.network-uri = true;
-      "distributed-process".revision = hackage."distributed-process"."0.5.3".revisions.default;
+      "distributed-process".revision = (((hackage."distributed-process")."0.5.3").revisions).default;
       "distributed-process".flags.test-hlint = false;
       "distributed-process".flags.splitbase = true;
       "distributed-process".flags.small_base = true;
@@ -6078,7 +6078,7 @@ hackage:
       "distributed-process".flags.old-locale = true;
       "distributed-process".flags.bytestring-in-base = false;
       "distributed-process".flags.network-uri = true;
-      "BlogLiterately".revision = hackage."BlogLiterately"."0.7.1.7".revisions.default;
+      "BlogLiterately".revision = (((hackage."BlogLiterately")."0.7.1.7").revisions).default;
       "BlogLiterately".flags.test-hlint = false;
       "BlogLiterately".flags.splitbase = true;
       "BlogLiterately".flags.small_base = true;
@@ -6088,7 +6088,7 @@ hackage:
       "BlogLiterately".flags.old-locale = true;
       "BlogLiterately".flags.bytestring-in-base = false;
       "BlogLiterately".flags.network-uri = true;
-      "fay-dom".revision = hackage."fay-dom"."0.5".revisions.default;
+      "fay-dom".revision = (((hackage."fay-dom")."0.5").revisions).default;
       "fay-dom".flags.test-hlint = false;
       "fay-dom".flags.splitbase = true;
       "fay-dom".flags.small_base = true;
@@ -6098,7 +6098,7 @@ hackage:
       "fay-dom".flags.old-locale = true;
       "fay-dom".flags.bytestring-in-base = false;
       "fay-dom".flags.network-uri = true;
-      "crypto-cipher-types".revision = hackage."crypto-cipher-types"."0.0.9".revisions.default;
+      "crypto-cipher-types".revision = (((hackage."crypto-cipher-types")."0.0.9").revisions).default;
       "crypto-cipher-types".flags.test-hlint = false;
       "crypto-cipher-types".flags.splitbase = true;
       "crypto-cipher-types".flags.small_base = true;
@@ -6108,7 +6108,7 @@ hackage:
       "crypto-cipher-types".flags.old-locale = true;
       "crypto-cipher-types".flags.bytestring-in-base = false;
       "crypto-cipher-types".flags.network-uri = true;
-      "ReadArgs".revision = hackage."ReadArgs"."1.2.2".revisions.default;
+      "ReadArgs".revision = (((hackage."ReadArgs")."1.2.2").revisions).default;
       "ReadArgs".flags.test-hlint = false;
       "ReadArgs".flags.splitbase = true;
       "ReadArgs".flags.small_base = true;
@@ -6118,7 +6118,7 @@ hackage:
       "ReadArgs".flags.old-locale = true;
       "ReadArgs".flags.bytestring-in-base = false;
       "ReadArgs".flags.network-uri = true;
-      "aws".revision = hackage."aws"."0.11".revisions.default;
+      "aws".revision = (((hackage."aws")."0.11").revisions).default;
       "aws".flags.test-hlint = false;
       "aws".flags.splitbase = true;
       "aws".flags.small_base = true;
@@ -6128,7 +6128,7 @@ hackage:
       "aws".flags.old-locale = true;
       "aws".flags.bytestring-in-base = false;
       "aws".flags.network-uri = true;
-      "filemanip".revision = hackage."filemanip"."0.3.6.2".revisions.default;
+      "filemanip".revision = (((hackage."filemanip")."0.3.6.2").revisions).default;
       "filemanip".flags.test-hlint = false;
       "filemanip".flags.splitbase = true;
       "filemanip".flags.small_base = true;
@@ -6138,7 +6138,7 @@ hackage:
       "filemanip".flags.old-locale = true;
       "filemanip".flags.bytestring-in-base = false;
       "filemanip".flags.network-uri = true;
-      "djinn-lib".revision = hackage."djinn-lib"."0.0.1.2".revisions.default;
+      "djinn-lib".revision = (((hackage."djinn-lib")."0.0.1.2").revisions).default;
       "djinn-lib".flags.test-hlint = false;
       "djinn-lib".flags.splitbase = true;
       "djinn-lib".flags.small_base = true;
@@ -6148,7 +6148,7 @@ hackage:
       "djinn-lib".flags.old-locale = true;
       "djinn-lib".flags.bytestring-in-base = false;
       "djinn-lib".flags.network-uri = true;
-      "blaze-markup".revision = hackage."blaze-markup"."0.6.2.0".revisions.default;
+      "blaze-markup".revision = (((hackage."blaze-markup")."0.6.2.0").revisions).default;
       "blaze-markup".flags.test-hlint = false;
       "blaze-markup".flags.splitbase = true;
       "blaze-markup".flags.small_base = true;
@@ -6158,7 +6158,7 @@ hackage:
       "blaze-markup".flags.old-locale = true;
       "blaze-markup".flags.bytestring-in-base = false;
       "blaze-markup".flags.network-uri = true;
-      "postgresql-libpq".revision = hackage."postgresql-libpq"."0.9.0.1".revisions.default;
+      "postgresql-libpq".revision = (((hackage."postgresql-libpq")."0.9.0.1").revisions).default;
       "postgresql-libpq".flags.test-hlint = false;
       "postgresql-libpq".flags.splitbase = true;
       "postgresql-libpq".flags.small_base = true;
@@ -6168,7 +6168,7 @@ hackage:
       "postgresql-libpq".flags.old-locale = true;
       "postgresql-libpq".flags.bytestring-in-base = false;
       "postgresql-libpq".flags.network-uri = true;
-      "stackage".revision = hackage."stackage"."0.3.1".revisions.default;
+      "stackage".revision = (((hackage."stackage")."0.3.1").revisions).default;
       "stackage".flags.test-hlint = false;
       "stackage".flags.splitbase = true;
       "stackage".flags.small_base = true;
@@ -6178,7 +6178,7 @@ hackage:
       "stackage".flags.old-locale = true;
       "stackage".flags.bytestring-in-base = false;
       "stackage".flags.network-uri = true;
-      "fay-uri".revision = hackage."fay-uri"."0.2.0.0".revisions.default;
+      "fay-uri".revision = (((hackage."fay-uri")."0.2.0.0").revisions).default;
       "fay-uri".flags.test-hlint = false;
       "fay-uri".flags.splitbase = true;
       "fay-uri".flags.small_base = true;
@@ -6188,7 +6188,7 @@ hackage:
       "fay-uri".flags.old-locale = true;
       "fay-uri".flags.bytestring-in-base = false;
       "fay-uri".flags.network-uri = true;
-      "sqlite-simple".revision = hackage."sqlite-simple"."0.4.8.0".revisions.default;
+      "sqlite-simple".revision = (((hackage."sqlite-simple")."0.4.8.0").revisions).default;
       "sqlite-simple".flags.test-hlint = false;
       "sqlite-simple".flags.splitbase = true;
       "sqlite-simple".flags.small_base = true;
@@ -6198,7 +6198,7 @@ hackage:
       "sqlite-simple".flags.old-locale = true;
       "sqlite-simple".flags.bytestring-in-base = false;
       "sqlite-simple".flags.network-uri = true;
-      "tasty-golden".revision = hackage."tasty-golden"."2.2.2.4".revisions.default;
+      "tasty-golden".revision = (((hackage."tasty-golden")."2.2.2.4").revisions).default;
       "tasty-golden".flags.test-hlint = false;
       "tasty-golden".flags.splitbase = true;
       "tasty-golden".flags.small_base = true;
@@ -6208,7 +6208,7 @@ hackage:
       "tasty-golden".flags.old-locale = true;
       "tasty-golden".flags.bytestring-in-base = false;
       "tasty-golden".flags.network-uri = true;
-      "hsyslog".revision = hackage."hsyslog"."2.0".revisions.default;
+      "hsyslog".revision = (((hackage."hsyslog")."2.0").revisions).default;
       "hsyslog".flags.test-hlint = false;
       "hsyslog".flags.splitbase = true;
       "hsyslog".flags.small_base = true;
@@ -6218,7 +6218,7 @@ hackage:
       "hsyslog".flags.old-locale = true;
       "hsyslog".flags.bytestring-in-base = false;
       "hsyslog".flags.network-uri = true;
-      "uuid".revision = hackage."uuid"."1.3.8".revisions.default;
+      "uuid".revision = (((hackage."uuid")."1.3.8").revisions).default;
       "uuid".flags.test-hlint = false;
       "uuid".flags.splitbase = true;
       "uuid".flags.small_base = true;
@@ -6228,7 +6228,7 @@ hackage:
       "uuid".flags.old-locale = true;
       "uuid".flags.bytestring-in-base = false;
       "uuid".flags.network-uri = true;
-      "hoauth2".revision = hackage."hoauth2"."0.4.3".revisions.default;
+      "hoauth2".revision = (((hackage."hoauth2")."0.4.3").revisions).default;
       "hoauth2".flags.test-hlint = false;
       "hoauth2".flags.splitbase = true;
       "hoauth2".flags.small_base = true;
@@ -6238,7 +6238,7 @@ hackage:
       "hoauth2".flags.old-locale = true;
       "hoauth2".flags.bytestring-in-base = false;
       "hoauth2".flags.network-uri = true;
-      "persistent".revision = hackage."persistent"."2.1.1.4".revisions.default;
+      "persistent".revision = (((hackage."persistent")."2.1.1.4").revisions).default;
       "persistent".flags.test-hlint = false;
       "persistent".flags.splitbase = true;
       "persistent".flags.small_base = true;
@@ -6248,7 +6248,7 @@ hackage:
       "persistent".flags.old-locale = true;
       "persistent".flags.bytestring-in-base = false;
       "persistent".flags.network-uri = true;
-      "cipher-rc4".revision = hackage."cipher-rc4"."0.1.4".revisions.default;
+      "cipher-rc4".revision = (((hackage."cipher-rc4")."0.1.4").revisions).default;
       "cipher-rc4".flags.test-hlint = false;
       "cipher-rc4".flags.splitbase = true;
       "cipher-rc4".flags.small_base = true;
@@ -6258,7 +6258,7 @@ hackage:
       "cipher-rc4".flags.old-locale = true;
       "cipher-rc4".flags.bytestring-in-base = false;
       "cipher-rc4".flags.network-uri = true;
-      "configurator".revision = hackage."configurator"."0.3.0.0".revisions.default;
+      "configurator".revision = (((hackage."configurator")."0.3.0.0").revisions).default;
       "configurator".flags.test-hlint = false;
       "configurator".flags.splitbase = true;
       "configurator".flags.small_base = true;
@@ -6268,7 +6268,7 @@ hackage:
       "configurator".flags.old-locale = true;
       "configurator".flags.bytestring-in-base = false;
       "configurator".flags.network-uri = true;
-      "text".revision = hackage."text"."1.2.0.4".revisions.default;
+      "text".revision = (((hackage."text")."1.2.0.4").revisions).default;
       "text".flags.test-hlint = false;
       "text".flags.splitbase = true;
       "text".flags.small_base = true;
@@ -6279,8 +6279,8 @@ hackage:
       "text".flags.bytestring-in-base = false;
       "text".flags.network-uri = true;
       "text".flags.integer-simple = false;
-      "Cabal".revision = hackage."Cabal"."1.18.1.5".revisions.default;
-      "Diff".revision = hackage."Diff"."0.3.0".revisions.default;
+      "Cabal".revision = (((hackage."Cabal")."1.18.1.5").revisions).default;
+      "Diff".revision = (((hackage."Diff")."0.3.0").revisions).default;
       "Diff".flags.test-hlint = false;
       "Diff".flags.splitbase = true;
       "Diff".flags.small_base = true;
@@ -6290,7 +6290,7 @@ hackage:
       "Diff".flags.old-locale = true;
       "Diff".flags.bytestring-in-base = false;
       "Diff".flags.network-uri = true;
-      "unordered-containers".revision = hackage."unordered-containers"."0.2.5.1".revisions.default;
+      "unordered-containers".revision = (((hackage."unordered-containers")."0.2.5.1").revisions).default;
       "unordered-containers".flags.test-hlint = false;
       "unordered-containers".flags.splitbase = true;
       "unordered-containers".flags.small_base = true;
@@ -6300,7 +6300,7 @@ hackage:
       "unordered-containers".flags.old-locale = true;
       "unordered-containers".flags.bytestring-in-base = false;
       "unordered-containers".flags.network-uri = true;
-      "base64-bytestring".revision = hackage."base64-bytestring"."1.0.0.1".revisions.default;
+      "base64-bytestring".revision = (((hackage."base64-bytestring")."1.0.0.1").revisions).default;
       "base64-bytestring".flags.test-hlint = false;
       "base64-bytestring".flags.splitbase = true;
       "base64-bytestring".flags.small_base = true;
@@ -6310,7 +6310,7 @@ hackage:
       "base64-bytestring".flags.old-locale = true;
       "base64-bytestring".flags.bytestring-in-base = false;
       "base64-bytestring".flags.network-uri = true;
-      "aeson-pretty".revision = hackage."aeson-pretty"."0.7.2".revisions.default;
+      "aeson-pretty".revision = (((hackage."aeson-pretty")."0.7.2").revisions).default;
       "aeson-pretty".flags.test-hlint = false;
       "aeson-pretty".flags.splitbase = true;
       "aeson-pretty".flags.small_base = true;
@@ -6320,7 +6320,7 @@ hackage:
       "aeson-pretty".flags.old-locale = true;
       "aeson-pretty".flags.bytestring-in-base = false;
       "aeson-pretty".flags.network-uri = true;
-      "HStringTemplate".revision = hackage."HStringTemplate"."0.7.3".revisions.default;
+      "HStringTemplate".revision = (((hackage."HStringTemplate")."0.7.3").revisions).default;
       "HStringTemplate".flags.test-hlint = false;
       "HStringTemplate".flags.splitbase = true;
       "HStringTemplate".flags.small_base = true;
@@ -6331,8 +6331,8 @@ hackage:
       "HStringTemplate".flags.bytestring-in-base = false;
       "HStringTemplate".flags.network-uri = true;
       "ghc-pkg".revision = null;
-      "base".revision = hackage."base"."4.7.0.2".revisions.default;
-      "blaze-builder-enumerator".revision = hackage."blaze-builder-enumerator"."0.2.0.6".revisions.default;
+      "base".revision = (((hackage."base")."4.7.0.2").revisions).default;
+      "blaze-builder-enumerator".revision = (((hackage."blaze-builder-enumerator")."0.2.0.6").revisions).default;
       "blaze-builder-enumerator".flags.test-hlint = false;
       "blaze-builder-enumerator".flags.splitbase = true;
       "blaze-builder-enumerator".flags.small_base = true;
@@ -6342,7 +6342,7 @@ hackage:
       "blaze-builder-enumerator".flags.old-locale = true;
       "blaze-builder-enumerator".flags.bytestring-in-base = false;
       "blaze-builder-enumerator".flags.network-uri = true;
-      "monads-tf".revision = hackage."monads-tf"."0.1.0.2".revisions.default;
+      "monads-tf".revision = (((hackage."monads-tf")."0.1.0.2").revisions).default;
       "monads-tf".flags.test-hlint = false;
       "monads-tf".flags.splitbase = true;
       "monads-tf".flags.small_base = true;
@@ -6352,7 +6352,7 @@ hackage:
       "monads-tf".flags.old-locale = true;
       "monads-tf".flags.bytestring-in-base = false;
       "monads-tf".flags.network-uri = true;
-      "tagstream-conduit".revision = hackage."tagstream-conduit"."0.5.5.3".revisions.default;
+      "tagstream-conduit".revision = (((hackage."tagstream-conduit")."0.5.5.3").revisions).default;
       "tagstream-conduit".flags.test-hlint = false;
       "tagstream-conduit".flags.splitbase = true;
       "tagstream-conduit".flags.small_base = true;
@@ -6363,7 +6363,7 @@ hackage:
       "tagstream-conduit".flags.bytestring-in-base = false;
       "tagstream-conduit".flags.network-uri = true;
       "runhaskell".revision = null;
-      "frisby".revision = hackage."frisby"."0.2".revisions.default;
+      "frisby".revision = (((hackage."frisby")."0.2").revisions).default;
       "frisby".flags.test-hlint = false;
       "frisby".flags.splitbase = true;
       "frisby".flags.small_base = true;
@@ -6373,7 +6373,7 @@ hackage:
       "frisby".flags.old-locale = true;
       "frisby".flags.bytestring-in-base = false;
       "frisby".flags.network-uri = true;
-      "multimap".revision = hackage."multimap"."1.2.1".revisions.default;
+      "multimap".revision = (((hackage."multimap")."1.2.1").revisions).default;
       "multimap".flags.test-hlint = false;
       "multimap".flags.splitbase = true;
       "multimap".flags.small_base = true;
@@ -6383,7 +6383,7 @@ hackage:
       "multimap".flags.old-locale = true;
       "multimap".flags.bytestring-in-base = false;
       "multimap".flags.network-uri = true;
-      "testing-feat".revision = hackage."testing-feat"."0.4.0.2".revisions.default;
+      "testing-feat".revision = (((hackage."testing-feat")."0.4.0.2").revisions).default;
       "testing-feat".flags.test-hlint = false;
       "testing-feat".flags.splitbase = true;
       "testing-feat".flags.small_base = true;
@@ -6393,7 +6393,7 @@ hackage:
       "testing-feat".flags.old-locale = true;
       "testing-feat".flags.bytestring-in-base = false;
       "testing-feat".flags.network-uri = true;
-      "distributed-process-task".revision = hackage."distributed-process-task"."0.1.1".revisions.default;
+      "distributed-process-task".revision = (((hackage."distributed-process-task")."0.1.1").revisions).default;
       "distributed-process-task".flags.test-hlint = false;
       "distributed-process-task".flags.splitbase = true;
       "distributed-process-task".flags.small_base = true;
@@ -6403,7 +6403,7 @@ hackage:
       "distributed-process-task".flags.old-locale = true;
       "distributed-process-task".flags.bytestring-in-base = false;
       "distributed-process-task".flags.network-uri = true;
-      "keter".revision = hackage."keter"."1.3.7.1".revisions.default;
+      "keter".revision = (((hackage."keter")."1.3.7.1").revisions).default;
       "keter".flags.test-hlint = false;
       "keter".flags.splitbase = true;
       "keter".flags.small_base = true;
@@ -6413,7 +6413,7 @@ hackage:
       "keter".flags.old-locale = true;
       "keter".flags.bytestring-in-base = false;
       "keter".flags.network-uri = true;
-      "bumper".revision = hackage."bumper"."0.6.0.3".revisions.default;
+      "bumper".revision = (((hackage."bumper")."0.6.0.3").revisions).default;
       "bumper".flags.test-hlint = false;
       "bumper".flags.splitbase = true;
       "bumper".flags.small_base = true;
@@ -6423,7 +6423,7 @@ hackage:
       "bumper".flags.old-locale = true;
       "bumper".flags.bytestring-in-base = false;
       "bumper".flags.network-uri = true;
-      "abstract-deque".revision = hackage."abstract-deque"."0.3".revisions.default;
+      "abstract-deque".revision = (((hackage."abstract-deque")."0.3").revisions).default;
       "abstract-deque".flags.test-hlint = false;
       "abstract-deque".flags.splitbase = true;
       "abstract-deque".flags.small_base = true;
@@ -6433,7 +6433,7 @@ hackage:
       "abstract-deque".flags.old-locale = true;
       "abstract-deque".flags.bytestring-in-base = false;
       "abstract-deque".flags.network-uri = true;
-      "FenwickTree".revision = hackage."FenwickTree"."0.1.2".revisions.default;
+      "FenwickTree".revision = (((hackage."FenwickTree")."0.1.2").revisions).default;
       "FenwickTree".flags.test-hlint = false;
       "FenwickTree".flags.splitbase = true;
       "FenwickTree".flags.small_base = true;
@@ -6443,7 +6443,7 @@ hackage:
       "FenwickTree".flags.old-locale = true;
       "FenwickTree".flags.bytestring-in-base = false;
       "FenwickTree".flags.network-uri = true;
-      "hspec-meta".revision = hackage."hspec-meta"."2.0.0".revisions.default;
+      "hspec-meta".revision = (((hackage."hspec-meta")."2.0.0").revisions).default;
       "hspec-meta".flags.test-hlint = false;
       "hspec-meta".flags.splitbase = true;
       "hspec-meta".flags.small_base = true;
@@ -6453,7 +6453,7 @@ hackage:
       "hspec-meta".flags.old-locale = true;
       "hspec-meta".flags.bytestring-in-base = false;
       "hspec-meta".flags.network-uri = true;
-      "udbus".revision = hackage."udbus"."0.2.1".revisions.default;
+      "udbus".revision = (((hackage."udbus")."0.2.1").revisions).default;
       "udbus".flags.test-hlint = false;
       "udbus".flags.splitbase = true;
       "udbus".flags.small_base = true;
@@ -6463,7 +6463,7 @@ hackage:
       "udbus".flags.old-locale = true;
       "udbus".flags.bytestring-in-base = false;
       "udbus".flags.network-uri = true;
-      "hledger".revision = hackage."hledger"."0.24".revisions.default;
+      "hledger".revision = (((hackage."hledger")."0.24").revisions).default;
       "hledger".flags.test-hlint = false;
       "hledger".flags.splitbase = true;
       "hledger".flags.small_base = true;
@@ -6473,7 +6473,7 @@ hackage:
       "hledger".flags.old-locale = true;
       "hledger".flags.bytestring-in-base = false;
       "hledger".flags.network-uri = true;
-      "ad".revision = hackage."ad"."4.2.1.1".revisions.default;
+      "ad".revision = (((hackage."ad")."4.2.1.1").revisions).default;
       "ad".flags.test-hlint = false;
       "ad".flags.splitbase = true;
       "ad".flags.small_base = true;
@@ -6483,7 +6483,7 @@ hackage:
       "ad".flags.old-locale = true;
       "ad".flags.bytestring-in-base = false;
       "ad".flags.network-uri = true;
-      "comonad".revision = hackage."comonad"."4.2.2".revisions.default;
+      "comonad".revision = (((hackage."comonad")."4.2.2").revisions).default;
       "comonad".flags.test-hlint = false;
       "comonad".flags.splitbase = true;
       "comonad".flags.small_base = true;
@@ -6493,7 +6493,7 @@ hackage:
       "comonad".flags.old-locale = true;
       "comonad".flags.bytestring-in-base = false;
       "comonad".flags.network-uri = true;
-      "hspec".revision = hackage."hspec"."2.1.2".revisions.default;
+      "hspec".revision = (((hackage."hspec")."2.1.2").revisions).default;
       "hspec".flags.test-hlint = false;
       "hspec".flags.splitbase = true;
       "hspec".flags.small_base = true;
@@ -6503,7 +6503,7 @@ hackage:
       "hspec".flags.old-locale = true;
       "hspec".flags.bytestring-in-base = false;
       "hspec".flags.network-uri = true;
-      "diagrams-cairo".revision = hackage."diagrams-cairo"."1.2.0.5".revisions.default;
+      "diagrams-cairo".revision = (((hackage."diagrams-cairo")."1.2.0.5").revisions).default;
       "diagrams-cairo".flags.test-hlint = false;
       "diagrams-cairo".flags.splitbase = true;
       "diagrams-cairo".flags.small_base = true;
@@ -6513,7 +6513,7 @@ hackage:
       "diagrams-cairo".flags.old-locale = true;
       "diagrams-cairo".flags.bytestring-in-base = false;
       "diagrams-cairo".flags.network-uri = true;
-      "diagrams-haddock".revision = hackage."diagrams-haddock"."0.2.2.12".revisions.default;
+      "diagrams-haddock".revision = (((hackage."diagrams-haddock")."0.2.2.12").revisions).default;
       "diagrams-haddock".flags.test-hlint = false;
       "diagrams-haddock".flags.splitbase = true;
       "diagrams-haddock".flags.small_base = true;
@@ -6523,8 +6523,8 @@ hackage:
       "diagrams-haddock".flags.old-locale = true;
       "diagrams-haddock".flags.bytestring-in-base = false;
       "diagrams-haddock".flags.network-uri = true;
-      "time".revision = hackage."time"."1.4.2".revisions.default;
-      "data-default-class".revision = hackage."data-default-class"."0.0.1".revisions.default;
+      "time".revision = (((hackage."time")."1.4.2").revisions).default;
+      "data-default-class".revision = (((hackage."data-default-class")."0.0.1").revisions).default;
       "data-default-class".flags.test-hlint = false;
       "data-default-class".flags.splitbase = true;
       "data-default-class".flags.small_base = true;
@@ -6534,7 +6534,7 @@ hackage:
       "data-default-class".flags.old-locale = true;
       "data-default-class".flags.bytestring-in-base = false;
       "data-default-class".flags.network-uri = true;
-      "timezone-series".revision = hackage."timezone-series"."0.1.4".revisions.default;
+      "timezone-series".revision = (((hackage."timezone-series")."0.1.4").revisions).default;
       "timezone-series".flags.test-hlint = false;
       "timezone-series".flags.splitbase = true;
       "timezone-series".flags.small_base = true;
@@ -6544,7 +6544,7 @@ hackage:
       "timezone-series".flags.old-locale = true;
       "timezone-series".flags.bytestring-in-base = false;
       "timezone-series".flags.network-uri = true;
-      "yesod-fb".revision = hackage."yesod-fb"."0.3.4".revisions.default;
+      "yesod-fb".revision = (((hackage."yesod-fb")."0.3.4").revisions).default;
       "yesod-fb".flags.test-hlint = false;
       "yesod-fb".flags.splitbase = true;
       "yesod-fb".flags.small_base = true;
@@ -6554,7 +6554,7 @@ hackage:
       "yesod-fb".flags.old-locale = true;
       "yesod-fb".flags.bytestring-in-base = false;
       "yesod-fb".flags.network-uri = true;
-      "hit".revision = hackage."hit"."0.6.3".revisions.default;
+      "hit".revision = (((hackage."hit")."0.6.3").revisions).default;
       "hit".flags.test-hlint = false;
       "hit".flags.splitbase = true;
       "hit".flags.small_base = true;
@@ -6564,7 +6564,7 @@ hackage:
       "hit".flags.old-locale = true;
       "hit".flags.bytestring-in-base = false;
       "hit".flags.network-uri = true;
-      "xmlgen".revision = hackage."xmlgen"."0.6.2.1".revisions.default;
+      "xmlgen".revision = (((hackage."xmlgen")."0.6.2.1").revisions).default;
       "xmlgen".flags.test-hlint = false;
       "xmlgen".flags.splitbase = true;
       "xmlgen".flags.small_base = true;
@@ -6574,7 +6574,7 @@ hackage:
       "xmlgen".flags.old-locale = true;
       "xmlgen".flags.bytestring-in-base = false;
       "xmlgen".flags.network-uri = true;
-      "xml-hamlet".revision = hackage."xml-hamlet"."0.4.0.9".revisions.default;
+      "xml-hamlet".revision = (((hackage."xml-hamlet")."0.4.0.9").revisions).default;
       "xml-hamlet".flags.test-hlint = false;
       "xml-hamlet".flags.splitbase = true;
       "xml-hamlet".flags.small_base = true;
@@ -6584,7 +6584,7 @@ hackage:
       "xml-hamlet".flags.old-locale = true;
       "xml-hamlet".flags.bytestring-in-base = false;
       "xml-hamlet".flags.network-uri = true;
-      "amqp".revision = hackage."amqp"."0.10.1".revisions.default;
+      "amqp".revision = (((hackage."amqp")."0.10.1").revisions).default;
       "amqp".flags.test-hlint = false;
       "amqp".flags.splitbase = true;
       "amqp".flags.small_base = true;
@@ -6594,8 +6594,8 @@ hackage:
       "amqp".flags.old-locale = true;
       "amqp".flags.bytestring-in-base = false;
       "amqp".flags.network-uri = true;
-      "terminfo".revision = hackage."terminfo"."0.4.0.0".revisions.default;
-      "base16-bytestring".revision = hackage."base16-bytestring"."0.1.1.6".revisions.default;
+      "terminfo".revision = (((hackage."terminfo")."0.4.0.0").revisions).default;
+      "base16-bytestring".revision = (((hackage."base16-bytestring")."0.1.1.6").revisions).default;
       "base16-bytestring".flags.test-hlint = false;
       "base16-bytestring".flags.splitbase = true;
       "base16-bytestring".flags.small_base = true;
@@ -6605,7 +6605,7 @@ hackage:
       "base16-bytestring".flags.old-locale = true;
       "base16-bytestring".flags.bytestring-in-base = false;
       "base16-bytestring".flags.network-uri = true;
-      "vector-algorithms".revision = hackage."vector-algorithms"."0.6.0.3".revisions.default;
+      "vector-algorithms".revision = (((hackage."vector-algorithms")."0.6.0.3").revisions).default;
       "vector-algorithms".flags.test-hlint = false;
       "vector-algorithms".flags.splitbase = true;
       "vector-algorithms".flags.small_base = true;
@@ -6615,7 +6615,7 @@ hackage:
       "vector-algorithms".flags.old-locale = true;
       "vector-algorithms".flags.bytestring-in-base = false;
       "vector-algorithms".flags.network-uri = true;
-      "approximate".revision = hackage."approximate"."0.2.1.1".revisions.default;
+      "approximate".revision = (((hackage."approximate")."0.2.1.1").revisions).default;
       "approximate".flags.test-hlint = false;
       "approximate".flags.splitbase = true;
       "approximate".flags.small_base = true;
@@ -6625,7 +6625,7 @@ hackage:
       "approximate".flags.old-locale = true;
       "approximate".flags.bytestring-in-base = false;
       "approximate".flags.network-uri = true;
-      "parallel-io".revision = hackage."parallel-io"."0.3.3".revisions.default;
+      "parallel-io".revision = (((hackage."parallel-io")."0.3.3").revisions).default;
       "parallel-io".flags.test-hlint = false;
       "parallel-io".flags.splitbase = true;
       "parallel-io".flags.small_base = true;
@@ -6635,7 +6635,7 @@ hackage:
       "parallel-io".flags.old-locale = true;
       "parallel-io".flags.bytestring-in-base = false;
       "parallel-io".flags.network-uri = true;
-      "cpphs".revision = hackage."cpphs"."1.18.6".revisions.default;
+      "cpphs".revision = (((hackage."cpphs")."1.18.6").revisions).default;
       "cpphs".flags.test-hlint = false;
       "cpphs".flags.splitbase = true;
       "cpphs".flags.small_base = true;
@@ -6645,7 +6645,7 @@ hackage:
       "cpphs".flags.old-locale = true;
       "cpphs".flags.bytestring-in-base = false;
       "cpphs".flags.network-uri = true;
-      "yesod-eventsource".revision = hackage."yesod-eventsource"."1.4.0.1".revisions.default;
+      "yesod-eventsource".revision = (((hackage."yesod-eventsource")."1.4.0.1").revisions).default;
       "yesod-eventsource".flags.test-hlint = false;
       "yesod-eventsource".flags.splitbase = true;
       "yesod-eventsource".flags.small_base = true;
@@ -6655,7 +6655,7 @@ hackage:
       "yesod-eventsource".flags.old-locale = true;
       "yesod-eventsource".flags.bytestring-in-base = false;
       "yesod-eventsource".flags.network-uri = true;
-      "iterable".revision = hackage."iterable"."3.0".revisions.default;
+      "iterable".revision = (((hackage."iterable")."3.0").revisions).default;
       "iterable".flags.test-hlint = false;
       "iterable".flags.splitbase = true;
       "iterable".flags.small_base = true;
@@ -6665,7 +6665,7 @@ hackage:
       "iterable".flags.old-locale = true;
       "iterable".flags.bytestring-in-base = false;
       "iterable".flags.network-uri = true;
-      "gtk".revision = hackage."gtk"."0.13.4".revisions.default;
+      "gtk".revision = (((hackage."gtk")."0.13.4").revisions).default;
       "gtk".flags.test-hlint = false;
       "gtk".flags.splitbase = true;
       "gtk".flags.small_base = true;
@@ -6675,7 +6675,7 @@ hackage:
       "gtk".flags.old-locale = true;
       "gtk".flags.bytestring-in-base = false;
       "gtk".flags.network-uri = true;
-      "iproute".revision = hackage."iproute"."1.3.1".revisions.default;
+      "iproute".revision = (((hackage."iproute")."1.3.1").revisions).default;
       "iproute".flags.test-hlint = false;
       "iproute".flags.splitbase = true;
       "iproute".flags.small_base = true;
@@ -6685,7 +6685,7 @@ hackage:
       "iproute".flags.old-locale = true;
       "iproute".flags.bytestring-in-base = false;
       "iproute".flags.network-uri = true;
-      "diagrams-core".revision = hackage."diagrams-core"."1.2.0.4".revisions.default;
+      "diagrams-core".revision = (((hackage."diagrams-core")."1.2.0.4").revisions).default;
       "diagrams-core".flags.test-hlint = false;
       "diagrams-core".flags.splitbase = true;
       "diagrams-core".flags.small_base = true;
@@ -6695,7 +6695,7 @@ hackage:
       "diagrams-core".flags.old-locale = true;
       "diagrams-core".flags.bytestring-in-base = false;
       "diagrams-core".flags.network-uri = true;
-      "network-transport".revision = hackage."network-transport"."0.4.1.0".revisions.default;
+      "network-transport".revision = (((hackage."network-transport")."0.4.1.0").revisions).default;
       "network-transport".flags.test-hlint = false;
       "network-transport".flags.splitbase = true;
       "network-transport".flags.small_base = true;
@@ -6705,7 +6705,7 @@ hackage:
       "network-transport".flags.old-locale = true;
       "network-transport".flags.bytestring-in-base = false;
       "network-transport".flags.network-uri = true;
-      "IfElse".revision = hackage."IfElse"."0.85".revisions.default;
+      "IfElse".revision = (((hackage."IfElse")."0.85").revisions).default;
       "IfElse".flags.test-hlint = false;
       "IfElse".flags.splitbase = true;
       "IfElse".flags.small_base = true;
@@ -6715,7 +6715,7 @@ hackage:
       "IfElse".flags.old-locale = true;
       "IfElse".flags.bytestring-in-base = false;
       "IfElse".flags.network-uri = true;
-      "regex-applicative".revision = hackage."regex-applicative"."0.3.1".revisions.default;
+      "regex-applicative".revision = (((hackage."regex-applicative")."0.3.1").revisions).default;
       "regex-applicative".flags.test-hlint = false;
       "regex-applicative".flags.splitbase = true;
       "regex-applicative".flags.small_base = true;
@@ -6725,7 +6725,7 @@ hackage:
       "regex-applicative".flags.old-locale = true;
       "regex-applicative".flags.bytestring-in-base = false;
       "regex-applicative".flags.network-uri = true;
-      "tasty-hunit".revision = hackage."tasty-hunit"."0.9.0.1".revisions.default;
+      "tasty-hunit".revision = (((hackage."tasty-hunit")."0.9.0.1").revisions).default;
       "tasty-hunit".flags.test-hlint = false;
       "tasty-hunit".flags.splitbase = true;
       "tasty-hunit".flags.small_base = true;
@@ -6735,7 +6735,7 @@ hackage:
       "tasty-hunit".flags.old-locale = true;
       "tasty-hunit".flags.bytestring-in-base = false;
       "tasty-hunit".flags.network-uri = true;
-      "pretty-show".revision = hackage."pretty-show"."1.6.8".revisions.default;
+      "pretty-show".revision = (((hackage."pretty-show")."1.6.8").revisions).default;
       "pretty-show".flags.test-hlint = false;
       "pretty-show".flags.splitbase = true;
       "pretty-show".flags.small_base = true;
@@ -6745,7 +6745,7 @@ hackage:
       "pretty-show".flags.old-locale = true;
       "pretty-show".flags.bytestring-in-base = false;
       "pretty-show".flags.network-uri = true;
-      "bson".revision = hackage."bson"."0.3.1".revisions.default;
+      "bson".revision = (((hackage."bson")."0.3.1").revisions).default;
       "bson".flags.test-hlint = false;
       "bson".flags.splitbase = true;
       "bson".flags.small_base = true;
@@ -6755,7 +6755,7 @@ hackage:
       "bson".flags.old-locale = true;
       "bson".flags.bytestring-in-base = false;
       "bson".flags.network-uri = true;
-      "monad-logger".revision = hackage."monad-logger"."0.3.11.1".revisions.default;
+      "monad-logger".revision = (((hackage."monad-logger")."0.3.11.1").revisions).default;
       "monad-logger".flags.test-hlint = false;
       "monad-logger".flags.splitbase = true;
       "monad-logger".flags.small_base = true;
@@ -6765,8 +6765,8 @@ hackage:
       "monad-logger".flags.old-locale = true;
       "monad-logger".flags.bytestring-in-base = false;
       "monad-logger".flags.network-uri = true;
-      "transformers".revision = hackage."transformers"."0.3.0.0".revisions.default;
-      "crypto-random-api".revision = hackage."crypto-random-api"."0.2.0".revisions.default;
+      "transformers".revision = (((hackage."transformers")."0.3.0.0").revisions).default;
+      "crypto-random-api".revision = (((hackage."crypto-random-api")."0.2.0").revisions).default;
       "crypto-random-api".flags.test-hlint = false;
       "crypto-random-api".flags.splitbase = true;
       "crypto-random-api".flags.small_base = true;
@@ -6776,7 +6776,7 @@ hackage:
       "crypto-random-api".flags.old-locale = true;
       "crypto-random-api".flags.bytestring-in-base = false;
       "crypto-random-api".flags.network-uri = true;
-      "mime-mail".revision = hackage."mime-mail"."0.4.6.2".revisions.default;
+      "mime-mail".revision = (((hackage."mime-mail")."0.4.6.2").revisions).default;
       "mime-mail".flags.test-hlint = false;
       "mime-mail".flags.splitbase = true;
       "mime-mail".flags.small_base = true;
@@ -6786,7 +6786,7 @@ hackage:
       "mime-mail".flags.old-locale = true;
       "mime-mail".flags.bytestring-in-base = false;
       "mime-mail".flags.network-uri = true;
-      "hashable".revision = hackage."hashable"."1.2.3.1".revisions.default;
+      "hashable".revision = (((hackage."hashable")."1.2.3.1").revisions).default;
       "hashable".flags.test-hlint = false;
       "hashable".flags.splitbase = true;
       "hashable".flags.small_base = true;
@@ -6796,7 +6796,7 @@ hackage:
       "hashable".flags.old-locale = true;
       "hashable".flags.bytestring-in-base = false;
       "hashable".flags.network-uri = true;
-      "nats".revision = hackage."nats"."1".revisions.default;
+      "nats".revision = (((hackage."nats")."1").revisions).default;
       "nats".flags.test-hlint = false;
       "nats".flags.splitbase = true;
       "nats".flags.small_base = true;
@@ -6806,7 +6806,7 @@ hackage:
       "nats".flags.old-locale = true;
       "nats".flags.bytestring-in-base = false;
       "nats".flags.network-uri = true;
-      "hxt-charproperties".revision = hackage."hxt-charproperties"."9.2.0.0".revisions.default;
+      "hxt-charproperties".revision = (((hackage."hxt-charproperties")."9.2.0.0").revisions).default;
       "hxt-charproperties".flags.test-hlint = false;
       "hxt-charproperties".flags.splitbase = true;
       "hxt-charproperties".flags.small_base = true;
@@ -6816,7 +6816,7 @@ hackage:
       "hxt-charproperties".flags.old-locale = true;
       "hxt-charproperties".flags.bytestring-in-base = false;
       "hxt-charproperties".flags.network-uri = true;
-      "quickcheck-io".revision = hackage."quickcheck-io"."0.1.1".revisions.default;
+      "quickcheck-io".revision = (((hackage."quickcheck-io")."0.1.1").revisions).default;
       "quickcheck-io".flags.test-hlint = false;
       "quickcheck-io".flags.splitbase = true;
       "quickcheck-io".flags.small_base = true;
@@ -6826,7 +6826,7 @@ hackage:
       "quickcheck-io".flags.old-locale = true;
       "quickcheck-io".flags.bytestring-in-base = false;
       "quickcheck-io".flags.network-uri = true;
-      "wai-extra".revision = hackage."wai-extra"."3.0.4.1".revisions.default;
+      "wai-extra".revision = (((hackage."wai-extra")."3.0.4.1").revisions).default;
       "wai-extra".flags.test-hlint = false;
       "wai-extra".flags.splitbase = true;
       "wai-extra".flags.small_base = true;
@@ -6836,7 +6836,7 @@ hackage:
       "wai-extra".flags.old-locale = true;
       "wai-extra".flags.bytestring-in-base = false;
       "wai-extra".flags.network-uri = true;
-      "data-default-instances-containers".revision = hackage."data-default-instances-containers"."0.0.1".revisions.default;
+      "data-default-instances-containers".revision = (((hackage."data-default-instances-containers")."0.0.1").revisions).default;
       "data-default-instances-containers".flags.test-hlint = false;
       "data-default-instances-containers".flags.splitbase = true;
       "data-default-instances-containers".flags.small_base = true;
@@ -6846,7 +6846,7 @@ hackage:
       "data-default-instances-containers".flags.old-locale = true;
       "data-default-instances-containers".flags.bytestring-in-base = false;
       "data-default-instances-containers".flags.network-uri = true;
-      "stm-chans".revision = hackage."stm-chans"."3.0.0.2".revisions.default;
+      "stm-chans".revision = (((hackage."stm-chans")."3.0.0.2").revisions).default;
       "stm-chans".flags.test-hlint = false;
       "stm-chans".flags.splitbase = true;
       "stm-chans".flags.small_base = true;
@@ -6856,7 +6856,7 @@ hackage:
       "stm-chans".flags.old-locale = true;
       "stm-chans".flags.bytestring-in-base = false;
       "stm-chans".flags.network-uri = true;
-      "attoparsec".revision = hackage."attoparsec"."0.12.1.2".revisions.default;
+      "attoparsec".revision = (((hackage."attoparsec")."0.12.1.2").revisions).default;
       "attoparsec".flags.test-hlint = false;
       "attoparsec".flags.splitbase = true;
       "attoparsec".flags.small_base = true;
@@ -6866,7 +6866,7 @@ hackage:
       "attoparsec".flags.old-locale = true;
       "attoparsec".flags.bytestring-in-base = false;
       "attoparsec".flags.network-uri = true;
-      "blaze-html".revision = hackage."blaze-html"."0.7.0.3".revisions.default;
+      "blaze-html".revision = (((hackage."blaze-html")."0.7.0.3").revisions).default;
       "blaze-html".flags.test-hlint = false;
       "blaze-html".flags.splitbase = true;
       "blaze-html".flags.small_base = true;
@@ -6876,7 +6876,7 @@ hackage:
       "blaze-html".flags.old-locale = true;
       "blaze-html".flags.bytestring-in-base = false;
       "blaze-html".flags.network-uri = true;
-      "regex-pcre-builtin".revision = hackage."regex-pcre-builtin"."0.94.4.8.8.35".revisions.default;
+      "regex-pcre-builtin".revision = (((hackage."regex-pcre-builtin")."0.94.4.8.8.35").revisions).default;
       "regex-pcre-builtin".flags.test-hlint = false;
       "regex-pcre-builtin".flags.splitbase = true;
       "regex-pcre-builtin".flags.small_base = true;
@@ -6886,7 +6886,7 @@ hackage:
       "regex-pcre-builtin".flags.old-locale = true;
       "regex-pcre-builtin".flags.bytestring-in-base = false;
       "regex-pcre-builtin".flags.network-uri = true;
-      "data-memocombinators".revision = hackage."data-memocombinators"."0.5.1".revisions.default;
+      "data-memocombinators".revision = (((hackage."data-memocombinators")."0.5.1").revisions).default;
       "data-memocombinators".flags.test-hlint = false;
       "data-memocombinators".flags.splitbase = true;
       "data-memocombinators".flags.small_base = true;
@@ -6896,7 +6896,7 @@ hackage:
       "data-memocombinators".flags.old-locale = true;
       "data-memocombinators".flags.bytestring-in-base = false;
       "data-memocombinators".flags.network-uri = true;
-      "freenect".revision = hackage."freenect"."1.2".revisions.default;
+      "freenect".revision = (((hackage."freenect")."1.2").revisions).default;
       "freenect".flags.test-hlint = false;
       "freenect".flags.splitbase = true;
       "freenect".flags.small_base = true;
@@ -6906,7 +6906,7 @@ hackage:
       "freenect".flags.old-locale = true;
       "freenect".flags.bytestring-in-base = false;
       "freenect".flags.network-uri = true;
-      "terminal-progress-bar".revision = hackage."terminal-progress-bar"."0.0.1.4".revisions.default;
+      "terminal-progress-bar".revision = (((hackage."terminal-progress-bar")."0.0.1.4").revisions).default;
       "terminal-progress-bar".flags.test-hlint = false;
       "terminal-progress-bar".flags.splitbase = true;
       "terminal-progress-bar".flags.small_base = true;
@@ -6916,7 +6916,7 @@ hackage:
       "terminal-progress-bar".flags.old-locale = true;
       "terminal-progress-bar".flags.bytestring-in-base = false;
       "terminal-progress-bar".flags.network-uri = true;
-      "numbers".revision = hackage."numbers"."3000.2.0.1".revisions.default;
+      "numbers".revision = (((hackage."numbers")."3000.2.0.1").revisions).default;
       "numbers".flags.test-hlint = false;
       "numbers".flags.splitbase = true;
       "numbers".flags.small_base = true;
@@ -6926,7 +6926,7 @@ hackage:
       "numbers".flags.old-locale = true;
       "numbers".flags.bytestring-in-base = false;
       "numbers".flags.network-uri = true;
-      "HTTP".revision = hackage."HTTP"."4000.2.19".revisions.default;
+      "HTTP".revision = (((hackage."HTTP")."4000.2.19").revisions).default;
       "HTTP".flags.test-hlint = false;
       "HTTP".flags.splitbase = true;
       "HTTP".flags.small_base = true;
@@ -6936,7 +6936,7 @@ hackage:
       "HTTP".flags.old-locale = true;
       "HTTP".flags.bytestring-in-base = false;
       "HTTP".flags.network-uri = true;
-      "th-extras".revision = hackage."th-extras"."0.0.0.2".revisions.default;
+      "th-extras".revision = (((hackage."th-extras")."0.0.0.2").revisions).default;
       "th-extras".flags.test-hlint = false;
       "th-extras".flags.splitbase = true;
       "th-extras".flags.small_base = true;
@@ -6946,7 +6946,7 @@ hackage:
       "th-extras".flags.old-locale = true;
       "th-extras".flags.bytestring-in-base = false;
       "th-extras".flags.network-uri = true;
-      "digest".revision = hackage."digest"."0.0.1.2".revisions.default;
+      "digest".revision = (((hackage."digest")."0.0.1.2").revisions).default;
       "digest".flags.test-hlint = false;
       "digest".flags.splitbase = true;
       "digest".flags.small_base = true;
@@ -6956,7 +6956,7 @@ hackage:
       "digest".flags.old-locale = true;
       "digest".flags.bytestring-in-base = false;
       "digest".flags.network-uri = true;
-      "yesod-auth-fb".revision = hackage."yesod-auth-fb"."1.6.6".revisions.default;
+      "yesod-auth-fb".revision = (((hackage."yesod-auth-fb")."1.6.6").revisions).default;
       "yesod-auth-fb".flags.test-hlint = false;
       "yesod-auth-fb".flags.splitbase = true;
       "yesod-auth-fb".flags.small_base = true;
@@ -6966,7 +6966,7 @@ hackage:
       "yesod-auth-fb".flags.old-locale = true;
       "yesod-auth-fb".flags.bytestring-in-base = false;
       "yesod-auth-fb".flags.network-uri = true;
-      "MemoTrie".revision = hackage."MemoTrie"."0.6.2".revisions.default;
+      "MemoTrie".revision = (((hackage."MemoTrie")."0.6.2").revisions).default;
       "MemoTrie".flags.test-hlint = false;
       "MemoTrie".flags.splitbase = true;
       "MemoTrie".flags.small_base = true;
@@ -6976,7 +6976,7 @@ hackage:
       "MemoTrie".flags.old-locale = true;
       "MemoTrie".flags.bytestring-in-base = false;
       "MemoTrie".flags.network-uri = true;
-      "BlastHTTP".revision = hackage."BlastHTTP"."1.0.1".revisions.default;
+      "BlastHTTP".revision = (((hackage."BlastHTTP")."1.0.1").revisions).default;
       "BlastHTTP".flags.test-hlint = false;
       "BlastHTTP".flags.splitbase = true;
       "BlastHTTP".flags.small_base = true;
@@ -6986,7 +6986,7 @@ hackage:
       "BlastHTTP".flags.old-locale = true;
       "BlastHTTP".flags.bytestring-in-base = false;
       "BlastHTTP".flags.network-uri = true;
-      "siphash".revision = hackage."siphash"."1.0.3".revisions.default;
+      "siphash".revision = (((hackage."siphash")."1.0.3").revisions).default;
       "siphash".flags.test-hlint = false;
       "siphash".flags.splitbase = true;
       "siphash".flags.small_base = true;
@@ -6996,7 +6996,7 @@ hackage:
       "siphash".flags.old-locale = true;
       "siphash".flags.bytestring-in-base = false;
       "siphash".flags.network-uri = true;
-      "options".revision = hackage."options"."1.2.1".revisions.default;
+      "options".revision = (((hackage."options")."1.2.1").revisions).default;
       "options".flags.test-hlint = false;
       "options".flags.splitbase = true;
       "options".flags.small_base = true;
@@ -7006,7 +7006,7 @@ hackage:
       "options".flags.old-locale = true;
       "options".flags.bytestring-in-base = false;
       "options".flags.network-uri = true;
-      "haskell-packages".revision = hackage."haskell-packages"."0.2.4.4".revisions.default;
+      "haskell-packages".revision = (((hackage."haskell-packages")."0.2.4.4").revisions).default;
       "haskell-packages".flags.test-hlint = false;
       "haskell-packages".flags.splitbase = true;
       "haskell-packages".flags.small_base = true;
@@ -7016,7 +7016,7 @@ hackage:
       "haskell-packages".flags.old-locale = true;
       "haskell-packages".flags.bytestring-in-base = false;
       "haskell-packages".flags.network-uri = true;
-      "colour".revision = hackage."colour"."2.3.3".revisions.default;
+      "colour".revision = (((hackage."colour")."2.3.3").revisions).default;
       "colour".flags.test-hlint = false;
       "colour".flags.splitbase = true;
       "colour".flags.small_base = true;
@@ -7026,7 +7026,7 @@ hackage:
       "colour".flags.old-locale = true;
       "colour".flags.bytestring-in-base = false;
       "colour".flags.network-uri = true;
-      "transformers-base".revision = hackage."transformers-base"."0.4.3".revisions.default;
+      "transformers-base".revision = (((hackage."transformers-base")."0.4.3").revisions).default;
       "transformers-base".flags.test-hlint = false;
       "transformers-base".flags.splitbase = true;
       "transformers-base".flags.small_base = true;
@@ -7036,7 +7036,7 @@ hackage:
       "transformers-base".flags.old-locale = true;
       "transformers-base".flags.bytestring-in-base = false;
       "transformers-base".flags.network-uri = true;
-      "happy".revision = hackage."happy"."1.19.5".revisions.default;
+      "happy".revision = (((hackage."happy")."1.19.5").revisions).default;
       "happy".flags.test-hlint = false;
       "happy".flags.splitbase = true;
       "happy".flags.small_base = true;
@@ -7046,7 +7046,7 @@ hackage:
       "happy".flags.old-locale = true;
       "happy".flags.bytestring-in-base = false;
       "happy".flags.network-uri = true;
-      "file-embed".revision = hackage."file-embed"."0.0.7".revisions.default;
+      "file-embed".revision = (((hackage."file-embed")."0.0.7").revisions).default;
       "file-embed".flags.test-hlint = false;
       "file-embed".flags.splitbase = true;
       "file-embed".flags.small_base = true;
@@ -7056,7 +7056,7 @@ hackage:
       "file-embed".flags.old-locale = true;
       "file-embed".flags.bytestring-in-base = false;
       "file-embed".flags.network-uri = true;
-      "operational".revision = hackage."operational"."0.2.3.2".revisions.default;
+      "operational".revision = (((hackage."operational")."0.2.3.2").revisions).default;
       "operational".flags.test-hlint = false;
       "operational".flags.splitbase = true;
       "operational".flags.small_base = true;
@@ -7066,7 +7066,7 @@ hackage:
       "operational".flags.old-locale = true;
       "operational".flags.bytestring-in-base = false;
       "operational".flags.network-uri = true;
-      "failure".revision = hackage."failure"."0.2.0.3".revisions.default;
+      "failure".revision = (((hackage."failure")."0.2.0.3").revisions).default;
       "failure".flags.test-hlint = false;
       "failure".flags.splitbase = true;
       "failure".flags.small_base = true;
@@ -7076,7 +7076,7 @@ hackage:
       "failure".flags.old-locale = true;
       "failure".flags.bytestring-in-base = false;
       "failure".flags.network-uri = true;
-      "byteable".revision = hackage."byteable"."0.1.1".revisions.default;
+      "byteable".revision = (((hackage."byteable")."0.1.1").revisions).default;
       "byteable".flags.test-hlint = false;
       "byteable".flags.splitbase = true;
       "byteable".flags.small_base = true;
@@ -7086,7 +7086,7 @@ hackage:
       "byteable".flags.old-locale = true;
       "byteable".flags.bytestring-in-base = false;
       "byteable".flags.network-uri = true;
-      "mtlparse".revision = hackage."mtlparse"."0.1.2".revisions.default;
+      "mtlparse".revision = (((hackage."mtlparse")."0.1.2").revisions).default;
       "mtlparse".flags.test-hlint = false;
       "mtlparse".flags.splitbase = true;
       "mtlparse".flags.small_base = true;
@@ -7096,7 +7096,7 @@ hackage:
       "mtlparse".flags.old-locale = true;
       "mtlparse".flags.bytestring-in-base = false;
       "mtlparse".flags.network-uri = true;
-      "placeholders".revision = hackage."placeholders"."0.1".revisions.default;
+      "placeholders".revision = (((hackage."placeholders")."0.1").revisions).default;
       "placeholders".flags.test-hlint = false;
       "placeholders".flags.splitbase = true;
       "placeholders".flags.small_base = true;
@@ -7106,7 +7106,7 @@ hackage:
       "placeholders".flags.old-locale = true;
       "placeholders".flags.bytestring-in-base = false;
       "placeholders".flags.network-uri = true;
-      "url".revision = hackage."url"."2.1.3".revisions.default;
+      "url".revision = (((hackage."url")."2.1.3").revisions).default;
       "url".flags.test-hlint = false;
       "url".flags.splitbase = true;
       "url".flags.small_base = true;
@@ -7116,7 +7116,7 @@ hackage:
       "url".flags.old-locale = true;
       "url".flags.bytestring-in-base = false;
       "url".flags.network-uri = true;
-      "ghc-syb-utils".revision = hackage."ghc-syb-utils"."0.2.2".revisions.default;
+      "ghc-syb-utils".revision = (((hackage."ghc-syb-utils")."0.2.2").revisions).default;
       "ghc-syb-utils".flags.test-hlint = false;
       "ghc-syb-utils".flags.splitbase = true;
       "ghc-syb-utils".flags.small_base = true;
@@ -7126,7 +7126,7 @@ hackage:
       "ghc-syb-utils".flags.old-locale = true;
       "ghc-syb-utils".flags.bytestring-in-base = false;
       "ghc-syb-utils".flags.network-uri = true;
-      "regex-tdfa-rc".revision = hackage."regex-tdfa-rc"."1.1.8.3".revisions.default;
+      "regex-tdfa-rc".revision = (((hackage."regex-tdfa-rc")."1.1.8.3").revisions).default;
       "regex-tdfa-rc".flags.test-hlint = false;
       "regex-tdfa-rc".flags.splitbase = true;
       "regex-tdfa-rc".flags.small_base = true;
@@ -7136,7 +7136,7 @@ hackage:
       "regex-tdfa-rc".flags.old-locale = true;
       "regex-tdfa-rc".flags.bytestring-in-base = false;
       "regex-tdfa-rc".flags.network-uri = true;
-      "hjsmin".revision = hackage."hjsmin"."0.1.4.7".revisions.default;
+      "hjsmin".revision = (((hackage."hjsmin")."0.1.4.7").revisions).default;
       "hjsmin".flags.test-hlint = false;
       "hjsmin".flags.splitbase = true;
       "hjsmin".flags.small_base = true;
@@ -7146,7 +7146,7 @@ hackage:
       "hjsmin".flags.old-locale = true;
       "hjsmin".flags.bytestring-in-base = false;
       "hjsmin".flags.network-uri = true;
-      "alarmclock".revision = hackage."alarmclock"."0.2.0.5".revisions.default;
+      "alarmclock".revision = (((hackage."alarmclock")."0.2.0.5").revisions).default;
       "alarmclock".flags.test-hlint = false;
       "alarmclock".flags.splitbase = true;
       "alarmclock".flags.small_base = true;
@@ -7156,7 +7156,7 @@ hackage:
       "alarmclock".flags.old-locale = true;
       "alarmclock".flags.bytestring-in-base = false;
       "alarmclock".flags.network-uri = true;
-      "wl-pprint-extras".revision = hackage."wl-pprint-extras"."3.5.0.3".revisions.default;
+      "wl-pprint-extras".revision = (((hackage."wl-pprint-extras")."3.5.0.3").revisions).default;
       "wl-pprint-extras".flags.test-hlint = false;
       "wl-pprint-extras".flags.splitbase = true;
       "wl-pprint-extras".flags.small_base = true;
@@ -7166,7 +7166,7 @@ hackage:
       "wl-pprint-extras".flags.old-locale = true;
       "wl-pprint-extras".flags.bytestring-in-base = false;
       "wl-pprint-extras".flags.network-uri = true;
-      "ersatz".revision = hackage."ersatz"."0.2.6.1".revisions.default;
+      "ersatz".revision = (((hackage."ersatz")."0.2.6.1").revisions).default;
       "ersatz".flags.test-hlint = false;
       "ersatz".flags.splitbase = true;
       "ersatz".flags.small_base = true;
@@ -7176,7 +7176,7 @@ hackage:
       "ersatz".flags.old-locale = true;
       "ersatz".flags.bytestring-in-base = false;
       "ersatz".flags.network-uri = true;
-      "language-glsl".revision = hackage."language-glsl"."0.1.1".revisions.default;
+      "language-glsl".revision = (((hackage."language-glsl")."0.1.1").revisions).default;
       "language-glsl".flags.test-hlint = false;
       "language-glsl".flags.splitbase = true;
       "language-glsl".flags.small_base = true;
@@ -7186,7 +7186,7 @@ hackage:
       "language-glsl".flags.old-locale = true;
       "language-glsl".flags.bytestring-in-base = false;
       "language-glsl".flags.network-uri = true;
-      "semigroupoid-extras".revision = hackage."semigroupoid-extras"."4.0".revisions.default;
+      "semigroupoid-extras".revision = (((hackage."semigroupoid-extras")."4.0").revisions).default;
       "semigroupoid-extras".flags.test-hlint = false;
       "semigroupoid-extras".flags.splitbase = true;
       "semigroupoid-extras".flags.small_base = true;
@@ -7196,7 +7196,7 @@ hackage:
       "semigroupoid-extras".flags.old-locale = true;
       "semigroupoid-extras".flags.bytestring-in-base = false;
       "semigroupoid-extras".flags.network-uri = true;
-      "strict".revision = hackage."strict"."0.3.2".revisions.default;
+      "strict".revision = (((hackage."strict")."0.3.2").revisions).default;
       "strict".flags.test-hlint = false;
       "strict".flags.splitbase = true;
       "strict".flags.small_base = true;
@@ -7206,8 +7206,8 @@ hackage:
       "strict".flags.old-locale = true;
       "strict".flags.bytestring-in-base = false;
       "strict".flags.network-uri = true;
-      "hpc".revision = hackage."hpc"."0.6.0.1".revisions.default;
-      "entropy".revision = hackage."entropy"."0.3.4.1".revisions.default;
+      "hpc".revision = (((hackage."hpc")."0.6.0.1").revisions).default;
+      "entropy".revision = (((hackage."entropy")."0.3.4.1").revisions).default;
       "entropy".flags.test-hlint = false;
       "entropy".flags.splitbase = true;
       "entropy".flags.small_base = true;
@@ -7217,7 +7217,7 @@ hackage:
       "entropy".flags.old-locale = true;
       "entropy".flags.bytestring-in-base = false;
       "entropy".flags.network-uri = true;
-      "criterion".revision = hackage."criterion"."1.0.2.0".revisions.default;
+      "criterion".revision = (((hackage."criterion")."1.0.2.0").revisions).default;
       "criterion".flags.test-hlint = false;
       "criterion".flags.splitbase = true;
       "criterion".flags.small_base = true;
@@ -7227,7 +7227,7 @@ hackage:
       "criterion".flags.old-locale = true;
       "criterion".flags.bytestring-in-base = false;
       "criterion".flags.network-uri = true;
-      "monad-par-extras".revision = hackage."monad-par-extras"."0.3.3".revisions.default;
+      "monad-par-extras".revision = (((hackage."monad-par-extras")."0.3.3").revisions).default;
       "monad-par-extras".flags.test-hlint = false;
       "monad-par-extras".flags.splitbase = true;
       "monad-par-extras".flags.small_base = true;
@@ -7237,7 +7237,7 @@ hackage:
       "monad-par-extras".flags.old-locale = true;
       "monad-par-extras".flags.bytestring-in-base = false;
       "monad-par-extras".flags.network-uri = true;
-      "matrix".revision = hackage."matrix"."0.3.4.1".revisions.default;
+      "matrix".revision = (((hackage."matrix")."0.3.4.1").revisions).default;
       "matrix".flags.test-hlint = false;
       "matrix".flags.splitbase = true;
       "matrix".flags.small_base = true;
@@ -7247,8 +7247,8 @@ hackage:
       "matrix".flags.old-locale = true;
       "matrix".flags.bytestring-in-base = false;
       "matrix".flags.network-uri = true;
-      "filepath".revision = hackage."filepath"."1.3.0.2".revisions.default;
-      "yackage".revision = hackage."yackage"."0.7.0.6".revisions.default;
+      "filepath".revision = (((hackage."filepath")."1.3.0.2").revisions).default;
+      "yackage".revision = (((hackage."yackage")."0.7.0.6").revisions).default;
       "yackage".flags.test-hlint = false;
       "yackage".flags.splitbase = true;
       "yackage".flags.small_base = true;
@@ -7258,7 +7258,7 @@ hackage:
       "yackage".flags.old-locale = true;
       "yackage".flags.bytestring-in-base = false;
       "yackage".flags.network-uri = true;
-      "gd".revision = hackage."gd"."3000.7.3".revisions.default;
+      "gd".revision = (((hackage."gd")."3000.7.3").revisions).default;
       "gd".flags.test-hlint = false;
       "gd".flags.splitbase = true;
       "gd".flags.small_base = true;
@@ -7268,7 +7268,7 @@ hackage:
       "gd".flags.old-locale = true;
       "gd".flags.bytestring-in-base = false;
       "gd".flags.network-uri = true;
-      "hxt-pickle-utils".revision = hackage."hxt-pickle-utils"."0.1.0.2".revisions.default;
+      "hxt-pickle-utils".revision = (((hackage."hxt-pickle-utils")."0.1.0.2").revisions).default;
       "hxt-pickle-utils".flags.test-hlint = false;
       "hxt-pickle-utils".flags.splitbase = true;
       "hxt-pickle-utils".flags.small_base = true;
@@ -7278,7 +7278,7 @@ hackage:
       "hxt-pickle-utils".flags.old-locale = true;
       "hxt-pickle-utils".flags.bytestring-in-base = false;
       "hxt-pickle-utils".flags.network-uri = true;
-      "auto-update".revision = hackage."auto-update"."0.1.2.1".revisions.default;
+      "auto-update".revision = (((hackage."auto-update")."0.1.2.1").revisions).default;
       "auto-update".flags.test-hlint = false;
       "auto-update".flags.splitbase = true;
       "auto-update".flags.small_base = true;
@@ -7288,7 +7288,7 @@ hackage:
       "auto-update".flags.old-locale = true;
       "auto-update".flags.bytestring-in-base = false;
       "auto-update".flags.network-uri = true;
-      "Spock-digestive".revision = hackage."Spock-digestive"."0.1.0.0".revisions.default;
+      "Spock-digestive".revision = (((hackage."Spock-digestive")."0.1.0.0").revisions).default;
       "Spock-digestive".flags.test-hlint = false;
       "Spock-digestive".flags.splitbase = true;
       "Spock-digestive".flags.small_base = true;
@@ -7298,7 +7298,7 @@ hackage:
       "Spock-digestive".flags.old-locale = true;
       "Spock-digestive".flags.bytestring-in-base = false;
       "Spock-digestive".flags.network-uri = true;
-      "union-find".revision = hackage."union-find"."0.2".revisions.default;
+      "union-find".revision = (((hackage."union-find")."0.2").revisions).default;
       "union-find".flags.test-hlint = false;
       "union-find".flags.splitbase = true;
       "union-find".flags.small_base = true;
@@ -7308,7 +7308,7 @@ hackage:
       "union-find".flags.old-locale = true;
       "union-find".flags.bytestring-in-base = false;
       "union-find".flags.network-uri = true;
-      "runmemo".revision = hackage."runmemo"."1.0.0.1".revisions.default;
+      "runmemo".revision = (((hackage."runmemo")."1.0.0.1").revisions).default;
       "runmemo".flags.test-hlint = false;
       "runmemo".flags.splitbase = true;
       "runmemo".flags.small_base = true;
@@ -7318,7 +7318,7 @@ hackage:
       "runmemo".flags.old-locale = true;
       "runmemo".flags.bytestring-in-base = false;
       "runmemo".flags.network-uri = true;
-      "resource-pool".revision = hackage."resource-pool"."0.2.3.2".revisions.default;
+      "resource-pool".revision = (((hackage."resource-pool")."0.2.3.2").revisions).default;
       "resource-pool".flags.test-hlint = false;
       "resource-pool".flags.splitbase = true;
       "resource-pool".flags.small_base = true;
@@ -7328,7 +7328,7 @@ hackage:
       "resource-pool".flags.old-locale = true;
       "resource-pool".flags.bytestring-in-base = false;
       "resource-pool".flags.network-uri = true;
-      "asn1-types".revision = hackage."asn1-types"."0.3.0".revisions.default;
+      "asn1-types".revision = (((hackage."asn1-types")."0.3.0").revisions).default;
       "asn1-types".flags.test-hlint = false;
       "asn1-types".flags.splitbase = true;
       "asn1-types".flags.small_base = true;
@@ -7338,7 +7338,7 @@ hackage:
       "asn1-types".flags.old-locale = true;
       "asn1-types".flags.bytestring-in-base = false;
       "asn1-types".flags.network-uri = true;
-      "ixset".revision = hackage."ixset"."1.0.6".revisions.default;
+      "ixset".revision = (((hackage."ixset")."1.0.6").revisions).default;
       "ixset".flags.test-hlint = false;
       "ixset".flags.splitbase = true;
       "ixset".flags.small_base = true;
@@ -7348,7 +7348,7 @@ hackage:
       "ixset".flags.old-locale = true;
       "ixset".flags.bytestring-in-base = false;
       "ixset".flags.network-uri = true;
-      "biopsl".revision = hackage."biopsl"."0.4".revisions.default;
+      "biopsl".revision = (((hackage."biopsl")."0.4").revisions).default;
       "biopsl".flags.test-hlint = false;
       "biopsl".flags.splitbase = true;
       "biopsl".flags.small_base = true;
@@ -7358,7 +7358,7 @@ hackage:
       "biopsl".flags.old-locale = true;
       "biopsl".flags.bytestring-in-base = false;
       "biopsl".flags.network-uri = true;
-      "network-conduit-tls".revision = hackage."network-conduit-tls"."1.1.0.2".revisions.default;
+      "network-conduit-tls".revision = (((hackage."network-conduit-tls")."1.1.0.2").revisions).default;
       "network-conduit-tls".flags.test-hlint = false;
       "network-conduit-tls".flags.splitbase = true;
       "network-conduit-tls".flags.small_base = true;
@@ -7368,7 +7368,7 @@ hackage:
       "network-conduit-tls".flags.old-locale = true;
       "network-conduit-tls".flags.bytestring-in-base = false;
       "network-conduit-tls".flags.network-uri = true;
-      "hint".revision = hackage."hint"."0.4.2.1".revisions.default;
+      "hint".revision = (((hackage."hint")."0.4.2.1").revisions).default;
       "hint".flags.test-hlint = false;
       "hint".flags.splitbase = true;
       "hint".flags.small_base = true;
@@ -7378,7 +7378,7 @@ hackage:
       "hint".flags.old-locale = true;
       "hint".flags.bytestring-in-base = false;
       "hint".flags.network-uri = true;
-      "monad-loops".revision = hackage."monad-loops"."0.4.2.1".revisions.default;
+      "monad-loops".revision = (((hackage."monad-loops")."0.4.2.1").revisions).default;
       "monad-loops".flags.test-hlint = false;
       "monad-loops".flags.splitbase = true;
       "monad-loops".flags.small_base = true;
@@ -7388,7 +7388,7 @@ hackage:
       "monad-loops".flags.old-locale = true;
       "monad-loops".flags.bytestring-in-base = false;
       "monad-loops".flags.network-uri = true;
-      "digestive-functors".revision = hackage."digestive-functors"."0.7.1.3".revisions.default;
+      "digestive-functors".revision = (((hackage."digestive-functors")."0.7.1.3").revisions).default;
       "digestive-functors".flags.test-hlint = false;
       "digestive-functors".flags.splitbase = true;
       "digestive-functors".flags.small_base = true;
@@ -7398,7 +7398,7 @@ hackage:
       "digestive-functors".flags.old-locale = true;
       "digestive-functors".flags.bytestring-in-base = false;
       "digestive-functors".flags.network-uri = true;
-      "kdt".revision = hackage."kdt"."0.2.2".revisions.default;
+      "kdt".revision = (((hackage."kdt")."0.2.2").revisions).default;
       "kdt".flags.test-hlint = false;
       "kdt".flags.splitbase = true;
       "kdt".flags.small_base = true;
@@ -7408,7 +7408,7 @@ hackage:
       "kdt".flags.old-locale = true;
       "kdt".flags.bytestring-in-base = false;
       "kdt".flags.network-uri = true;
-      "wai-eventsource".revision = hackage."wai-eventsource"."3.0.0".revisions.default;
+      "wai-eventsource".revision = (((hackage."wai-eventsource")."3.0.0").revisions).default;
       "wai-eventsource".flags.test-hlint = false;
       "wai-eventsource".flags.splitbase = true;
       "wai-eventsource".flags.small_base = true;
@@ -7418,7 +7418,7 @@ hackage:
       "wai-eventsource".flags.old-locale = true;
       "wai-eventsource".flags.bytestring-in-base = false;
       "wai-eventsource".flags.network-uri = true;
-      "DAV".revision = hackage."DAV"."1.0.3".revisions.default;
+      "DAV".revision = (((hackage."DAV")."1.0.3").revisions).default;
       "DAV".flags.test-hlint = false;
       "DAV".flags.splitbase = true;
       "DAV".flags.small_base = true;
@@ -7428,7 +7428,7 @@ hackage:
       "DAV".flags.old-locale = true;
       "DAV".flags.bytestring-in-base = false;
       "DAV".flags.network-uri = true;
-      "unbounded-delays".revision = hackage."unbounded-delays"."0.1.0.9".revisions.default;
+      "unbounded-delays".revision = (((hackage."unbounded-delays")."0.1.0.9").revisions).default;
       "unbounded-delays".flags.test-hlint = false;
       "unbounded-delays".flags.splitbase = true;
       "unbounded-delays".flags.small_base = true;
@@ -7438,7 +7438,7 @@ hackage:
       "unbounded-delays".flags.old-locale = true;
       "unbounded-delays".flags.bytestring-in-base = false;
       "unbounded-delays".flags.network-uri = true;
-      "test-framework-quickcheck2".revision = hackage."test-framework-quickcheck2"."0.3.0.3".revisions.default;
+      "test-framework-quickcheck2".revision = (((hackage."test-framework-quickcheck2")."0.3.0.3").revisions).default;
       "test-framework-quickcheck2".flags.test-hlint = false;
       "test-framework-quickcheck2".flags.splitbase = true;
       "test-framework-quickcheck2".flags.small_base = true;
@@ -7448,7 +7448,7 @@ hackage:
       "test-framework-quickcheck2".flags.old-locale = true;
       "test-framework-quickcheck2".flags.bytestring-in-base = false;
       "test-framework-quickcheck2".flags.network-uri = true;
-      "phantom-state".revision = hackage."phantom-state"."0.2.0.2".revisions.default;
+      "phantom-state".revision = (((hackage."phantom-state")."0.2.0.2").revisions).default;
       "phantom-state".flags.test-hlint = false;
       "phantom-state".flags.splitbase = true;
       "phantom-state".flags.small_base = true;
@@ -7458,7 +7458,7 @@ hackage:
       "phantom-state".flags.old-locale = true;
       "phantom-state".flags.bytestring-in-base = false;
       "phantom-state".flags.network-uri = true;
-      "hspec-core".revision = hackage."hspec-core"."2.1.2".revisions.default;
+      "hspec-core".revision = (((hackage."hspec-core")."2.1.2").revisions).default;
       "hspec-core".flags.test-hlint = false;
       "hspec-core".flags.splitbase = true;
       "hspec-core".flags.small_base = true;
@@ -7468,7 +7468,7 @@ hackage:
       "hspec-core".flags.old-locale = true;
       "hspec-core".flags.bytestring-in-base = false;
       "hspec-core".flags.network-uri = true;
-      "stringsearch".revision = hackage."stringsearch"."0.3.6.5".revisions.default;
+      "stringsearch".revision = (((hackage."stringsearch")."0.3.6.5").revisions).default;
       "stringsearch".flags.test-hlint = false;
       "stringsearch".flags.splitbase = true;
       "stringsearch".flags.small_base = true;
@@ -7478,7 +7478,7 @@ hackage:
       "stringsearch".flags.old-locale = true;
       "stringsearch".flags.bytestring-in-base = false;
       "stringsearch".flags.network-uri = true;
-      "crypto-cipher-tests".revision = hackage."crypto-cipher-tests"."0.0.11".revisions.default;
+      "crypto-cipher-tests".revision = (((hackage."crypto-cipher-tests")."0.0.11").revisions).default;
       "crypto-cipher-tests".flags.test-hlint = false;
       "crypto-cipher-tests".flags.splitbase = true;
       "crypto-cipher-tests".flags.small_base = true;
@@ -7488,7 +7488,7 @@ hackage:
       "crypto-cipher-tests".flags.old-locale = true;
       "crypto-cipher-tests".flags.bytestring-in-base = false;
       "crypto-cipher-tests".flags.network-uri = true;
-      "unix-compat".revision = hackage."unix-compat"."0.4.1.4".revisions.default;
+      "unix-compat".revision = (((hackage."unix-compat")."0.4.1.4").revisions).default;
       "unix-compat".flags.test-hlint = false;
       "unix-compat".flags.splitbase = true;
       "unix-compat".flags.small_base = true;
@@ -7498,7 +7498,7 @@ hackage:
       "unix-compat".flags.old-locale = true;
       "unix-compat".flags.bytestring-in-base = false;
       "unix-compat".flags.network-uri = true;
-      "rev-state".revision = hackage."rev-state"."0.1".revisions.default;
+      "rev-state".revision = (((hackage."rev-state")."0.1").revisions).default;
       "rev-state".flags.test-hlint = false;
       "rev-state".flags.splitbase = true;
       "rev-state".flags.small_base = true;
@@ -7508,7 +7508,7 @@ hackage:
       "rev-state".flags.old-locale = true;
       "rev-state".flags.bytestring-in-base = false;
       "rev-state".flags.network-uri = true;
-      "nanospec".revision = hackage."nanospec"."0.2.0".revisions.default;
+      "nanospec".revision = (((hackage."nanospec")."0.2.0").revisions).default;
       "nanospec".flags.test-hlint = false;
       "nanospec".flags.splitbase = true;
       "nanospec".flags.small_base = true;
@@ -7518,7 +7518,7 @@ hackage:
       "nanospec".flags.old-locale = true;
       "nanospec".flags.bytestring-in-base = false;
       "nanospec".flags.network-uri = true;
-      "monad-control".revision = hackage."monad-control"."0.3.3.0".revisions.default;
+      "monad-control".revision = (((hackage."monad-control")."0.3.3.0").revisions).default;
       "monad-control".flags.test-hlint = false;
       "monad-control".flags.splitbase = true;
       "monad-control".flags.small_base = true;
@@ -7528,8 +7528,8 @@ hackage:
       "monad-control".flags.old-locale = true;
       "monad-control".flags.bytestring-in-base = false;
       "monad-control".flags.network-uri = true;
-      "process".revision = hackage."process"."1.2.0.0".revisions.default;
-      "tls".revision = hackage."tls"."1.2.13".revisions.default;
+      "process".revision = (((hackage."process")."1.2.0.0").revisions).default;
+      "tls".revision = (((hackage."tls")."1.2.13").revisions).default;
       "tls".flags.test-hlint = false;
       "tls".flags.splitbase = true;
       "tls".flags.small_base = true;
@@ -7539,7 +7539,7 @@ hackage:
       "tls".flags.old-locale = true;
       "tls".flags.bytestring-in-base = false;
       "tls".flags.network-uri = true;
-      "list-t".revision = hackage."list-t"."0.4.2".revisions.default;
+      "list-t".revision = (((hackage."list-t")."0.4.2").revisions).default;
       "list-t".flags.test-hlint = false;
       "list-t".flags.splitbase = true;
       "list-t".flags.small_base = true;
@@ -7550,7 +7550,7 @@ hackage:
       "list-t".flags.bytestring-in-base = false;
       "list-t".flags.network-uri = true;
       "runghc-7.8.4".revision = null;
-      "yesod-gitrepo".revision = hackage."yesod-gitrepo"."0.1.1.0".revisions.default;
+      "yesod-gitrepo".revision = (((hackage."yesod-gitrepo")."0.1.1.0").revisions).default;
       "yesod-gitrepo".flags.test-hlint = false;
       "yesod-gitrepo".flags.splitbase = true;
       "yesod-gitrepo".flags.small_base = true;
@@ -7561,7 +7561,7 @@ hackage:
       "yesod-gitrepo".flags.bytestring-in-base = false;
       "yesod-gitrepo".flags.network-uri = true;
       "ghci-7.8.4".revision = null;
-      "kan-extensions".revision = hackage."kan-extensions"."4.2".revisions.default;
+      "kan-extensions".revision = (((hackage."kan-extensions")."4.2").revisions).default;
       "kan-extensions".flags.test-hlint = false;
       "kan-extensions".flags.splitbase = true;
       "kan-extensions".flags.small_base = true;
@@ -7571,7 +7571,7 @@ hackage:
       "kan-extensions".flags.old-locale = true;
       "kan-extensions".flags.bytestring-in-base = false;
       "kan-extensions".flags.network-uri = true;
-      "fay-base".revision = hackage."fay-base"."0.19.4.2".revisions.default;
+      "fay-base".revision = (((hackage."fay-base")."0.19.4.2").revisions).default;
       "fay-base".flags.test-hlint = false;
       "fay-base".flags.splitbase = true;
       "fay-base".flags.small_base = true;
@@ -7581,7 +7581,7 @@ hackage:
       "fay-base".flags.old-locale = true;
       "fay-base".flags.bytestring-in-base = false;
       "fay-base".flags.network-uri = true;
-      "rainbow-tests".revision = hackage."rainbow-tests"."0.20.0.4".revisions.default;
+      "rainbow-tests".revision = (((hackage."rainbow-tests")."0.20.0.4").revisions).default;
       "rainbow-tests".flags.test-hlint = false;
       "rainbow-tests".flags.splitbase = true;
       "rainbow-tests".flags.small_base = true;
@@ -7591,7 +7591,7 @@ hackage:
       "rainbow-tests".flags.old-locale = true;
       "rainbow-tests".flags.bytestring-in-base = false;
       "rainbow-tests".flags.network-uri = true;
-      "scotty".revision = hackage."scotty"."0.9.0".revisions.default;
+      "scotty".revision = (((hackage."scotty")."0.9.0").revisions).default;
       "scotty".flags.test-hlint = false;
       "scotty".flags.splitbase = true;
       "scotty".flags.small_base = true;
@@ -7601,7 +7601,7 @@ hackage:
       "scotty".flags.old-locale = true;
       "scotty".flags.bytestring-in-base = false;
       "scotty".flags.network-uri = true;
-      "hasql-backend".revision = hackage."hasql-backend"."0.4.0".revisions.default;
+      "hasql-backend".revision = (((hackage."hasql-backend")."0.4.0").revisions).default;
       "hasql-backend".flags.test-hlint = false;
       "hasql-backend".flags.splitbase = true;
       "hasql-backend".flags.small_base = true;
@@ -7611,7 +7611,7 @@ hackage:
       "hasql-backend".flags.old-locale = true;
       "hasql-backend".flags.bytestring-in-base = false;
       "hasql-backend".flags.network-uri = true;
-      "tree-view".revision = hackage."tree-view"."0.4".revisions.default;
+      "tree-view".revision = (((hackage."tree-view")."0.4").revisions).default;
       "tree-view".flags.test-hlint = false;
       "tree-view".flags.splitbase = true;
       "tree-view".flags.small_base = true;
@@ -7621,7 +7621,7 @@ hackage:
       "tree-view".flags.old-locale = true;
       "tree-view".flags.bytestring-in-base = false;
       "tree-view".flags.network-uri = true;
-      "lca".revision = hackage."lca"."0.2.4".revisions.default;
+      "lca".revision = (((hackage."lca")."0.2.4").revisions).default;
       "lca".flags.test-hlint = false;
       "lca".flags.splitbase = true;
       "lca".flags.small_base = true;
@@ -7631,7 +7631,7 @@ hackage:
       "lca".flags.old-locale = true;
       "lca".flags.bytestring-in-base = false;
       "lca".flags.network-uri = true;
-      "distributed-process-async".revision = hackage."distributed-process-async"."0.2.1".revisions.default;
+      "distributed-process-async".revision = (((hackage."distributed-process-async")."0.2.1").revisions).default;
       "distributed-process-async".flags.test-hlint = false;
       "distributed-process-async".flags.splitbase = true;
       "distributed-process-async".flags.small_base = true;
@@ -7641,7 +7641,7 @@ hackage:
       "distributed-process-async".flags.old-locale = true;
       "distributed-process-async".flags.bytestring-in-base = false;
       "distributed-process-async".flags.network-uri = true;
-      "file-location".revision = hackage."file-location"."0.4.5.3".revisions.default;
+      "file-location".revision = (((hackage."file-location")."0.4.5.3").revisions).default;
       "file-location".flags.test-hlint = false;
       "file-location".flags.splitbase = true;
       "file-location".flags.small_base = true;
@@ -7651,7 +7651,7 @@ hackage:
       "file-location".flags.old-locale = true;
       "file-location".flags.bytestring-in-base = false;
       "file-location".flags.network-uri = true;
-      "distributed-static".revision = hackage."distributed-static"."0.3.1.0".revisions.default;
+      "distributed-static".revision = (((hackage."distributed-static")."0.3.1.0").revisions).default;
       "distributed-static".flags.test-hlint = false;
       "distributed-static".flags.splitbase = true;
       "distributed-static".flags.small_base = true;
@@ -7661,7 +7661,7 @@ hackage:
       "distributed-static".flags.old-locale = true;
       "distributed-static".flags.bytestring-in-base = false;
       "distributed-static".flags.network-uri = true;
-      "wai-logger".revision = hackage."wai-logger"."2.2.3".revisions.default;
+      "wai-logger".revision = (((hackage."wai-logger")."2.2.3").revisions).default;
       "wai-logger".flags.test-hlint = false;
       "wai-logger".flags.splitbase = true;
       "wai-logger".flags.small_base = true;
@@ -7671,7 +7671,7 @@ hackage:
       "wai-logger".flags.old-locale = true;
       "wai-logger".flags.bytestring-in-base = false;
       "wai-logger".flags.network-uri = true;
-      "machines".revision = hackage."machines"."0.4.1".revisions.default;
+      "machines".revision = (((hackage."machines")."0.4.1").revisions).default;
       "machines".flags.test-hlint = false;
       "machines".flags.splitbase = true;
       "machines".flags.small_base = true;
@@ -7681,7 +7681,7 @@ hackage:
       "machines".flags.old-locale = true;
       "machines".flags.bytestring-in-base = false;
       "machines".flags.network-uri = true;
-      "th-lift".revision = hackage."th-lift"."0.7".revisions.default;
+      "th-lift".revision = (((hackage."th-lift")."0.7").revisions).default;
       "th-lift".flags.test-hlint = false;
       "th-lift".flags.splitbase = true;
       "th-lift".flags.small_base = true;
@@ -7691,7 +7691,7 @@ hackage:
       "th-lift".flags.old-locale = true;
       "th-lift".flags.bytestring-in-base = false;
       "th-lift".flags.network-uri = true;
-      "multipart".revision = hackage."multipart"."0.1.2".revisions.default;
+      "multipart".revision = (((hackage."multipart")."0.1.2").revisions).default;
       "multipart".flags.test-hlint = false;
       "multipart".flags.splitbase = true;
       "multipart".flags.small_base = true;
@@ -7701,7 +7701,7 @@ hackage:
       "multipart".flags.old-locale = true;
       "multipart".flags.bytestring-in-base = false;
       "multipart".flags.network-uri = true;
-      "numtype".revision = hackage."numtype"."1.1".revisions.default;
+      "numtype".revision = (((hackage."numtype")."1.1").revisions).default;
       "numtype".flags.test-hlint = false;
       "numtype".flags.splitbase = true;
       "numtype".flags.small_base = true;
@@ -7711,7 +7711,7 @@ hackage:
       "numtype".flags.old-locale = true;
       "numtype".flags.bytestring-in-base = false;
       "numtype".flags.network-uri = true;
-      "fay".revision = hackage."fay"."0.21.2.1".revisions.default;
+      "fay".revision = (((hackage."fay")."0.21.2.1").revisions).default;
       "fay".flags.test-hlint = false;
       "fay".flags.splitbase = true;
       "fay".flags.small_base = true;
@@ -7721,7 +7721,7 @@ hackage:
       "fay".flags.old-locale = true;
       "fay".flags.bytestring-in-base = false;
       "fay".flags.network-uri = true;
-      "fay-text".revision = hackage."fay-text"."0.3.2.1".revisions.default;
+      "fay-text".revision = (((hackage."fay-text")."0.3.2.1").revisions).default;
       "fay-text".flags.test-hlint = false;
       "fay-text".flags.splitbase = true;
       "fay-text".flags.small_base = true;
@@ -7731,7 +7731,7 @@ hackage:
       "fay-text".flags.old-locale = true;
       "fay-text".flags.bytestring-in-base = false;
       "fay-text".flags.network-uri = true;
-      "rest-types".revision = hackage."rest-types"."1.11.1.1".revisions.default;
+      "rest-types".revision = (((hackage."rest-types")."1.11.1.1").revisions).default;
       "rest-types".flags.test-hlint = false;
       "rest-types".flags.splitbase = true;
       "rest-types".flags.small_base = true;
@@ -7741,7 +7741,7 @@ hackage:
       "rest-types".flags.old-locale = true;
       "rest-types".flags.bytestring-in-base = false;
       "rest-types".flags.network-uri = true;
-      "cryptocipher".revision = hackage."cryptocipher"."0.6.2".revisions.default;
+      "cryptocipher".revision = (((hackage."cryptocipher")."0.6.2").revisions).default;
       "cryptocipher".flags.test-hlint = false;
       "cryptocipher".flags.splitbase = true;
       "cryptocipher".flags.small_base = true;
@@ -7751,7 +7751,7 @@ hackage:
       "cryptocipher".flags.old-locale = true;
       "cryptocipher".flags.bytestring-in-base = false;
       "cryptocipher".flags.network-uri = true;
-      "tostring".revision = hackage."tostring"."0.2.1".revisions.default;
+      "tostring".revision = (((hackage."tostring")."0.2.1").revisions).default;
       "tostring".flags.test-hlint = false;
       "tostring".flags.splitbase = true;
       "tostring".flags.small_base = true;
@@ -7761,7 +7761,7 @@ hackage:
       "tostring".flags.old-locale = true;
       "tostring".flags.bytestring-in-base = false;
       "tostring".flags.network-uri = true;
-      "fixed".revision = hackage."fixed"."0.2.1".revisions.default;
+      "fixed".revision = (((hackage."fixed")."0.2.1").revisions).default;
       "fixed".flags.test-hlint = false;
       "fixed".flags.splitbase = true;
       "fixed".flags.small_base = true;
@@ -7771,7 +7771,7 @@ hackage:
       "fixed".flags.old-locale = true;
       "fixed".flags.bytestring-in-base = false;
       "fixed".flags.network-uri = true;
-      "groundhog-postgresql".revision = hackage."groundhog-postgresql"."0.7.0.1".revisions.default;
+      "groundhog-postgresql".revision = (((hackage."groundhog-postgresql")."0.7.0.1").revisions).default;
       "groundhog-postgresql".flags.test-hlint = false;
       "groundhog-postgresql".flags.splitbase = true;
       "groundhog-postgresql".flags.small_base = true;
@@ -7781,7 +7781,7 @@ hackage:
       "groundhog-postgresql".flags.old-locale = true;
       "groundhog-postgresql".flags.bytestring-in-base = false;
       "groundhog-postgresql".flags.network-uri = true;
-      "resourcet".revision = hackage."resourcet"."1.1.3.3".revisions.default;
+      "resourcet".revision = (((hackage."resourcet")."1.1.3.3").revisions).default;
       "resourcet".flags.test-hlint = false;
       "resourcet".flags.splitbase = true;
       "resourcet".flags.small_base = true;
@@ -7791,7 +7791,7 @@ hackage:
       "resourcet".flags.old-locale = true;
       "resourcet".flags.bytestring-in-base = false;
       "resourcet".flags.network-uri = true;
-      "cpu".revision = hackage."cpu"."0.1.2".revisions.default;
+      "cpu".revision = (((hackage."cpu")."0.1.2").revisions).default;
       "cpu".flags.test-hlint = false;
       "cpu".flags.splitbase = true;
       "cpu".flags.small_base = true;
@@ -7801,7 +7801,7 @@ hackage:
       "cpu".flags.old-locale = true;
       "cpu".flags.bytestring-in-base = false;
       "cpu".flags.network-uri = true;
-      "diagrams".revision = hackage."diagrams"."1.2".revisions.default;
+      "diagrams".revision = (((hackage."diagrams")."1.2").revisions).default;
       "diagrams".flags.test-hlint = false;
       "diagrams".flags.splitbase = true;
       "diagrams".flags.small_base = true;
@@ -7811,7 +7811,7 @@ hackage:
       "diagrams".flags.old-locale = true;
       "diagrams".flags.bytestring-in-base = false;
       "diagrams".flags.network-uri = true;
-      "Rasterific".revision = hackage."Rasterific"."0.4.1".revisions.default;
+      "Rasterific".revision = (((hackage."Rasterific")."0.4.1").revisions).default;
       "Rasterific".flags.test-hlint = false;
       "Rasterific".flags.splitbase = true;
       "Rasterific".flags.small_base = true;
@@ -7821,7 +7821,7 @@ hackage:
       "Rasterific".flags.old-locale = true;
       "Rasterific".flags.bytestring-in-base = false;
       "Rasterific".flags.network-uri = true;
-      "fsnotify".revision = hackage."fsnotify"."0.1.0.3".revisions.default;
+      "fsnotify".revision = (((hackage."fsnotify")."0.1.0.3").revisions).default;
       "fsnotify".flags.test-hlint = false;
       "fsnotify".flags.splitbase = true;
       "fsnotify".flags.small_base = true;
@@ -7831,7 +7831,7 @@ hackage:
       "fsnotify".flags.old-locale = true;
       "fsnotify".flags.bytestring-in-base = false;
       "fsnotify".flags.network-uri = true;
-      "webdriver".revision = hackage."webdriver"."0.6.0.4".revisions.default;
+      "webdriver".revision = (((hackage."webdriver")."0.6.0.4").revisions).default;
       "webdriver".flags.test-hlint = false;
       "webdriver".flags.splitbase = true;
       "webdriver".flags.small_base = true;
@@ -7841,7 +7841,7 @@ hackage:
       "webdriver".flags.old-locale = true;
       "webdriver".flags.bytestring-in-base = false;
       "webdriver".flags.network-uri = true;
-      "messagepack-rpc".revision = hackage."messagepack-rpc"."0.1.0.3".revisions.default;
+      "messagepack-rpc".revision = (((hackage."messagepack-rpc")."0.1.0.3").revisions).default;
       "messagepack-rpc".flags.test-hlint = false;
       "messagepack-rpc".flags.splitbase = true;
       "messagepack-rpc".flags.small_base = true;
@@ -7851,8 +7851,8 @@ hackage:
       "messagepack-rpc".flags.old-locale = true;
       "messagepack-rpc".flags.bytestring-in-base = false;
       "messagepack-rpc".flags.network-uri = true;
-      "pretty".revision = hackage."pretty"."1.1.1.1".revisions.default;
-      "hmatrix-gsl".revision = hackage."hmatrix-gsl"."0.16.0.2".revisions.default;
+      "pretty".revision = (((hackage."pretty")."1.1.1.1").revisions).default;
+      "hmatrix-gsl".revision = (((hackage."hmatrix-gsl")."0.16.0.2").revisions).default;
       "hmatrix-gsl".flags.test-hlint = false;
       "hmatrix-gsl".flags.splitbase = true;
       "hmatrix-gsl".flags.small_base = true;
@@ -7862,7 +7862,7 @@ hackage:
       "hmatrix-gsl".flags.old-locale = true;
       "hmatrix-gsl".flags.bytestring-in-base = false;
       "hmatrix-gsl".flags.network-uri = true;
-      "hxt-unicode".revision = hackage."hxt-unicode"."9.0.2.2".revisions.default;
+      "hxt-unicode".revision = (((hackage."hxt-unicode")."9.0.2.2").revisions).default;
       "hxt-unicode".flags.test-hlint = false;
       "hxt-unicode".flags.splitbase = true;
       "hxt-unicode".flags.small_base = true;
@@ -7872,7 +7872,7 @@ hackage:
       "hxt-unicode".flags.old-locale = true;
       "hxt-unicode".flags.bytestring-in-base = false;
       "hxt-unicode".flags.network-uri = true;
-      "rest-core".revision = hackage."rest-core"."0.33.1.2".revisions.default;
+      "rest-core".revision = (((hackage."rest-core")."0.33.1.2").revisions).default;
       "rest-core".flags.test-hlint = false;
       "rest-core".flags.splitbase = true;
       "rest-core".flags.small_base = true;
@@ -7882,7 +7882,7 @@ hackage:
       "rest-core".flags.old-locale = true;
       "rest-core".flags.bytestring-in-base = false;
       "rest-core".flags.network-uri = true;
-      "circle-packing".revision = hackage."circle-packing"."0.1.0.4".revisions.default;
+      "circle-packing".revision = (((hackage."circle-packing")."0.1.0.4").revisions).default;
       "circle-packing".flags.test-hlint = false;
       "circle-packing".flags.splitbase = true;
       "circle-packing".flags.small_base = true;
@@ -7892,7 +7892,7 @@ hackage:
       "circle-packing".flags.old-locale = true;
       "circle-packing".flags.bytestring-in-base = false;
       "circle-packing".flags.network-uri = true;
-      "Glob".revision = hackage."Glob"."0.7.5".revisions.default;
+      "Glob".revision = (((hackage."Glob")."0.7.5").revisions).default;
       "Glob".flags.test-hlint = false;
       "Glob".flags.splitbase = true;
       "Glob".flags.small_base = true;
@@ -7902,7 +7902,7 @@ hackage:
       "Glob".flags.old-locale = true;
       "Glob".flags.bytestring-in-base = false;
       "Glob".flags.network-uri = true;
-      "aeson".revision = hackage."aeson"."0.8.0.2".revisions.default;
+      "aeson".revision = (((hackage."aeson")."0.8.0.2").revisions).default;
       "aeson".flags.test-hlint = false;
       "aeson".flags.splitbase = true;
       "aeson".flags.small_base = true;
@@ -7912,7 +7912,7 @@ hackage:
       "aeson".flags.old-locale = true;
       "aeson".flags.bytestring-in-base = false;
       "aeson".flags.network-uri = true;
-      "abstract-par".revision = hackage."abstract-par"."0.3.3".revisions.default;
+      "abstract-par".revision = (((hackage."abstract-par")."0.3.3").revisions).default;
       "abstract-par".flags.test-hlint = false;
       "abstract-par".flags.splitbase = true;
       "abstract-par".flags.small_base = true;
@@ -7922,7 +7922,7 @@ hackage:
       "abstract-par".flags.old-locale = true;
       "abstract-par".flags.bytestring-in-base = false;
       "abstract-par".flags.network-uri = true;
-      "stateref".revision = hackage."stateref"."0.3".revisions.default;
+      "stateref".revision = (((hackage."stateref")."0.3").revisions).default;
       "stateref".flags.test-hlint = false;
       "stateref".flags.splitbase = true;
       "stateref".flags.small_base = true;
@@ -7932,7 +7932,7 @@ hackage:
       "stateref".flags.old-locale = true;
       "stateref".flags.bytestring-in-base = false;
       "stateref".flags.network-uri = true;
-      "wai-app-static".revision = hackage."wai-app-static"."3.0.0.5".revisions.default;
+      "wai-app-static".revision = (((hackage."wai-app-static")."3.0.0.5").revisions).default;
       "wai-app-static".flags.test-hlint = false;
       "wai-app-static".flags.splitbase = true;
       "wai-app-static".flags.small_base = true;
@@ -7942,7 +7942,7 @@ hackage:
       "wai-app-static".flags.old-locale = true;
       "wai-app-static".flags.bytestring-in-base = false;
       "wai-app-static".flags.network-uri = true;
-      "persistent-sqlite".revision = hackage."persistent-sqlite"."2.1.1.2".revisions.default;
+      "persistent-sqlite".revision = (((hackage."persistent-sqlite")."2.1.1.2").revisions).default;
       "persistent-sqlite".flags.test-hlint = false;
       "persistent-sqlite".flags.splitbase = true;
       "persistent-sqlite".flags.systemlib = true;
@@ -7953,7 +7953,7 @@ hackage:
       "persistent-sqlite".flags.old-locale = true;
       "persistent-sqlite".flags.bytestring-in-base = false;
       "persistent-sqlite".flags.network-uri = true;
-      "http-types".revision = hackage."http-types"."0.8.5".revisions.default;
+      "http-types".revision = (((hackage."http-types")."0.8.5").revisions).default;
       "http-types".flags.test-hlint = false;
       "http-types".flags.splitbase = true;
       "http-types".flags.small_base = true;
@@ -7963,7 +7963,7 @@ hackage:
       "http-types".flags.old-locale = true;
       "http-types".flags.bytestring-in-base = false;
       "http-types".flags.network-uri = true;
-      "repa".revision = hackage."repa"."3.3.1.2".revisions.default;
+      "repa".revision = (((hackage."repa")."3.3.1.2").revisions).default;
       "repa".flags.test-hlint = false;
       "repa".flags.splitbase = true;
       "repa".flags.small_base = true;
@@ -7973,7 +7973,7 @@ hackage:
       "repa".flags.old-locale = true;
       "repa".flags.bytestring-in-base = false;
       "repa".flags.network-uri = true;
-      "broadcast-chan".revision = hackage."broadcast-chan"."0.1.0".revisions.default;
+      "broadcast-chan".revision = (((hackage."broadcast-chan")."0.1.0").revisions).default;
       "broadcast-chan".flags.test-hlint = false;
       "broadcast-chan".flags.splitbase = true;
       "broadcast-chan".flags.small_base = true;
@@ -7983,7 +7983,7 @@ hackage:
       "broadcast-chan".flags.old-locale = true;
       "broadcast-chan".flags.bytestring-in-base = false;
       "broadcast-chan".flags.network-uri = true;
-      "rfc5051".revision = hackage."rfc5051"."0.1.0.3".revisions.default;
+      "rfc5051".revision = (((hackage."rfc5051")."0.1.0.3").revisions).default;
       "rfc5051".flags.test-hlint = false;
       "rfc5051".flags.splitbase = true;
       "rfc5051".flags.small_base = true;
@@ -7993,7 +7993,7 @@ hackage:
       "rfc5051".flags.old-locale = true;
       "rfc5051".flags.bytestring-in-base = false;
       "rfc5051".flags.network-uri = true;
-      "pqueue".revision = hackage."pqueue"."1.2.1".revisions.default;
+      "pqueue".revision = (((hackage."pqueue")."1.2.1").revisions).default;
       "pqueue".flags.test-hlint = false;
       "pqueue".flags.splitbase = true;
       "pqueue".flags.small_base = true;
@@ -8003,7 +8003,7 @@ hackage:
       "pqueue".flags.old-locale = true;
       "pqueue".flags.bytestring-in-base = false;
       "pqueue".flags.network-uri = true;
-      "pure-io".revision = hackage."pure-io"."0.2.1".revisions.default;
+      "pure-io".revision = (((hackage."pure-io")."0.2.1").revisions).default;
       "pure-io".flags.test-hlint = false;
       "pure-io".flags.splitbase = true;
       "pure-io".flags.small_base = true;
@@ -8013,7 +8013,7 @@ hackage:
       "pure-io".flags.old-locale = true;
       "pure-io".flags.bytestring-in-base = false;
       "pure-io".flags.network-uri = true;
-      "imagesize-conduit".revision = hackage."imagesize-conduit"."1.0.0.4".revisions.default;
+      "imagesize-conduit".revision = (((hackage."imagesize-conduit")."1.0.0.4").revisions).default;
       "imagesize-conduit".flags.test-hlint = false;
       "imagesize-conduit".flags.splitbase = true;
       "imagesize-conduit".flags.small_base = true;
@@ -8023,7 +8023,7 @@ hackage:
       "imagesize-conduit".flags.old-locale = true;
       "imagesize-conduit".flags.bytestring-in-base = false;
       "imagesize-conduit".flags.network-uri = true;
-      "bytestring-show".revision = hackage."bytestring-show"."0.3.5.6".revisions.default;
+      "bytestring-show".revision = (((hackage."bytestring-show")."0.3.5.6").revisions).default;
       "bytestring-show".flags.test-hlint = false;
       "bytestring-show".flags.splitbase = true;
       "bytestring-show".flags.small_base = true;
@@ -8033,8 +8033,8 @@ hackage:
       "bytestring-show".flags.old-locale = true;
       "bytestring-show".flags.bytestring-in-base = false;
       "bytestring-show".flags.network-uri = true;
-      "bin-package-db".revision = hackage."bin-package-db"."0.0.0.0".revisions.default;
-      "kure".revision = hackage."kure"."2.16.4".revisions.default;
+      "bin-package-db".revision = (((hackage."bin-package-db")."0.0.0.0").revisions).default;
+      "kure".revision = (((hackage."kure")."2.16.4").revisions).default;
       "kure".flags.test-hlint = false;
       "kure".flags.splitbase = true;
       "kure".flags.small_base = true;
@@ -8044,7 +8044,7 @@ hackage:
       "kure".flags.old-locale = true;
       "kure".flags.bytestring-in-base = false;
       "kure".flags.network-uri = true;
-      "diagrams-svg".revision = hackage."diagrams-svg"."1.1.0.3".revisions.default;
+      "diagrams-svg".revision = (((hackage."diagrams-svg")."1.1.0.3").revisions).default;
       "diagrams-svg".flags.test-hlint = false;
       "diagrams-svg".flags.splitbase = true;
       "diagrams-svg".flags.small_base = true;
@@ -8054,7 +8054,7 @@ hackage:
       "diagrams-svg".flags.old-locale = true;
       "diagrams-svg".flags.bytestring-in-base = false;
       "diagrams-svg".flags.network-uri = true;
-      "distributed-process-client-server".revision = hackage."distributed-process-client-server"."0.1.2".revisions.default;
+      "distributed-process-client-server".revision = (((hackage."distributed-process-client-server")."0.1.2").revisions).default;
       "distributed-process-client-server".flags.test-hlint = false;
       "distributed-process-client-server".flags.splitbase = true;
       "distributed-process-client-server".flags.small_base = true;
@@ -8064,7 +8064,7 @@ hackage:
       "distributed-process-client-server".flags.old-locale = true;
       "distributed-process-client-server".flags.bytestring-in-base = false;
       "distributed-process-client-server".flags.network-uri = true;
-      "blastxml".revision = hackage."blastxml"."0.3.2".revisions.default;
+      "blastxml".revision = (((hackage."blastxml")."0.3.2").revisions).default;
       "blastxml".flags.test-hlint = false;
       "blastxml".flags.splitbase = true;
       "blastxml".flags.small_base = true;
@@ -8074,7 +8074,7 @@ hackage:
       "blastxml".flags.old-locale = true;
       "blastxml".flags.bytestring-in-base = false;
       "blastxml".flags.network-uri = true;
-      "compdata".revision = hackage."compdata"."0.9".revisions.default;
+      "compdata".revision = (((hackage."compdata")."0.9").revisions).default;
       "compdata".flags.test-hlint = false;
       "compdata".flags.splitbase = true;
       "compdata".flags.small_base = true;
@@ -8084,7 +8084,7 @@ hackage:
       "compdata".flags.old-locale = true;
       "compdata".flags.bytestring-in-base = false;
       "compdata".flags.network-uri = true;
-      "log-domain".revision = hackage."log-domain"."0.9.3".revisions.default;
+      "log-domain".revision = (((hackage."log-domain")."0.9.3").revisions).default;
       "log-domain".flags.test-hlint = false;
       "log-domain".flags.splitbase = true;
       "log-domain".flags.small_base = true;
@@ -8094,7 +8094,7 @@ hackage:
       "log-domain".flags.old-locale = true;
       "log-domain".flags.bytestring-in-base = false;
       "log-domain".flags.network-uri = true;
-      "random-shuffle".revision = hackage."random-shuffle"."0.0.4".revisions.default;
+      "random-shuffle".revision = (((hackage."random-shuffle")."0.0.4").revisions).default;
       "random-shuffle".flags.test-hlint = false;
       "random-shuffle".flags.splitbase = true;
       "random-shuffle".flags.small_base = true;
@@ -8104,7 +8104,7 @@ hackage:
       "random-shuffle".flags.old-locale = true;
       "random-shuffle".flags.bytestring-in-base = false;
       "random-shuffle".flags.network-uri = true;
-      "pandoc-types".revision = hackage."pandoc-types"."1.12.4.1".revisions.default;
+      "pandoc-types".revision = (((hackage."pandoc-types")."1.12.4.1").revisions).default;
       "pandoc-types".flags.test-hlint = false;
       "pandoc-types".flags.splitbase = true;
       "pandoc-types".flags.small_base = true;
@@ -8114,7 +8114,7 @@ hackage:
       "pandoc-types".flags.old-locale = true;
       "pandoc-types".flags.bytestring-in-base = false;
       "pandoc-types".flags.network-uri = true;
-      "repa-devil".revision = hackage."repa-devil"."0.3.2.2".revisions.default;
+      "repa-devil".revision = (((hackage."repa-devil")."0.3.2.2").revisions).default;
       "repa-devil".flags.test-hlint = false;
       "repa-devil".flags.splitbase = true;
       "repa-devil".flags.small_base = true;
@@ -8124,7 +8124,7 @@ hackage:
       "repa-devil".flags.old-locale = true;
       "repa-devil".flags.bytestring-in-base = false;
       "repa-devil".flags.network-uri = true;
-      "data-default-instances-base".revision = hackage."data-default-instances-base"."0.0.1".revisions.default;
+      "data-default-instances-base".revision = (((hackage."data-default-instances-base")."0.0.1").revisions).default;
       "data-default-instances-base".flags.test-hlint = false;
       "data-default-instances-base".flags.splitbase = true;
       "data-default-instances-base".flags.small_base = true;
@@ -8134,7 +8134,7 @@ hackage:
       "data-default-instances-base".flags.old-locale = true;
       "data-default-instances-base".flags.bytestring-in-base = false;
       "data-default-instances-base".flags.network-uri = true;
-      "smallcheck".revision = hackage."smallcheck"."1.1.1".revisions.default;
+      "smallcheck".revision = (((hackage."smallcheck")."1.1.1").revisions).default;
       "smallcheck".flags.test-hlint = false;
       "smallcheck".flags.splitbase = true;
       "smallcheck".flags.small_base = true;
@@ -8144,7 +8144,7 @@ hackage:
       "smallcheck".flags.old-locale = true;
       "smallcheck".flags.bytestring-in-base = false;
       "smallcheck".flags.network-uri = true;
-      "http-date".revision = hackage."http-date"."0.0.4".revisions.default;
+      "http-date".revision = (((hackage."http-date")."0.0.4").revisions).default;
       "http-date".flags.test-hlint = false;
       "http-date".flags.splitbase = true;
       "http-date".flags.small_base = true;
@@ -8154,7 +8154,7 @@ hackage:
       "http-date".flags.old-locale = true;
       "http-date".flags.bytestring-in-base = false;
       "http-date".flags.network-uri = true;
-      "speculation".revision = hackage."speculation"."1.5.0.1".revisions.default;
+      "speculation".revision = (((hackage."speculation")."1.5.0.1").revisions).default;
       "speculation".flags.test-hlint = false;
       "speculation".flags.splitbase = true;
       "speculation".flags.small_base = true;
@@ -8164,7 +8164,7 @@ hackage:
       "speculation".flags.old-locale = true;
       "speculation".flags.bytestring-in-base = false;
       "speculation".flags.network-uri = true;
-      "fast-logger".revision = hackage."fast-logger"."2.2.3".revisions.default;
+      "fast-logger".revision = (((hackage."fast-logger")."2.2.3").revisions).default;
       "fast-logger".flags.test-hlint = false;
       "fast-logger".flags.splitbase = true;
       "fast-logger".flags.small_base = true;
@@ -8174,7 +8174,7 @@ hackage:
       "fast-logger".flags.old-locale = true;
       "fast-logger".flags.bytestring-in-base = false;
       "fast-logger".flags.network-uri = true;
-      "elm-core-sources".revision = hackage."elm-core-sources"."1.0.0".revisions.default;
+      "elm-core-sources".revision = (((hackage."elm-core-sources")."1.0.0").revisions).default;
       "elm-core-sources".flags.test-hlint = false;
       "elm-core-sources".flags.splitbase = true;
       "elm-core-sources".flags.small_base = true;
@@ -8184,7 +8184,7 @@ hackage:
       "elm-core-sources".flags.old-locale = true;
       "elm-core-sources".flags.bytestring-in-base = false;
       "elm-core-sources".flags.network-uri = true;
-      "hxt-http".revision = hackage."hxt-http"."9.1.5".revisions.default;
+      "hxt-http".revision = (((hackage."hxt-http")."9.1.5").revisions).default;
       "hxt-http".flags.test-hlint = false;
       "hxt-http".flags.splitbase = true;
       "hxt-http".flags.small_base = true;
@@ -8194,7 +8194,7 @@ hackage:
       "hxt-http".flags.old-locale = true;
       "hxt-http".flags.bytestring-in-base = false;
       "hxt-http".flags.network-uri = true;
-      "stm-conduit".revision = hackage."stm-conduit"."2.5.3".revisions.default;
+      "stm-conduit".revision = (((hackage."stm-conduit")."2.5.3").revisions).default;
       "stm-conduit".flags.test-hlint = false;
       "stm-conduit".flags.splitbase = true;
       "stm-conduit".flags.small_base = true;
@@ -8204,8 +8204,8 @@ hackage:
       "stm-conduit".flags.old-locale = true;
       "stm-conduit".flags.bytestring-in-base = false;
       "stm-conduit".flags.network-uri = true;
-      "array".revision = hackage."array"."0.5.0.0".revisions.default;
-      "distributed-process-extras".revision = hackage."distributed-process-extras"."0.2.0".revisions.default;
+      "array".revision = (((hackage."array")."0.5.0.0").revisions).default;
+      "distributed-process-extras".revision = (((hackage."distributed-process-extras")."0.2.0").revisions).default;
       "distributed-process-extras".flags.test-hlint = false;
       "distributed-process-extras".flags.splitbase = true;
       "distributed-process-extras".flags.small_base = true;
@@ -8215,7 +8215,7 @@ hackage:
       "distributed-process-extras".flags.old-locale = true;
       "distributed-process-extras".flags.bytestring-in-base = false;
       "distributed-process-extras".flags.network-uri = true;
-      "loch-th".revision = hackage."loch-th"."0.2.1".revisions.default;
+      "loch-th".revision = (((hackage."loch-th")."0.2.1").revisions).default;
       "loch-th".flags.test-hlint = false;
       "loch-th".flags.splitbase = true;
       "loch-th".flags.small_base = true;
@@ -8225,7 +8225,7 @@ hackage:
       "loch-th".flags.old-locale = true;
       "loch-th".flags.bytestring-in-base = false;
       "loch-th".flags.network-uri = true;
-      "xml".revision = hackage."xml"."1.3.13".revisions.default;
+      "xml".revision = (((hackage."xml")."1.3.13").revisions).default;
       "xml".flags.test-hlint = false;
       "xml".flags.splitbase = true;
       "xml".flags.small_base = true;
@@ -8235,7 +8235,7 @@ hackage:
       "xml".flags.old-locale = true;
       "xml".flags.bytestring-in-base = false;
       "xml".flags.network-uri = true;
-      "fixed-list".revision = hackage."fixed-list"."0.1.5".revisions.default;
+      "fixed-list".revision = (((hackage."fixed-list")."0.1.5").revisions).default;
       "fixed-list".flags.test-hlint = false;
       "fixed-list".flags.splitbase = true;
       "fixed-list".flags.small_base = true;
@@ -8245,7 +8245,7 @@ hackage:
       "fixed-list".flags.old-locale = true;
       "fixed-list".flags.bytestring-in-base = false;
       "fixed-list".flags.network-uri = true;
-      "quickcheck-unicode".revision = hackage."quickcheck-unicode"."1.0.0.0".revisions.default;
+      "quickcheck-unicode".revision = (((hackage."quickcheck-unicode")."1.0.0.0").revisions).default;
       "quickcheck-unicode".flags.test-hlint = false;
       "quickcheck-unicode".flags.splitbase = true;
       "quickcheck-unicode".flags.small_base = true;
@@ -8255,7 +8255,7 @@ hackage:
       "quickcheck-unicode".flags.old-locale = true;
       "quickcheck-unicode".flags.bytestring-in-base = false;
       "quickcheck-unicode".flags.network-uri = true;
-      "path-pieces".revision = hackage."path-pieces"."0.1.5".revisions.default;
+      "path-pieces".revision = (((hackage."path-pieces")."0.1.5").revisions).default;
       "path-pieces".flags.test-hlint = false;
       "path-pieces".flags.splitbase = true;
       "path-pieces".flags.small_base = true;
@@ -8265,7 +8265,7 @@ hackage:
       "path-pieces".flags.old-locale = true;
       "path-pieces".flags.bytestring-in-base = false;
       "path-pieces".flags.network-uri = true;
-      "patience".revision = hackage."patience"."0.1.1".revisions.default;
+      "patience".revision = (((hackage."patience")."0.1.1").revisions).default;
       "patience".flags.test-hlint = false;
       "patience".flags.splitbase = true;
       "patience".flags.small_base = true;
@@ -8275,7 +8275,7 @@ hackage:
       "patience".flags.old-locale = true;
       "patience".flags.bytestring-in-base = false;
       "patience".flags.network-uri = true;
-      "conduit-extra".revision = hackage."conduit-extra"."1.1.6.2".revisions.default;
+      "conduit-extra".revision = (((hackage."conduit-extra")."1.1.6.2").revisions).default;
       "conduit-extra".flags.test-hlint = false;
       "conduit-extra".flags.splitbase = true;
       "conduit-extra".flags.small_base = true;
@@ -8285,7 +8285,7 @@ hackage:
       "conduit-extra".flags.old-locale = true;
       "conduit-extra".flags.bytestring-in-base = false;
       "conduit-extra".flags.network-uri = true;
-      "erf".revision = hackage."erf"."2.0.0.0".revisions.default;
+      "erf".revision = (((hackage."erf")."2.0.0.0").revisions).default;
       "erf".flags.test-hlint = false;
       "erf".flags.splitbase = true;
       "erf".flags.small_base = true;
@@ -8295,7 +8295,7 @@ hackage:
       "erf".flags.old-locale = true;
       "erf".flags.bytestring-in-base = false;
       "erf".flags.network-uri = true;
-      "hasql-postgres".revision = hackage."hasql-postgres"."0.10.1".revisions.default;
+      "hasql-postgres".revision = (((hackage."hasql-postgres")."0.10.1").revisions).default;
       "hasql-postgres".flags.test-hlint = false;
       "hasql-postgres".flags.splitbase = true;
       "hasql-postgres".flags.small_base = true;
@@ -8305,7 +8305,7 @@ hackage:
       "hasql-postgres".flags.old-locale = true;
       "hasql-postgres".flags.bytestring-in-base = false;
       "hasql-postgres".flags.network-uri = true;
-      "arbtt".revision = hackage."arbtt"."0.8.1.4".revisions.default;
+      "arbtt".revision = (((hackage."arbtt")."0.8.1.4").revisions).default;
       "arbtt".flags.test-hlint = false;
       "arbtt".flags.splitbase = true;
       "arbtt".flags.small_base = true;
@@ -8315,7 +8315,7 @@ hackage:
       "arbtt".flags.old-locale = true;
       "arbtt".flags.bytestring-in-base = false;
       "arbtt".flags.network-uri = true;
-      "code-builder".revision = hackage."code-builder"."0.1.3".revisions.default;
+      "code-builder".revision = (((hackage."code-builder")."0.1.3").revisions).default;
       "code-builder".flags.test-hlint = false;
       "code-builder".flags.splitbase = true;
       "code-builder".flags.small_base = true;
@@ -8325,7 +8325,7 @@ hackage:
       "code-builder".flags.old-locale = true;
       "code-builder".flags.bytestring-in-base = false;
       "code-builder".flags.network-uri = true;
-      "attoparsec-enumerator".revision = hackage."attoparsec-enumerator"."0.3.3".revisions.default;
+      "attoparsec-enumerator".revision = (((hackage."attoparsec-enumerator")."0.3.3").revisions).default;
       "attoparsec-enumerator".flags.test-hlint = false;
       "attoparsec-enumerator".flags.splitbase = true;
       "attoparsec-enumerator".flags.small_base = true;
@@ -8335,7 +8335,7 @@ hackage:
       "attoparsec-enumerator".flags.old-locale = true;
       "attoparsec-enumerator".flags.bytestring-in-base = false;
       "attoparsec-enumerator".flags.network-uri = true;
-      "mmap".revision = hackage."mmap"."0.5.9".revisions.default;
+      "mmap".revision = (((hackage."mmap")."0.5.9").revisions).default;
       "mmap".flags.test-hlint = false;
       "mmap".flags.splitbase = true;
       "mmap".flags.small_base = true;
@@ -8345,7 +8345,7 @@ hackage:
       "mmap".flags.old-locale = true;
       "mmap".flags.bytestring-in-base = false;
       "mmap".flags.network-uri = true;
-      "simple-sendfile".revision = hackage."simple-sendfile"."0.2.18".revisions.default;
+      "simple-sendfile".revision = (((hackage."simple-sendfile")."0.2.18").revisions).default;
       "simple-sendfile".flags.test-hlint = false;
       "simple-sendfile".flags.splitbase = true;
       "simple-sendfile".flags.small_base = true;
@@ -8355,7 +8355,7 @@ hackage:
       "simple-sendfile".flags.old-locale = true;
       "simple-sendfile".flags.bytestring-in-base = false;
       "simple-sendfile".flags.network-uri = true;
-      "hastache".revision = hackage."hastache"."0.6.1".revisions.default;
+      "hastache".revision = (((hackage."hastache")."0.6.1").revisions).default;
       "hastache".flags.test-hlint = false;
       "hastache".flags.splitbase = true;
       "hastache".flags.small_base = true;
@@ -8365,8 +8365,8 @@ hackage:
       "hastache".flags.old-locale = true;
       "hastache".flags.bytestring-in-base = false;
       "hastache".flags.network-uri = true;
-      "integer-gmp".revision = hackage."integer-gmp"."0.5.1.0".revisions.default;
-      "tardis".revision = hackage."tardis"."0.3.0.0".revisions.default;
+      "integer-gmp".revision = (((hackage."integer-gmp")."0.5.1.0").revisions).default;
+      "tardis".revision = (((hackage."tardis")."0.3.0.0").revisions).default;
       "tardis".flags.test-hlint = false;
       "tardis".flags.splitbase = true;
       "tardis".flags.small_base = true;
@@ -8376,7 +8376,7 @@ hackage:
       "tardis".flags.old-locale = true;
       "tardis".flags.bytestring-in-base = false;
       "tardis".flags.network-uri = true;
-    };
+      };
     compiler = {
       version = "7.8.4";
       nix-name = "ghc784";
@@ -8422,6 +8422,6 @@ hackage:
         "bin-package-db" = "0.0.0.0";
         "array" = "0.5.0.0";
         "integer-gmp" = "0.5.1.0";
+        };
       };
-    };
-  }
+    }
