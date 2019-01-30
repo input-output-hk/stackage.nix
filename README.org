@@ -1,0 +1,9 @@
+* stackage.nix
+
+This repository contains all stackage (lts and nightly) expressions from
+[[https://www.stackage.org][stackage.org]] as nix expressions.  Periodically
+updated to stay in sync. It refers to hackage expressions from [[https://github.com/input-output-hk/hackage.nix][hackage.nix]].
+
+It is supposed to be used with [[https://github.com/input-output-hk/nix-tools][nix-tools]].
+Please see [[https://github.com/input-output-hk/nix-tools][nix-tools]] for more details and
+how to use these expressions.
