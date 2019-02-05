@@ -88,6 +88,7 @@
   "lts-13.3" = import ./lts-13.3.nix;
   "lts-13.4" = import ./lts-13.4.nix;
   "lts-13.5" = import ./lts-13.5.nix;
+  "lts-13.6" = import ./lts-13.6.nix;
   "lts-2.0" = import ./lts-2.0.nix;
   "lts-2.1" = import ./lts-2.1.nix;
   "lts-2.10" = import ./lts-2.10.nix;
