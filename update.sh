@@ -1,25 +1,20 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ensure we have the most recent submodules
 git submodule foreach git pull origin master
 # update lts/nightly descriptions.
 
 # update them all in parallel...
-N=$(getconf _NPROCESSORS_ONLN)
 for lts in {lts-haskell,stackage-nightly}/*.yaml
 do
-    $(find $NIX_TOOLS -type f -name "lts-to-nix") $lts > $(basename ${lts%.yaml}.nix) &
-    while [[ $(jobs -r -p | wc -l) -gt $N ]]; do
-	# can't use `wait -n` on older bash versions.
-	# e.g. what ships with macOS High Sierra
-	sleep 1;
-    done
+  if [[ ! -f $(basename ${lts%.yaml}.nix) ]]; then
+    $(find -L $NIX_TOOLS -type f -name "lts-to-nix") $lts > $(basename ${lts%.yaml}.nix)
+  fi
 done
-wait
 # update nightlies
 echo "{" > nightlies.nix;
 for a in nightly-*.nix; do echo "  \"${a%%.nix}\" = import ./$a;" >> nightlies.nix; done;
 echo "}" >> nightlies.nix
 # update lts
 echo "{" > ltss.nix;
-for a in lts-*.nix; do echo "  \"${a%%.nix}\" = import ./$a;" >> ltss.nix; done;
+for a in $(ls lts-*.nix | sort -Vtx -k 1,1); do echo "  \"${a%%.nix}\" = import ./$a;" >> ltss.nix; done;
 echo "}" >> ltss.nix
