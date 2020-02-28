@@ -1,6 +1,3 @@
-[submodule "lts-haskell"]
-	path = lts-haskell
-	url = https://github.com/fpco/lts-haskell.git
-[submodule "stackage-nightly"]
-	path = stackage-nightly
-	url = https://github.com/fpco/stackage-nightly.git
+[submodule "stackage-snapshots"]
+	path = stackage-snapshots
+	url = https://github.com/commercialhaskell/stackage-snapshots

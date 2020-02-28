@@ -3,11 +3,14 @@
 git submodule foreach git pull origin master
 # update lts/nightly descriptions.
 
+curl -L -O https://raw.githubusercontent.com/commercialhaskell/stackage-content/master/stack/global-hints.yaml
 # update them all in parallel...
-for lts in {lts-haskell,stackage-nightly}/*.yaml
+LTSS=$(find stackage-snapshots -name "*.yaml")
+for lts in $LTSS
 do
-  if [[ ! -f $(basename ${lts%.yaml}.nix) ]]; then
-    $(find -L $NIX_TOOLS -type f -name "lts-to-nix") $lts > $(basename ${lts%.yaml}.nix)
+  nix=$(echo "$lts" | awk -F/ '{ if ($2 == "lts") { printf "lts-%d.%d.nix", $3, $4 } else { printf "nightly-%04d-%02d-%02d.nix", $3, $4, $5 } }')
+  if [[ ! -f "$nix" ]]; then
+    GLOBAL_HINTS=./global-hints.yaml $(find -L "$NIX_TOOLS" -type f -name "lts-to-nix") "$lts" > "$nix"
   fi
 done
 # update nightlies
