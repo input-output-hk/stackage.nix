@@ -1437,4 +1437,21 @@
   "nightly-2020-02-06" = import ./nightly-2020-02-06.nix;
   "nightly-2020-02-07" = import ./nightly-2020-02-07.nix;
   "nightly-2020-02-08" = import ./nightly-2020-02-08.nix;
+  "nightly-2020-02-11" = import ./nightly-2020-02-11.nix;
+  "nightly-2020-02-12" = import ./nightly-2020-02-12.nix;
+  "nightly-2020-02-13" = import ./nightly-2020-02-13.nix;
+  "nightly-2020-02-14" = import ./nightly-2020-02-14.nix;
+  "nightly-2020-02-15" = import ./nightly-2020-02-15.nix;
+  "nightly-2020-02-16" = import ./nightly-2020-02-16.nix;
+  "nightly-2020-02-17" = import ./nightly-2020-02-17.nix;
+  "nightly-2020-02-19" = import ./nightly-2020-02-19.nix;
+  "nightly-2020-02-20" = import ./nightly-2020-02-20.nix;
+  "nightly-2020-02-21" = import ./nightly-2020-02-21.nix;
+  "nightly-2020-02-22" = import ./nightly-2020-02-22.nix;
+  "nightly-2020-02-23" = import ./nightly-2020-02-23.nix;
+  "nightly-2020-02-24" = import ./nightly-2020-02-24.nix;
+  "nightly-2020-02-25" = import ./nightly-2020-02-25.nix;
+  "nightly-2020-02-26" = import ./nightly-2020-02-26.nix;
+  "nightly-2020-02-27" = import ./nightly-2020-02-27.nix;
+  "nightly-2020-02-28" = import ./nightly-2020-02-28.nix;
 }

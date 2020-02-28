@@ -317,4 +317,6 @@
   "lts-14.25" = import ./lts-14.25.nix;
   "lts-14.26" = import ./lts-14.26.nix;
   "lts-14.27" = import ./lts-14.27.nix;
+  "lts-15.0" = import ./lts-15.0.nix;
+  "lts-15.1" = import ./lts-15.1.nix;
 }
