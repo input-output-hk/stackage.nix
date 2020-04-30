@@ -1505,4 +1505,5 @@
   "nightly-2020-04-27" = import ./nightly-2020-04-27.nix;
   "nightly-2020-04-28" = import ./nightly-2020-04-28.nix;
   "nightly-2020-04-29" = import ./nightly-2020-04-29.nix;
+  "nightly-2020-04-30" = import ./nightly-2020-04-30.nix;
 }
