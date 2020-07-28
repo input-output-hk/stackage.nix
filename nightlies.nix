@@ -1570,4 +1570,6 @@
   "nightly-2020-07-22" = import ./nightly-2020-07-22.nix;
   "nightly-2020-07-23" = import ./nightly-2020-07-23.nix;
   "nightly-2020-07-24" = import ./nightly-2020-07-24.nix;
+  "nightly-2020-07-27" = import ./nightly-2020-07-27.nix;
+  "nightly-2020-07-28" = import ./nightly-2020-07-28.nix;
 }
