@@ -1771,4 +1771,5 @@
   "nightly-2021-05-14" = import ./nightly-2021-05-14.nix;
   "nightly-2021-05-15" = import ./nightly-2021-05-15.nix;
   "nightly-2021-05-16" = import ./nightly-2021-05-16.nix;
+  "nightly-2021-05-19" = import ./nightly-2021-05-19.nix;
 }
