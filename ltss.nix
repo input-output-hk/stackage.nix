@@ -403,4 +403,5 @@
   "lts-18.18" = import ./lts-18.18.nix;
   "lts-18.19" = import ./lts-18.19.nix;
   "lts-18.20" = import ./lts-18.20.nix;
+  "lts-18.21" = import ./lts-18.21.nix;
 }
