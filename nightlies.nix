@@ -1904,4 +1904,5 @@
   "nightly-2022-01-04" = import ./nightly-2022-01-04.nix;
   "nightly-2022-01-05" = import ./nightly-2022-01-05.nix;
   "nightly-2022-01-06" = import ./nightly-2022-01-06.nix;
+  "nightly-2022-01-10" = import ./nightly-2022-01-10.nix;
 }
