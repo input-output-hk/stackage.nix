@@ -1962,4 +1962,6 @@
   "nightly-2022-04-04" = import ./nightly-2022-04-04.nix;
   "nightly-2022-04-05" = import ./nightly-2022-04-05.nix;
   "nightly-2022-04-06" = import ./nightly-2022-04-06.nix;
+  "nightly-2022-04-07" = import ./nightly-2022-04-07.nix;
+  "nightly-2022-04-08" = import ./nightly-2022-04-08.nix;
 }
