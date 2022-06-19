@@ -2013,4 +2013,5 @@
   "nightly-2022-06-14" = import ./nightly-2022-06-14.nix;
   "nightly-2022-06-15" = import ./nightly-2022-06-15.nix;
   "nightly-2022-06-17" = import ./nightly-2022-06-17.nix;
+  "nightly-2022-06-18" = import ./nightly-2022-06-18.nix;
 }
