@@ -19,7 +19,7 @@ jobs:
       - name: "Update stackage.nix"
         run: |
           nix build github:input-output-hk/haskell.nix#haskell-nix.nix-tools.ghc8107.project.hsPkgs.nix-tools.components.exes.lts-to-nix -o lts-to-nix
-          LTS_TO_NIX=lts-to-nix ./update.sh
+          LTS_TO_NIX=lts-to-nix/bin/lts-to-nix ./update.sh
       - name: Commit and push changes
         run: |
           git config --local user.email "devops+nix-tools@iohk.io"
