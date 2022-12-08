@@ -448,4 +448,5 @@
   "lts-20.0" = import ./lts-20.0.nix;
   "lts-20.1" = import ./lts-20.1.nix;
   "lts-20.2" = import ./lts-20.2.nix;
+  "lts-20.3" = import ./lts-20.3.nix;
 }
