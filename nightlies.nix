@@ -1,4 +1,5 @@
 {
+  "nightly-0000-00-00" = import ./nightly-0000-00-00.nix;
   "nightly-2014-12-14" = import ./nightly-2014-12-14.nix;
   "nightly-2014-12-16" = import ./nightly-2014-12-16.nix;
   "nightly-2014-12-20" = import ./nightly-2014-12-20.nix;
