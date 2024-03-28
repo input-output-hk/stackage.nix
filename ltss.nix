@@ -512,4 +512,5 @@
   "lts-22.11" = import ./lts-22.11.nix;
   "lts-22.12" = import ./lts-22.12.nix;
   "lts-22.13" = import ./lts-22.13.nix;
+  "lts-22.14" = import ./lts-22.14.nix;
 }
