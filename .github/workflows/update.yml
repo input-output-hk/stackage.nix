@@ -18,7 +18,7 @@ jobs:
             substituters = https://cache.iog.io https://cache.zw3rk.com https://cache.nixos.org/
       - name: "Update stackage.nix"
         run: |
-          nix build github:input-output-hk/haskell.nix#haskell-nix.nix-tools.ghc8107.project.hsPkgs.nix-tools.components.exes.lts-to-nix -o lts-to-nix
+          nix build github:input-output-hk/haskell.nix#haskell-nix.nix-tools-unchecked.exes.lts-to-nix -o lts-to-nix
           git submodule update --init
           LTS_TO_NIX=lts-to-nix/bin/lts-to-nix ./update.sh
       - name: Commit and push changes
