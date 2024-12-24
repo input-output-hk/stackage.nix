@@ -2709,4 +2709,5 @@
   "nightly-2024-12-20" = import ./nightly-2024-12-20.nix;
   "nightly-2024-12-21" = import ./nightly-2024-12-21.nix;
   "nightly-2024-12-22" = import ./nightly-2024-12-22.nix;
+  "nightly-2024-12-23" = import ./nightly-2024-12-23.nix;
 }
