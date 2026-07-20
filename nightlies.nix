@@ -3182,4 +3182,5 @@
   "nightly-2026-07-16" = import ./nightly-2026-07-16.nix;
   "nightly-2026-07-17" = import ./nightly-2026-07-17.nix;
   "nightly-2026-07-18" = import ./nightly-2026-07-18.nix;
+  "nightly-2026-07-19" = import ./nightly-2026-07-19.nix;
 }
